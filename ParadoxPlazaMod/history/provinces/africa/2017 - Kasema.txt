@@ -1,0 +1,5 @@
+controller = KZB
+owner = KZB
+add_core = KZB
+trade_goods = cattle
+life_rating = 25

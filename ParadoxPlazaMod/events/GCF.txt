@@ -1,0 +1,221 @@
+country_event = { 
+	id = 95671
+	title = "EVTNAME95671"
+	desc = "EVTDESC95671"
+	picture = "threehurrahs"
+	major = yes
+	fire_only_once = yes
+	trigger = { 
+		TAG = GCF
+		is_greater_power = yes
+		war = no
+		any_owned_province = { 
+			NOT = { 
+				OR = { 
+					is_core = AUS
+					is_core = GCF
+					is_colonial = yes
+				}
+			}
+		}
+		any_owned_province = {
+			NOT = {
+				OR = {
+					is_core = AUS
+					is_core = GCF
+					is_colonial = yes
+				}
+			}
+		}
+	}
+	mean_time_to_happen = { 
+		days = 1
+	}
+	option = { 
+		name = "We shall give up nothing!"
+		badboy = 40
+		prestige = -50
+		any_owned = {
+			limit = {
+				NOT = {
+					is_core = GCF
+				}
+				is_colonial = no
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+				location = { is_core = GCF }
+				}
+			consciousness = 4
+			militancy = 4
+		}
+		any_pop = {
+			limit = {
+				ideology = liberal
+				is_culture_group = germanic
+				location = { is_core = GCF }
+				}
+			consciousness = 4
+			militancy = 4
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				capital_scope = { continent = europe }
+			}
+			leave_alliance = THIS
+			relation = { who = THIS value = -100 }
+			casus_belli = {
+				target = THIS
+				type = liberate_country
+				months = 24
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}	
+	
+	option = {
+		name = "We will give them limited autonomy."
+		badboy = 10
+		prestige = -20
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+				location = { is_core = GCF }
+			}
+			consciousness = 3
+			militancy = 3
+		}
+		any_pop = {
+			limit = {
+				ideology = liberal
+				is_culture_group = germanic
+				location = { is_core = GCF }
+				}
+			consciousness = 3
+			militancy = 3
+		}
+		any_country = {
+			limit = {
+				NOT = { is_culture_group = germanic }
+				NOT = { TAG = HUN }
+				any_core = {
+					owned_by = THIS
+					NOT = { is_core = GCF }
+					is_colonial = no
+				}
+				exists = no
+				is_cultural_union = no
+			}
+			country_event = 31511
+		}
+		any_country = {
+			limit = {
+				tag = HUN
+				any_core = {
+					owned_by = THIS
+					NOT = { is_core = GCF }
+					is_colonial = no
+				}
+				exists = no
+				is_cultural_union = no
+			}
+			country_event = 31511
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				capital_scope = { continent = europe }
+			}
+			relation = { who = THIS value = -50 }
+			casus_belli = {
+				target = THIS
+				type = release_puppet
+				months = 24
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+	
+	option = {
+		name = "We will grant them independence."
+		badboy = -10
+		prestige = 50
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+				location = { is_core = GCF }
+			}
+			consciousness = -1
+			militancy = -1
+		}
+		any_pop = {
+			limit = {
+				is_culture_group = germanic
+			}
+			consciousness = -2
+			militancy = -2
+		}
+		any_country = {
+			limit = {
+				NOT = { is_culture_group = germanic }
+				NOT = { tag = HUN }
+				any_core = {
+					owned_by = THIS
+					NOT = { is_core = GCF }
+					is_colonial = no
+				}
+				exists = no
+				is_cultural_union = no
+			}
+			country_event = 31512
+		}
+		any_country = {
+			limit = {
+				NOT = { is_culture_group = germanic }
+				tag = HUN
+				any_core = {
+					owned_by = THIS
+					NOT = { is_core = GCF }
+					is_colonial = no
+				}
+				exists = no
+				is_cultural_union = no
+			}
+			country_event = 31512
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				capital_scope = { continent = europe }
+			}
+			relation = { who = THIS value = 50 }
+		}
+		ai_chance = { 
+			factor = 25
+			modifier = {
+				factor = 0
+				war_policy = jingoism
+			}
+		}
+	}
+}
+				
+				

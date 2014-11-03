@@ -1,0 +1,6 @@
+controller = TAH
+owner = TAH
+add_core = TAH
+trade_goods = fish
+life_rating = 25
+terrain = plains

@@ -1,0 +1,5 @@
+owner = AZA
+controller = AZA
+trade_goods = grain
+life_rating = 25
+add_core = AZA

@@ -1,0 +1,5 @@
+add_core = LBA
+controller = LBA
+owner = LBA
+trade_goods = tropical_wood
+life_rating = 20

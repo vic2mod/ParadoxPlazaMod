@@ -1,0 +1,5 @@
+controller = DAM
+owner = DAM
+add_core = DAM
+trade_goods = grain
+life_rating = 25

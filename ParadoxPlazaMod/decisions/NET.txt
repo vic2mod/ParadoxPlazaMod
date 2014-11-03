@@ -1,0 +1,51 @@
+political_decisions = {
+	mediate_belgian_independence = {
+		picture = sign_treaty_of_london
+		potential = {
+			tag = ENG
+			is_greater_power = yes
+			BEL = { exists = yes }
+			NET = {
+				exists = yes
+				NOT = { any_owned_province = { is_core = BEL } }
+				NOT = { has_country_flag = signed_treaty_of_london }
+			}
+			year = 1839
+			NOT = { has_country_flag = mediated_belgian_independence }
+		}
+		
+		allow = {
+			NET = {
+				war = no
+				is_greater_power = no
+			}
+			BEL = {
+				war = no
+			}
+			OR = { 
+				relation = {
+					who = NET
+					value = 100
+				}
+				diplomatic_influence = {
+					who = NET
+					value = 60
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = mediated_belgian_independence
+			prestige = 10
+			NET = { country_event = 36709 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { year = 1839 }
+			}
+		}
+	}
+}

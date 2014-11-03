@@ -1,0 +1,318 @@
+political_decisions = {
+	hellenic_parliament = {
+		potential = {
+			tag = GRE
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = voule_ton_ellinon
+			}
+		}
+	
+		allow = {
+			plurality = 10
+			prestige = 40
+		}
+		
+		effect = {
+			set_country_flag = voule_ton_ellinon
+			political_reform = wealth_weighted_voting
+			random_owned = {
+				limit = {
+					owner = { political_parties = underground_parties }
+				}
+				owner = {
+					political_reform = harassment
+				}
+			}
+			government = prussian_constitutionalism
+			prestige = 20
+			any_pop = {
+				militancy = -2
+			}
+		}
+	}
+	
+	megali_idea = {
+		potential = {
+			tag = GRE
+			NOT = { has_country_flag = greece_has_got_a_brand_new_bag }
+		}
+		
+		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes			
+			}
+			invention = national_fraternity
+			owns = 832
+			owns = 805
+			owns = 823
+			owns = 844
+			owns = 843
+			owns = 846
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = 6
+			TUR_806 = {
+				add_core = GRE
+			}
+			TUR_860 = {
+				add_core = GRE
+			}
+			TUR_863 = {
+				add_core = GRE
+			}
+			TUR_869 = {
+				add_core = GRE
+			}
+			853 = {
+				add_core = GRE
+			}
+			TUR_855 = {
+				add_core = GRE
+			}
+			set_country_flag = greece_has_got_a_brand_new_bag
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.50
+			}		
+		}
+	}
+	
+	form_byzantine_empire = {
+		potential = {
+			tag = GRE
+			has_country_flag = greece_has_got_a_brand_new_bag
+		}
+		
+		allow = {
+			is_greater_power = yes
+			all_core = { owned_by = THIS }
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}		
+		}
+		
+		effect = {
+			change_tag = BYZ
+			capital = 860
+			add_accepted_culture = armenian
+			860 = {
+				change_province_name = "Constantinople"
+				life_rating = 10
+			}
+			TUR_880 = {
+				add_core = BYZ
+			}
+			TUR_809 = {
+				add_core = BYZ
+			}
+			884 = {
+				add_core = BYZ
+			}
+			882 = {
+				add_core = BYZ
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+					OR = {
+						culture = greek
+						culture = turkish
+					}
+				}
+				add_core = BYZ
+			}
+			prestige = 40
+			badboy = 4
+			add_country_modifier = { 
+				name = greek_assim
+				duration = 1250
+			}
+			828 = {
+				change_province_name = Adrianople
+			}
+			862 = {
+				change_province_name = Nicomedia
+				state_scope = {
+					change_region_name = "Opsikion"
+				}	
+			}
+			863 = {
+				change_province_name = Nicaea
+			}
+			869 = {
+				change_province_name = Smyrna
+				state_scope = {
+					change_region_name = "Samos"
+				}
+			}
+			859 = {
+				change_province_name = Kallipolis
+			}
+			858 = {
+				change_province_name = Arkadiopolis
+			}
+			830 = {
+				change_province_name = Alexandroupoli
+			}
+			861 = {
+				change_province_name = Chalcedon
+			}
+			829 = {
+				change_province_name = Xanthi
+			}
+			864 = {
+				change_province_name = Adramyttion
+			}
+			870 = {
+				change_province_name = Sardis
+			}
+			865 = {
+				change_province_name = Abydos
+			}
+			867 = {
+				change_province_name = Kotyaion
+			}
+			871 = {
+				change_province_name = Chonai
+			}
+			872 = {
+				change_province_name = Mylasa
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.75
+			}		
+		}
+	}
+	
+	unite_with_greece = {
+
+		potential = {
+			primary_culture = greek
+			NOT = { tag = GRE }
+			exists = GRE
+			NOT = { has_country_flag = unite_with_greece }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				part_of_sphere = no
+				sphere_owner = { tag = GRE }
+			}
+			GRE = {
+				war = no
+				is_vassal = no
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_greece
+			all_core = {
+				limit = {
+					is_core = THIS
+				}
+				add_core = GRE
+			}
+			random_country = {
+				limit = {
+					tag = GRE
+					ai = yes
+					THIS = { ai = yes }
+				}
+				inherit = THIS
+			}
+			random_country = {
+				limit = {
+					tag = GRE
+					ai = yes
+					THIS = { ai = no }
+				}
+				any_owned = { secede_province = THIS }
+				THIS = {
+					random_owned = {
+						limit = { province_id = 834 }
+						owner = { capital = 834 }
+					}
+					change_tag = GRE
+				}	
+			}
+			random_country = {
+				limit = {
+					tag = GRE
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				government = fascist_dictatorship
+				GRE = {
+					NOT = { government = fascist_dictatorship }
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { government = fascist_dictatorship }
+				GRE = { government = fascist_dictatorship }
+			}
+			modifier = {
+				factor = 0
+				NOT = { government = proletarian_dictatorship }
+				GRE = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				GRE = {
+					NOT = {
+						government = democracy
+						government = hms_government
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				GRE = {
+					OR = {
+						government = democracy
+						government = hms_government
+					}
+				}
+				NOT = {
+					government = democracy
+					government = hms_government
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+					government = absolute_monarchy
+				}
+			}
+		}
+	}	
+}

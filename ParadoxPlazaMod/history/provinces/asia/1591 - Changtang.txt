@@ -1,0 +1,7 @@
+owner = QNG
+controller = QNG
+add_core = TIB
+add_core = UYG
+add_core = CHI
+trade_goods = cattle
+life_rating = 30

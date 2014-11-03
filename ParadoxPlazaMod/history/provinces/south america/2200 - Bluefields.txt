@@ -1,0 +1,10 @@
+owner = MSQ
+controller = MSQ
+add_core = MSQ
+add_core = NIC
+trade_goods = fish
+life_rating = 30
+1861.1.1 = {
+	owner = MSQ
+	controller = MSQ
+}

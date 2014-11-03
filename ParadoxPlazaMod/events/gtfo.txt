@@ -1,0 +1,26 @@
+country_event = {
+	id = 1000000
+	title = "Play as released vassal?"
+	desc = "Do you wish to play as the nation you have released?"
+	
+	is_triggered_only = yes
+	option = {
+		name = "Yes."
+		change_tag_no_core_switch = FROM
+		FROM = { country_event = 1000000 }
+	}
+	option = {
+		name = "No."
+	}
+}
+
+country_event = {
+	id = 1000001
+	title = "Play as released vassal?"
+	
+	is_triggered_only = yes
+	option = {
+		name = "dummy event"
+		FROM = { country_event = 1000000 }
+	}
+}

@@ -1,0 +1,63 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+the_british_raj  = {
+	trigger = {
+		1236 = {
+			is_colonial = yes
+			owned_by = THIS
+		}
+		1251 = {
+			is_colonial = yes
+			owned_by = THIS
+		}
+		1297 = {
+			is_colonial = yes
+			owned_by = THIS
+		}
+	}
+	research_points = 1
+	prestige = 0.02
+	icon = 19
+}
+
+
+dutch_east_india = {
+	trigger = {
+		1413 = {
+			is_colonial = yes
+			owned_by = THIS
+		}
+		1418 = {
+			is_colonial = yes
+			owned_by = THIS
+		}
+	}
+	research_points = 0.5
+	prestige = 0.01
+	icon = 19
+}
+
+vassal_nation = {
+	trigger = {
+		is_vassal = yes
+	}
+	icon = 10
+	prestige = -0.1
+}
+
+chinese_substate = {
+	trigger = {
+		OR = {
+			substate_of = CHI
+			vassal_of = CHI
+		}
+		civilized = no
+		CHI = {	government = absolute_monarchy }
+	}
+	icon = 10
+	research_points_modifier = -0.2
+	global_pop_consciousness_modifier = 0.05
+}

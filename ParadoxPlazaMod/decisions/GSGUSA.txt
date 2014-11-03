@@ -1,0 +1,157 @@
+political_decisions = {
+	all_mexico = {
+        potential = {
+           	tag = USA
+			has_country_flag = hasmanifestdestiny
+			war_with = MEX
+			NOT = { has_country_flag = mexico_annexation }
+			NOT = { has_global_flag = american_civil_war_has_happened }
+		}
+
+		allow = {
+			MEX = { national_provinces_occupied = .95 }
+		}
+
+		effect = { 
+           	badboy = 30
+            end_war = MEX
+			inherit = MEX
+			set_country_flag = mexico_annexation
+        }
+	}
+	take_canada = {
+        potential = {
+           	tag = USA
+			has_country_flag = hasmanifestdestiny
+			war_with = ENG
+			NOT = { has_country_flag = canada_annexation }
+		}
+
+		allow = {
+			controls = 65
+			controls = 46
+			controls = 58
+		}
+
+		effect = { 
+           	badboy = 20         
+            CAN_46 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_50 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_58 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG		
+			}
+			CAN_60 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_68 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_74 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_46 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_6 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_9 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_13 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_19 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_22 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_30 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_36 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			set_country_flag = canada_annexation
+        }
+	}
+	total_war_in_mexico = {
+		alert = yes
+		potential = {
+			tag = MEX
+			USA = { has_country_flag = mexico_annexation }
+			NOT = { has_country_modifier = small_country_draft }
+			NOT = { has_country_flag = mexico_draft_happened }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = small_country_draft
+				duration = 730
+			}
+			set_country_flag = mexico_draft_happened 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	total_war_in_canada = {
+		alert = yes
+		potential = {
+			tag = CAN
+			USA = { has_country_flag = canada_annexation }
+			NOT = { has_country_modifier = small_country_draft }
+			NOT = { has_country_flag = canada_draft_happened }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = small_country_draft
+				duration = 730
+			}
+			set_country_flag = canada_draft_happened 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

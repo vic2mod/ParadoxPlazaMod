@@ -1,0 +1,5 @@
+controller = LUN
+owner = LUN
+add_core = LUN
+trade_goods = cattle
+life_rating = 20

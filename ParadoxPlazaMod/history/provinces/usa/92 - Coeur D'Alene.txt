@@ -1,0 +1,10 @@
+owner = USA
+controller = USA
+add_core = USA
+add_core = COL
+trade_goods = timber
+life_rating = 35
+colonial = 2
+1861.1.1 = {
+	remove_core = COL
+}

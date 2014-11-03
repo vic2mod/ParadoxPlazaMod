@@ -1,0 +1,5 @@
+add_core = KZB
+controller = KZB
+owner = KZB
+trade_goods = grain
+life_rating = 25

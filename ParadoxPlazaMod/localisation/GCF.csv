@@ -1,0 +1,9 @@
+;;;;;;;;;;;;;x
+form_gcf_title;Create the German Confederation;;;;;;;;;;;;;x
+form_gcf_desc;By controlling, directly or indirectly, the manifold principalities, duchies and free cities that make up the German Nation, we can unite our people into one singular nation state. One ruled from the great city of Vienna, as God intended. Long live the Kaiser!.;;;;;;;;;;;;;x
+GCF;The German Confederation;Der Deutsche Bund;Der Deutsche Bund;;The German Confederation;;;;;;;;;x;;;;
+GCF_proletarian_dictatorship;The German People's Republic;Der Deutsch Volksrepublik;Der Deutsch Volksrepublik;;The German Democratic Republic;;;;;;;;;x;;;;
+GCF_fascist_dictatorship;The German Union;Der Deutsche Union;Der Deutsche Union;;The German Union;;;;;;;;;x;;;;
+GCF_ADJ;German;Deutsch;Deutsch;German;;;;;;;;;x;;;;
+EVTNAME95671;The non-German territories;;;;;;;;;x;;;;
+EVTDESC95671;Now that we have fulfilled our destiny and united the German people under one banner, the question of our non-German lands remains. There is cries for independence, or at the very least, increased autonomy from $COUNTRY$. Refusing will no doubt greatly upset the other great powers as well as our population. Many voices in Government say that granting our non-German territories independence or even just extended autonomy is the best course of action in order to minimise damage to our reputation on the world stage as well as satisfying our population.;;;;;;;;;x;;;;

@@ -1,0 +1,15 @@
+owner = BSH
+controller = BSH
+add_core = BSH
+add_core = MAT
+trade_goods = coal
+life_rating = 35
+terrain = hills
+1861.1.1 = {
+	owner = ORA
+	controller = ORA
+	add_core = ORA
+	add_core = SAF
+	remove_core = MAT
+}
+

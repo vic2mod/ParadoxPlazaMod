@@ -1,0 +1,5 @@
+controller = BUG
+owner = BUG
+add_core = BUG
+trade_goods = cotton
+life_rating = 25

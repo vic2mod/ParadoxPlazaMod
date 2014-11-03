@@ -1,0 +1,6 @@
+owner = EGY
+controller = EGY
+add_core = WRS
+add_core = MAJ
+trade_goods = grain
+life_rating = 30

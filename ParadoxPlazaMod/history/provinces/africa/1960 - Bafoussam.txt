@@ -1,0 +1,5 @@
+controller = BAM
+owner = BAM
+add_core = BAM
+trade_goods = timber
+life_rating = 15

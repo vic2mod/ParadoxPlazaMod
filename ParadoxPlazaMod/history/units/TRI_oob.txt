@@ -1,0 +1,28 @@
+army = {
+	name = "Army of Tripoli"
+	location = 1732
+	regiment = {
+		name= "Emir's Guards"
+		type = irregular
+		home = 1732
+	}
+
+	regiment = {
+		name= "Tripoli Warriors"
+		type = irregular
+		home = 1731
+	}
+
+	regiment = {
+		name= "Ghat Guards"
+		type = irregular
+		home = 1743
+	}	
+
+	regiment = {
+		name= "Ghat Guards"
+		type = cavalry
+		home = 1741
+	}	
+	
+}

@@ -1,0 +1,6 @@
+controller = DOS
+owner = DOS
+add_core = DAM
+add_core = DOS
+trade_goods = grain
+life_rating = 25
