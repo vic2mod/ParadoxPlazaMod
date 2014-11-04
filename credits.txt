@@ -1,0 +1,18 @@
+This mod is a compilation of work from many, many different people.
+We use GSGVickyMod 2.0a as base, which uses GSGVickyMod 1.06 as a base, which uses NNM as a base.
+
+Credits from GSGVickymod 1.06
+FinnBro (amongst many aliases that the creator uses) created this minimod for the GSG community.
+The only true tripcode you will ever see FinnBro use is FinnBro!!UIw63MjXv78.
+If you see a different tripcode without a major announcement and transition period, it is an impostor.
+If he ever uses this trip regularly and outside of release posts, then put him out of his misery for the good of the world. 
+Hisuibro is currently updating minimod now, I'll do my best!
+I wont use a tripcode ever if I'm lucky, you can find me posting Hisui images or space marine cups, although other people like to post the space marine cups
+Also, thank you anons, you guys provide ideas, localization and mountains of research help. Love you guys.
+Thank you to Rylock and his fine people for making NNM so I can bust my ass making my mod compatible with it. I hope they don't get mad.
+Full NNM credits are found here: http://forum.paradoxplaza.com/forum/showthread.php?592320-New-Nations-Mod-(For-AHD)
+A big thank you to Napoops (the guy making the Napoleon's Legacy mod for /gsg/) for the Lucky Nations decisions as well as a few other bits of errata.
+
+Lots of credit to /u/Rangerage for creating GSGVickymod 2.0a
+
+Credit also goes to /u/badkarma12 and /u/namington for fixing some bugs from GSGVickymod 2.0a
