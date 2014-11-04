@@ -1,0 +1,191 @@
+######################################
+#Political Events for PARADOXPLAZAMOD#
+#By willwill54                       #
+#November 2014                       #
+######################################
+
+country_event = {
+
+	id = 1000000
+
+	title = "EVTNAME1000000"
+	desc = "EVTDESC1000000"
+	picture = "communist_crowd"
+
+	trigger = {
+		civilized = yes
+		poor_strata_life_needs = .5
+		poor_strata_everyday_needs = .3
+		middle_strata_everyday_needs = .3
+		}
+	
+	fire_only_once = no
+		
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+				factor = 1.5
+				NOT = { average_militancy = 2 }
+			}
+		modifier = {
+				factor = 1.5
+				NOT = { average_militancy = 4 }
+			}
+		modifier = {
+				factor = 1.5
+				poor_strata_life_needs = 1
+			}
+		modifier = {
+				factor = 1.8
+				poor_strata_everyday_needs = .9
+			}
+	}
+
+	option = {
+		name = "Congrats, Comrade!"
+		owner = {
+			prestige = 15
+		}
+		any_pop = {
+			limit = {
+				location = { is_colonial = no}
+				}
+			ideology = {
+				value = communist
+				factor = .2
+				}
+
+			scaled_militancy = {
+				ideology = communist
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = socalist
+				factor = -6
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -4
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = 4
+			}
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					government = proletarian_dictatorship
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = communist
+					factor = 4
+					}
+				}
+		}
+
+country_event = {
+
+	id = 1000001
+
+	title = "EVTNAME1000001"
+	desc = "EVTDESC1000001"
+	picture = "senate_debate"
+
+	trigger = {
+		civilized = yes
+		poor_strata_life_needs = .5
+		poor_strata_everyday_needs = .3
+		middle_strata_everyday_needs = .3
+		}
+	
+	fire_only_once = no
+		
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+				factor = 1.5
+				NOT = { average_militancy = 2 }
+			}
+		modifier = {
+				factor = 1.5
+				NOT = { average_militancy = 4 }
+			}
+		modifier = {
+				factor = 1.5
+				poor_strata_life_needs = 1
+			}
+		modifier = {
+				factor = 1.8
+				poor_strata_everyday_needs = .9
+			}
+	}
+
+	option = {
+		name = "Congrats, Great Leader!"
+		owner = {
+			prestige = 15
+		}
+		any_pop = {
+			limit = {
+				location = { is_colonial = no}
+				}
+			ideology = {
+				value = fascist
+				factor = .2
+				}
+
+			scaled_militancy = {
+				ideology = fascist
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -4
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = socialist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = communist
+				factor = 4
+			}
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					government = fascist_dictatorship
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = fascist
+					factor = 4
+					}
+				}
+		}
+
+
+		
+ 
