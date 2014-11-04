@@ -26,7 +26,6 @@ country_event = {
 				any_owned_province = { continent = africa }
 			}
 		}
-		capital_scope = { continent = europe }
 		invention = prophylaxis_against_malaria
 		invention = mission_to_civilize
 		invention = colonial_negotiations
