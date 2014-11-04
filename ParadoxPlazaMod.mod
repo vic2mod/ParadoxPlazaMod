@@ -1,3 +1,3 @@
 name = "ParadoxPlazaMod"
-path = "ParadoxPlazaMod"
+path = "mod/ParadoxPlazaMod"
 user_dir = "ParadoxPlazaMod"
