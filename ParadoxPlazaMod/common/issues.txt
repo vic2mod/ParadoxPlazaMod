@@ -1,6 +1,6 @@
-##########################################
-# Issues that parties have.
-##########################################
+############################
+# Issues that parties have.#
+############################
 party_issues = {
 	trade_policy = {
 		protectionism = {
