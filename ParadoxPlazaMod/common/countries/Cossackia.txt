@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = pluralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -116,7 +116,7 @@ unit_names = {
 		Dniester Dnipro Desna Prypiat Prut 
 	}
 	monitor = {
-		Sofyivsky "Pechers’ka lavra" "Kam’ianets’-Podil’s’kyi" Khotyn Khortyts'a
+		Sofyivsky "Pechersâ€™ka lavra" "Kamâ€™ianetsâ€™-Podilâ€™sâ€™kyi" Khotyn Khortyts'a
 	}
 	clipper_transport = { 
 		
