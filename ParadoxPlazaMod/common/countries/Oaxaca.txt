@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-			Independencia Libertad Anahuac DemÛcrata "Porfirio" DÌaz Tampico
-			"Vera Cruz" "Nicol·s Bravo" Blanquet Aguascalientes Campeche Coahuila
-			Colima Chiapas Chihuahua Durango Guerrero Hidalgo "Nuevo LeÛn" Oaxaca
-			"San Luis PotosÌ" Sonora Tabasco Tlaxcala Zacatecas
+			Independencia Libertad Anahuac Dem√≥crata "Porfirio" D√≠az Tampico
+			"Vera Cruz" "Nicol√°s Bravo" Blanquet Aguascalientes Campeche Coahuila
+			Colima Chiapas Chihuahua Durango Guerrero Hidalgo "Nuevo Le√≥n" Oaxaca
+			"San Luis Potos√≠" Sonora Tabasco Tlaxcala Zacatecas
 	}
 	ironclad = {
-			Guadalupe Moctezuma "Antonio LÛpez de Santa Anna" Tampico Cholula
+			Guadalupe Moctezuma "Antonio L√≥pez de Santa Anna" Tampico Cholula
 			Tenochtitlan Tlaxcala Tlatelolco Glorioso Victoria Chichimeca
-			Huexotzingo DemÛcrata
+			Huexotzingo Dem√≥crata
 	}
 	manowar = {
-			Zapotec Morales Oaxaca "Vicente Guerrero" Zaragoza "Nuevo LeÛn" "Guadalupe Victoria"
-			"Miguel Hidalgo" "JosÈ MarÌa Morelos" "AgustÌn de It˙rbide" XicotÈncatl
+			Zapotec Morales Oaxaca "Vicente Guerrero" Zaragoza "Nuevo Le√≥n" "Guadalupe Victoria"
+			"Miguel Hidalgo" "Jos√© Mar√≠a Morelos" "Agust√≠n de It√∫rbide" Xicot√©ncatl
 			"Mariano Matamoros" Chapala Chalco Campechana Orizaba Texcoco Papaloapan
 	}
 	cruiser = {
-			Zaragoza Altamira "San Fernando" "RÌo Bravo" "Los Ramones" "Loma Alta"
+			Zaragoza Altamira "San Fernando" "R√≠o Bravo" "Los Ramones" "Loma Alta"
 			"El Lobo" Candela Villadama "Santo Domingo" Tuxpan 
 	}
 	frigate = {
-			California Chihuahua Durango Aldabaran Veracr˙z Tlaxcala Jalisco Camotl·n
-			"El Tordo" RepulsiÛn Valor Iguala An·huac 
+			California Chihuahua Durango Aldabaran Veracr√∫z Tlaxcala Jalisco Camotl√°n
+			"El Tordo" Repulsi√≥n Valor Iguala An√°huac 
 	}
 	monitor = {
 			Navojoa "La Paz" Colima Madera Coatzacoalcos Chetumal Campeche "Salina Cruz"
-			Navolato "Santa Rosalia" ConstituciÛn Mexicali Democr·ta "Nicol·s Bravo"
+			Navolato "Santa Rosalia" Constituci√≥n Mexicali Democr√°ta "Nicol√°s Bravo"
 	}
 	clipper_transport = { 
 			
