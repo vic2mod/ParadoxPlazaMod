@@ -87,13 +87,13 @@ party = {
 
 party = {
 	name = "YUG_fascist"
-	start_date = 1830.1.1
+	start_date = 1905.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -123,10 +123,10 @@ unit_names = {
 
 	}
 	steam_transport = { 
-		Jaki Silni Snaûi Marljivi Ustrajni
+		Jaki Silni Sna≈æi Marljivi Ustrajni
 
 	}
 	commerce_raider = {
-		Senj Straûar "Smrt Glava" Lubanja Pacov
+		Senj Stra≈æar "Smrt Glava" Lubanja Pacov
 	}
 }
