@@ -117,7 +117,10 @@ party_issues = {
 		}
 		dirigisme = {
 			min_tax = 0.5
+			factory_owner_cost = 1.5
 			factory_output = 0.25
+			factory_input = -0.1
+			rgo_output = 0.1
 			rules = {
 				build_factory = yes
 				expand_factory = yes
@@ -130,9 +133,9 @@ party_issues = {
 				pop_expand_factory = no
 				pop_open_factory = no				
 				delete_factory_if_no_input = no		
-				build_factory_invest = yes
-				expand_factory_invest = yes
-				build_railway_invest = yes
+				build_factory_invest = no
+				expand_factory_invest = no
+				build_railway_invest = no
 				can_invest_in_pop_projects = yes
 				allow_foreign_investment = no
 			}
