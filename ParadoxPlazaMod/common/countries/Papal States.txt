@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -104,19 +104,19 @@ unit_names = {
 		Michele Gabriele Rafaelle Urielle Fanuele Zachiele Simiele
 	}
 	ironclad = {
-		Regno Toscana Pisa Firenze Pace Vittoria "Santa Maria" "San Giovanni" Supremazia Serenit‡ Capitana Patrona "San Pietro" "San Andrea" "San Petronio" 
+		Regno Toscana Pisa Firenze Pace Vittoria "Santa Maria" "San Giovanni" Supremazia Serenit√† Capitana Patrona "San Pietro" "San Andrea" "San Petronio" 
 	}
 	manowar = {
 		"San Lorenzo" Fenice "Porco Spino" Burlando
 	}
 	cruiser = {
-		Regno Toscana Pisa Firenze Pace Vittoria "Santa Maria" "San Giovanni" Supremazia Serenit‡ Capitana Patrona "San Pietro" "San Andrea" "San Petronio" 
+		Regno Toscana Pisa Firenze Pace Vittoria "Santa Maria" "San Giovanni" Supremazia Serenit√† Capitana Patrona "San Pietro" "San Andrea" "San Petronio" 
 	}
 	frigate = {
 		"San Paolo" "San Pietro" "San Giovanni" "San Pio"
 	}
 	monitor = {
-		Regno Toscana Pisa Firenze Pace Vittoria "Santa Maria" "San Giovanni" Supremazia Serenit‡ Capitana Patrona "San Pietro" "San Andrea" "San Petronio" 
+		Regno Toscana Pisa Firenze Pace Vittoria "Santa Maria" "San Giovanni" Supremazia Serenit√† Capitana Patrona "San Pietro" "San Andrea" "San Petronio" 
 	}
 	clipper_transport = {
 	}
