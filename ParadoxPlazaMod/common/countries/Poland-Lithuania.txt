@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -110,7 +110,7 @@ unit_names = {
 		
 	}
 	cruiser = {
-		"Józef Pilsudski" "Józef Chlopicki" "Michal Gedeon Radziwill" Miedzymorze "Adam Czartoryski" "Wladyslaw Czartoryski" "Aleksander Waszkowski" "Konstanty Kalinowski"
+		"JÃ³zef Pilsudski" "JÃ³zef Chlopicki" "Michal Gedeon Radziwill" Miedzymorze "Adam Czartoryski" "Wladyslaw Czartoryski" "Aleksander Waszkowski" "Konstanty Kalinowski"
 	}
 	frigate = {
 		Mindaugas Butigeidis Vytenis Gediminas Algirdas Kestutis Jogaila "Vytautas Didysis" "Zygimantas Kestutaitis"
@@ -125,6 +125,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		 Wisla Odra Windawa Bartów Neman Dniprer Prypec
+		 Wisla Odra Windawa BartÃ³w Neman Dniprer Prypec
 	}
 }
