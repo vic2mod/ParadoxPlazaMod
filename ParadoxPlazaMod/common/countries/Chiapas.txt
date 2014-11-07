@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		CentroamÈrica "Costa Rica" DiriangÈn "El Salvador" "Francisco DueÒas" "Francisco Moraz·n" Guatemala Honduras Nicaragua "Pedro Molina"
+		Centroam√©rica "Costa Rica" Diriang√©n "El Salvador" "Francisco Due√±as" "Francisco Moraz√°n" Guatemala Honduras Nicaragua "Pedro Molina"
 	}
 	ironclad = {
-		Arenal Barahona Cocibolca Goascor·n Hondo Paz "San Juan" Suchiate Tatumbla Tempisque
+		Arenal Barahona Cocibolca Goascor√°n Hondo Paz "San Juan" Suchiate Tatumbla Tempisque
 	}
 	manowar = {
-		Audaz FederaciÛn Independencia Libertad Neptuno "Sagrada Familia" "San JosÈ" "San Juan" "Santa Catalina" Santiago
+		Audaz Federaci√≥n Independencia Libertad Neptuno "Sagrada Familia" "San Jos√©" "San Juan" "Santa Catalina" Santiago
 	}
 	cruiser = {
-		"BartolomÈ de las Casas" "Castilla del Oro" Chorti "Cristobal ColÛn" Lenca Miskito Niquirano Olmeca "Pedro de Alvarado" Pipil
+		"Bartolom√© de las Casas" "Castilla del Oro" Chorti "Cristobal Col√≥n" Lenca Miskito Niquirano Olmeca "Pedro de Alvarado" Pipil
 	}
 	frigate = {
-		Cartago "Ciudad de Guatemala" Comayagua Flores LeÛn Managua "San JosÈ" "San Salvador" "Santa Tecla" Tegucigalpa
+		Cartago "Ciudad de Guatemala" Comayagua Flores Le√≥n Managua "San Jos√©" "San Salvador" "Santa Tecla" Tegucigalpa
 	}
 	monitor = {
-		Apaneca ConcepciÛn "El Tigre" OrosÌ Platanar "San CristÛbal" "Santa Ana" Tacan· Tajumulco Yojoa
+		Apaneca Concepci√≥n "El Tigre" Oros√≠ Platanar "San Crist√≥bal" "Santa Ana" Tacan√° Tajumulco Yojoa
 	}
 	clipper_transport = {
-		Amanecer Centroamericana Corsario Diamante Emprendedora "Estrella de los Mares" Gracia Guardabarranco HondureÒo Independiente
-		Indetectable "Isla del Coco" Jaguar Llama Maya Oce·nica R·pido Salvaje Serena Silencioso
+		Amanecer Centroamericana Corsario Diamante Emprendedora "Estrella de los Mares" Gracia Guardabarranco Hondure√±o Independiente
+		Indetectable "Isla del Coco" Jaguar Llama Maya Oce√°nica R√°pido Salvaje Serena Silencioso
 	}
 	steam_transport = {
-		Amanecer Centroamericana Corsario Diamante Emprendedora "Estrella de los Mares" Gracia Guardabarranco HondureÒo Independiente
-		Indetectable "Isla del Coco" Jaguar Llama Maya Oce·nica R·pido Salvaje Serena Silencioso
+		Amanecer Centroamericana Corsario Diamante Emprendedora "Estrella de los Mares" Gracia Guardabarranco Hondure√±o Independiente
+		Indetectable "Isla del Coco" Jaguar Llama Maya Oce√°nica R√°pido Salvaje Serena Silencioso
 	}
 	commerce_raider = {
-		CarÌas Chingo Guanacaste Guatemalteco Invencible Lempira Nicarag¸ense SalvadoreÒo Tilar·n Victorioso
+		Car√≠as Chingo Guanacaste Guatemalteco Invencible Lempira Nicarag√ºense Salvadore√±o Tilar√°n Victorioso
 	}
 }
