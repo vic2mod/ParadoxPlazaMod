@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -116,7 +116,7 @@ unit_names = {
 		Ontario Quebeck "Nova Scotia" "New Brunswick" Manitoba "British Columbia" "Price Edward Island" Saskatchewan Alberta
 	}
 	monitor = {
-		"Guy Carleton" "Robert Prescott" "Robert Milnes" "Thomas Dunn" "James H. Craig" "George Prévost" "Gordon Drummond" "John C. Sherbrooke" "Charles Lennox" "Goerge Ramsay" "James Kempt" "Matthew Whitworth-Aylmer" "Archibald Acheson" "John Colborne" "John Labton" "Charles P. Thomson" "Charles Bagot" "Charles Metcalfe" "Charles Cathcart" "James Bruce" "Edmund Walker Head" 
+		"Guy Carleton" "Robert Prescott" "Robert Milnes" "Thomas Dunn" "James H. Craig" "George PrÃ©vost" "Gordon Drummond" "John C. Sherbrooke" "Charles Lennox" "Goerge Ramsay" "James Kempt" "Matthew Whitworth-Aylmer" "Archibald Acheson" "John Colborne" "John Labton" "Charles P. Thomson" "Charles Bagot" "Charles Metcalfe" "Charles Cathcart" "James Bruce" "Edmund Walker Head" 
 	}
 	clipper_transport = {
 	}
