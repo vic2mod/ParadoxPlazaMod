@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Davao "Emilio Aguinaldo" Filipinas Independencia "JosÈ Rizal" Lapu-Lapu Libertad Manila "Mariano ¡lvarez" Tagalo
+		Davao "Emilio Aguinaldo" Filipinas Independencia "Jos√© Rizal" Lapu-Lapu Libertad Manila "Mariano √Ålvarez" Tagalo
 	}
 	ironclad = {
-		Agusan Akean Cagua Dagohoy Pampanga P·sig Pule Ragang Silang Sumuroy
+		Agusan Akean Cagua Dagohoy Pampanga P√°sig Pule Ragang Silang Sumuroy
 	}
 	manowar = {
-		Indigena LiberaciÛn Nacional "Rey Felipe" Salvador "San L·zaro" "San Miguel" "Santa Cruz" "Santa MarÌa" "SantÌsima Trinidad"
+		Indigena Liberaci√≥n Nacional "Rey Felipe" Salvador "San L√°zaro" "San Miguel" "Santa Cruz" "Santa Mar√≠a" "Sant√≠sima Trinidad"
 	}
 	cruiser = {
-		Ceb˙ IloÌlo Leyte LuzÛn Mindanao Mindoro "Negros Occidental" Palawan Pangasinan
+		Ceb√∫ Ilo√≠lo Leyte Luz√≥n Mindanao Mindoro "Negros Occidental" Palawan Pangasinan
 	}
 	frigate = {
-		"Apolinario Mabini" "Artemio Ricarte" "Datu Bantilan" "Datu Marikudo" "Emilio Jacinto" "Magat Salamat" "Miguel Malvar" "Pedro Paterno" "Raj· Humabon" "Sult·n Kudarat"
+		"Apolinario Mabini" "Artemio Ricarte" "Datu Bantilan" "Datu Marikudo" "Emilio Jacinto" "Magat Salamat" "Miguel Malvar" "Pedro Paterno" "Raj√° Humabon" "Sult√°n Kudarat"
 	}
 	monitor = {
-		"Fernando de Magallanes" "Indias Orientales" "Juan Sebasti·n Elcano" "Miguel LÛpez de Legazpi" "Raj· de Butu·n" "Raj· de Ceb˙" "Raj· de Manila" "Raj· de Tondo" "Sult·n de Maguindanao" "Sult·n de Sulu"
+		"Fernando de Magallanes" "Indias Orientales" "Juan Sebasti√°n Elcano" "Miguel L√≥pez de Legazpi" "Raj√° de Butu√°n" "Raj√° de Ceb√∫" "Raj√° de Manila" "Raj√° de Tondo" "Sult√°n de Maguindanao" "Sult√°n de Sulu"
 	}
 	clipper_transport = {
-		Alam Basa Batangas Berde Burghaw "CompaÒÌa de Filipinas" Delikadesa Demokrasya Guerra Hilaga
+		Alam Basa Batangas Berde Burghaw "Compa√±√≠a de Filipinas" Delikadesa Demokrasya Guerra Hilaga
 		Itik Kursonada Pamilya "San Juan" "San Marino" "Stella Maris" Subic Tablas Timog Zamboanga
 	}
 	steam_transport = {
-		Alam Basa Batangas Berde Burghaw "CompaÒÌa de Filipinas" Delikadesa Demokrasya Guerra Hilaga
+		Alam Basa Batangas Berde Burghaw "Compa√±√≠a de Filipinas" Delikadesa Demokrasya Guerra Hilaga
 		Itik Kursonada Pamilya "San Juan" "San Marino" "Stella Maris" Subic Tablas Timog Zamboanga
 	}
 	commerce_raider = {
-		Apo Balay·n Bilir·n Bulus·n Hibok-Hibok MayÛn Pinatubo "PurÌsima ConcepciÛn" Taal TaaleÒo
+		Apo Balay√°n Bilir√°n Bulus√°n Hibok-Hibok May√≥n Pinatubo "Pur√≠sima Concepci√≥n" Taal Taale√±o
 	}
 }
