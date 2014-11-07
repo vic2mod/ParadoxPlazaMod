@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,34 +101,34 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 	ironclad = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 	manowar = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 	cruiser = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 	frigate = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 	monitor = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 	clipper_transport = {
 		
@@ -137,8 +137,8 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Tran Canh" "Tran Hoang" "Tran Kh鈓" "Tran Thuy阯" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran K韓h" "Tran Hien" "Tran Ngung" "Tran An" "Th醝 T鬾g" "Th醤h T鬾g" "Nh鈔 T鬾g" "Anh T鬾g" "Minh T鬾g" 
-		"Hien T鬾g" "Du T鬾g" "Nghe T鬾g" "Due T鬾g" "Thuan T鬾g"
+		"Tran Canh" "Tran Hoang" "Tran Kh芒m" "Tran Thuy锚n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran K铆nh" "Tran Hien" "Tran Ngung" "Tran An" "Th谩i T么ng" "Th谩nh T么ng" "Nh芒n T么ng" "Anh T么ng" "Minh T么ng" 
+		"Hien T么ng" "Du T么ng" "Nghe T么ng" "Due T么ng" "Thuan T么ng"
 	}
 }
