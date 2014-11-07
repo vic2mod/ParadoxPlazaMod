@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -104,29 +104,29 @@ unit_names = {
 		Chakana "Hanan Pacha" Inti "Machu Picchu" "Mama Cocha" "Mama Kuka" "Pacha Camac" Pariacaca Supay "Uku Pacha"
 	}
 	ironclad = {
-		Ancash Arequipa Ayacucho Cajamarca Castilla Huánuco Loreto Rímac Velarde Villavisencio
+		Ancash Arequipa Ayacucho Cajamarca Castilla HuÃ¡nuco Loreto RÃ­mac Velarde Villavisencio
 	}
 	manowar = {
-		Arequipeño Balcarce Belgrano "Coronel Spano" Cruz Limeña Peruviana Protector Sacramento Unión
+		ArequipeÃ±o Balcarce Belgrano "Coronel Spano" Cruz LimeÃ±a Peruviana Protector Sacramento UniÃ³n
 	}
 	cruiser = {
-		"Almirante Grau" "Capitán Quiñones" Chachapoyas "Comandante Aguirre" "Coronel Bolognesi" Huancavelica Lima Mayobamba Moquegua Trujillo
+		"Almirante Grau" "CapitÃ¡n QuiÃ±ones" Chachapoyas "Comandante Aguirre" "Coronel Bolognesi" Huancavelica Lima Mayobamba Moquegua Trujillo
 	}
 	frigate = {
-		Amazonas Apurimac Callao Independencia Mercedes Meteoro Monteagudo Palacios Presidente "Teniente Gálvez"
+		Amazonas Apurimac Callao Independencia Mercedes Meteoro Monteagudo Palacios Presidente "Teniente GÃ¡lvez"
 	}
 	monitor = {
-		Atahualpa "Diego de Almagro" "Francisco Pizarro" "Hernando de Soto" Huáscar "Huayna Cápac" "Manco Cápac" Pachacuti "Túpac Amaru" "Túpac Inca"
+		Atahualpa "Diego de Almagro" "Francisco Pizarro" "Hernando de Soto" HuÃ¡scar "Huayna CÃ¡pac" "Manco CÃ¡pac" Pachacuti "TÃºpac Amaru" "TÃºpac Inca"
 	}
 	clipper_transport = { 
-		Caupolican Chalaco Chimbote Colón Constitución "Contraalmirante Haza" "General Lerzundi" "Guardian Ríos" Independencia Iquitos
-		Limeña Oroya Perú Pucallpa "San Martín" "Santa Fe" "Santa Rosa" Tacna Talismán Vilcanota
+		Caupolican Chalaco Chimbote ColÃ³n ConstituciÃ³n "Contraalmirante Haza" "General Lerzundi" "Guardian RÃ­os" Independencia Iquitos
+		LimeÃ±a Oroya PerÃº Pucallpa "San MartÃ­n" "Santa Fe" "Santa Rosa" Tacna TalismÃ¡n Vilcanota
 	}
 	steam_transport = { 
-		Caupolican Chalaco Chimbote Colón Constitución "Contraalmirante Haza" "General Lerzundi" "Guardian Ríos" Independencia Iquitos
-		Limeña Oroya Perú Pucallpa "San Martín" "Santa Fe" "Santa Rosa" Tacna Talismán Vilcanota
+		Caupolican Chalaco Chimbote ColÃ³n ConstituciÃ³n "Contraalmirante Haza" "General Lerzundi" "Guardian RÃ­os" Independencia Iquitos
+		LimeÃ±a Oroya PerÃº Pucallpa "San MartÃ­n" "Santa Fe" "Santa Rosa" Tacna TalismÃ¡n Vilcanota
 	}
 	commerce_raider = {
-		"Almirante Guise" "Almirante Villar" América Arno Chanchamayo Chorrillos "Coronel Portillo" Cuzco Pilcomayo "Teniente Rodríguez"
+		"Almirante Guise" "Almirante Villar" AmÃ©rica Arno Chanchamayo Chorrillos "Coronel Portillo" Cuzco Pilcomayo "Teniente RodrÃ­guez"
 	}
 }
