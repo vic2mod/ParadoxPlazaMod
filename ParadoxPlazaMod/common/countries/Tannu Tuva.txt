@@ -87,13 +87,13 @@ party = {
 
 party = {
 	name = "TNT_fascist"
-	start_date = 1830.1.1
+	start_date = 1905.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,35 +101,35 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 		
 	}
 	ironclad = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 		
 	}
 	manowar = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 	}
 	cruiser = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 	}
 	frigate = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 	}
 	monitor = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 	}
 	clipper_transport = {
@@ -139,8 +139,8 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng"
 	}
 }
