@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"CristÛbal ColÛn" DiriangÈn "Emiliano Chamorro" "Fruto Chamorro" "JosÈ N˙Òez" Libertad "Manuel de la Cerda" Nicaragua Nicarao "Patricio Rivas"
+		"Crist√≥bal Col√≥n" Diriang√©n "Emiliano Chamorro" "Fruto Chamorro" "Jos√© N√∫√±ez" Libertad "Manuel de la Cerda" Nicaragua Nicarao "Patricio Rivas"
 	}
 	ironclad = {
-		Caribe Cocibolca Coco Escondido "Hern·ndez de CÛrdoba" Intendencia Prinzapolka "RÌo Grande" "San Juan" Xolotl·n
+		Caribe Cocibolca Coco Escondido "Hern√°ndez de C√≥rdoba" Intendencia Prinzapolka "R√≠o Grande" "San Juan" Xolotl√°n
 	}
 	manowar = {
-		Avance ColÛn Florida Navegante "Sagrada Familia" "San JosÈ" "Santa MarÌa" Santiago Ventoso Ventura
+		Avance Col√≥n Florida Navegante "Sagrada Familia" "San Jos√©" "Santa Mar√≠a" Santiago Ventoso Ventura
 	}
 	cruiser = {
-		CaribÌ Chorotega Descubridor Diri·n Matagalpa Miskito Nagrandano Niquirano Rama Sumo
+		Carib√≠ Chorotega Descubridor Diri√°n Matagalpa Miskito Nagrandano Niquirano Rama Sumo
 	}
 	frigate = {
-		Boaco Carazo EstelÌ Granada Jinotega LeÛn Madriz Managua Masaya "San Carlos"
+		Boaco Carazo Estel√≠ Granada Jinotega Le√≥n Madriz Managua Masaya "San Carlos"
 	}
 	monitor = {
-		ConcepciÛn Consiguina "Las Lajas" "Las Pilas" Maderas Mombacho Momotombo Rota "San CristÛbal" Telica
+		Concepci√≥n Consiguina "Las Lajas" "Las Pilas" Maderas Mombacho Momotombo Rota "San Crist√≥bal" Telica
 	}
 	clipper_transport = {
 		Beatriz Centroamericana Chocoyo Fauna Flora Guardabarranco Indesplazable Inmaculada Jaguar Laura
-		"Mono AraÒa" Nicarag¸ita Ocelote Patricia Raquel Salvaje Sirena Tit·nico Tortuga Tuc·n
+		"Mono Ara√±a" Nicarag√ºita Ocelote Patricia Raquel Salvaje Sirena Tit√°nico Tortuga Tuc√°n
 	}
 	steam_transport = {
 		Beatriz Centroamericana Chocoyo Fauna Flora Guardabarranco Indesplazable Inmaculada Jaguar Laura
-		"Mono AraÒa" Nicarag¸ita Ocelote Patricia Raquel Salvaje Sirena Tit·nico Tortuga Tuc·n
+		"Mono Ara√±a" Nicarag√ºita Ocelote Patricia Raquel Salvaje Sirena Tit√°nico Tortuga Tuc√°n
 	}
 	commerce_raider = {
-		Destructor Feroz Invencible Mortal Neptuno Nicarag¸ense Rep˙blica Sirena Terremoto TritÛn
+		Destructor Feroz Invencible Mortal Neptuno Nicarag√ºense Rep√∫blica Sirena Terremoto Trit√≥n
 	}
 }
