@@ -248,7 +248,7 @@ party_loyalty_focus =
 	reactionary_focus =
 	{
 		ideology = reactionary
-		loyalty_value = 0.00z15 # By that much pops will be more loyal
+		loyalty_value = 0.0015 # By that much pops will be more loyal
 		icon = 26
 	}
 	
