@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -111,7 +111,7 @@ unit_names = {
 	 	"St. Marie" "St. Joris" "St. Franciscus" "St. Jacobus" "St. Petrus" "St. Bonifatius" 
 	}
 	cruiser = {
-		"François Pelsaert" "Louis Boisot" "Olivier Brunel" "Simon de Cordes" "Albert Dorville" "Jessé de Forest" "Louis Hennepin" 
+		"FranÃ§ois Pelsaert" "Louis Boisot" "Olivier Brunel" "Simon de Cordes" "Albert Dorville" "JessÃ© de Forest" "Louis Hennepin" 
 		"Melchior van den Kerckhove" "Jacob Mahu"
 	}
 	frigate = {
