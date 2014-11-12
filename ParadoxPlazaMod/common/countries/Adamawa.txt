@@ -134,8 +134,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = planned_economy
-	trade_policy = protectionism
+	economic_policy = dirgisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism

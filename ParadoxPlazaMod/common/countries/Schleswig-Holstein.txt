@@ -177,8 +177,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -186,28 +186,28 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg Glücksburg Reichsfürst König Erbprinz Plön Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona Glückstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
+		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ã„ltere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg GlÃ¼cksburg ReichsfÃ¼rst KÃ¶nig Erbprinz PlÃ¶n Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona GlÃ¼ckstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
 	}
 	ironclad = {
-		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg Glücksburg Reichsfürst König Erbprinz Plön Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona Glückstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
+		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ã„ltere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg GlÃ¼cksburg ReichsfÃ¼rst KÃ¶nig Erbprinz PlÃ¶n Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona GlÃ¼ckstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
 	}
 	manowar = {
-		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg Glücksburg Reichsfürst König Erbprinz Plön Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona Glückstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
+		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ã„ltere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg GlÃ¼cksburg ReichsfÃ¼rst KÃ¶nig Erbprinz PlÃ¶n Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona GlÃ¼ckstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
 	}
 	cruiser = {
-		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg Glücksburg Reichsfürst König Erbprinz Plön Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona Glückstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
+		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ã„ltere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg GlÃ¼cksburg ReichsfÃ¼rst KÃ¶nig Erbprinz PlÃ¶n Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona GlÃ¼ckstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
 	}
 	frigate = {
-		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg Glücksburg Reichsfürst König Erbprinz Plön Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona Glückstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
+		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ã„ltere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg GlÃ¼cksburg ReichsfÃ¼rst KÃ¶nig Erbprinz PlÃ¶n Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona GlÃ¼ckstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
 	}
 	monitor = {
-		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg Glücksburg Reichsfürst König Erbprinz Plön Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona Glückstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
+		Schleswig "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" Flensburg "Johann der Ã„ltere" "Adolf I." "Friedrich III." "Christian Albrecht" Holstein "Herzog Friedrich" Kiel Gottorp Sonderburg GlÃ¼cksburg ReichsfÃ¼rst KÃ¶nig Erbprinz PlÃ¶n Segeberg "Up ewig ungedeelt" "Vertrag von Ripen" Altona GlÃ¼ckstadt "Adolf I." "Christian Albrecht" "Karl Peter Ulrich" "Magnus von Wedderkop" "Uwe Jens Lornsen"
 	}
 	clipper_transport = {
 	}
 	steam_transport = {
 	}
 	commerce_raider = {
-		"Klaus Störtebeker" "Gödeke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" Likedeeler
+		"Klaus StÃ¶rtebeker" "GÃ¶deke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" Likedeeler
 	}
 }

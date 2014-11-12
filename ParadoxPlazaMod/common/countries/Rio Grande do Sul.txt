@@ -101,8 +101,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -110,32 +110,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Banda Oriental" Cisplatina ConstituciÛn "Coronel GÛmez" "General Artigas" "General Santos" "General Su·rez" LarraÒaga "Presidente Flores" "Rep˙blica Oriental"
+		"Banda Oriental" Cisplatina Constituci√≥n "Coronel G√≥mez" "General Artigas" "General Santos" "General Su√°rez" Larra√±aga "Presidente Flores" "Rep√∫blica Oriental"
 	}
 	ironclad = {
-		"Cerro Catedral" "Cerro de las ¡nimas" "Cerro Pan de Az˙car" "Cerros de San Juan" "Cuchilla Grande" "General Artigas" "General Oribe" "General Rivera" "RÌo de la Plata" "Sierra CarapÈ"
+		"Cerro Catedral" "Cerro de las √Ånimas" "Cerro Pan de Az√∫car" "Cerros de San Juan" "Cuchilla Grande" "General Artigas" "General Oribe" "General Rivera" "R√≠o de la Plata" "Sierra Carap√©"
 	}
 	manowar = {
-		Bonanza Fortuna IntrÈpido "Rep˙blica Oriental" "San Antonio" "San Esteban" "San Fernando" Supremo Temerario Valiente
+		Bonanza Fortuna Intr√©pido "Rep√∫blica Oriental" "San Antonio" "San Esteban" "San Fernando" Supremo Temerario Valiente
 	}
 	cruiser = {
-		"Cabo Polonia" Gaucho "Laguna de Castillos" "Laguna de GarzÛn" "Laguna de Rocha" Mate Montevideo "Quebrada de los Cuervos" "Santa Teresa" "Valle de Lunarejo"
+		"Cabo Polonia" Gaucho "Laguna de Castillos" "Laguna de Garz√≥n" "Laguna de Rocha" Mate Montevideo "Quebrada de los Cuervos" "Santa Teresa" "Valle de Lunarejo"
 	}
 	frigate = {
 		Artigas Carmelo "Delta del Tigre" Dolores "Las Piedras" Oriental Progreso Rivera "San Carlos" Uruguay
 	}
 	monitor = {
-		"Colonia del Sacramento" "Fray Bentos" MarÌn Melo Mercedes Minas "Paso del Palmar" "RincÛn del Bonete" "RÌo de la Plata" Trinidad
+		"Colonia del Sacramento" "Fray Bentos" Mar√≠n Melo Mercedes Minas "Paso del Palmar" "Rinc√≥n del Bonete" "R√≠o de la Plata" Trinidad
 	}
 	clipper_transport = { 
-		"BarÛn de Rio Branco" Beatriz Canelones "Cerro Largo" Durazno Flores Florida Inmaculada Lavallejo Maldonado
-		MarÌa R·pido Rocha Salto "San JosÈ" Soriano TacarembÛ "Treinta y Tres" Vanguardia Vigoroso
+		"Bar√≥n de Rio Branco" Beatriz Canelones "Cerro Largo" Durazno Flores Florida Inmaculada Lavallejo Maldonado
+		Mar√≠a R√°pido Rocha Salto "San Jos√©" Soriano Tacaremb√≥ "Treinta y Tres" Vanguardia Vigoroso
 	}
 	steam_transport = { 
-		"BarÛn de Rio Branco" Beatriz Canelones "Cerro Largo" Durazno Flores Florida Inmaculada Lavallejo Maldonado
-		MarÌa R·pido Rocha Salto "San JosÈ" Soriano TacarembÛ "Treinta y Tres" Vanguardia Vigoroso
+		"Bar√≥n de Rio Branco" Beatriz Canelones "Cerro Largo" Durazno Flores Florida Inmaculada Lavallejo Maldonado
+		Mar√≠a R√°pido Rocha Salto "San Jos√©" Soriano Tacaremb√≥ "Treinta y Tres" Vanguardia Vigoroso
 	}
 	commerce_raider = {
-		Audaz Colonia "Dieciocho de Julio" Fortuna HeroÌna Paysand˙ "Quince de Noviembre" "RÌo Negro" Temerario "Veinticinco de Agosto"
+		Audaz Colonia "Dieciocho de Julio" Fortuna Hero√≠na Paysand√∫ "Quince de Noviembre" "R√≠o Negro" Temerario "Veinticinco de Agosto"
 	}
 }

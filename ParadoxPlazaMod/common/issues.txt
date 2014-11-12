@@ -11,6 +11,10 @@ party_issues = {
 			max_tariff = 0.25
 			min_tariff = -1
 		}
+		autarky = {
+ 			max_tariff = 1
+ 			min_tariff = 0.25
+		}
 	}
 	economic_policy = {
 		laissez_faire = {
@@ -109,6 +113,31 @@ party_issues = {
 				expand_factory_invest = yes
 				build_railway_invest = yes
 				can_invest_in_pop_projects = yes
+			}
+		}
+		dirigisme = {
+			min_tax = 0.5
+			factory_owner_cost = 1.5
+			factory_output = 0.25
+			factory_input = -0.1
+			rgo_output = 0.1
+			rules = {
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
+				destroy_factory = yes		
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = no
+				pop_open_factory = no				
+				delete_factory_if_no_input = no		
+				build_factory_invest = no
+				expand_factory_invest = no
+				build_railway_invest = no
+				can_invest_in_pop_projects = yes
+				allow_foreign_investment = no
 			}
 		}
 	}

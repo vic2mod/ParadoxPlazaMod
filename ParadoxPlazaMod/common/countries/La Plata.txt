@@ -189,8 +189,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -198,43 +198,43 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Alvear" "Argentina" "General Rosas" "Moreno" "Paz" "Presidente Avellaneda" "RÌo de la Plata" "Rivadavia" "San MartÌn" "Urquiza" 
+		"Alvear" "Argentina" "General Rosas" "Moreno" "Paz" "Presidente Avellaneda" "R√≠o de la Plata" "Rivadavia" "San Mart√≠n" "Urquiza" 
 		"Yrigoyen"
 	}
 	ironclad = {
-		"Almirante Brown" "Bouchard" "Campichuelo" "Cepeda" "De las Heras" "FederaciÛn" "Huamit·" "Independencia" "J˙piter" "Lavalle"
-		"Libertad" "Marte" "Mercurio" "Neptuno" "PavÛn" "PlutÛn" "Salado" "Salta" "Suipacha" "Thomas"
+		"Almirante Brown" "Bouchard" "Campichuelo" "Cepeda" "De las Heras" "Federaci√≥n" "Huamit√°" "Independencia" "J√∫piter" "Lavalle"
+		"Libertad" "Marte" "Mercurio" "Neptuno" "Pav√≥n" "Plut√≥n" "Salado" "Salta" "Suipacha" "Thomas"
 	}
 	manowar = {
-		"AmÈrica" "AquÌles" "Argentina" "Argonauta" "Furor" "HÈroe" "Libertador" "Navegante" "Perla Negra" "RÌo de la Plata"
-		"Salvador" "San Bernardo" "San Claudio" "San Honorato" "San JoaquÌn" "Santa Ana" "Santa MarÌa" "Santiago" "Terror" "Victoriosa"
+		"Am√©rica" "Aqu√≠les" "Argentina" "Argonauta" "Furor" "H√©roe" "Libertador" "Navegante" "Perla Negra" "R√≠o de la Plata"
+		"Salvador" "San Bernardo" "San Claudio" "San Honorato" "San Joaqu√≠n" "Santa Ana" "Santa Mar√≠a" "Santiago" "Terror" "Victoriosa"
 	}
 	cruiser = {
-		"Almirante Brown" "¡lvarez Jonte" "Belgrano" "Buenos Aires" "Castelli" "Chichlana" "Garibaldi" "G¸emes" "Liniers" "Matheu"
-		"Mitre" "Nueve de Julio" "Paso" "Patagonia" "Patria" "PueyrredÛn" "Roca" "San MartÌn" "Sarratea" "Veinticinco de Mayo"
+		"Almirante Brown" "√Ålvarez Jonte" "Belgrano" "Buenos Aires" "Castelli" "Chichlana" "Garibaldi" "G√ºemes" "Liniers" "Matheu"
+		"Mitre" "Nueve de Julio" "Paso" "Patagonia" "Patria" "Pueyrred√≥n" "Roca" "San Mart√≠n" "Sarratea" "Veinticinco de Mayo"
 	}
 	frigate = {
-		"Azopardo" "Cervantes" "Espora" "Garay" "HÈrcules" "HeroÌna" "La Argentina" "La Libertad" "Murillo" "Parker"
-		"Piedra Buena" "Presidente Sarmiento" "Rep˙blica" "Robinson" "Rondeau" "Rosales" "Saavedra" "SantÌsima Trinidad" "SarandÌ" "Spiro"
+		"Azopardo" "Cervantes" "Espora" "Garay" "H√©rcules" "Hero√≠na" "La Argentina" "La Libertad" "Murillo" "Parker"
+		"Piedra Buena" "Presidente Sarmiento" "Rep√∫blica" "Robinson" "Rondeau" "Rosales" "Saavedra" "Sant√≠sima Trinidad" "Sarand√≠" "Spiro"
 	}
 	monitor = {
 		"El Plata" "Formosa" "Gran Chaco" "La Pampa" "Lago Argentino" "Los Andes" "Mesopotamia" "Posadas" "Rawson" "Resistencia"
-		"San Fernando del Valle" "San Miguel" "San Salvador" "Santa Rosa" "Sirena" "Somuncur·" "Tetis" "TritÛn" "Viedma" "Vulcano"
+		"San Fernando del Valle" "San Miguel" "San Salvador" "Santa Rosa" "Sirena" "Somuncur√°" "Tetis" "Trit√≥n" "Viedma" "Vulcano"
 	}
 	clipper_transport = { 
-		"¡guila" "Apolo" "Atl·ntida" "Audaz" "Ceres" "CÛndor" "Cruel" "DelfÌn" "Eolo" "Esperanza"
-		"FÈnix" "Fidela" "Flora" "Hera" "Iris" "Lanza" "Minerva" "Minotauro" "Movimiento" "Odisea"
-		"Platense" "Proserpina" "Providencia" "Prueba" "Puma" "Rayo" "Rel·mpago" "Salvadora" "San JosÈ" "San Juan Bautista"
-		"Santa MarÌa" "Servidora" "Temeraria" "TiburÛn" "Tranquila" "Triunfo" "UlÌses" "Veloz" "Victoria" "Voladora"
+		"√Åguila" "Apolo" "Atl√°ntida" "Audaz" "Ceres" "C√≥ndor" "Cruel" "Delf√≠n" "Eolo" "Esperanza"
+		"F√©nix" "Fidela" "Flora" "Hera" "Iris" "Lanza" "Minerva" "Minotauro" "Movimiento" "Odisea"
+		"Platense" "Proserpina" "Providencia" "Prueba" "Puma" "Rayo" "Rel√°mpago" "Salvadora" "San Jos√©" "San Juan Bautista"
+		"Santa Mar√≠a" "Servidora" "Temeraria" "Tibur√≥n" "Tranquila" "Triunfo" "Ul√≠ses" "Veloz" "Victoria" "Voladora"
 	}
 	steam_transport = { 
-		"¡guila" "Apolo" "Atl·ntida" "Audaz" "Ceres" "CÛndor" "Cruel" "DelfÌn" "Eolo" "Esperanza"
-		"FÈnix" "Fidela" "Flora" "Hera" "Iris" "Lanza" "Minerva" "Minotauro" "Movimiento" "Odisea"
-		"Platense" "Proserpina" "Providencia" "Prueba" "Puma" "Rayo" "Rel·mpago" "Salvadora" "San JosÈ" "San Juan Bautista"
-		"Santa MarÌa" "Servidora" "Temeraria" "TiburÛn" "Tranquila" "Triunfo" "UlÌses" "Veloz" "Victoria" "Voladora"
+		"√Åguila" "Apolo" "Atl√°ntida" "Audaz" "Ceres" "C√≥ndor" "Cruel" "Delf√≠n" "Eolo" "Esperanza"
+		"F√©nix" "Fidela" "Flora" "Hera" "Iris" "Lanza" "Minerva" "Minotauro" "Movimiento" "Odisea"
+		"Platense" "Proserpina" "Providencia" "Prueba" "Puma" "Rayo" "Rel√°mpago" "Salvadora" "San Jos√©" "San Juan Bautista"
+		"Santa Mar√≠a" "Servidora" "Temeraria" "Tibur√≥n" "Tranquila" "Triunfo" "Ul√≠ses" "Veloz" "Victoria" "Voladora"
 	}
 	commerce_raider = {
-		"Bermejo" "Catamarca" "ConstituciÛn" "CÛrdoba" "Corrientes" "EntrerrÌos" "Jujuy" "La Plata" "La Rioja" "Mendoza"
-		"Misiones" "Paran·" "Pilcomayo" "Rosario" "San Juan" "San Luis" "Santa Cruz" "Sol Argentino" "Tucum·n" "Uruguay"
+		"Bermejo" "Catamarca" "Constituci√≥n" "C√≥rdoba" "Corrientes" "Entrerr√≠os" "Jujuy" "La Plata" "La Rioja" "Mendoza"
+		"Misiones" "Paran√°" "Pilcomayo" "Rosario" "San Juan" "San Luis" "Santa Cruz" "Sol Argentino" "Tucum√°n" "Uruguay"
 	}
 }

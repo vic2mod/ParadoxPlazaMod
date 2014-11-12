@@ -87,13 +87,13 @@ party = {
 
 party = {
 	name = "URA_fascist"
-	start_date = 1800.1.1
+	start_date = 1905.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -101,7 +101,7 @@ party = {
 
 unit_names = {
 	dreadnought = {
-                       Petropavlovsk Mariya Ekaterina Velikaya "Svobodnaya Rossiya" Aleksander Gangut Sevastopol Poltava Volya Arkhangel’sk Novorossiysk Soyuz Ukraina Rossiya Alekseev Belarussia Potemkin Moskva Mariya Ekaterina Alekseev Krasnaya "Uralskiye gory" Sibir Imperator Komunna "General Alexeiev" Retivisan "Nizhny Novgorod" Omck Chelyabinsk Krasnoyarsk Saratov "Ivan Grozny" Kulikovo 
+                       Petropavlovsk Mariya Ekaterina Velikaya "Svobodnaya Rossiya" Aleksander Gangut Sevastopol Poltava Volya Arkhangelâ€™sk Novorossiysk Soyuz Ukraina Rossiya Alekseev Belarussia Potemkin Moskva Mariya Ekaterina Alekseev Krasnaya "Uralskiye gory" Sibir Imperator Komunna "General Alexeiev" Retivisan "Nizhny Novgorod" Omck Chelyabinsk Krasnoyarsk Saratov "Ivan Grozny" Kulikovo 
 
 	}
 	ironclad = {
@@ -109,7 +109,7 @@ unit_names = {
 
 	}
 	manowar = {
-		Sviatoslav Vola Andrei Fershampenuaz Konstantin Gavriil Selafail Varna Yagudiil Sviatoslav "Dvenadtsat Apostolov" Rostislav Khrabryi Sinop Bosfor Uriil "Tri Sviatitelia" Arsis Smolensk Oriol Finland Vola Prokhor Varshava Retvisan Iezekiil Azov Kul’m Lesnoye Brien Berezino Ostroloenka Vladimir Fershampenuaz 
+		Sviatoslav Vola Andrei Fershampenuaz Konstantin Gavriil Selafail Varna Yagudiil Sviatoslav "Dvenadtsat Apostolov" Rostislav Khrabryi Sinop Bosfor Uriil "Tri Sviatitelia" Arsis Smolensk Oriol Finland Vola Prokhor Varshava Retvisan Iezekiil Azov Kulâ€™m Lesnoye Brien Berezino Ostroloenka Vladimir Fershampenuaz 
 
 	}
 	cruiser = {
@@ -117,7 +117,7 @@ unit_names = {
 
 	}
 	frigate = {
-		Kulevtcha Kagul Kamchatka Odessa Arkhimed Polkan Vladimir Svetlana "Ilya Muromets" Medved Rynda Vityaz Neva Vilagosh Flora Mesemvriya Midya Gromoboi Riga "Kniaginia Lovitch" Elisaveta Anna Ekaterina Venus Pomona Kastor Prozerpina Mel’pomena Tenedos Arkhipelag Brailov Sizopol’ Kulevtchi Astrakhan 
+		Kulevtcha Kagul Kamchatka Odessa Arkhimed Polkan Vladimir Svetlana "Ilya Muromets" Medved Rynda Vityaz Neva Vilagosh Flora Mesemvriya Midya Gromoboi Riga "Kniaginia Lovitch" Elisaveta Anna Ekaterina Venus Pomona Kastor Prozerpina Melâ€™pomena Tenedos Arkhipelag Brailov Sizopolâ€™ Kulevtchi Astrakhan 
 	}
 	monitor = {
                         Uragan Veschun Koldun Lava Latnik Perun Strelets Tifon Novgorod Vyborg Rusalka "Admiral Ushakov" "Admiral Senivain" Edinorog "Admiral Graf Apraksin" Pushkin "Semion Chelyuskin" Yenisei "Ozero Baykal" Vyazma Valdai Topozero Caspian Kazan

@@ -92,8 +92,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -104,7 +104,7 @@ unit_names = {
 		Hrvatska "Maksimilijan Vrhovac" "Ilirski pokret" Slavonija Zagreb  
 	}
 	ironclad = {
-		Osijek  "Janko Draškovic" "Antun Mihanovic" "Ljudevit Gaj" Rijeka  
+		Osijek  "Janko DraÅ¡kovic" "Antun Mihanovic" "Ljudevit Gaj" Rijeka  
 	}
 	manowar = {
 		Sava Drava Kupa Korana Cesma 
@@ -113,7 +113,7 @@ unit_names = {
 		"Ivan Lupis" "Janko Vukovic" "Matija Politeo" "Ante Tresic Pavicic" Branimir 
 	}
 	frigate = {
-		Dinara Kamešnica Biokovo Velebit Plješevica 
+		Dinara KameÅ¡nica Biokovo Velebit PljeÅ¡evica 
 	}
 	monitor = {
 		Dubrovnik Ragusa Split Pula Gospic
@@ -127,6 +127,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Krk Brijuni Lošinj Cres Ilovik
+		Krk Brijuni LoÅ¡inj Cres Ilovik
 	}
 }

@@ -218,8 +218,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -227,27 +227,27 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Szent Istvan" Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós Pandúr Réka Turul Huszár Ulan 
+		"Szent Istvan" Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 
 	}
 	ironclad = {
-		Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós 	Pandúr Réka Turul Huszár Ulan 
+		Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s 	PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 
 		
 		
 	}
 	manowar = {
-		Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós 	Pandúr Réka Turul Huszár Ulan 
+		Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s 	PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 
 		
 	}
 	cruiser = {
-		Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós 	Pandúr Réka Turul Huszár Ulan 
+		Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s 	PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 
 		
 	}
 	frigate = {
-		Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós 	Pandúr Réka Turul Huszár Ulan 
+		Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s 	PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 
 		
 	}
 	monitor = {
-		Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós 	Pandúr Réka Turul Huszár Ulan 
+		Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s 	PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 
 		
 		
 	}
@@ -258,7 +258,7 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Zrinyi Árpád Szigetvár Sava Temes Bodrog Szamos Körös Maros Leitha Balaton Csepel Lika Orjen Tátra Triglav Dinara Csikós Pandúr Réka Turul Huszár Ulan 	
+		Zrinyi ÃrpÃ¡d SzigetvÃ¡r Sava Temes Bodrog Szamos KÃ¶rÃ¶s Maros Leitha Balaton Csepel Lika Orjen TÃ¡tra Triglav Dinara CsikÃ³s PandÃºr RÃ©ka Turul HuszÃ¡r Ulan 	
 		
 		
 	}

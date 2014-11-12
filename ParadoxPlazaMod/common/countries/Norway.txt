@@ -261,8 +261,8 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -284,28 +284,28 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Áss Vanr Álfr Jötunn
+		Ãss Vanr Ãlfr JÃ¶tunn
 	}
 	ironclad = {
 		Ellida Sleipner Viking Frithjof Rjukan Sarpen Lougen Glommen 
 	}
 	manowar = {
-		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ørnen Rjukan Sarpen Lougen Glommen
+		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ã˜rnen Rjukan Sarpen Lougen Glommen
 	}
 	cruiser = {
 		Thor Odin Njord Freyr Tyr Bragl Heimdall Hoder Vidar Ale Ullr Forseti
 	}
 	frigate = {
-		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ørnen
+		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ã˜rnen
 	}
 	monitor = {
-		Skorpionen Mjølner Thrudvang
+		Skorpionen MjÃ¸lner Thrudvang
 	}
 	clipper_transport = {
 		Hebe Lina
 	}
 	steam_transport = { 
-		"Kong Ring" Skibladner "Engebret Soot" Ara Hans Turisten Børøysund Kysten Oster Suldal Stavenes Stord
+		"Kong Ring" Skibladner "Engebret Soot" Ara Hans Turisten BÃ¸rÃ¸ysund Kysten Oster Suldal Stavenes Stord
 	}
 	commerce_raider = {
 		Heimdal "Fridtjof Nansen" Nordkapp

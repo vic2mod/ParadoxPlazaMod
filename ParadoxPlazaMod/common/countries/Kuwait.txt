@@ -87,13 +87,13 @@ party = {
 
 party = {
 	name = "IRQ_fascist"
-	start_date = 1830.1.1
+	start_date = 1905.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist
 
-	economic_policy = state_capitalism
-	trade_policy = protectionism
+	economic_policy = dirigisme
+	trade_policy = autarky
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -102,33 +102,33 @@ party = {
 unit_names = {
 	dreadnought = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 		
 	}
 	ironclad = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 	}
 	manowar = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 	}
 	cruiser = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 	}
 	frigate = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 	}
 	monitor = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 	}
 	clipper_transport = {
@@ -139,7 +139,7 @@ unit_names = {
 	}
 	commerce_raider = {
 		"Kuwait" "Al Mawsil" "Salah al-Din" "Huth" "Sa'dah" "Ma'rib" "Salalah" "Raysut" "Mirbah" "Sawqirah" "Karbala" "Baqubah" 
-		"Al Amarah" "Al Küt" "Sulaimanya" "Al Najaf" "Al Basrah" 
+		"Al Amarah" "Al KÃ¼t" "Sulaimanya" "Al Najaf" "Al Basrah" 
 		
 	}
 }
