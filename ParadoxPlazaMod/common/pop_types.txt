@@ -717,8 +717,10 @@ assimilation_chance = {
 	modifier = {
 		factor = -20
 		has_pop_culture = afro_american
+		OR = {
 		continent = south_america
 		continent = north_america
+		}
 	}
 	modifier = {
 		factor = -10000
