@@ -1839,7 +1839,7 @@ free_peoples = {
 				FROM = { tag = BOS }
 			}
 			AND = {
-				any_owned_province = { region = RUS_360 }
+				any_owned_province = { region = RUS_361 }
 				FROM = { tag = LIT }
 			}
 			AND = {

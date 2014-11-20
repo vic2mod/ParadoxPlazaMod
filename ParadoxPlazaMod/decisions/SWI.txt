@@ -6,8 +6,8 @@ political_decisions = {
 			608 = {
 				OR = {
 					is_core = PRU
-					is_core = PRU
-					is_core = PRU
+					is_core = NGF
+					is_core = GER
 				}
 			}
 		}
