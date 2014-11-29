@@ -1,0 +1,150 @@
+### Events 96151-9615 used
+
+#########################################################################
+#																		#
+#						High Infamy Sanctions 				 			#
+#																		#
+#########################################################################
+
+# Add low level sanctions against the player if they go above 32.5 infamy ( 1.3 * max infamy )
+country_event = {
+
+	id = 96151
+	title = "EVTNAME96151" #International Sanctions
+	desc = "EVTDESC96151"
+	picture = "greatpowers"
+
+	trigger = {
+		ai = no
+		badboy = 1.3
+		is_disarmed = no
+		NOT = {
+			has_country_modifier = weak_sanctions
+			has_country_modifier = bad_sanctions
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA96151" #It matters not!
+		prestige = -10
+		add_country_modifier = {
+			name = weak_sanctions
+			duration = 1825
+		}
+		any_greater_power = {
+			casus_belli = {
+				target = THIS
+				type = humiliate
+				months = 12
+			}
+			casus_belli = {
+				target = THIS
+				type = free_peoples
+				months = 12
+			}
+			relation = {
+				who = THIS
+				value = -100
+			}
+		}
+	}
+}
+
+# Add high level sanctions against the player if they go above 42.5 infamy ( 1.7 * max infamy )
+# and give the other great powers the opportunity to dismantle their empire
+country_event = {
+	id = 96152
+	title = "EVTNAME96152" #Harsh Sanctions
+	desc = "EVTDESC96152"
+	picture = "greatpowers"
+	major = yes
+	
+	trigger = {
+	ai = no
+	badboy = 1.7
+	has_country_modifier = weak_sanctions
+	NOT = { has_country_modifier = bad_sanctions }
+		}
+		
+	mean_time_to_happen = { months = 1 }
+
+	option = {
+		name = "EVTOPT96152"
+		prestige = -20
+		remove_country_modifier = weak_sanctions
+		add_country_modifier = {
+			name = bad_sanctions
+			duration = 7300
+		}
+		any_greater_power = {
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -400
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 36
+			}
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 36
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+			}
+			relation = {
+				who = THIS
+				value = -100
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 12
+			}
+		}
+	}
+}
+
+#Removes the sanctions if the player loses a war and gets disarmed
+country_event = {
+	id = 96153
+	title = "EVTNAME96153" #Sanctions Lifted
+	desc = "EVTDESC96153"
+	picture = "greatpowers"
+	
+	trigger = {
+		is_disarmed = yes
+		has_recently_lost_war = yes
+		OR = {
+			has_country_modifier = weak_sanctions 
+			has_country_modifier = bad_sanctions 
+		}
+	}
+		
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "EVTOPT96153"
+		remove_country_modifier = weak_sanctions
+		remove_country_modifier = bad_sanctions 
+	}
+}
+
+
+
+
+

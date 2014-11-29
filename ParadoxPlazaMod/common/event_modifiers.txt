@@ -1312,6 +1312,52 @@ international_pariah = {
 	icon = 4
 }
 
+weak_sanctions = {
+	diplomatic_points_modifier = -0.4
+	global_immigrant_attract = -1
+	non_accepted_pop_consciousness_modifier = 0.9
+	non_accepted_pop_militancy_modifier = 0.6
+	political_reform_desire = 0.75
+	loan_interest = 1
+	mobilisation_economy_impact = 2
+	prestige = -0.02
+	ruling_party_support = -0.5
+	tax_efficiency = -0.1
+	war_exhaustion = 0.1
+	poor_life_needs = 0.25
+	middle_life_needs = 0.15
+	rich_life_needs = 0.1
+	rich_income_modifier = -0.3
+	middle_income_modifier = -0.2
+	poor_income_modifier = -0.1
+	icon = 8
+}
+
+
+bad_sanctions = {
+	diplomatic_points_modifier = -0.9
+	global_immigrant_attract = -2.0
+	global_pop_consciousness_modifier = 0.2
+	non_accepted_pop_consciousness_modifier = 4
+	non_accepted_pop_militancy_modifier = 2
+	political_reform_desire = 0.8
+	loan_interest = 3
+	mobilisation_economy_impact = 3
+	mobilisation_size = -0.4
+	prestige = -0.03
+	ruling_party_support = -1
+	tax_efficiency = -0.3
+	factory_output = -0.1
+	war_exhaustion = 0.3
+	poor_life_needs = 0.5
+	middle_life_needs = 0.3
+	rich_life_needs = 0.2
+	rich_income_modifier = -0.9
+	middle_income_modifier = -0.6
+	poor_income_modifier = -0.3
+	icon = 8
+}
+
 ### Dynamic Cores ###
 integration_refusal = {
 	assimilation_rate = -0.1
