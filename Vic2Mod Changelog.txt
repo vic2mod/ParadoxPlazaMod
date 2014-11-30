@@ -39,7 +39,7 @@ Genocide decisions
 New border changes, decisions and events to help model historical accuracy
 Pop changes to improve historical accuracy from vanilla and NNM by referencing census data and available information from the era
 
-TO DO LIST:
+TO DO LIST: (NOTE: Chances are most of these will never get implemented. This is just here to preserve the integrity of the /gsg/ changelog)
 if you change to an extreme ideology in game adding an event for your puppet states also
 	to peacefully have a government of the same time installed in their country,
 	but have a very small chance of the AI refusing and declaring Indepdence
