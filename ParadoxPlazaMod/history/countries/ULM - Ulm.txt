@@ -1,0 +1,187 @@
+capital = 593
+primary_culture = south_german
+religion = protestant
+government = democracy
+plurality = 0.05
+nationalvalue = nv_order
+literacy = 0.8
+civilized = yes
+prestige = 1
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = non_secret_ballots
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = ULM_conservative
+last_election = 1835.1.1
+upper_house = {
+	fascist = 0
+	liberal = 25
+	conservative = 65
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
+
+#Additional Technologies
+stock_exchange = 1
+ad_hoc_money_bill_printing = 1
+private_bank_money_bill_printing = 1
+late_classical_theory = 1
+market_structure = 1
+practical_steam_engine = 1
+mechanical_production = 1
+experimental_railroad = 1
+
+#Inventions
+precision_work = yes
+
+oob = "ULM_oob.txt"
+1861.1.1 = {
+	oob = "/1861/ULM_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+	post_napoleonic_thought = 1
+	strategic_mobility = 1
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	military_staff_system = 1
+	army_command_principle = 1
+	army_professionalism = 1
+	army_decision_making = 1
+	private_banks = 1
+	stock_exchange = 1
+	no_standard = 1
+	early_classical_theory_and_critique = 1
+	freedom_of_trade = 1
+	guild_based_production = 1
+	organized_factories = 1
+	classicism_n_early_romanticism = 1
+	romanticism = 1
+	realism = 1
+	late_enlightenment_philosophy = 1
+	idealism = 1
+	malthusian_thought = 1
+	positivism = 1
+	enlightenment_thought = 1
+	introspectionism = 1
+	water_wheel_power = 1
+	publishing_industry = 1
+	mechanical_production = 1
+	interchangeable_parts = 1
+	mechanized_mining = 1
+	clean_coal = 1
+	cheap_iron = 1
+	experimental_railroad = 1
+	early_railroad = 1
+	iron_railroad = 1
+	basic_chemistry = 1
+	medicine = 1
+	post_nelsonian_thought = 1
+	clipper_design = 1
+	steamers = 1
+	naval_design_bureaus = 1
+	alphabetic_flag_signaling = 1
+	the_command_principle = 1
+
+#Inventions
+	john_ramsay_mcculloch = yes
+	nassau_william_sr = yes
+	james_mill = yes
+	ammunition_production = yes
+	small_arms_production = yes
+	explosives_production = yes
+	artillery_production = yes
+	building_station_shipyards = yes
+	pit_coal = yes
+	coke = yes
+	pitts_threshing_machine = yes
+	northrop_power_loom = yes
+	mechanical_saw = yes
+	mechanical_precision_saw = yes
+	machine_tools = yes
+	integral_distillery_process = yes
+	whitney_n_colts_standardized_small_arms = yes
+	precision_work = yes
+	mechanized_slaughtering_block = yes
+	neokantian_idealism = yes
+	hussey_n_mccormicks_reaping_machine = yes
+	jiggs = yes
+	jacquard_power_loom = yes
+	genetics:_heredity = yes
+	pressure_chambers_for_thorax_surgery = yes
+	sharp_n_roberts_power_loom = yes
+	proto_existentialism = yes
+	hegelian_idealism = yes
+	food_packing_system = yes
+	prophylaxis_against_malaria = yes
+	aerial_bacteria_and_antiseptic_principle = yes
+	vaccination = yes
+	advanced_ore_smelting_processes = yes
+	advanced_ore_grinding_processes = yes
+	chemotherapy = yes
+	work_specialization = yes
+	work_control_and_hierarchy = yes
+	combat_medicine = yes
+	bessemer_steel = yes
+	steamer_transports = yes
+	advanced_ore_roasting_processes = yes
+	clinical_thermometers_and_binaural_stethoscopes = yes
+	commerce_raiders = yes
+	steamer_automatic_construction_plants = yes
+	work_classification = yes
+	mechanized_fishing_vessels = yes
+	field_fortifications = yes
+	signal_detachments = yes
+	army_societal_status = yes
+	insurance_companies = yes
+	field_training = yes
+	army_independent_command = yes
+	railroad_transport_groups = yes
+	multitude_of_financial_instruments = yes
+}
+
+schools = commerce_tech_school

@@ -4,6 +4,7 @@ religion = protestant
 government = democracy
 plurality = 0.5
 nationalvalue = nv_liberty
+civilized = yes
 literacy = 0.1
 
 

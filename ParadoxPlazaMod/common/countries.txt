@@ -3,6 +3,12 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
+### r/ParadoxPlaza MOD ###
+
+#Europe
+
+ULM = "countries/Ulm.txt"
+
 ### NEW NATIONS MOD ###
 
 #Latin America

@@ -1,0 +1,23 @@
+owner = WUR
+controller = WUR
+add_core = ULM
+add_core = WUR
+add_core = GER
+
+trade_goods = grain
+
+life_rating = 35
+
+fort = 2
+railroad = 1
+1861.1.1 = { fort = 3 }
+1861.1.1 = { railroad = 3 }
+state_building = {
+
+	level = 1
+
+	building = liquor_distillery
+
+	upgrade = yes
+
+}
