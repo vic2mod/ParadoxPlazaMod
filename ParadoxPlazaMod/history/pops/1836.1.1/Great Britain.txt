@@ -2101,7 +2101,7 @@
 		size = 50
 	}
 	aristocrats = {
-		culture = manx
+		culture = scottish
 		religion = protestant
 		size = 50
 	}
@@ -2112,13 +2112,13 @@
 		size = 15
 	}
 	bureaucrats = {
-		culture = max
+		culture = scottish
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = manx
+		culture = scottish
 		religion = protestant
 		size = 75
 	}
@@ -2129,7 +2129,7 @@
 	}
 
 	artisans = {
-		culture = manx
+		culture = scottish
 		religion = protestant
 		size = 2000
 	}
@@ -2148,7 +2148,7 @@
 	}
 
 	labourers = {
-		culture = manx
+		culture = scottish
 		religion = protestant
 		size = 4000
 	}
