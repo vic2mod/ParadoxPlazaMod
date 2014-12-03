@@ -2005,6 +2005,18 @@ american_cultures = {
 		Davis Lane Posey Scales Warner Imboden Jenkins
 		}
 	}
+	cajun = {
+		color = {120 120 240}
+		first_names = { Alphonse Amedee Amos Armand Auguste Bartheleme Beauregard Bernard Bertrand Buford Charles Clovis Cornelius
+		Dagobert Dempsey Eloi Gaston Gilbert Gustave Hippolyte Homer Jacques Jean-Baptiste Jules Landry Leon LeRoy Louis Octaive Otis
+		Napoleon Philippe Pierre Remy Rene Rex Theodore Virgil
+		}
+	
+		last_names = { Aucoin Babin Beliveau "de Bellisle" Bertrand Blanchard Boudreau Bourg Bourgeois Breau Brun Caissy Comeau Cormier
+		Corporon Cyr Daigle d'Entremont Doucet Dugas Dupex Foret Gaudet Guaterot Girouard Granger Guilbaut Herbert Landry Lanoue Latour
+		Leblanc Martin Melancon Morin Pellerin Petitpas Pitre Poirier Richard Rimbaut Robichau Savoie Terriau Thibodeau Trahan Vincent
+		}
+	}
 	texan = {
 		color = {153 0 0}
 		radicalism = 10
