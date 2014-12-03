@@ -272,6 +272,26 @@ british = {
 		FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
 		Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White }
 	}
+	cornish = { 
+		color = { 152 255 152}
+		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+		Edward Ernes Fionán Frank George Harry Jack James John Joseph
+		Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
+		
+		last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
+		FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+		Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White }
+	}
+	manx = { 
+		color = { 119 191 199}
+		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+		Edward Ernes Fionán Frank George Harry Jack James John Joseph
+		Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
+		
+		last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
+		FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+		Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White }
+	}
 	welsh  = { 
 		color = { 76 196 23}
 		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
