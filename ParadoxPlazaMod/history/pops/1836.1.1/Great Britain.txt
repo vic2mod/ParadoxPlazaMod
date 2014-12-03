@@ -1743,19 +1743,33 @@
 	aristocrats = {
 		culture = british
 		religion = protestant
-		size = 1500
+		size = 1000
 	}
-
+	aristocrats = {
+		culture = cornish
+		religion = protestant
+		size = 500
+	}
 	clergymen = {
 		culture = british
 		religion = protestant
-		size = 1250
+		size = 800
+	}
+	clergymen = {
+		culture = cornish
+		religion = protestant
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = protestant
-		size = 5500
+		size = 3500
+	}
+	artisans = {
+		culture = cornish
+		religion = protestant
+		size = 1500
 	}
 
 	soldiers = {
@@ -1768,10 +1782,15 @@
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 186250
+		size = 124000
+	}
+	labourers = {
+		culture = british
+		religion = protestant
+		size = 62250
 	}
 
-	farmers = {
+	farmers  = {
 		culture = british
 		religion = catholic
 		size = 1100
@@ -2079,25 +2098,46 @@
 	aristocrats = {
 		culture = british
 		religion = protestant
-		size = 100
+		size = 50
+	}
+	aristocrats = {
+		culture = manx
+		religion = protestant
+		size = 50
 	}
 
 	bureaucrats = {
 		culture = british
 		religion = protestant
-		size = 25
+		size = 15
+	}
+	bureaucrats = {
+		culture = max
+		religion = protestant
+		size = 10
 	}
 
 	clergymen = {
+		culture = manx
+		religion = protestant
+		size = 75
+	}
+	clergymen = {
 		culture = british
 		religion = protestant
-		size = 125
+		size = 50
+	}
+
+	artisans = {
+		culture = manx
+		religion = protestant
+		size = 2000
 	}
 
 	artisans = {
 		culture = british
 		religion = protestant
-		size = 3250
+		size = 1250
 	}
 
 	soldiers = {
@@ -2108,9 +2148,14 @@
 	}
 
 	labourers = {
+		culture = manx
+		religion = protestant
+		size = 4000
+	}
+	labourers = {
 		culture = british
 		religion = protestant
-		size = 7600
+		size = 3600
 	}
 
 	labourers = {
