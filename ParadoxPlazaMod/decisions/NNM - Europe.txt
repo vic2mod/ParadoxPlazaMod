@@ -231,9 +231,9 @@ political_decisions = {
 			585 = { add_core = WES }
 			2561 = { add_core = WES }
 			
-			#Yugoslavia (no longer a union)
-			YUG = {
-				all_core = { remove_core = YUG }
+			#Yugoslavia (no longer a union) (Union once more)
+			#YUG = {
+			#	all_core = { remove_core = YUG }
 			}
 		}
 		ai_will_do = {
