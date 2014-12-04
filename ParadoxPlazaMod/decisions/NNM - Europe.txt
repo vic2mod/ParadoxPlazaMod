@@ -234,7 +234,7 @@ political_decisions = {
 			#Yugoslavia (no longer a union) (Union once more)
 			#YUG = {
 			#	all_core = { remove_core = YUG }
-			}
+			#}
 		}
 		ai_will_do = {
 			factor = 1
