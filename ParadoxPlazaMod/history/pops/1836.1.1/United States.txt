@@ -3231,73 +3231,73 @@
 #New Orleans (128000/32000 POPS)
 139 = {
 	aristocrats = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 225
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 650
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 13250
 	}
 
 	aristocrats = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 1000
 	}
 	
 	farmers = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 5550
 	}	
 
 	artisans = {
-		culture = dixie
+		culture = cajun
 		religion = jewish
 		size = 50
 	}
@@ -3342,91 +3342,91 @@
 #Baton Rouge (72000/18000 POPS)
 140 = {
 	aristocrats = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 50
 	}
 
 	officers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 45
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 175
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 3430
 	}
 
 	aristocrats = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 125
 	}
 
 	bureaucrats = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 50
 	}
 
 	officers = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 30
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = cajun
 		religion = catholic
 		size = 1470
 	}
 	
 	farmers = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 2000
 	}	
@@ -3465,37 +3465,37 @@
 #Lake Charles (36000/9000 POPS)
 141 = {
 	aristocrats = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 175
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 3000
 	}
 	
 	farmers = {
-		culture = french
+		culture = cajun
 		religion = catholic
 		size = 525
 	}	
@@ -3527,31 +3527,31 @@
 #Shreveport (44000/11000 POPS)
 142 = {
 	aristocrats = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = dixie
+		culture = cajun
 		religion = protestant
 		size = 4550
 	}

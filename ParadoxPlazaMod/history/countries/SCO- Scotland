@@ -1,5 +1,5 @@
-capital = 273
-primary_culture = welsh
+capital = 269
+primary_culture = scottish
 religion = protestant
 government = hms_government
 plurality = 0.1
@@ -24,10 +24,10 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
-pensions = no_pensions
+pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = WHA_liberal
+ruling_party = SCO_liberal
 upper_house = {
 	fascist = 1
 	liberal = 59
@@ -36,4 +36,13 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+1861.1.1 = {
+	oob = "/1861/SCO_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+#Inventions
 }

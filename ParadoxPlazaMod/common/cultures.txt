@@ -250,9 +250,40 @@ british = {
 		Moresby Mundy Napier Odoni "of Hannover" "of Saxe-Coburg-Gotha" Plummer Ragland Roberts Seaton Seymour
 		Smith Smith-Dorrien Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood }
 	}
+	scottish = {
+		color = { 255 216 1}
+		first_names = { Alan Alastair Alban Alpin Andrew Angus Aulay Blane Boyd Calum Clyde Coll Derek Donald
+		Donnan Dougal Douglas Duff Duncan Ewan Farquar Fingal Finlay Gavin Gillian Gillis Gordon Greer Hamish
+		Ian Ivar Kenneth Kentigern Kirk Kyle Lachlan Lorne Malcom Mirren Mungo Neil Nevin Ranald Rory Ross Sholto
+		Somerled Tavish Torquil Wallace }
+		
+		last_names = {Alexander Anderson Bailey Bell Brown Campbell Clark Cooper Graham Hamilton Henderson
+		Patterson Marshall McDonald Mitchell Murray Ross Scott Smith Stewart Thompson Walker Watson Wilson
+		Young Wallace }
+	}
 	irish = { 
 		color = { 35 140 50}
 		radicalism = 15
+		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+		Edward Ernes Fionán Frank George Harry Jack James John Joseph
+		Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
+		
+		last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
+		FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+		Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White }
+	}
+	cornish = { 
+		color = { 152 255 152}
+		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+		Edward Ernes Fionán Frank George Harry Jack James John Joseph
+		Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
+		
+		last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
+		FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+		Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White }
+	}
+	welsh  = { 
+		color = { 76 196 23}
 		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
 		Edward Ernes Fionán Frank George Harry Jack James John Joseph
 		Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
@@ -336,6 +367,24 @@ iberian = {
 	}
 	spanish = {
 		color = {220 220 30}
+		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
+		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
+		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
+		
+		last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
+			Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
+			"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
+			García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
+			Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+			Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
+			Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
+		}
+	andalusian = {
+		color = {110 220 45}
 		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
 		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
 		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
@@ -1944,6 +1993,18 @@ american_cultures = {
 		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
 		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
 		Davis Lane Posey Scales Warner Imboden Jenkins
+		}
+	}
+	cajun = {
+		color = {120 120 240}
+		first_names = { Alphonse Amedee Amos Armand Auguste Bartheleme Beauregard Bernard Bertrand Buford Charles Clovis Cornelius
+		Dagobert Dempsey Eloi Gaston Gilbert Gustave Hippolyte Homer Jacques Jean-Baptiste Jules Landry Leon LeRoy Louis Octaive Otis
+		Napoleon Philippe Pierre Remy Rene Rex Theodore Virgil
+		}
+	
+		last_names = { Aucoin Babin Beliveau "de Bellisle" Bertrand Blanchard Boudreau Bourg Bourgeois Breau Brun Caissy Comeau Cormier
+		Corporon Cyr Daigle d'Entremont Doucet Dugas Dupex Foret Gaudet Guaterot Girouard Granger Guilbaut Herbert Landry Lanoue Latour
+		Leblanc Martin Melancon Morin Pellerin Petitpas Pitre Poirier Richard Rimbaut Robichau Savoie Terriau Thibodeau Trahan Vincent
 		}
 	}
 	texan = {
