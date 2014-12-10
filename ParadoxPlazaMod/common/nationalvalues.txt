@@ -65,8 +65,8 @@ nv_order = {
 
 nv_freedom = {
 	mobilisation_size = 0.02
-	global_immigrant_attract = 1.00
-	assimilation_rate = 0.5
+	global_immigrant_attract = 1.20
+	assimilation_rate = 0.2
 	non_accepted_pop_militancy_modifier = 0.03
 	poor_everyday_needs = 0.1
 	middle_everyday_needs = 0.1
