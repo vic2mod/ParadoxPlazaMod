@@ -1,4 +1,4 @@
-# Do not change tags in here without changing every other reference to them.
+﻿# Do not change tags in here without changing every other reference to them.
 # If adding new groups or cultures, make sure they are unique.
 
 germanic = {
@@ -630,6 +630,7 @@ pan_albanian = {
 		}
 		radicalism = 15
 	}
+	union = ALB
 
 }
 
@@ -724,6 +725,7 @@ czecho_slovak_culture_group = {
 		Masaryk Móry Moyses Rázus Rohácek Rudnay Selepcéni Sidor Skultéty-Gábris Smik
 		Sokol Stefánik Suchon Sverma Tiso Trcka Tuka Turanec Viest Zoch }
 	}
+	union = CZH
 }
 
 east_slavic = {
@@ -1810,7 +1812,7 @@ native_american = {
 	}
 	nahua = {
 		color = {88 175 160}
-		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		first_names = { Antonio Carlos Cuauhtémoc Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
 		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
 
@@ -1834,7 +1836,7 @@ native_american = {
 		Francisco Gustavo Hilario Inca Isaac "José María" Julio Lorenzo Manuel Marcos
 		Mariano Martín Nicolás Osvaldo René Roberto Simón Túpac Ulises Víctor }
 
-		last_names = { Arguedas Barrientos Cajahuanca Canchata Chambi Chihuán Cusurichi Espejo Frisancho Gamarra
+		last_names = { Amaru Arguedas Barrientos Cajahuanca Canchata Chambi Chihuán Cusurichi Espejo Frisancho Gamarra
 		Guaman Guayasamín Gutiérrez Heredia Humala Iturri Lazarte Ludueña Melgarejo Palacios
 		Patiño Quispe Rodríguez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata }
 	}
@@ -1938,14 +1940,14 @@ native_american = {
 	}
 	navajo = {
 		color = {83 111 191}
-		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee" Goyathlay Goyahkla
 		}
 		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
 		}
 	}
 	native_american_minor = {
 		color = {25 25 90}
-		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez Tecumseh 
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
 		}
@@ -1953,7 +1955,7 @@ native_american = {
 	
 	miskito = {
 		color = {25 144 90}
-		first_names = { John Paul JosELouis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		first_names = { John Paul Jose-Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
 		}
@@ -1999,7 +2001,7 @@ american_cultures = {
 		color = {120 120 240}
 		first_names = { Alphonse Amedee Amos Armand Auguste Bartheleme Beauregard Bernard Bertrand Buford Charles Clovis Cornelius
 		Dagobert Dempsey Eloi Gaston Gilbert Gustave Hippolyte Homer Jacques Jean-Baptiste Jules Landry Leon LeRoy Louis Octaive Otis
-		Napoleon Philippe Pierre Remy Rene Rex Theodore Virgil
+		Napoleon Philippe Pierre PGT Remy Rene Rex Theodore Virgil
 		}
 	
 		last_names = { Aucoin Babin Beliveau "de Bellisle" Bertrand Blanchard Boudreau Bourg Bourgeois Breau Brun Caissy Comeau Cormier
