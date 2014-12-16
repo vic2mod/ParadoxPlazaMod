@@ -1,9 +1,5 @@
 capital = 2137
-primary_culture = dixie
-culture = yankee
-culture = texan
-culture = cajun
-culture = mexican
+primary_culture = mexican
 religion = catholic
 government = presidential_dictatorship
 plurality = 0.0
