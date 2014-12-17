@@ -1,3 +1,11 @@
+As of 12/15/2014 - CHANGELOG INCOMPLETE
+-Massive flag overhaul implemented
+-Optional rectangular flag frames mod added (temporary until less fuzzy versions can be created)
+-Scottish, Welsh, Cornish, Andalusian, and Cajun cultures added (others?)
+-Primary culture of Sonora is now Dixie, Yankee, Texan, and Mexican are accepted cultures (first step in implementing William Walker event chains)
+-Albania is union tag for Pan-Albanian culture group, Czechoslovakia is union tag for Czechoslovak group
+
+
 As of 11/30/2014
 
 -Fixed all the bugs that came about from merging North and South America in Vickymod 1.06. They are now two seperate continents again btw.
