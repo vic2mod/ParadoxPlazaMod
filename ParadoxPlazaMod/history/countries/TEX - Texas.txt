@@ -1,7 +1,5 @@
 capital = 133
 primary_culture = texan
-culture = cajun
-culture = dixie
 religion = protestant
 government = democracy
 plurality = 25.0
