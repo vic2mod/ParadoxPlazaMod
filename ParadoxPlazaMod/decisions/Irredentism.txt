@@ -540,7 +540,11 @@ political_decisions = {
 	provincia_cisplatina={
 		picture = banda_oriental
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = RGS
+			}
+			
 			NOT = {
 				has_country_flag = cisplatina_is_ours 
 			}
@@ -555,16 +559,16 @@ political_decisions = {
 			badboy = 4
 			set_country_flag = cisplatina_is_ours #Uruguay provinces
 			2344 = {
-				add_core = BRZ
+				add_core = THIS
 			}
 			2345 = {
-				add_core = BRZ
+				add_core = THIS
 			}
 			2346 = {
-				add_core = BRZ
+				add_core = THIS
 			}
 			2347 = {
-				add_core = BRZ
+				add_core = THIS
 			}
 
 		}
@@ -581,7 +585,10 @@ political_decisions = {
 	rio_da_prata={
 		picture = rhodesia_charter
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = RGS
+			}
 			NOT = {
 				has_country_flag = prata_is_ours 
 			}
@@ -597,22 +604,22 @@ political_decisions = {
 			badboy = 6
 			set_country_flag = prata_is_ours 
 			2554 = { #posadas
-				add_core = BRZ
+				add_core = THIS
 			}
 			2358= { #santo tomas
-				add_core = BRZ
+				add_core = THIS
 			}
 			2357 = { #curuzu
-				add_core = BRZ
+				add_core = THIS
 			}
 			2356 = { #corrientes
-				add_core = BRZ
+				add_core = THIS
 			}
 			2359 = { #colon
-				add_core = BRZ
+				add_core = THIS
 			}
 			2360 = { #parana
-				add_core = BRZ
+				add_core = THIS
 			}
 
 		}
@@ -3067,5 +3074,119 @@ political_decisions = {
 			}	
 		}	
 	}
+	
+	claim_santa_catarina = {
+		picture = banda_oriental
+		potential = {
+			tag = RGS
+			NOT = { has_country_flag = claim_santa_catarina }
+			NOT = {
+				2459 = {
+					is_core = THIS
+				}
+				2461 = {
+					is_core = THIS
+				}
+				2462 = {
+					is_core = THIS
+				}
+			}
+		}
+
+		allow = {
+			2459 = {
+				controlled_by = THIS
+			}
+			2461 = {
+				controlled_by = THIS
+			}
+			2462 = {
+				controlled_by = THIS
+			}
+		}
+
+		effect = {
+			prestige = 5
+			set_country_flag = claim_santa_catarina
+			2459 = {
+				add_core = RGS
+			}
+			2461 = {
+				add_core = RGS
+			}
+			2462 = {
+				add_core = RGS
+			}
+	
+		}	
+	}
+	
+	
+	amazonian_claim={
+		picture = our_brothers_the_gauchos
+		potential = {
+			OR = {
+				tag = GUI
+				tag = CEQ
+			}
+			
+			NOT = {
+				has_country_flag = amazoniam_claim 
+			}
+		}
+		
+		allow = {
+			romanticism = 1
+			is_greater_power = yes
+		}
+		
+		effect = {
+			badboy = 6
+			set_country_flag = amazoniam_claim #Amazonian and Paraean provinces
+			2401 = {
+				add_core = THIS
+			}
+			2402 = {
+				add_core = THIS
+			}
+			2403 = {
+				add_core = THIS
+			}
+			2404 = {
+				add_core = THIS
+			}
+			2405 = {
+				add_core = THIS
+			}
+			2407 = {
+				add_core = THIS
+			}
+			2532 = {
+				add_core = THIS
+			}
+			2410 = {
+				add_core = THIS
+			}
+			2415 = {
+				add_core = THIS
+			}
+			2600 = {
+				add_core = THIS
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.50
+			}		
+		}
+	}
+	
+	
+	
+	
+	
 	
 }

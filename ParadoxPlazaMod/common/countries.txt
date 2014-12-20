@@ -13,6 +13,7 @@ ULM = "countries/Ulm.txt"
 
 #Latin America
 
+CEQ		= "countries/Equador Confederation.txt"
 CHP		= "countries/Chiapas.txt"
 ENT		= "countries/Entre Rios.txt"
 GCO		= "countries/Gran Colombia.txt"

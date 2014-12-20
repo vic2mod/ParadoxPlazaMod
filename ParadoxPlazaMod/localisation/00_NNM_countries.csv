@@ -1157,12 +1157,12 @@ OCC_communist;Partit Comunisto;Partit Comunisto;Partit Comunisto;;Partit Comunis
 OCC_fascist;Partit Faissisto;Partit Faissisto;Partit Faissisto;;Partit Faissisto;;;;;;;;;;;x
 PAP_democracy;Roman Republic;;;;;;;;;;;;;x
 PAP_presidential_dictatorship;Roman Republic;;;;;;;;;;;;;x
-PAP__bourgeois_dictatorship;Roman Republic;;;;;;;;;;;;;x
+PAP_bourgeois_dictatorship;Roman Republic;;;;;;;;;;;;;x
 PAP_proletarian_dictatorship;Roman People's Republic;;;;;;;;;;;;;x
 PAP_fascist_dictatorship;Roman Republic;;;;;;;;;;;;;x
 PAP_ADJ_democracy;Roman;;;;;;;;;;;;;x
 PAP_ADJ_presidential_dictatorship;Roman;;;;;;;;;;;;;x
-PAP_ADJ__bourgeois_dictatorship;Roman;;;;;;;;;;;;;x
+PAP_ADJ_bourgeois_dictatorship;Roman;;;;;;;;;;;;;x
 PAP_ADJ_proletarian_dictatorship;Roman;;;;;;;;;;;;;x
 PAP_ADJ_fascist_dictatorship;Roman;;;;;;;;;;;;;x
 PAR_reactionary;Restaurazionisti;Restaurazionisti;Restaurazionisti;;Restaurazionis ti;;;;;;;;;x

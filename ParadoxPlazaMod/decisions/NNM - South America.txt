@@ -67,6 +67,27 @@ political_decisions = {
 					remove_core = UCA
 				}
 			}
+			
+			#Equador Confederation
+			2423 =  { add_core = CEQ }
+			2424 =  { add_core = CEQ }
+			2425 =  { add_core = CEQ }
+			2426 =  { add_core = CEQ }
+			2427 =  { add_core = CEQ }
+			2428 =  { add_core = CEQ }
+			2429 =  { add_core = CEQ }
+			2430 =  { add_core = CEQ }
+			2431 =  { add_core = CEQ }
+			2432 =  { add_core = CEQ }
+			2433 =  { add_core = CEQ }
+			2434 =  { add_core = CEQ }
+			2435 =  { add_core = CEQ }
+			2436 =  { add_core = CEQ }
+			2437 =  { add_core = CEQ }
+			2438 =  { add_core = CEQ }
+			2439 =  { add_core = CEQ }
+			2440 =  { add_core = CEQ }
+			
 		}
 		ai_will_do = {
 			factor = 1

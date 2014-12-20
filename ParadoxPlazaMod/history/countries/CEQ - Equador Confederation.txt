@@ -1,6 +1,7 @@
 capital = 2432
-primary_culture = brazilian
+primary_culture = nordestino
 culture = afro_brazilian
+culture = brazilian
 religion = catholic
 government = democracy
 plurality = 0.0

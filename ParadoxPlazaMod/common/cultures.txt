@@ -2165,6 +2165,13 @@ latin_american_cultures = {
 		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
 		}
 	}
+}
+
+
+luso_american_cultures = {
+	leader = southamerican
+	is_overseas = no
+	unit = SouthAmericanGC
 	brazilian = {
 		color = {0 112 66}
 		first_names = { Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio
@@ -2181,6 +2188,38 @@ latin_american_cultures = {
 		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
 		}
 	}
+	nordestino = {
+		color = {60 102 46}
+		first_names = { Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio
+		Delfim Deodoro Eduardo Emílio Epitácio Ernesto Fábio Fernando Filipe Federico Gaspar Gastão Getúlio Henrique Hermes Humberto Isaías
+		João Joaquim José Júlio Juscelino Luís Manuel "Marco Antônio" Mário Miguel
+		Nereu Nilo Paulo Pedro Silviano Tancredo Urbano Venceslau Vital Francisco Tomás Bernardo Félix Vicente 
+		Isidro Domingos Herculano Honório Vítor Sérgio Benevenuto Ambrósio Anselmo Abílio Quintino Brás Frederico Diogo 
+		Adelino Adolfo Lourenço Franklin Sancho Inácio Inocêncio Sigismundo 
+		}
+
+		last_names = { "Barreto" "Albuquerque" "de Melo" "de Andrade" "de Lima e Silva" "da Silva Ferrão" "Cavalcanti" "Mairink" "de Almeida" "de Vasconcelos" "de Andrade" "Cavalcanti e Albuquerque" "Portugal" "dos Santos" "de Lira" "de Miranda" "de Carvalho" "de Figueiredo" "de Camargo" "do Rego" "Barros" "Monteiro" "Teixeira" "Mesquita e Silva" "de Brito" "Garcia" "da Gama" "da Mota" "Ferreira" "da Costa Pinto" "Pena" "Tosta" "Leão" "de Sousa Ramos" "de Oliveira" "Ribeiro" "de Macedo" "Portela" "Taques" "de Sousa e Melo" "Saraiva" "Moniz" "da Cunha" "Pires" "Gonçalves" "Machado" "Correia" "de Sousa" "Peretti" "Castelo Branco" "Campelo" "Paranaguá" "Carneiro" "da Silveira" "Rocha" "da Costa e Gama" "de Almeida e Albuquerque" "Junqueira" "de Faria Lemos" "de Lucena" "de Morais" "Maciel" "de Luna Freire" "de Albuquerque Lacerda" "Dória" "de Sousa Lima" "de Barros Correia" "Barroso" "Pereira" "Pimentel" "Chaves" "de Queiroz" "de Souza Leão" "de Azevedo" "Andrade" "Góis" "de Araújo"
+		}
+	}
+	gaucho = {
+		color = {0 92 126}
+		first_names = { José Alexandre Antero Antônio Bento Bernardo Caetano Bonifácio Daniel David Demétrio Domingos 
+		Emílio Fidêncio Filipe Francisco Frederico Giuseppe Genuíno Otto Hermann Hilário Hildebrando Hipólito Inácio 
+		Jacinto Jerônimo João Joaquim José Juliano Leão Lopo Luís Manuel Marciano Marco Olivério Onofre Pedro 
+		Rodrigo Luigi Salustiano Sebastião Serafim Severino Tomás Vasco Vicente Victorino Tito
+		}
+
+		last_names = {"de Almeida" "Gomes" "Garibaldi" "de Brito" "Pereira" "Gonçalves" "da Silva" "do Amaral" "Coelho" 
+		"da Cruz" "de Melo" "da Fontoura" "Braga" "de Sampaio" "de Sousa" "Leitão" "Ribeiro" "Pires" "Rocha" "Garcia" 
+		"Calderón" "de Freitas" "Canabarro" "Xavier" "de Carvalho" "de Almeida" "de Araújo Bastos" "Mallet" "Ortiz" "de Oliveira" 
+		"Machado" "das Chagas" "da Fonseca" "da Rocha" "de Andrea" "Mena" "de Abreu" "de Sá" "da Cunha" "Ferreira" "Fortes" "Guimarães" 
+		"de Bittencourt" "Braga" "de Lima e Silva" "Tavares" "de Azambuja" "Barreto" "Lopes" "de Andrade Neves" "Mendanha" "de Campos" "de Matos" 
+		"de Paiva" "de Albuquerque" "Cintra" "Lobato" "Zambeccari"
+		}
+	}
+	
+	union = BRZ
+
 }
 
 african_diaspora_cultures = {
