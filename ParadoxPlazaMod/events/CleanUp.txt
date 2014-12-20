@@ -87,7 +87,11 @@ country_event = {
 	trigger = {
 		is_vassal = no
 		civilized = yes
-		government = democracy
+		OR = {
+			government = democracy
+			government = bourgeois_dictatorship
+		}
+		
 		ruling_party_ideology = reactionary
 		average_militancy = 3
 		OR = {
@@ -128,6 +132,10 @@ country_event = {
 		modifier = {
 			factor = 4
 			literacy = 0.7
+		}
+		modifier = {
+			factor = 10
+			government = bourgeois_dictatorship
 		}
 	}
 	major = yes
@@ -314,7 +322,7 @@ country_event = {
 
 country_event = {
 	id = 60050
-	title = "EVTNAME60050"
+	title = "Govern reforms as a partial republic"
 	desc = "EVTDESC60050"
 	news = yes
 	news_desc_long = "EVTDESC60050_NEWS_LONG"
@@ -324,15 +332,63 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			government = proletarian_dictatorship
+			#government = proletarian_dictatorship
 			government = presidential_dictatorship
-			government = bourgeois_dictatorship
+			#government = bourgeois_dictatorship
 			government = fascist_dictatorship
 		}
 		civilized = yes
 		NOT = { vote_franschise = none_voting }
 		NOT = { political_parties = underground_parties }
 		NOT = { upper_house_composition = party_appointed }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	major = yes
+	option = {
+		name = "EVTOPTA60050"
+		remove_country_modifier = fight_the_power
+		government = bourgeois_dictatorship
+		election = yes
+	}
+}
+
+country_event = {
+	id = 60051
+	title = "EVTNAME60050"
+	desc = "EVTDESC60050"
+	news = yes
+	news_desc_long = "EVTDESC60050_NEWS_LONG"
+	news_desc_medium = "EVTDESC60050_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60050_NEWS_SHORT"
+	picture = "senate_debate"
+	
+	trigger = {
+		OR={
+			AND = {
+				government = bourgeois_dictatorship
+				
+				OR = {
+					political_parties = secret_ballots
+					political_parties = non_secret_ballots
+				}
+				civilized = yes
+				OR = {
+					vote_franschise = universal_weighted_voting
+					vote_franschise = universal_voting
+				}
+			}
+			AND = {
+			government = proletarian_dictatorship
+			civilized = yes
+			NOT = { vote_franschise = none_voting }
+			NOT = { political_parties = underground_parties }
+			NOT = { upper_house_composition = party_appointed }
+			}
+			
+		}
 	}
 	
 	mean_time_to_happen = {

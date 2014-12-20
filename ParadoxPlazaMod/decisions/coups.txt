@@ -1,0 +1,234 @@
+political_decisions = {
+	surrender_military_coup = {
+		potential = {
+			civilized = yes
+			war = no
+			is_disarmed = no
+			total_amount_of_divisions = 1
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+#			NOT = {
+#				has_country_modifier = military_strife
+#				has_country_modifier = coup_risk
+#				literacy = 0.50
+#			}
+			any_pop = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+				type = officers
+				location = { is_core = THIS }
+				militancy = 7
+			}
+		}
+		
+		allow = {
+			civilized = yes
+			war = no
+			is_disarmed = no
+			is_vassal = no
+			total_amount_of_divisions = 1
+			capital_scope = {
+				controlled_by = THIS
+				country_units_in_province = THIS
+			}
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			OR = {
+				average_militancy = 6
+				revolt_percentage = .10
+				has_country_modifier = coup_risk
+			}
+			NOT = {
+				has_country_modifier = national_confusion
+				has_country_modifier = military_strife
+				#capital_scope = { continent = europe }
+				#is_culture_group = american_cultures
+				#is_culture_group = neo_european_cultures
+				#literacy = 0.50
+			}	
+		}
+		
+		effect = {
+			remove_country_modifier = coup_risk
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+					OR = {
+						type = soldiers
+						type = officers
+					}
+				}
+				militancy = -8
+				consciousness = -4
+			}
+			government = presidential_dictatorship
+			ruling_party_ideology = reactionary
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			clr_country_flag = tory_election_win
+			clr_country_flag = socialist_election_win
+			clr_country_flag = liberal_election_win
+			clr_country_flag = communist_election_win
+			clr_country_flag = fascist_election_win
+			clr_country_flag = reactionary_election_win
+			clr_country_flag = anarcho_liberal_election_win
+			clr_country_flag = social_liberal_election_win
+			remove_country_modifier = expert_diplomat
+			remove_country_modifier = successful_industrialist
+			remove_country_modifier = ivory_tower_intellectual
+			remove_country_modifier = man_of_the_people
+			remove_country_modifier = landed_gentleman
+			remove_country_modifier = military_man
+			remove_country_modifier = lord_admiral
+			remove_country_modifier = raving_loon
+			remove_country_modifier = luddite
+			remove_country_modifier = great_statesman
+			remove_country_modifier = backroom_boy
+			remove_country_modifier = great_reformer
+			remove_country_modifier = gauche_buffoon
+			remove_country_modifier = administrative_genius
+			remove_country_modifier = visionary_thinker
+			remove_country_modifier = competent_placeholder
+			remove_country_modifier = imperious_autocrat
+			remove_country_modifier = prince_of_terror
+			remove_country_modifier = efficient_sociopath
+			remove_country_modifier = pig_headed_isolationist
+			remove_country_modifier = ambitious_union_boss
+			remove_country_modifier = dour_economist
+			add_country_modifier = {
+				name = national_confusion
+				duration = 365
+			}
+			prestige = -25
+			country_event = 800050
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = {
+							average_militancy = 9
+					}
+					capital_scope = { continent = europe }
+					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
+					literacy = 0.60
+				}
+			}		
+		}
+	}
+	
+	abdicate_the_throne = {
+	
+		potential = {
+		
+			civilized = yes
+			war = no
+			OR = {
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		
+		}
+		
+		allow = {
+		
+			civilized = yes
+			war = no
+			capital_scope = {
+				controlled_by = THIS
+				country_units_in_province = THIS
+			}
+			OR = {
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			OR = {
+				average_militancy = 6
+				revolt_percentage = .10
+				has_country_modifier = coup_risk
+			}
+			
+		
+		
+		}
+		
+		effect = {
+		
+		government = bourgeois_dictatorship
+			clr_country_flag = tory_election_win
+			clr_country_flag = socialist_election_win
+			clr_country_flag = liberal_election_win
+			clr_country_flag = communist_election_win
+			clr_country_flag = fascist_election_win
+			clr_country_flag = reactionary_election_win
+			clr_country_flag = anarcho_liberal_election_win
+			clr_country_flag = social_liberal_election_win
+			remove_country_modifier = expert_diplomat
+			remove_country_modifier = successful_industrialist
+			remove_country_modifier = ivory_tower_intellectual
+			remove_country_modifier = man_of_the_people
+			remove_country_modifier = landed_gentleman
+			remove_country_modifier = military_man
+			remove_country_modifier = lord_admiral
+			remove_country_modifier = raving_loon
+			remove_country_modifier = luddite
+			remove_country_modifier = great_statesman
+			remove_country_modifier = backroom_boy
+			remove_country_modifier = great_reformer
+			remove_country_modifier = gauche_buffoon
+			remove_country_modifier = administrative_genius
+			remove_country_modifier = visionary_thinker
+			remove_country_modifier = competent_placeholder
+			remove_country_modifier = imperious_autocrat
+			remove_country_modifier = prince_of_terror
+			remove_country_modifier = efficient_sociopath
+			remove_country_modifier = pig_headed_isolationist
+			remove_country_modifier = ambitious_union_boss
+			remove_country_modifier = dour_economist
+			add_country_modifier = {
+				name = national_confusion
+				duration = 365
+			}
+			prestige = -25
+		
+		}
+		
+		ai_will_do = {
+			factor 1
+			modifier = {
+				factor = 0
+				OR = {
+						capital_scope = { continent = europe }
+						NOT = {
+							year = 1889
+						}
+						NOT = {
+							average_militancy = 7
+						}
+					}
+
+			}
+
+		}
+	
+	
+	
+	}
+	
+}

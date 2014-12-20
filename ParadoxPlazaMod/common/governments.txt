@@ -31,8 +31,12 @@ bourgeois_dictatorship =
 {
 	#which ideology of parties.
 	anarcho_liberal = yes
+	liberal = yes
+	conservative = yes
+	reactionary = yes
 	
-	election = no
+	election = yes
+	duration = 48
 	appoint_ruling_party = yes
 	flagType = republic
 }
@@ -99,7 +103,6 @@ democracy = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	
 }
  
 
