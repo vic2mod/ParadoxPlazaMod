@@ -83,7 +83,6 @@ country_event = {
 					is_secondary_power = yes
 					colonial_nation = yes
 				}
-				capital_scope = { continent = europe }
 			}
 			leave_alliance = THIS
 			relation = {
@@ -256,7 +255,6 @@ country_event = {
 		}
 		sphere_owner = {
 			is_disarmed = no
-			capital_scope = { continent = europe }
 			OR = {
 				NOT = { tag = RUS }
 				neighbour = THIS
@@ -484,7 +482,6 @@ country_event = {
 		civilized = yes
 		is_vassal = no
 		has_global_flag = berlin_conference
-		capital_scope = { continent = europe }
 		any_owned_province = { port = yes }
 		OR = {
 			is_greater_power = yes
@@ -710,7 +707,6 @@ country_event = {
 	
 	trigger = {
 		has_global_flag = berlin_conference
-		capital_scope = { continent = europe }
 		OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
