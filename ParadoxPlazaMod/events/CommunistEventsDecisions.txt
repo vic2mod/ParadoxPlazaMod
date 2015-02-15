@@ -465,17 +465,21 @@ country_event = {
 
 	trigger = {
 		civilized = yes
-		OR = {
-			invention = hegelian_idealism
-			posivitism = 1
-			collectivist_theory = 1
-			invention = populism_vs._establishment
+		invention = hegelian_idealism
+		posivitism = 1
+		collectivist_theory = 1
+		invention = populism_vs._establishment
+		year = 1850
 		}
 		NOT = {
 			is_ideology_enabled = socialist
 		}
 	}
 	
+	mean_time_to_happen = {
+		months = 16 
+	}
+
 	option = {
 		name = "And then they began."
 		country_event = 1000
@@ -491,6 +495,7 @@ country_event = {
 		invention = existentialism
 		civilized = yes
 		has_unclaimed_cores = yes
+		is_ideology_enabled = communism
 		NOT = {
 			is_ideology_enabled = fascist
 		}
@@ -516,6 +521,7 @@ country_event = {
 		invention = hegelian_idealism
 		nationalism_n_imperialism = 1
 		civilized = yes
+		is_ideology_enabled = socialism
 			OR = {
 				invention = karl_marx
 				invention = friedrich_engels
