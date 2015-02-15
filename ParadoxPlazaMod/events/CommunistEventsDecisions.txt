@@ -79,7 +79,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 12
 	}
 	
 	option = {
@@ -411,7 +411,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 4
 	}
 
 	option = {
@@ -464,6 +464,7 @@ country_event = {
 	desc = "With the growth of socialist thought and ideas, the concept of socialism as a fundamentally separate political ideology has begun."
 
 	trigger = {
+		civilized = yes
 		OR = {
 			invention = hegelian_idealism
 			posivitism = 1
@@ -488,13 +489,15 @@ country_event = {
 	trigger = {
 		invention = social_darwinism
 		invention = existentialism
+		civilized = yes
+		has_unclaimed_cores = yes
 		NOT = {
 			is_ideology_enabled = fascist
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 18
 	}
 	
 	option = {
@@ -512,6 +515,7 @@ country_event = {
 		invention = collectivism
 		invention = hegelian_idealism
 		nationalism_n_imperialism = 1
+		civilized = yes
 			OR = {
 				invention = karl_marx
 				invention = friedrich_engels
@@ -522,7 +526,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 5
+		months = 24
 	}
 	
 	option = {
@@ -604,11 +608,11 @@ country_event = {
 		}
 		any_pop = {
 			scaled_militancy = {
-				factor = 10
+				factor = 8 
 				ideology = reactionary
 			}
 			scaled_militancy = {
-				factor = 10
+				factor = 9 
 				ideology = fascist
 			}
 			any_pop = {
@@ -621,7 +625,7 @@ country_event = {
 				limit = {
 					strata = middle
 				}
-				militancy = 5
+				militancy = 4
 			}
 		}
 		set_country_flag = committee_salv_1
@@ -745,6 +749,7 @@ country_event = {
 			is_greater_power = yes
 			industrial_score = 100
 			has_country_flag = Maoborn
+			capital_scope = europe
 		}
 	}
 	
@@ -905,7 +910,7 @@ country_event = {
 	desc = "Our country looks to you for their development."
 	
 	trigger = {
-		has_country_flag = making_the_commie_choice
+		has_country_flag = making_the_commie _choice
 		NOT = {
 			has_country_flag = economic_chosen
 		}
@@ -923,12 +928,6 @@ country_event = {
 		set_country_flag = economic_chosen
 	}
 	option = {
-		name = "Five Year Plans"
-		set_country_flag = five_year_plans_choose
-		set_country_flag = economic_chosen
-		country_event = 970000
-	}
-	option = {
 		name = "Agrarian Reform, for the Peasants"
 		add_country_modifier = {
 			name = agrarian_reform_beginning
@@ -944,31 +943,41 @@ country_event = {
 	
 	trigger = {
 		war = yes
-		war_exhaustion = 25
+		war_exhaustion = 35 
 		is_ideology_enabled = communist
+		national_provinces_occupied = 25
 		NOT = {
 			government = proletarian_dictatorship
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 26
 	}
 	
 	option = {
 		name = "Damn those who oppose us!"
 		any_pop = {
 			limit = {
-				NOT = {
-					strata = rich
+				strata = poor
 				}
-			}
-			militancy = 10
-			consciousness = 10
+			militancy = 6
+			consciousness = 6
 			ideology = {
 				value = communist
 				factor = 0.1
 			}
+		}
+		any_pop = {
+			limit = {
+				strata = middle
+				}
+			militancy = 4
+			consciousness = 4
+			ideology = {
+				value = communist
+				factor = 0.05
+				}
 		}
 		add_country_modifier = {
 			name = peacebreadland
