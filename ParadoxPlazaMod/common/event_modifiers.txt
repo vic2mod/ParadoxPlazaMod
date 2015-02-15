@@ -38,7 +38,7 @@ peasantryresist = {
 	global_pop_militancy_modifier = 1.13
 	global_pop_consciousness_modifier = 1.23
 	poor_life_needs = 0.76
-	middle_life_needs = 0.64
+	middle_life_needs = 0.64
 	rich_life_needs = 0.4
 	farm_rgo_eff = -0.6
 	max_tariff = 100
@@ -370,23 +370,23 @@ banner_of_the_red = {
 
 3rd_International = {
 	research_points_modifier = 0.3
-	mobilisation_size = 0.5
-	mobilisation_economy_effect = -0.1
-	factory_throughput = 0.65
-	mine_rgo_output = 0.75
+	mobilisation_size = 0.08
+	mobilisation_economy_effect = -0.05
+	factory_throughput = 0.1 
+	mine_rgo_output = 0.1
 	supply_consumption = -0.02
 	population_growth = -0.01
-	war_exhaustion = -0.1
+	war_exhaustion = -0.05
 	leadership_modifier = -0.05
 	rgo_size = -10
 	
 	icon = 14
 }
 Maoist = {
-	poor_life_needs = -0.3
-	RGO_throughput = 0.5
-	factory_throughput = 0.25
-	mobilisation_size = 0.12
+	poor_life_needs = -0.2
+	RGO_throughput = 0.2
+	factory_throughput = 0.15
+	mobilisation_size = 0.08
 
 	icon = 14
 }
@@ -2294,45 +2294,423 @@ communist_technology = {
 	icon = 4
 }
 
-#### 5 Year Plans ####
-5yp_industry = {
-	factory_owner_cost = -0.5
-	education_efficiency_modifier = 0.2
-	poor_everyday_needs = -0.2
-	poor_luxury_needs = -0.4
-	poor_life_needs = 0.4
-	mine_rgo_thoroughput = 0.1
-	factory_thoroughput = 0.2
-	rich_life_needs = 0.9
-	rich_luxury_needs = 0.9
-	rich_everyday_needs = 0.9
-	rgo_size = -0.2
-	farm_rgo_output = 0.5
-	
-	icon = 14
+#### 5 Year Plans - Communist ####
+5yp_industry_communist = {
+	factory_owner_cost = -0.3
+	factory_input = -0.15
+	factory_thoroughput = 0.15     
+	factory_output = 0.15
+	poor_income_modifier = 0.1 
+	rich_income_modifier = -0.1 
+
+	icon = 11 
 }
-5yp_army = {
-	factory_owner_cost = -0.2
-	RGO_thoroughput = 0.3
-	mobilisation_economy_impact = -0.75
-	mobilisation_size = 0.3
-	poor_everyday_needs = -0.6
-	poor_life_needs = -0.6
-	poor_luxury_needs = 0.3
+5yp_army_communist = {
+	mobilisation_economy_impact = -0.35
+	mobilisation_size = 0.1
+	land_organisation = 0.1
+	leadership_modifier = 0.1
+	org_regain = 0.15
+
+	icon = 15 
+}
+5yp_rank_communist = {
+	prestige = 0.5
+	badboy = -0.05
+	poor_life_needs = -0.2
+	poor_income_modifier = 0.1
+	
+	icon = 5 
+}
+5yp_resource_communist = {
+	rgo_throughput = 0.15
+	rgo_output = 0.15
+	farm_rgo_size = 0.1
+	mine_rgo_size = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+		
+	icon = 7 
+	}
+5yp_navy_communist = {
+	naval_organisation = 0.2
+	naval_unit_start_experience = 0.2
+	leadership_modifier = 0.1
+	org_regain = 0.2
+
+	icon = 15 
+	}
+5yp_technology_communist = {
+	research_points = 1.5
+	research_points_modifier = 0.05
+	culture_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	education_efficiency_modifier = 0.2
+	
+	icon = 3 
+	}
+5yp_immigration_communist = {
+	immigrant_attract = 0.15
+	immigrant_push = -0.1
+
+	icon = 17 
+	}
+5yp_ruling_party_support_communist = {
+	ruling_party_support = 0.15
+	tax_efficiency = 0.05
+	war_exhaustion = -0.1
+	suppression_points_modifier = .1
+	
+	icon = 17 
+	}
+
+#### 5 Year Plans - Democracy ####	
+5yp_industry_democracy = {
+	factory_owner_cost = -0.15
+	factory_input = -0.1
+	factory_thoroughput = 0.1
+	factory_output = 0.1
+	poor_income_modifier = -0.05
+	rich_income_modifier = 0.1 
+
+	icon = 11 
+	}
+5yp_army_democracy = {
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.08
+	land_organisation = 0.08
+	leadership_modifier = 0.1
+	org_regain = 0.1
+	
+	icon = 15 
+	}
+5yp_rank_democracy = {
+	prestige = 0.5
+	badboy = -0.07
+	assimilation_rate = 0.1
+
+	icon = 5 
+	}
+5yp_resource_democracy = {
+	rgo_throughput = 0.12
+	rgo_output = 0.12
+	farm_rgo_size = 0.1
+	mine_rgo_size = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+
+	icon = 7
+	}
+5yp_navy_democracy = {
+	naval_organisation = 0.15
+	naval_unit_start_experience = 0.15
+	leadership_modifier = 0.06
+	org_regain = 0.1
+	
+	icon  = 15 
+	}
+5yp_technology_democracy = {
+	research_points = 1.35
+	research_points_modifier = 0.05
+	culture_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	education_efficiency_modifier = 0.2
+	
+	icon = 3 
+	}
+5yp_immigration_democracy = {
+	immigrant_attract = 0.25
+	immigrant_push = -0.25
+	
+	icon = 17 
+	}
+5yp_ruling_party_support_democracy = {
+	ruling_party_support = 0.05
+	tax_efficiency = 0.05
+	war_exhaustion = -0.1
+	suppression_points_modifier = .1
+	
+	icon = 17 
+	}
+	
+#### 5 Year Plans - Fascism ####
+5yp_industry_fascist = {
+	factory_owner_cost = -0.3
+	factory_input = -0.15
+	factory_thoroughput = 0.15     
+	factory_output = 0.15
+	poor_income_modifier = -0.1 
+	rich_income_modifier = 0.1 
+
+	icon = 11 
+	}
+5yp_army_fascist = {
+	mobilisation_economy_impact = -0.35
+	mobilisation_size = 0.1
+	land_organisation = 0.1
+	leadership_modifier = 0.1
+	org_regain = 0.15
+
+	icon = 15 
+	}
+5yp_rank_fascist = {
+	prestige = 0.5
+	badboy = -0.1
+	rich_luxury_needs = -0.2
+	rich_income_modifier = 0.1
+
+	icon =  5 
+	}
+5yp_resource_fascist = {
+	rgo_throughput = 0.15
+	rgo_output = 0.15
+	farm_rgo_size = 0.1
+	mine_rgo_size = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+
+	icon = 7 
+	}
+5yp_navy_fascist = {
+	naval_organisation = 0.2
+	naval_unit_start_experience = 0.2
+	leadership_modifier = 0.1
+	org_regain = 0.2
+	
+	icon  = 15 
+	}
+5yp_technology_fascist = {
+	research_points = 1.5
+	research_points_modifier = 0.05
+	army_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	education_efficiency_modifier = 0.2
+	
+	icon = 3
+	}
+5yp_immigration_fascist = {
+	immigrant_attract = 0.05
+	immigrant_push = -0.15
+	
+	icon = 17 
+	}
+5yp_ruling_party_support_fascist = {
+	ruling_party_support = 0.15
+	tax_efficiency = 0.05
+	war_exhaustion = -0.1
+	suppression_points_modifier = .1
+	
+	icon = 17 
+	}
+	
+#### 5 Year Plans - Anarcho Liberal ####
+5yp_industry_anarcholiberal = {
+	factory_owner_cost = -0.1
+	factory_input = -0.1
+	factory_thoroughput = 0.15   
+	factory_output = 0.15
+	poor_income_modifier = -0.1 
+	rich_income_modifier = 0.2 
 
 	icon = 11
-}
-5yp_rank = {
-	prestige = 1.5
-	research_points = 2
-	research_points_modifier = 0.05
-	immigrant_attract = 0.50
-	poor_luxury_needs = -0.3
-	poor_everyday_needs = -0.3
-	poor_life_needs = -0.4
-	rich_luxury_needs = 0.7
-	culture_tech_research_bonus = 0.1
-	
-	icon = 14
-}
+	}
+5yp_army_anarcholiberal = {
+	mobilisation_economy_impact = -0.15
+	mobilisation_size = 0.06
+	land_organisation = 0.08
+	leadership_modifier = 0.1
+	org_regain = 0.08
 
+	icon = 15 
+	}
+5yp_rank_anarcholiberal = {
+	prestige = 0.5
+	badboy = -0.05
+	rich_life_needs = -0.2
+	rich_everyday_needs = -0.1
+	rich_luxury_needs = -0.1
+	rich_income_modifier = 0.1
+
+	icon = 5
+	}
+5yp_resource_anarcholiberal = {
+	rgo_throughput = 0.1
+	rgo_output = 0.1
+	farm_rgo_size = 0.08
+	mine_rgo_size = 0.08
+	farm_rgo_eff = 0.08
+	mine_rgo_eff = 0.08 
+	icon = 7 
+	}
+5yp_navy_anarcholiberal = {
+	naval_organisation = 0.08
+	naval_unit_start_experience = 0.08
+	leadership_modifier = 0.08
+	org_regain = 0.1
+	
+	icon = 15 
+	}
+5yp_technology_anarcholiberal = {
+	research_points = 1.25
+	research_points_modifier = 0.05
+	commerce_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	education_efficiency_modifier = 0.15
+	
+	icon = 3 
+	}
+5yp_immigration_anarcholiberal = {
+	immigrant_attract = 0.1
+	immigrant_push = -0.15
+	
+	icon = 17
+	}
+5yp_ruling_party_support_anarcholiberal = {
+	ruling_party_support = 0.1
+	tax_efficiency = 0.03
+	war_exhaustion = -0.1
+	suppression_points_modifier = .1
+	
+	icon = 17 
+	}
+
+#### 5 Year Plans - Absolute Monarchy/Presidental Dictatorship ####	
+5yp_industry_monarchy = {
+	factory_owner_cost = -0.15
+	factory_input = -0.1
+	factory_thoroughput = 0.1  
+	factory_output = 0.1
+	poor_income_modifier = -0.1 
+	rich_income_modifier = 0.1 
+
+	icon = 11 
+	}
+5yp_army_monarchy = {
+	mobilisation_economy_impact = -0.15
+	mobilisation_size = 0.1
+	land_organisation = 0.1
+	leadership_modifier = 0.1
+	org_regain = 0.15
+
+	icon = 15 
+	}
+5yp_rank_monarchy = {
+	prestige = 0.5
+	badboy = -0.05
+	rich_life_needs = -0.2
+	rich_everyday_needs = -0.1
+	rich_luxury_needs = -0.1
+
+	icon = 5 
+	}
+5yp_resource_monarchy = {
+	rgo_throughput = 0.1
+	rgo_output = 0.1
+	farm_rgo_size = 0.1
+	mine_rgo_size = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1 
+
+	icon = 7 
+	}
+5yp_navy_monarchy = {
+	naval_organisation = 0.18
+	naval_unit_start_experience = 0.15
+	leadership_modifier = 0.1
+	org_regain = 0.15
+	
+	icon = 15 
+	}
+5yp_technology_monarchy = {
+	research_points = 1
+	research_points_modifier = 0.05
+	army_tech_research_bonus = 0.1
+	navy_tech_research_bonus = 0.1
+	education_efficiency_modifier = 0.1
+	
+	icon = 3 
+	}
+5yp_immigration_monarchy = {
+	immigrant_attract = 0.05
+	immigrant_push = -0.15
+	
+	icon = 17 
+	}
+5yp_ruling_party_support_monarchy = {
+	ruling_party_support = 0.15
+	tax_efficiency = 0.04
+	war_exhaustion = -0.1
+	suppression_points_modifier = .1
+	
+	icon = 17 
+	}
+
+#### 5 Year Plans - SemiConstitutional Monarchy/Constitutional Monarchy ####	
+5yp_industry_constitution = {
+	factory_owner_cost = -0.1
+	factory_input = -0.1
+	factory_thoroughput = 0.1   
+	factory_output = 0.1
+	poor_income_modifier = -0.05
+	rich_income_modifier = 0.05
+
+	icon = 11 
+	}
+5yp_army_constitution = {
+	mobilisation_economy_impact = -0.15
+	mobilisation_size = 0.08
+	land_organisation = 0.08
+	leadership_modifier = 0.1
+	org_regain = 0.1
+
+	icon = 15 
+	}
+5yp_rank_constitution = {
+	prestige = 0.5
+	badboy = -0.05
+	rich_life_needs = -0.1
+	rich_everyday_needs = -0.05
+	rich_luxury_needs = -0.05
+	icon = 5 
+	}
+5yp_resource_constitution = {
+	rgo_throughput = 0.1
+	rgo_output = 0.1
+	farm_rgo_size = 0.08
+	mine_rgo_size = 0.08
+	farm_rgo_eff = 0.08
+	mine_rgo_eff = 0.08 
+	
+	icon = 7 
+	}
+5yp_navy_constitution = {
+	naval_organisation = 0.15
+	naval_unit_start_experience = 0.15
+	leadership_modifier = 0.1
+	org_regain = 0.15
+	
+	icon = 15 
+	}
+5yp_technology_constitution  = {
+	research_points = 1.15
+	research_points_modifier = 0.05
+	army_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	education_efficiency_modifier = 0.2
+	
+	icon = 3 
+	}
+5yp_immigration_constitution = {
+	immigrant_attract = 0.15
+	immigrant_push = -0.2
+	
+	icon = 17 
+	}
+5yp_ruling_party_support_constitution = {
+	ruling_party_support = 0.1
+	tax_efficiency = 0.03
+	war_exhaustion = -0.1
+	suppression_points_modifier = .1
+	
+	icon = 17 
+	}

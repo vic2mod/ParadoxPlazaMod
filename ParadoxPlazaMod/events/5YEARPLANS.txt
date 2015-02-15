@@ -4,313 +4,742 @@ country_event = {
 	desc = "'We are 50 or 100 years behind the rest of the world. We must make this difference in 10 years.' ~Stalin"
 	
 	trigger = {
-		has_country_flag = five_year_plans_choose
+		government = proletarian_dictatorship
+		civilized = yes
 		NOT = {
-			has_country_flag = five_year_planned
+			OR = {
+				has_country_modifier = 5yp_industry_communist
+				has_country_modifier = 5yp_army_communist
+				has_country_modifier = 5yp_rank_communist
+				has_country_modifier = 5yp_resource_communist
+				has_country_modifier = 5yp_navy_communist
+				has_country_modifier = 5yp_technology_communist
+				has_country_modifier = 5yp_immigration_communist
+				has_country_modifier = 5yp_ruling_party_support_communist
+			}
 		}
 	}
 	
 	option = {
 		name = "We shall rank high in the world!"
 		add_country_modifier = {
-			name = 5yp_rank
+			name = 5yp_rank_communist
 			duration = 1826
 		}
-		set_country_flag = five_year_planned
-		set_country_flag = 5yp-rank
 	}
 	option = {
 		name = "Our Industry shall be built with the workers!"
 		add_country_modifier = {
-			name = 5yp_industry
+			name = 5yp_industry_communist
 			duration = 1826
 		}
-		set_country_flag = 5yp-industry
-		set_country_flag = five_year_planned
 	}
 	option = {
 		name = "Our Army shall protect the Revolution!"
 		add_country_modifier = {
-			name = 5yp_army
+			name = 5yp_army_communist
 			duration = 1826
 		}
-		set_country_flag = 5yp-army
-		set_country_flag = five_year_planned
 	}
-}
-country_event = {
-	id = 970010
-	title = "Our rank in the World!"
-	desc = "It has risen to our demands! Congratulations!"
-	
-	trigger = {
-		rank = 5
-		has_country_flag = 5yp-rank
-		NOT = {
-			has_country_flag = 5yp-rank-ended
-			has_country_modifier = 5yp_rank
-		}
-	}
-	
 	option = {
-		name = "Our success bodes well."
-		prestige = 25
-		any_pop = {
-			limit = {
-				literacy = 50
-			}
-			militancy = -2
-			consciousness = -3
-		}
-		set_country_flag = 5yp-rank-ended
-	}
-}
-country_event = {
-	id = 970020
-	title = "Our rank in the World!"
-	desc = "It has not met our quotas!
-	
-	trigger = {
-		has_country_flag = 5yp-rank
-		NOT = {
-			rank = 5
-			has_country_flag = 5yp-rank-ended
-			has_country_modifier = 5yp_rank
-		}
-	}
-	
-	option = {
-		name = "We shall look to other goals--Industry!"
-		set_country_flag = 5yp-industry
+		name = "We must produce a plenty"
 		add_country_modifier = {
-			name = 5yp_industry
+			name = 5yp_resource_communist
 			duration = 1826
-		}
-		set_country_flag = 5yp-rank-ended
-		any_pop = {
-			limit = {
-				OR = {
-					strata = middle
-					strata = rich
-				}
 			}
-			consciousness = 7
-		}
-		any_pop = {
-			limit = {
-				strata = poor
-			}
-			militancy = 3
-			consciousness = 2
-		}
-	}
+		}	
 	option = {
-		name = "We shall look to other goals--Defense!"
-		set_country_flag = 5yp-army
+		name = "The ocean will be red as well"
 		add_country_modifier = {
-			name = 5yp_army
+			name = 5yp_navy_communist
 			duration = 1826
-		}
-		set_country_flag = 5yp-rank-ended
-		any_pop = {
-			limit = {
-				OR = {
-					strata = middle
-					strata = rich
-				}
 			}
-			consciousness = 7
-		}
-		any_pop = {
-			limit = {
-				strata = poor
-			}
-			militancy = 3
-			consciousness = 2
-		}
-	}
-}
-country_event = {
-	id = 970030
-	title = "Our Industry!"
-	desc = "It has risen to our demands! Congratulations!"
-	
-	trigger = {
-		industrial_score = 500
-		has_country_flag = 5yp-industry
-		NOT = {
-			has_country_flag = 5yp-industry-ended
-			has_country_modifier = 5yp_industry
-		}
-	}
-	
+		}	
 	option = {
-		name = "Our success bodes well."
-		prestige = 25
-		any_pop = {
-			limit = {
-				literacy = 50
-			}
-			militancy = -2
-			consciousness = -3
-		}
-		set_country_flag = 5yp-industry-ended
-	}
-}
-country_event = {
-	id = 970040
-	title = "Our Industry!"
-	desc = "It has not met our quotas!
-	
-	trigger = {
-		has_country_flag = 5yp-industry
-		NOT = {
-			industrial_score = 500
-			has_country_flag = 5yp-industry-ended
-			has_country_modifier = 5yp_industry
-		}
-	}
-	
-	option = {
-		name = "We shall try again!"
-		set_country_flag = 5yp-industry
+		name = "Can Marx into space?"
 		add_country_modifier = {
-			name = 5yp_industry
+			name = 5yp_technology_communist
 			duration = 1826
-		}
-		set_country_flag = 5yp-industry-ended
-		any_pop = {
-			limit = {
-				OR = {
-					strata = middle
-					strata = rich
-				}
 			}
-			consciousness = 7
-		}
-		any_pop = {
-			limit = {
-				strata = poor
-			}
-			militancy = 3
-			consciousness = 2
-		}
-	}
+		}	
 	option = {
-		name = "We shall look to other goals--Defense!"
-		set_country_flag = 5yp-army
+		name = "Support bring all those who will support the revolution"
 		add_country_modifier = {
-			name = 5yp_army
+			name = 5yp_immigration_communist
 			duration = 1826
-		}
-		set_country_flag = 5yp-rank-ended
-		any_pop = {
-			limit = {
-				OR = {
-					strata = middle
-					strata = rich
-				}
 			}
-			consciousness = 7
-		}
-		any_pop = {
-			limit = {
-				strata = poor
-			}
-			militancy = 3
-			consciousness = 2
-		}
-	}
-}
-country_event = {
-	id = 970050
-	title = "Our Army!"
-	desc = "It has risen to our demands! Congratulations!"
-	
-	trigger = {
-		military_score = 500
-		has_country_flag = 5yp-army
-		NOT = {
-			has_country_flag = 5yp-army-ended
-			has_country_modifier = 5yp_army
-		}
-	}
-	
+		}		
 	option = {
-		name = "Our success bodes well."
-		prestige = 25
-		any_pop = {
-			limit = {
-				literacy = 50
+		name = "Gulag - I mean teach the masses the right way"
+		add_country_modifier = {
+			name = 5yp_ruling_party_support_communist
+			duration = 1826
 			}
-			militancy = -2
-			consciousness = -3
-		}
-		set_country_flag = 5yp-army-ended
 	}
 }
+
 country_event = {
 	id = 970060
-	title = "Our Army!"
-	desc = "It has not met our quotas!
+	title = "The 5 Year Plans"
+	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
-		has_country_flag = 5yp-army
 		NOT = {
-			industrial_score = 500
-			has_country_flag = 5yp-army-ended
-			has_country_modifier = 5yp_army
+			government = proletarian_dictatorship
+				}
+		OR = {
+				has_country_modifier = 5yp_industry_communism
+				has_country_modifier = 5yp_army_communism
+				has_country_modifier = 5yp_rank_communism
+				has_country_modifier = 5yp_resource_communism
+				has_country_modifier = 5yp_navy_communism
+				has_country_modifier = 5yp_technology_communism
+				has_country_modifier = 5yp_immigration_communism
+				has_country_modifier = 5yp_ruling_party_support_communism
+			}
+		}
+	
+	mean_time_to_happen = {
+		months = 1
+		}
+	
+	option = {
+		name = "End the five year plans"
+		remove_country_modifier = 5yp_industry_communism
+		remove_country_modifier = 5yp_army_communism
+		remove_country_modifier = 5yp_rank_communism		
+		remove_country_modifier = 5yp_resource_communism		
+		remove_country_modifier = 5yp_navy_communism		
+		remove_country_modifier = 5yp_technology_communism		
+		remove_country_modifier = 5yp_immigration_communism		
+		remove_country_modifier = 5yp_ruling_party_support_communism
+		}
+	}
+		
+country_event = {
+	id = 970010 
+	title = "Government Priorities"
+	desc = "In order to preserve the republic we so dearly hold we must improve ourselves"
+	
+	trigger = {
+		government = democracy
+		civilized = yes
+		NOT = {
+			OR = {
+				has_country_modifier = 5yp_industry_democracy
+				has_country_modifier = 5yp_army_democracy
+				has_country_modifier = 5yp_rank_democracy
+				has_country_modifier = 5yp_resource_democracy
+				has_country_modifier = 5yp_navy_democracy
+				has_country_modifier = 5yp_technology_democracy
+				has_country_modifier = 5yp_immigration_democracy
+				has_country_modifier = 5yp_ruling_party_support_democracy
+				}
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Encourage a growing industry"
+		add_country_modifier = {
+			name = 5yp_industry_democracy 
+			duration = 1826 
+			}
+		}		
+	option = {
+		name = "We must bring freedoms to those oppressed peoples"
+		add_country_modifier = {
+			name = 5yp_army_democracy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "We must rank high among the world powers"
+		add_country_modifier = {
+			name = 5yp_rank_democracy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "We must create more resoruces to grow the economy"
+		add_country_modifier = {
+			name = 5yp_resource_democracy
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "Lady Liberty rules the seas"
+		add_country_modifier = {
+			name = 5yp_navy_democracy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "R&D Monies"
+		add_country_modifier = {
+			name = 5yp_technology_democracy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Bring immigrants to the land of the free"
+		add_country_modifier = {
+			name = 5yp_immigration_democracy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "The greater of two evils"
+		add_country_modifier = {
+			name = 5yp_ruling_party_support_democracy
+			duration = 1826
+			}
 		}
 	}
 	
-	option = {
-		name = "We shall try Industry!"
-		set_country_flag = 5yp-industry
-		add_country_modifier = {
-			name = 5yp_industry
-			duration = 1826
-		}
-		set_country_flag = 5yp-army-ended
-		any_pop = {
-			limit = {
-				OR = {
-					strata = middle
-					strata = rich
+country_event = {
+	id = 970070
+	title = "The 5 Year Plans"
+	desc = "A recent revolution has ended the old government"
+	
+	trigger = {
+		NOT = {
+			government = democracy
 				}
+		OR = {
+				has_country_modifier = 5yp_industry_democracy
+				has_country_modifier = 5yp_army_democracy
+				has_country_modifier = 5yp_rank_democracy
+				has_country_modifier = 5yp_resource_democracy
+				has_country_modifier = 5yp_navy_democracy
+				has_country_modifier = 5yp_technology_democracy
+				has_country_modifier = 5yp_immigration_democracy
+				has_country_modifier = 5yp_ruling_party_support_democracy
 			}
-			consciousness = 7
 		}
-		any_pop = {
-			limit = {
-				strata = poor
-			}
-			militancy = 3
-			consciousness = 2
+	
+	mean_time_to_happen = {
+		months = 1
+		}
+	
+	option = {
+		name = "End the five year plans"
+		remove_country_modifier = 5yp_industry_democracy
+		remove_country_modifier = 5yp_army_democracy
+		remove_country_modifier = 5yp_rank_democracy		
+		remove_country_modifier = 5yp_resource_democracy		
+		remove_country_modifier = 5yp_navy_democracy	
+		remove_country_modifier = 5yp_technology_democracy	
+		remove_country_modifier = 5yp_immigration_democracy		
+		remove_country_modifier = 5yp_ruling_party_support_democracy
 		}
 	}
-	option = {
-		name = "We shall try again!"
-		set_country_flag = 5yp-army
-		add_country_modifier = {
-			name = 5yp_army
-			duration = 1826
-		}
-		set_country_flag = 5yp-rank-ended
-		any_pop = {
-			limit = {
-				OR = {
-					strata = middle
-					strata = rich
+	
+country_event = {
+	id = 970020 
+	title = "Government Priorities"
+	desc = "Fuhrer, in order to complete ze goals we must focus ze peoples on a goal"
+	
+	trigger = {
+		government = fascist_dictatorship
+		civilized = yes
+		NOT = {
+			OR = {
+				has_country_modifier = 5yp_industry_fascist
+				has_country_modifier = 5yp_army_fascist
+				has_country_modifier = 5yp_rank_fascist
+				has_country_modifier = 5yp_resource_fascist
+				has_country_modifier = 5yp_navy_fascist
+				has_country_modifier = 5yp_technology_fascist
+				has_country_modifier = 5yp_immigration_fascist
+				has_country_modifier = 5yp_ruling_party_support_fascist
 				}
 			}
-			consciousness = 7
 		}
-		any_pop = {
-			limit = {
-				strata = poor
+		
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Support dirigisme"
+		add_country_modifier = {
+			name = 5yp_industry_fascist
+			duration = 1826 
 			}
-			militancy = 3
-			consciousness = 2
+		}		
+	option = {
+		name = "Rebuild a strong army to take back our old land"
+		add_country_modifier = {
+			name = 5yp_army_fascist
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Ze world powers must know how powerful we are"
+		add_country_modifier = {
+			name = 5yp_rank_fascist
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Produce more supplies for the army"
+		add_country_modifier = {
+			name = 5yp_resource_fascist
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "We must defend our ports"
+		add_country_modifier = {
+			name = 5yp_navy_fascist
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "We shall beay our enemies with our superior technology"
+		add_country_modifier = {
+			name = 5yp_technology_fascist
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Bring all those of our culture home"
+		add_country_modifier = {
+			name = 5yp_immigration_fascist
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "Propaganda rules"
+		add_country_modifier = {
+			name = 5yp_ruling_party_support_fascist
+			duration = 1826
+			}
+		}
+	}	
+
+country_event = {
+	id = 970080
+	title = "The 5 Year Plans"
+	desc = "A recent revolution has ended the old government"
+	
+	trigger = {
+		NOT = {
+			government = fascist_dictatorship
+				}
+		OR = {
+				has_country_modifier = 5yp_industry_fascist
+				has_country_modifier = 5yp_army_fascist
+				has_country_modifier = 5yp_rank_fascist
+				has_country_modifier = 5yp_resource_fascist
+				has_country_modifier = 5yp_navy_fascist
+				has_country_modifier = 5yp_technology_fascist
+				has_country_modifier = 5yp_immigration_fascist
+				has_country_modifier = 5yp_ruling_party_support_fascist
+			}
+		}
+	
+	mean_time_to_happen = {
+		months = 1
+		}
+	
+	option = {
+		name = "End the five year plans"
+		remove_country_modifier = 5yp_industry_fascist
+		remove_country_modifier = 5yp_army_fascist
+		remove_country_modifier = 5yp_rank_fascist	
+		remove_country_modifier = 5yp_resource_fascist		
+		remove_country_modifier = 5yp_navy_fascist	
+		remove_country_modifier = 5yp_technology_fascist		
+		remove_country_modifier = 5yp_immigration_fascist		
+		remove_country_modifier = 5yp_ruling_party_support_fascist
 		}
 	}
-}
+	
+country_event = {
+	id = 970030 
+	title = "Government Priorities"
+	desc = "While we have given the private sector control over much of the nation with are little influence we can steer it on the right track"
+	
+	trigger = {
+		government = bourgeois_dictatorship
+		civilized = yes
+		NOT = {
+			OR = {
+				has_country_modifier = 5yp_industry_anarcholiberal
+				has_country_modifier = 5yp_army_anarcholiberal
+				has_country_modifier = 5yp_rank_anarcholiberal
+				has_country_modifier = 5yp_resource_anarcholiberal
+				has_country_modifier = 5yp_navy_anarcholiberal
+				has_country_modifier = 5yp_technology_anarcholiberal
+				has_country_modifier = 5yp_immigration_anarcholiberal
+				has_country_modifier = 5yp_ruling_party_support_anarcholiberal
+				}
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Support the capitalists in creating a mighty industry"
+		add_country_modifier = {
+			name = 5yp_industry_anarcholiberal
+			duration = 1826 
+			}
+		}
+		
+	option = {
+		name = "With a mighty army we can spread the ideas of economic liberalism"
+		add_country_modifier = {
+			name = 5yp_army_anarcholiberal
+			duration = 1826
+			}
+		}	
+		
+	option = {
+		name = "We must show the other great powers our own power"
+		add_country_modifier = {
+			name = 5yp_rank_anarcholiberal
+			duration = 1826
+			}
+		}	
+		
+	option = {
+		name = "Allow the capitalists to produce more resources from the environment"
+		add_country_modifier = {
+			name = 5yp_resource_anarcholiberal
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "With a mighty navy we can spread the ideas of economic liberalism"
+		add_country_modifier = {
+			name = 5yp_navy_anarcholiberal
+			duration = 1826
+			}
+		}	
+		
+	option = {
+		name = "In order to give us an edge we must help out capitalists develop new technology"
+		add_country_modifier = {
+			name = 5yp_technology_anarcholiberal
+			duration = 1826
+			}
+		}	
+		
+	option = {
+		name = "Bring more people to a land of economic freedom"
+		add_country_modifier = {
+			name = 5yp_immigration_anarcholiberal
+			duration = 1826
+			}
+		}
+	
+	option = {
+		name = "Bring more people to a land of economic freedom"
+		add_country_modifier = {
+			name = 5yp_ruling_party_support_anarcholiberal
+			duration = 1826
+			}
+		}
+	}
+	
+country_event = {
+	id = 970090
+	title = "The 5 Year Plans"
+	desc = "A recent revolution has ended the old government"
+	
+	trigger = {
+		NOT = {
+			government = bourgeois_dictatorship
+				}
+		OR = {
+				has_country_modifier = 5yp_industry_anarcholiberal
+				has_country_modifier = 5yp_army_anarcholiberal
+				has_country_modifier = 5yp_rank_anarcholiberal
+				has_country_modifier = 5yp_resource_anarcholiberal
+				has_country_modifier = 5yp_navy_anarcholiberal
+				has_country_modifier = 5yp_technology_anarcholiberal
+				has_country_modifier = 5yp_immigration_anarcholiberal
+				has_country_modifier = 5yp_ruling_party_support_anarcholiberal
+			}
+		}
+	
+	mean_time_to_happen = {
+		months = 1
+		}
+	
+	option = {
+		name = "End the five year plans"
+		remove_country_modifier = 5yp_industry_anarcholiberal
+		remove_country_modifier = 5yp_army_anarcholiberal
+		remove_country_modifier = 5yp_rank_anarcholiberal	
+		remove_country_modifier = 5yp_resource_anarcholiberal		
+		remove_country_modifier = 5yp_navy_anarcholiberal
+		remove_country_modifier = 5yp_technology_anarcholiberal		
+		remove_country_modifier = 5yp_immigration_anarcholiberal
+		remove_country_modifier = 5yp_ruling_party_support_anarcholiberal
+		}
+	}
+
+country_event = {
+	id = 970040 
+	title = "Government Priorities"
+	desc = "In order to build a stronger crown we have decided to implement a royal decree. Long live the King!"
+	
+	trigger = {
+		OR ={
+			government = absolute_monarchy
+			government = presidental_dictatorship
+			}
+		civilized = yes
+		NOT = {
+			OR = {
+				has_country_modifier = 5yp_industry_monarchy
+				has_country_modifier = 5yp_army_monarchy
+				has_country_modifier = 5yp_rank_monarchy
+				has_country_modifier = 5yp_resource_monarchy
+				has_country_modifier = 5yp_navy_monarchy
+				has_country_modifier = 5yp_technology_monarchy
+				has_country_modifier = 5yp_immigration_monarchy
+				has_country_modifier = 5yp_ruling_party_support_monarchy
+				}
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Industry for his majesty"
+		add_country_modifier = {
+			name = 5yp_industry_monarchy
+			duration = 1826 
+			}
+		}		
+	option = {
+		name = "We must defend the monarchy"
+		add_country_modifier = {
+			name = 5yp_army_monarchy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Bring prestige to the crown"
+		add_country_modifier = {
+			name = 5yp_rank_monarchy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Extract all the resources for the crown"
+		add_country_modifier = {
+			name = 5yp_resource_monarchy
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "Rule the seas"
+		add_country_modifier = {
+			name = 5yp_navy_monarchy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Technology for the crown"
+		add_country_modifier = {
+			name = 5yp_technology_monarchy
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Bring in more subjects for his majesty"
+		add_country_modifier = {
+			name = 5yp_immigration_monarchy
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "Whip them into shape"
+		add_country_modifier = {
+			name = 5yp_ruling_party_support_monarchy
+			duration = 1826
+			}
+		}
+	}
+	
+country_event = {
+	id = 970100
+	title = "The 5 Year Plans"
+	desc = "A recent revolution has ended the old government"
+	
+	trigger = {
+		NOT = {
+			OR = {
+				government = absolute_monarchy
+				government = presidental_dictatorship
+				}
+			}
+		OR = {
+				has_country_modifier = 5yp_industry_monarchy
+				has_country_modifier = 5yp_army_monarchy
+				has_country_modifier = 5yp_rank_monarchy
+				has_country_modifier = 5yp_resource_monarchy
+				has_country_modifier = 5yp_navy_monarchy
+				has_country_modifier = 5yp_technology_monarchy
+				has_country_modifier = 5yp_immigration_monarchy
+				has_country_modifier = 5yp_ruling_party_support_monarchy
+			}
+		}
+	
+	mean_time_to_happen = {
+		months = 1
+		}
+	
+	option = {
+		name = "End the five year plans"
+		remove_country_modifier = 5yp_industry_monarchy
+		remove_country_modifier = 5yp_army_monarchy
+		remove_country_modifier = 5yp_rank_monarchy	
+		remove_country_modifier = 5yp_resource_monarchy	
+		remove_country_modifier = 5yp_navy_monarchy	
+		remove_country_modifier = 5yp_technology_monarchy		
+		remove_country_modifier = 5yp_immigration_monarchy		
+		remove_country_modifier = 5yp_ruling_party_support_monarchy
+		}
+	}
+
+country_event = {
+	id = 970050 
+	title = "Government Priorities"
+	desc = "In order to build a stronger crown we have decided to implement a royal decree. Long live the King!"
+	
+	trigger = {
+		OR = {
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		civilized = yes
+		NOT = {
+			OR = {
+				has_country_modifier = 5yp_industry_constitution
+				has_country_modifier = 5yp_army_constitution
+				has_country_modifier = 5yp_rank_constitution
+				has_country_modifier = 5yp_resource_constitution
+				has_country_modifier = 5yp_navy_constitution
+				has_country_modifier = 5yp_technology_constitution
+				has_country_modifier = 5yp_immigration_constitution
+				has_country_modifier = 5yp_ruling_party_support_constitution
+				}
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Industry for his majesty"
+		add_country_modifier = {
+			name = 5yp_industry_constitution
+			duration = 1826 
+			}
+		}
+	option = {
+		name = "We must defend the nation"
+		add_country_modifier = {
+			name = 5yp_army_constitution
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Bring prestige to the nation"
+		add_country_modifier = {
+			name = 5yp_rank_constitution
+			duration = 1826
+			}
+		}		
+	option = {
+		name = "Extract all the resources for a fledging economy"
+		add_country_modifier = {
+			name = 5yp_resource_constitution
+			duration = 1826
+			}
+		}	
+	option = {
+		name = "Control the ocean blue"
+		add_country_modifier = {
+			name = 5yp_navy_constitution
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Learn all the secrets"
+		add_country_modifier = {
+			name = 5yp_technology_constitution
+			duration = 1826
+			}
+		}		
+	option = {
+		name = "Bring more people to our great nation"
+		add_country_modifier = {
+			name = 5yp_immigration_constitution
+			duration = 1826
+			}
+		}			
+	option = {
+		name = "Help the populace make a the right choice"
+		add_country_modifier = {
+			name = 5yp_ruling_party_support_constitution
+			duration = 1826
+			}
+		}
+	}	
+
+country_event = {
+	id = 970100
+	title = "The 5 Year Plans"
+	desc = "A recent revolution has ended the old government"
+	
+	trigger = {
+		NOT = {
+			OR = {
+				government = prussian_constitutionalism
+				government = hms_government
+				}
+			}
+		OR = {
+				has_country_modifier = 5yp_industry_constitution
+				has_country_modifier = 5yp_army_constitution
+				has_country_modifier = 5yp_rank_constitution
+				has_country_modifier = 5yp_resource_constitution
+				has_country_modifier = 5yp_navy_constitution
+				has_country_modifier = 5yp_technology_constitution
+				has_country_modifier = 5yp_immigration_constitution
+				has_country_modifier = 5yp_ruling_party_support_constitution
+			}
+		}
+	
+	mean_time_to_happen = {
+		months = 1
+		}
+	
+	option = {
+		name = "End the five year plans"
+		remove_country_modifier = 5yp_industry_constitution
+		remove_country_modifier = 5yp_army_constitution
+		remove_country_modifier = 5yp_rank_constitution
+		remove_country_modifier = 5yp_resource_constitution	
+		remove_country_modifier = 5yp_navy_constitution
+		remove_country_modifier = 5yp_technology_constitution		
+		remove_country_modifier = 5yp_immigration_constitution	
+		remove_country_modifier = 5yp_ruling_party_support_constitution
+		}
+	}
