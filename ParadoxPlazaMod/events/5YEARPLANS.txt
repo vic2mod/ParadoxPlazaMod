@@ -88,14 +88,14 @@ country_event = {
 			government = proletarian_dictatorship
 				}
 		OR = {
-				has_country_modifier = 5yp_industry_communism
-				has_country_modifier = 5yp_army_communism
-				has_country_modifier = 5yp_rank_communism
-				has_country_modifier = 5yp_resource_communism
-				has_country_modifier = 5yp_navy_communism
-				has_country_modifier = 5yp_technology_communism
-				has_country_modifier = 5yp_immigration_communism
-				has_country_modifier = 5yp_ruling_party_support_communism
+				has_country_modifier = 5yp_industry_communist
+				has_country_modifier = 5yp_army_communist
+				has_country_modifier = 5yp_rank_communist
+				has_country_modifier = 5yp_resource_communist
+				has_country_modifier = 5yp_navy_communist
+				has_country_modifier = 5yp_technology_communist
+				has_country_modifier = 5yp_immigration_communist
+				has_country_modifier = 5yp_ruling_party_support_communist
 			}
 		}
 	
@@ -105,14 +105,14 @@ country_event = {
 	
 	option = {
 		name = "End the five year plans"
-		remove_country_modifier = 5yp_industry_communism
-		remove_country_modifier = 5yp_army_communism
-		remove_country_modifier = 5yp_rank_communism		
-		remove_country_modifier = 5yp_resource_communism		
-		remove_country_modifier = 5yp_navy_communism		
-		remove_country_modifier = 5yp_technology_communism		
-		remove_country_modifier = 5yp_immigration_communism		
-		remove_country_modifier = 5yp_ruling_party_support_communism
+		remove_country_modifier = 5yp_industry_communist
+		remove_country_modifier = 5yp_army_communist
+		remove_country_modifier = 5yp_rank_communist	
+		remove_country_modifier = 5yp_resource_communist		
+		remove_country_modifier = 5yp_navy_communist	
+		remove_country_modifier = 5yp_technology_communist		
+		remove_country_modifier = 5yp_immigration_communist		
+		remove_country_modifier = 5yp_ruling_party_support_communist
 		}
 	}
 		
