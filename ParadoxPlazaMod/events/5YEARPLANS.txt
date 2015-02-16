@@ -107,7 +107,7 @@ country_event = {
 		name = "End the five year plans"
 		remove_country_modifier = 5yp_industry_communist
 		remove_country_modifier = 5yp_army_communist
-		remove_country_modifier = 5yp_rank_communist	
+		remove_country_modifier = 5yp_rank_communist
 		remove_country_modifier = 5yp_resource_communist		
 		remove_country_modifier = 5yp_navy_communist	
 		remove_country_modifier = 5yp_technology_communist		
@@ -704,7 +704,7 @@ country_event = {
 	}	
 
 country_event = {
-	id = 970100
+	id = 970110
 	title = "The 5 Year Plans"
 	desc = "A recent revolution has ended the old government"
 	
