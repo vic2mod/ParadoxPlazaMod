@@ -2714,3 +2714,42 @@ communist_technology = {
 	
 	icon = 17 
 	}
+	
+#### Start Dynamic Cores - TCZapper ####
+gain_core_process = {
+	icon = 9
+}
+
+core_turmoil_refusal = {
+	population_growth = -0.002
+	local_factory_output = -0.3
+	local_rgo_output = -0.3
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+core_turmoil_integrate = {
+	population_growth = -0.002
+	local_factory_output = -0.3
+	local_rgo_output = -0.3
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+core_refusal = {
+	local_factory_output = -0.2
+	local_rgo_output = -0.2
+	pop_militancy_modifier = 0.05
+	icon = 14
+}
+
+core_integrate = {
+	local_factory_output = -0.1
+	local_rgo_output = -0.1
+	icon = 8
+}
+
+core_acceptance = {
+	icon = 2
+}
+#### End Dynamic Cores ####
