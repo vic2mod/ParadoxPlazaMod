@@ -2275,3 +2275,579 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+#### Start Dynamic Cores - TCZapper ####
+province_event = {#Begin core process with refusal and turmoil
+	id = 67500
+	title = "EVTNAME67500"
+	desc = "EVTDESC67500"
+	
+	trigger = {
+		NOT = { is_core = THIS }
+		NOT = { has_province_modifier = gain_core_process }
+		owner = { civilized = yes }
+		has_global_flag = allow_core_acquisition
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {#Check if neighbouring countries have claims
+			factor = 0.6
+			any_neighbor_country = {
+				is_core = THIS
+			}
+		}
+		modifier = {
+			factor = 0.5 
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 1.25
+			is_accepted_culture = yes
+		}
+		modifier = {
+			factor = 1.25
+			owner = { citizenship_policy = full_citizenship }
+		}
+		modifier = {
+			factor = 0.93
+			average_militancy = 1
+		}
+		modifier = {
+			factor = 0.93
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 0.93
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.6
+			average_consciousness = 4
+		}
+		modifier = { 
+			factor = 1.08
+			owner = { prestige = 100 }
+		}
+		modifier = {
+			factor = 1.08
+			owner = { prestige = 400 }
+		}
+		modifier = {
+			factor = 1.08
+			owner = { prestige = 800 }
+		}
+		modifier = {
+			factor = 0.84
+			owner = { infamy = 8 }
+		}
+		modifier = {
+			factor = 0.84
+			owner = { infamy = 16 }
+		}
+		modifier = {
+			factor = 0.84
+			owner = { infamy = 25 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67500"
+		add_province_modifier = {
+			name = gain_core_process
+			duration = -1
+		}
+		add_province_modifier = {
+			name = core_turmoil_refusal
+			duration = -1
+		}
+	}
+}
+
+province_event = {#Begin core process with integration and turmoil
+	id = 67501
+	title = "EVTNAME67500"
+	desc = "EVTDESC67500"
+	
+	trigger = {
+		NOT = { is_core = THIS }
+		NOT = { has_province_modifier = gain_core_process }
+		owner = { civilized = yes }
+		has_global_flag = allow_core_acquisition
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+		modifier = {#Check if neighbouring countries have claims
+			factor = 1.5
+			any_neighbor_country = {
+				is_core = THIS
+			}
+		}
+		modifier = {
+			factor = 2.0 
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.6
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_accepted_culture = yes
+		}
+		modifier = {
+			factor = 0.8
+			owner = { citizenship_policy = full_citizenship }
+		}
+		modifier = {
+			factor = 1.08
+			average_militancy = 1
+		}
+		modifier = {
+			factor = 1.08
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 1.08
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 1.5
+			average_consciousness = 4
+		}
+		modifier = { 
+			factor = 0.93
+			owner = { prestige = 100 }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 400 }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 800 }
+		}
+		modifier = {
+			factor = 1.145
+			owner = { infamy = 8 }
+		}
+		modifier = {
+			factor = 1.145
+			owner = { infamy = 16 }
+		}
+		modifier = {
+			factor = 1.145
+			owner = { infamy = 25 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67500"
+		add_province_modifier = {
+			name = gain_core_process
+			duration = -1
+		}
+		add_province_modifier = {
+			name = core_turmoil_integrate
+			duration = -1
+		}
+	}
+}
+
+province_event = {#Continue core process with refusal from turmoil
+	id = 67502
+	title = "EVTNAME67502"
+	desc = "EVTDESC67502"
+	
+	trigger = {
+		has_province_modifier = core_turmoil_refusal
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 0.7
+			OR = {
+				units_in_province = 1
+				any_neighbor_province = {
+					units_in_province = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.85
+			owner = { nationalism_n_imperialism = 1 }
+		}
+		modifier = {
+			factor = 0.85
+			owner = { is_greater_power = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67502"
+		remove_province_modifier = core_turmoil_refusal
+		add_province_modifier = {
+			name = core_refusal
+			duration = -1
+		}
+	}
+}
+
+province_event = {#Continue core process with integration from turmoil
+	id = 67503
+	title = "EVTNAME67503"
+	desc = "EVTDESC67503"
+	
+	trigger = {
+		has_province_modifier = core_turmoil_integrate
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 0.7
+			OR = {
+				units_in_province = 1
+				any_neighbor_province = {
+					units_in_province = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.85
+			owner = { nationalism_n_imperialism = 1 }
+		}
+		modifier = {
+			factor = 0.85
+			owner = { is_greater_power = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67503"
+		remove_province_modifier = core_turmoil_integrate
+		add_province_modifier = {
+			name = core_integrate
+			duration = -1
+		}
+	}
+}
+
+province_event = {#Continue core process with integration from refusal
+	id = 67504
+	title = "EVTNAME67503"
+	desc = "EVTDESC67503"
+	
+	trigger = {
+		has_province_modifier = core_refusal
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+		modifier = {#Check for contiguity
+			factor = 0.9
+			any_neighbor_province = {
+				is_core = THIS
+			}
+		}
+		modifier = {#Check if neighbouring countries have claims
+			factor = 1.5
+			any_neighbor_country = {
+				is_core = THIS
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.7
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0.85
+			is_accepted_culture = yes
+		}
+		modifier = {
+			factor = 0.7
+			owner = { citizenship_policy = full_citizenship }
+		}
+		modifier = {
+			factor = 1.15
+			NOT = {
+				average_militancy = 1
+			}
+		}
+		modifier = {
+			factor = 1.15
+			NOT = {
+				average_militancy = 2
+			}
+		}
+		modifier = {
+			factor = 1.15
+			NOT = {
+				average_militancy = 3
+			}
+		}
+		modifier = {
+			factor = 1.25
+			NOT = {
+				average_consciousness = 4
+			}
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 100 }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 400 }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 800 }
+		}
+		modifier = {
+			factor = 1.15
+			owner = { infamy = 8 }
+		}
+		modifier = {
+			factor = 1.15
+			owner = { infamy = 16 }
+		}
+		modifier = {
+			factor = 1.15
+			owner = { infamy = 25 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67503"
+		remove_province_modifier = core_refusal
+		add_province_modifier = {
+			name = core_integrate
+			duration = -1
+		}
+	}
+}
+
+province_event = {#Continue core process with acceptance from integration
+	id = 67505
+	title = "EVTNAME67505"
+	desc = "EVTDESC67505"
+	
+	trigger = {
+		has_province_modifier = core_integrate
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {#Check for contiguity
+			factor = 0.8
+			any_neighbor_province = {
+				is_core = THIS
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0.9
+			is_accepted_culture = yes
+		}
+		modifier = {
+			factor = 1.04
+			average_militancy = 1
+		}
+		modifier = {
+			factor = 1.04
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 1.04
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.9
+			owner = { nationalism_n_imperialism = 1 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { is_greater_power = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67505"
+		remove_province_modifier = core_integrate
+		add_province_modifier = {
+			name = core_acceptance
+			duration = -1
+		}
+	}
+}
+
+province_event = {#Finish core process
+	id = 67506
+	title = "EVTNAME67506"
+	desc = "EVTDESC67506"
+	
+	trigger = {
+		has_province_modifier = core_acceptance
+	}
+	
+	mean_time_to_happen = {
+		months = 140
+		modifier = {#Check for contiguity
+			factor = 0.9
+			any_neighbor_province = {
+				is_core = THIS
+			}
+		}
+		modifier = {#Check if neighbouring countries have claims
+			factor = 1.2
+			any_neighbor_country = {
+				is_core = THIS
+			}
+		}
+		modifier = {
+			factor = 4.0
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.6
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_accepted_culture = yes
+		}
+		modifier = {
+			factor = 0.9
+			owner = { citizenship_policy = full_citizenship }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 100 }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 400 }
+		}
+		modifier = {
+			factor = 0.93
+			owner = { prestige = 800 }
+		}
+		modifier = {
+			factor = 1.08
+			owner = { infamy = 10 }
+		}
+		modifier = {
+			factor = 1.08
+			owner = { infamy = 20 }
+		}
+		modifier = {
+			factor = 1.08
+			owner = { infamy = 25 }
+		}
+		modifier = {
+			factor = 2
+			owner = { nationalism_n_imperialism = 1 }
+			is_colonial = yes
+		}
+		modifier = {
+			factor = 0.8
+			owner = { is_greater_power = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA67506"
+		remove_province_modifier = gain_core_process
+		remove_province_modifier = core_acceptance
+		add_core = THIS
+	}
+}
+
+country_event = {#Initiate core process at start of game
+	id = 67510
+	title = "EVTNAME67510"
+	desc = "EVTDESC67510"
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "EVTOPTA67510"
+		set_global_flag = allow_core_acquisition
+		any_owned = {
+			limit = {
+				NOT = { is_core = THIS }
+			}
+			add_province_modifier = {
+				name = gain_core_process
+				duration = -1
+			}
+			add_province_modifier = {
+				name = core_integrate
+				duration = -1
+			}
+		}
+		any_country = {
+			any_owned = {
+				add_province_modifier = {
+					name = gain_core_process
+					duration = -1
+				}
+				add_province_modifier = {
+					name = core_integrate
+					duration = -1
+				}
+			}
+			country_event = 67511
+		}
+	}
+}
+
+country_event = {#Inform other countries that core acquisition has been initiated at start of game
+	id = 67511
+	title = "EVTNAME67510"
+	desc = "EVTDESC67510"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA67510"
+		any_owned = {
+			limit = {
+				is_core = THIS
+			}
+			remove_province_modifier = gain_core_process
+			remove_province_modifier = core_integrate
+		}
+	}
+}
+#### End Dynamic Cores ####
