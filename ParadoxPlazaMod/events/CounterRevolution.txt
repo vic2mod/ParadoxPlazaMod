@@ -8,6 +8,7 @@ country_event = {
 	trigger = {
 		is_ideology_enabled = communist
 		average_militancy = 8
+		money = 100000
 		NOT = {
 			government = proletarian_dictatorship
 			has_country_modifier = rightunify
@@ -16,7 +17,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 4
 	}
 	
 	option = {
@@ -33,14 +34,14 @@ country_event = {
 				value = reactionary
 				factor = 0.4
 			}
-			militancy = 8
-			consciousness = 9
+			militancy = 6 
+			consciousness = 7
 		}
 		add_country_modifier = {
 			name = rightunify
 			duration = -1
 		}
-		money = -100000
+		treasury = -100000
 		set_country_flag = rightunified
 	}
 }
@@ -54,11 +55,12 @@ country_event = {
 		has_country_modifier = rightunify
 		NOT = {
 			government = proletarian_dictatorship
+			has_country_flag = right_fix
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 18
 	}
 	
 	option = {
@@ -101,17 +103,11 @@ country_event = {
 				factor = 10
 			}
 		}
-		any_pop = {
-			limit = {
-				strata = poor
-			}
-			militancy = 5
-			consciousness = 10
-		}
 		add_country_modifier = {
 			name = therightstrikes1
 			duration = 400
 		}
+		add_country_flag = right_fix
 	}
 }
 country_event = {
@@ -123,10 +119,11 @@ country_event = {
 		government = proletarian_dictatorship
 		has_country_modifier = rightunify
 		has_country_flag = rightunified
+		NOT = { has_country_flag = right_fix_2 }
 	}
 	
 	mean_time_to_happen = {
-		months = 2
+		months = 3
 	}
 	
 	option = {
@@ -135,6 +132,7 @@ country_event = {
 			name = therightstrikes2
 			duration = 400
 		}
+		add_country_flag = right_fix_2
 		any_pop = {
 			limit = {
 				pop_majority = communist
@@ -177,13 +175,14 @@ country_event = {
 			limit = {
 				strata = poor
 			}
-			militancy = 5
-			consciousness = 10
+			militancy = 2
+			consciousness = 4
 		}
 	}
 	option = {
 		name = "Then it ends here."
 		remove_country_modifier = rightunify
+		add_country_flag = right_fix_2
 		add_country_modifier = {
 			name = strikeback
 			duration = 200
@@ -230,8 +229,8 @@ country_event = {
 			limit = {
 				strata = poor
 			}
-			militancy = 5
-			consciousness = 10
+			militancy = 2
+			consciousness = 4
 		}
 	}
 }
@@ -244,6 +243,7 @@ country_event = {
 	
 	trigger = {
 		government = proletarian_dictatorship
+		money = 400000
 		capital_scope = {
 			average_militancy = 7
 			has_pop_type = clerks
@@ -252,6 +252,10 @@ country_event = {
 			has_country_modifier = clerksresist
 			has_country_flag = clerksresist1
 		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
 	}
 	
 	option = {
@@ -272,8 +276,8 @@ country_event = {
 				value = reactionary
 				factor = 0.2
 			}
-			militancy = 10
-			consciousness = 10
+			militancy = 8
+			consciousness = 8
 			money = 1000
 		}
 	}
@@ -316,6 +320,7 @@ country_event = {
 	
 	trigger = {
 		government = proletarian_dictatorship
+		money = 60000
 		capital_scope = {
 			average_militancy = 7
 			has_pop_type = bureaucrats
@@ -324,6 +329,10 @@ country_event = {
 			has_country_modifier = bureaucratsresist
 			has_country_flag = bureaucratsresist1
 		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6 
 	}
 	
 	option = {
@@ -342,7 +351,7 @@ country_event = {
 	}
 	option = {
 		name = "Blast them!"
-		treasury = -30000.26
+		treasury = -30000
 		add_country_modifier = {
 			name = bureaucratsresist
 			duration = 37
@@ -385,7 +394,7 @@ country_event = {
 				factor = 0.1
 			}
 			militancy = -2
-			consciousness = 10
+			consciousness = 2
 		}
 		add_country_modifier = {
 			name = peasantryresist
