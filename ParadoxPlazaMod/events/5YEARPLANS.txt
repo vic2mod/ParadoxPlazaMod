@@ -1,4 +1,29 @@
 country_event = {
+	id = 970120 
+	title = "Five Year Plans"
+	desc = "Do you want to enable 5 year plans which gives bonus to a certain aspect of your country?"
+	
+	trigger = {
+		year = 1836
+		NOT = { has_country_flag = start_5yp }
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Yes"
+		set_country_flag = start_5yp 
+	}
+	
+	option = {
+		name = "No"
+		set_country_flag = no_5yp
+		set_country_flag = start_5yp
+		}
+
+country_event = {
 	id = 970000
 	title = "Five Year Planning"
 	desc = "'We are 50 or 100 years behind the rest of the world. We must make this difference in 10 years.' ~Stalin"
@@ -6,6 +31,7 @@ country_event = {
 	trigger = {
 		government = proletarian_dictatorship
 		civilized = yes
+		NOT = { has_country_flag = no_5yp }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_communist
@@ -124,6 +150,7 @@ country_event = {
 	trigger = {
 		government = democracy
 		civilized = yes
+		NOT = { has_country_flag = no_5yp }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_democracy
@@ -246,6 +273,7 @@ country_event = {
 	trigger = {
 		government = fascist_dictatorship
 		civilized = yes
+		NOT = { has_country_flag = no_5yp }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_fascist
@@ -368,6 +396,7 @@ country_event = {
 	trigger = {
 		government = bourgeois_dictatorship
 		civilized = yes
+		NOT = { has_country_flag = no_5yp }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_anarcholiberal
@@ -499,6 +528,7 @@ country_event = {
 			government = presidental_dictatorship
 			}
 		civilized = yes
+		NOT = { has_country_flag = no_5yp }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_monarchy
@@ -627,6 +657,7 @@ country_event = {
 			government = hms_government
 			}
 		civilized = yes
+		NOT = { has_country_flag = no_5yp }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_constitution
