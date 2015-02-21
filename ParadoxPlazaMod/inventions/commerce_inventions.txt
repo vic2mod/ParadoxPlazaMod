@@ -1584,6 +1584,10 @@ import_substitution_industrialization = {
 			economic_policy = planned_economy
 		}
 		modifier = {
+			factor = 7
+			economic_policy = dirigisme
+		}
+		modifier = {
 			factor = 6
 			economic_policy = state_capitalism
 		}
