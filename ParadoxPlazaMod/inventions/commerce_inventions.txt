@@ -1584,7 +1584,7 @@ import_substitution_industrialization = {
 			economic_policy = planned_economy
 		}
 		modifier = {
-			factor = 7
+			factor = 8
 			economic_policy = dirigisme
 		}
 		modifier = {
@@ -1598,6 +1598,10 @@ import_substitution_industrialization = {
 		modifier = {
 			factor = 2
 			trade_policy = protectionism
+		}
+		modifier = {
+			factor = 2
+			trade_policy = autarky
 		}
 	}
 	effect = {
