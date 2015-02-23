@@ -21,7 +21,14 @@ country_event = {
 		name = "No"
 		set_country_flag = no_5yp
 		set_country_flag = start_5yp
-		}
+	}
+	
+	option = {
+		name = "Just for Communists and Fascists"
+		set_country_flag = 5yp_commie_fascist
+		set_country_flag = start_5yp
+	}
+}
 
 country_event = {
 	id = 970000
@@ -151,6 +158,7 @@ country_event = {
 		government = democracy
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
+		NOT = { has_country_flag = 5yp_commie_fascist }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_democracy
@@ -397,6 +405,7 @@ country_event = {
 		government = bourgeois_dictatorship
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
+		NOT = { has_country_flag = 5yp_commie_fascist }		
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_anarcholiberal
@@ -529,6 +538,7 @@ country_event = {
 			}
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
+		NOT = { has_country_flag = 5yp_commie_fascist }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_monarchy
@@ -658,6 +668,7 @@ country_event = {
 			}
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
+		NOT = { has_country_flag = 5yp_commie_fascist }
 		NOT = {
 			OR = {
 				has_country_modifier = 5yp_industry_constitution
