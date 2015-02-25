@@ -45,9 +45,6 @@ political_decisions = {
 			782 = {
 				add_core = ITA
 			}
-			2852 = {
-				add_core = ITA
-			}
 		}	
 		
 	} 

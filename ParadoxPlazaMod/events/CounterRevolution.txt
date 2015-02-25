@@ -426,3 +426,51 @@ country_event = {
 		remove_country_modifier = peasantryresist
 	}
 }
+
+country_event = {
+id = 990040
+title = "The Counter-Revolution succeeds!"
+desc = "The vile communist have been removed from office and the State is back in rightful hands!"
+
+trigger = {
+    NOT =   {
+        government = proletarian_dictatorship
+        }
+    has_country_modifier = rightunify
+    has_country_flag = rightunified
+    NOT = { has_country_flag = right_fix_2 }
+}
+
+mean_time_to_happen = {
+    months = 6
+}
+
+option = {
+    name = "Then it ends here."
+    remove_country_modifier = rightunify
+    remove_country_modifier = banner_of_the_red
+    remove_country_modifier = 3rd_International
+    remove_country_modifier = clerksresist
+    remove_country_modifier = clerksresist1
+    remove_country_modifier = peasantryresist
+    remove_country_modifier = peasantryresist1
+    remove_country_modifier = bureaucratsresist
+    remove_country_modifier = bureaucratsresist1
+    remove_country_modifier = bureaucratsresist2
+    remove_country_modifier = therightstrikes1
+    remove_country_modifier = therightstrikes2
+    remove_country_modifier = strikeback
+    remove_country_modifier = killlandlords
+    remove_country_modifier = commies_have_succeeded
+    remove_country_modifier = peacebreadland
+    remove_country_modifier = communist_propaganda
+    remove_country_modifier = removed_fifth_column
+    remove_country_modifier = socialism_in_1
+    remove_country_modifier = Maoist
+    remove_country_modifier = mass_line
+    remove_country_modifier = agrarian_reform_beginning
+    remove_country_modifier = agrarian_reform
+    remove_country_modifier = industrial_reform
+
+    add_country_flag = right_fix_2
+}
