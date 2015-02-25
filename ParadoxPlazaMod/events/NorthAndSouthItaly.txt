@@ -1,0 +1,236 @@
+country_event = {
+	id = 8000
+	title = "Northern Italy"
+	desc = "Land in northern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
+	
+	trigger = {
+		exists = ITA
+		NOT = {
+			OR = {
+				tag = LOM
+				tag = LUC
+				tag = MOD
+				tag = PAP
+				tag = PAR
+				tag = SAR
+				tag = SIC
+				tag = TRE
+				tag = VEN
+				tag = NIT
+				tag = SIT
+				}
+			}
+		OR = {
+			owns = 473
+			owns = 720
+			owns = 721
+			owns = 722
+			owns = 723
+			owns = 724
+			owns = 725
+			owns = 739
+			owns = 738
+			owns = 740
+			owns = 744
+			owns = 745
+			owns = 746
+			owns = 747
+			owns = 748
+			owns = 741
+			owns = 742
+			owns = 743
+			owns = 726
+			owns = 727
+			owns = 728
+			owns = 729
+			owns = 730
+			owns = 731
+			owns = 732
+			owns = 733
+			}
+	
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Damn those Italians"
+		any_owned = {
+			limit = {
+				is_core = ITA 
+				pop_majority_culture = north_italian
+				}
+			add_core = NIT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 8001
+	title = "North Italy Petitions for Annexation"
+	desc = "Land in the north of Italy has gained independence from the imperial powers and now is asking to join the great state of Italy"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Of course we will accept them"
+		inherit = NIT
+		ITA = { country_event = 8003 }
+	}
+}
+	
+country_event = {
+	id = 8002 
+	title = "Seek Annexation by Italy"
+	desc = "We have gained independence and now we want to join Italy"
+	
+	trigger = {
+		tag = NIT
+	}
+	
+	mean_time_to_happen = {
+		months = 0.5 
+	}
+	
+	option = {
+		name = "Send a diplomat to Italy to show our intentions"
+		ITA = { country_event = 8001 }
+		}
+	}
+
+
+country_event = {
+	id = 8003
+	title = "Remove North Italian Cores"
+	desc = "Now that we have integrated North Italy they will lose their cores"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "For Italy"
+		any_owned_province = {
+			limit = {
+				is_core = NIT 
+				}
+				remove_core = NIT 
+			}
+		}
+	}
+	
+
+	
+	
+	
+country_event = {
+	id = 8004
+	title = "Southern Italy"
+	desc = "Land in southern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
+	
+	trigger = {
+		exists = ITA
+		NOT = {
+			OR = {
+				tag = LOM
+				tag = LUC
+				tag = MOD
+				tag = PAP
+				tag = PAR
+				tag = SAR
+				tag = SIC
+				tag = TRE
+				tag = VEN
+				tag = NIT
+				tag = SIT
+				}
+			}
+		OR = {
+			owns = 763
+			owns = 762
+			owns = 764
+			owns = 754
+			owns = 755
+			owns = 759
+			owns = 760
+			owns = 761
+			owns = 2567
+			owns = 753
+			owns = 756
+			owns = 757
+			owns = 758
+			owns = 749
+			owns = 752
+			owns = 750
+			owns = 751
+			}
+	
+	mean_time_to_happen = {
+		months = 1 
+		}
+	
+	option = {
+		name = "Damn those Italians"
+		any_owned = {
+			limit = {
+				is_core = ITA 
+				pop_majority_culture = south_italian
+				}
+			add_core = SIT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 8005
+	title = "South Italy Petitions for Annexation"
+	desc = "Land in the north of Italy has gained independence from the imperial powers and now is asking to join the great state of Italy"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Of course we will accept them"
+		inherit = SIT
+		ITA = { country_event = 8007 }
+	}
+}
+	
+country_event = {
+	id = 8006 
+	title = "Seek Annexation by Italy"
+	desc = "We have gained independence and now we want to join Italy"
+	
+	trigger = {
+		tag = SIT
+	}
+	
+	mean_time_to_happen = {
+		months = 0.5 
+	}
+	
+	option = {
+		name = "Send a diplomat to Italy to show our intentions"
+		ITA = { country_event = 8005 }
+		}
+	}
+
+
+country_event = {
+	id = 8007
+	title = "Remove South Italian Cores"
+	desc = "Now that we have integrated North Italy they will lose their cores"
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "For Italy"
+		any_owned_province = {
+			limit = {
+				is_core = SIT 
+				}
+				remove_core = SIT 
+			}
+		}
+	}
+	
+	
