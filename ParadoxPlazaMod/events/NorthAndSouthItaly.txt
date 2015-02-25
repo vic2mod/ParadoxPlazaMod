@@ -48,6 +48,8 @@ country_event = {
 			owns = 732
 			owns = 733
 			}
+		NOT = { has_country_flag = north_italy_core }
+	}
 	
 	mean_time_to_happen = {
 		months = 1 
@@ -57,11 +59,11 @@ country_event = {
 		name = "Damn those Italians"
 		any_owned = {
 			limit = {
-				is_core = ITA 
 				pop_majority_culture = north_italian
 				}
 			add_core = NIT
 			}
+		set_country_flag = north_italy_core
 		}
 	}
 }
@@ -71,41 +73,38 @@ country_event = {
 	title = "North Italy Petitions for Annexation"
 	desc = "Land in the north of Italy has gained independence from the imperial powers and now is asking to join the great state of Italy"
 	
-	is_triggered_only = yes
+	trigger = {
+		tag = ITA
+		exists = NIT
+	}
+	
+	mean_time_to_happen = {
+		months = 1 
+	}
 	
 	option = {
 		name = "Of course we will accept them"
 		inherit = NIT
-		ITA = { country_event = 8003 }
-	}
-}
-	
-country_event = {
-	id = 8002 
-	title = "Seek Annexation by Italy"
-	desc = "We have gained independence and now we want to join Italy"
-	
-	trigger = {
-		tag = NIT
-	}
-	
-	mean_time_to_happen = {
-		months = 0.5 
-	}
-	
-	option = {
-		name = "Send a diplomat to Italy to show our intentions"
-		ITA = { country_event = 8001 }
+		prestige = 5 
+		add_country_modifier = {
+			name = north_italy_core_2
+			duration = 60
 		}
 	}
-
+}
 
 country_event = {
 	id = 8003
 	title = "Remove North Italian Cores"
 	desc = "Now that we have integrated North Italy they will lose their cores"
 	
-	is_triggered_only = yes
+	trigger = {
+		has_country_modifier = north_italy_core_2
+	}
+	
+	mean_time_to_happen = {
+		months = 0.3 
+	}
 	
 	option = {
 		name = "For Italy"
@@ -117,10 +116,6 @@ country_event = {
 			}
 		}
 	}
-	
-
-	
-	
 	
 country_event = {
 	id = 8004
@@ -163,6 +158,8 @@ country_event = {
 			owns = 750
 			owns = 751
 			}
+		NOT = { has_country_flag = south_italy_core}
+		}
 	
 	mean_time_to_happen = {
 		months = 1 
@@ -172,7 +169,6 @@ country_event = {
 		name = "Damn those Italians"
 		any_owned = {
 			limit = {
-				is_core = ITA 
 				pop_majority_culture = south_italian
 				}
 			add_core = SIT
@@ -186,41 +182,37 @@ country_event = {
 	title = "South Italy Petitions for Annexation"
 	desc = "Land in the north of Italy has gained independence from the imperial powers and now is asking to join the great state of Italy"
 	
-	is_triggered_only = yes
-	
-	option = {
-		name = "Of course we will accept them"
-		inherit = SIT
-		ITA = { country_event = 8007 }
-	}
-}
-	
-country_event = {
-	id = 8006 
-	title = "Seek Annexation by Italy"
-	desc = "We have gained independence and now we want to join Italy"
-	
 	trigger = {
-		tag = SIT
+		tag = ITA
+		exists = SIT 
 	}
 	
 	mean_time_to_happen = {
-		months = 0.5 
-	}
+		months = 1
 	
+	}
 	option = {
-		name = "Send a diplomat to Italy to show our intentions"
-		ITA = { country_event = 8005 }
+		name = "Of course we will accept them"
+		inherit = SIT
+		add_country_modifier = {
+			name = south_italy_core_2
+			duration = 60
 		}
 	}
-
+}
 
 country_event = {
 	id = 8007
 	title = "Remove South Italian Cores"
 	desc = "Now that we have integrated North Italy they will lose their cores"
 	
-	is_triggered_only = yes
+	trigger = {
+		has_country_modifier = south_italy_core_2 
+	}
+	
+	mean_time_to_happen = {
+		months = 0.3 
+	}
 		
 	option = {
 		name = "For Italy"

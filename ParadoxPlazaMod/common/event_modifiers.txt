@@ -2708,6 +2708,8 @@ communist_technology = {
 	}
 5yp_ruling_party_support_constitution = {
 	ruling_party_support = 0.1
+
+
 	tax_efficiency = 0.03
 	war_exhaustion = -0.1
 	suppression_points_modifier = .1
@@ -2715,3 +2717,12 @@ communist_technology = {
 	icon = 17 
 	}
 	
+####
+
+north_italy_core_2 = {
+	icon = 18 
+	}
+
+south_italy_core_2 = {
+	icon = 18 
+	}
