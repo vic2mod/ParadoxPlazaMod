@@ -1015,14 +1015,21 @@ anarcho_liberal_rebels = {
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = democracy
-		presidential_dictatorship = democracy
-		bourgeois_dictatorship = democracy
-		fascist_dictatorship = democracy
-		absolute_monarchy = democracy
-		prussian_constitutionalism = democracy
-		hms_government = democracy
-		democracy = democracy
+		proletarian_dictatorship = bourgeois_dictatorship
+	
+		presidential_dictatorship = bourgeois_dictatorship
+		
+		bourgeois_dictatorship = bourgeois_dictatorship
+		
+		fascist_dictatorship = bourgeois_dictatorship
+		
+		absolute_monarchy = bourgeois_dictatorship
+		
+		prussian_constitutionalism = bourgeois_dictatorship
+		
+		hms_government = bourgeois_dictatorship
+		
+		democracy = bourgeois_dictatorship
 	}
 	
 	

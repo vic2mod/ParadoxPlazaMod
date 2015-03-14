@@ -1,10 +1,10 @@
-country_event = {
-	id = 8000
+province_event = {
+	id = 8000 
 	title = "Northern Italy"
 	desc = "Land in northern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
 	
 	trigger = {
-		exists = ITA
+		exists = ITA 
 		NOT = {
 			OR = {
 				tag = LOM
@@ -18,52 +18,25 @@ country_event = {
 				tag = VEN
 				tag = NIT
 				tag = SIT
+				tag = ITA
 				}
 			}
-		OR = {
-			owns = 473
-			owns = 720
-			owns = 721
-			owns = 722
-			owns = 723
-			owns = 724
-			owns = 725
-			owns = 739
-			owns = 738
-			owns = 740
-			owns = 744
-			owns = 745
-			owns = 746
-			owns = 747
-			owns = 748
-			owns = 741
-			owns = 742
-			owns = 743
-			owns = 726
-			owns = 727
-			owns = 728
-			owns = 729
-			owns = 730
-			owns = 731
-			owns = 732
-			owns = 733
-			}
-		NOT = { has_country_flag = north_italy_core }
-	}
-	
-	mean_time_to_happen = {
-		months = 1 
-		}
-	
-	option = {
-		name = "Damn those Italians"
-		any_owned = {
+		NOT = { has_province_flag = north_italy_province }
+		any_pop = {
 			limit = {
-				pop_majority_culture = north_italian
+				pop_majority_culture = north_italian 
 				}
-			add_core = NIT
 			}
-		set_country_flag = north_italy_core
+		}
+		
+	mean_time_to_happen = {
+		months = 3
+		}
+		
+	option = {
+		name = "Damn those Italians!"
+		add_core = NIT 
+		set_province_flag = north_italy_province
 		}
 	}
 
@@ -87,7 +60,7 @@ country_event = {
 		prestige = 5 
 		add_country_modifier = {
 			name = north_italy_core_2
-			duration = 60
+			duration = 120
 		}
 	}
 }
@@ -116,13 +89,13 @@ country_event = {
 		}
 	}
 	
-country_event = {
+province_event = {
 	id = 8004
 	title = "Southern Italy"
-	desc = "Land in southern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
+	desc = "Land in Southern Italy is in the hands of our great empire but the people refuse to integrate and will try as hard a possible to remain Italians"
 	
 	trigger = {
-		exists = ITA
+		exists = ITA 
 		NOT = {
 			OR = {
 				tag = LOM
@@ -136,45 +109,27 @@ country_event = {
 				tag = VEN
 				tag = NIT
 				tag = SIT
+				tag = ITA
 				}
 			}
-		OR = {
-			owns = 763
-			owns = 762
-			owns = 764
-			owns = 754
-			owns = 755
-			owns = 759
-			owns = 760
-			owns = 761
-			owns = 2567
-			owns = 753
-			owns = 756
-			owns = 757
-			owns = 758
-			owns = 749
-			owns = 752
-			owns = 750
-			owns = 751
-			}
-		NOT = { has_country_flag = south_italy_core}
-		}
-	
-	mean_time_to_happen = {
-		months = 1 
-		}
-	
-	option = {
-		name = "Damn those Italians"
-		any_owned = {
+		NOT = { has_province_flag = south_italy_province }
+		any_pop = {
 			limit = {
-				pop_majority_culture = south_italian
+				pop_majority_culture = south_italian 
 				}
-			add_core = SIT
 			}
+		}
+		
+	mean_time_to_happen = {
+		months = 3
+		}
+		
+	option = {
+		name = "Damn those Italians!"
+		add_core = SIT 
+		set_province_flag = south_italy_province
 		}
 	}
-}
 
 country_event = {
 	id = 8005

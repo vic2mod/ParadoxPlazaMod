@@ -916,7 +916,7 @@ country_event = {
 	desc = "Our country looks to you for their development."
 	
 	trigger = {
-		has_country_flag = making_the_commie _choice
+		has_country_flag = making_the_commie_choice
 		NOT = {
 			has_country_flag = economic_chosen
 		}
