@@ -412,6 +412,14 @@ country_event = {
 			owns = 706 # Warsaw
 			owns = 714 # Tarnow
 		}
+		NOT = {
+			OR = {
+				tag = KRA 
+				tag = POL
+				tag = CPL
+				tag = PLC
+				}
+			}
 		year = 1846
 		NOT = {
 			has_country_flag = committee_polish_independence
