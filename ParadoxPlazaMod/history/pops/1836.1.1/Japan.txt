@@ -295,167 +295,183 @@
 		size = 27325
 	}
 }
-#Hokkaido Region (840000)
+#Hokkaido Region (65000)
 #under the rule of Japan in 1836
-#Hakodate (240000/60000 POPS)
+#Hakodate (45500/11375 POPS)
 1642 = {
-	aristocrats = {
-		culture = japanese
-		religion = shinto
-		size = 100
-	}
-
-	bureaucrats = {
-		culture = japanese
-		religion = shinto
-		size = 25
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = shinto
-		size = 100
-	}
-
-	artisans = {
-		culture = japanese
-		religion = shinto
-		size = 500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = shinto
-		size= 1100
-
-	}
-
-	farmers = {
-		culture = japanese
-		religion = shinto
-		size = 8175
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = shinto
-		size = 100
-	}
-
-	artisans = {
-		culture = japanese
-		religion = shinto
-		size = 500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = shinto
-		size= 100
-
-	}
-
-	farmers = {
-		culture = japanese
-		religion = shinto
-		size = 9300
-	}
-
-	aristocrats = {
-		culture = ainu
-		religion = animist
-		size = 250
-	}
-
-	clergymen = {
-		culture = ainu
-		religion = animist
-		size = 425
-	}
-
-	artisans = {
-		culture = ainu
-		religion = animist
-		size = 1500
-	}
-
-	soldiers = {
-		culture = ainu
-		religion = animist
-		size= 250
-
-	}
-
-	farmers = {
-		culture = ainu
-		religion = animist
-		size = 37075
-	}
+        aristocrats = {
+                culture = japanese
+                religion = shinto
+                size = 50
+        }
+ 
+        bureaucrats = {
+                culture = japanese
+                religion = shinto
+                size = 25
+        }
+ 
+        clergymen = {
+                culture = japanese
+                religion = shinto
+                size = 50
+        }
+ 
+        artisans = {
+                culture = japanese
+                religion = shinto
+                size = 250
+        }
+ 
+        soldiers = {
+                culture = japanese
+                religion = shinto
+                size = 500
+        }
+ 
+        farmers = {
+                culture = japanese
+                religion = shinto
+                size = 3250
+        }
+ 
+        clergymen = {
+                culture = japanese
+                religion = shinto
+                size = 50
+        }
+ 
+        artisans = {
+                culture = japanese
+                religion = shinto
+                size = 250
+        }
+ 
+        soldiers = {
+                culture = japanese
+                religion = shinto
+                size = 100
+        }
+ 
+        farmers = {
+                culture = japanese
+                religion = shinto
+                size = 4375
+        }
+ 
+        aristocrats = {
+                culture = ainu
+                religion = animist
+                size = 40
+        }
+ 
+        clergymen = {
+                culture = ainu
+                religion = animist
+                size = 35
+        }
+ 
+        artisans = {
+                culture = ainu
+                religion = animist
+                size = 100
+        }
+ 
+        soldiers = {
+                culture = ainu
+                religion = animist
+                size = 100
+        }
+ 
+        farmers = {
+                culture = ainu
+                religion = animist
+                size = 2200
+        }
 }
-#Ishikara (240000/60000 POPS)
+#Ishikara (13000/3250 POPS)
 1643 = {
-	aristocrats = {
-		culture = ainu
-		religion = animist
-		size = 800
-	}
-	
-	bureaucrats = {
-		culture = ainu
-		religion = animist
-		size = 400
-	}
-
-	clergymen = {
-		culture = ainu
-		religion = animist
-		size = 575
-	}
-
-	artisans = {
-		culture = ainu
-		religion = animist
-		size = 2000
-	}
-
-	farmers = {
-		culture = ainu
-		religion = animist
-		size = 56275
-	}
+        aristocrats = {
+                culture = ainu
+                religion = animist
+                size = 100
+        }
+       
+        bureaucrats = {
+                culture = ainu
+                religion = animist
+                size = 50
+        }
+ 
+        clergymen = {
+                culture = ainu
+                religion = animist
+                size = 150
+        }
+ 
+        artisans = {
+                culture = ainu
+                religion = animist
+                size = 450
+        }
+ 
+        farmers = {
+                culture = ainu
+                religion = animist
+                size = 1400
+        }
+        bureaucrats = {
+                culture = japanese
+                religion = shinto
+                size = 25
+        }
+        clergymen = {
+                culture = japanese
+                religion = shinto
+                size = 25
+        }
+        artisans = {
+                culture = japanese
+                religion = shinto
+                size = 50
+        }
+        farmers = {
+                culture = japanese
+                religion = shinto
+                size = 1000
+        }
 }
-#Nemuru (360000/90000 POPS)
+#Nemuru (6500/1625 POPS)
 1644 = {
-	aristocrats = {
-		culture = ainu
-		religion = animist
-		size = 1250
-	}
-
-	clergymen = {
-		culture = ainu
-		religion = animist
-		size = 750
-	}
-
-	artisans = {
-		culture = ainu
-		religion = animist
-		size = 3000
-	}
-
-	soldiers = {
-		culture = ainu
-		religion = animist
-		size= 250
-
-	}
-
-	farmers = {
-		culture = ainu
-		religion = animist
-		size = 75350
-	}
+        aristocrats = {
+                culture = ainu
+                religion = animist
+                size = 25
+        }
+ 
+        clergymen = {
+                culture = ainu
+                religion = animist
+                size = 50
+        }
+ 
+        artisans = {
+                culture = ainu
+                religion = animist
+                size = 150
+        }
+ 
+        soldiers = {
+                culture = ainu
+                religion = animist
+                size = 150
+        }
+ 
+        farmers = {
+                culture = ainu
+                religion = animist
+                size = 1250
+        }
 }
 #Hokuriku Region (1892000)
 #under the rule of Japan in 1836

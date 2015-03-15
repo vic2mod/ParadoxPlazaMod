@@ -2726,3 +2726,11 @@ north_italy_core_2 = {
 south_italy_core_2 = {
 	icon = 18 
 	}
+
+####
+
+colonial_ministry = {
+        assimilation_rate = 2
+        immigrant_attract = 0.25
+        icon = 17
+}

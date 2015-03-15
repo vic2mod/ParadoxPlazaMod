@@ -3075,3 +3075,31 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 97682 
+	title = "Hokkaido Integration" 
+	desc = "The state of Ezo has been recently fully integrated into out nation and now we must close our colonial ministries"
+	
+	trigger = {
+		tag = TKG
+		tag = JAP 
+		JAP_1088 = {
+			is_colonial = no 
+			}
+		}
+		
+	mean_time_to_happen = {
+		months = 3 
+		}
+		
+	option = {
+		name = "Tell them to close up shop"
+		any_owned = {
+			limit = {
+				has_province_modifier = colonial_ministry 
+				}
+			remove_province_modifier = colonial_ministry
+			}
+		}
+	}
