@@ -1580,4 +1580,76 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	hokkaido_colonization_office = {
+		picture = map_yellow_sea
+        potential = {
+            OR = {
+                tag = JAP
+                tag = TKG
+                }
+            has_country_flag = han_system_abolished
+            NOT = { has_country_flag = hokkaido_colonization_office }
+           }
+               
+       allow = {
+        war = no
+			civilized = yes
+            nationalism_n_imperialism = 1
+            owns = 1642 #Hakodate
+            owns = 1643 #Ishikari
+            owns = 1644 #Nemuro
+        }
+               
+        effect = {
+            set_country_flag = hokkaido_colonization_office
+                prestige = 5
+                badboy = 1
+                    AIN = {
+                        all_core = { remove_core = AIN }
+                        }
+                        1642 = {
+                                add_core = JAP
+                                life_rating = 10
+                                add_province_modifier = {
+                                        name = colonial_ministry
+                                        duration = -1
+                                }
+                                add_province_modifier = {
+                                        name = colonial_recruitment
+                                        duration = 1825
+                                }
+                        }
+                        1643 = {
+                                add_core = JAP
+                                life_rating = 15
+                                add_province_modifier = {
+                                        name = colonial_ministry
+                                        duration = -1
+                                }
+                                add_province_modifier = {
+                                        name = colonial_recruitment
+                                        duration = 1825
+                                }
+                                change_province_name = "Sapporo"
+                        }
+                        1644 = {
+                                add_core = JAP
+                                life_rating = 10
+                                add_province_modifier = {
+                                        name = colonial_ministry
+                                        duration = -1
+                                }
+                                add_province_modifier = {
+                                        name = colonial_recruitment
+                                        duration = 1825
+                                }
+                                change_province_name = "Kushiro"
+                        }
+                }
+               
+                ai_will_do = {
+                        factor = 1
+                }
+        }
 }
