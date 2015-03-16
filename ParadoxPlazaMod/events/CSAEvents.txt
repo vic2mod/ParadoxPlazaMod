@@ -1,0 +1,3722 @@
+country_event = {
+	id = 180000
+	title = "Post-War Freedom?"
+	desc = "EVT180000DESC"
+	picture = "coloured_troops_line"
+	
+	trigger = {
+		has_country_flag = coloured_troops
+		slavery = yes_slavery
+		war = no
+			NOT = {
+				has_country_flag = freed_soldiers
+			}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "We will stand by our promises: let them stay free."
+		clr_country_flag = coloured_troops
+		set_country_flag = freed_soldiers
+		prestige = 3
+		any_pop = {
+			limit = { NOT = { type = aristocrats } }
+			militancy = -1.5
+			consciousness = 1
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					ruling_party_ideology = liberal
+					ruling_party_ideology = anarcho_liberal
+					ruling_party_ideology = communist
+					ruling_party_ideology = social_liberal
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					ruling_party_ideology = reactionary
+					ruling_party_ideology = conservative
+					ruling_party_ideology = fascist
+					NOT = {
+						government = democracy
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "They go back to the plantations, where they belong!"
+		clr_country_flag = coloured_troops
+		any_pop = {
+			limit = {
+				has_pop_culture = afro_american
+				pop_type = soldiers
+			}
+			pop_type = slaves
+		}
+		any_pop = {
+			limit = { NOT = { type = aristocrats } }
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = {
+				pop_type = slaves
+			}
+			militancy = 5
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = {
+	id = 181000
+	title = "The Obsolescense of Slavery"
+	desc = "EVT181000DESC"
+	major = yes
+	
+	trigger = {
+		slavery = yes_slavery
+		civilized = yes
+		year = 1900
+		OR = {
+			average_consciousness = 4
+			mass_politics = 1
+		}
+		NOT = { has_country_flag = slavery_still_stands }
+	}
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.5
+			synthetic_polymers = 1
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				tag = CSA
+			}
+		}
+	}
+	option = {
+		name = "The time of mass labour and enslavement has ended."
+		political_reform = no_slavery
+		add_country_modifier = {
+			name = onward_to_progress
+			duration = 3650
+		}
+		remove_country_modifier = the_slavery_debate
+		set_country_flag = slavery_ended_event
+		prestige = 10
+		badboy = -6
+		any_pop = {
+			militancy = -3
+			consciousness = -1
+		}
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0.2
+				NOT = {
+					badboy = 0.1
+				}
+			}
+		}
+	}
+	option = {
+		name = "The institution of slavery shall prevail over industry!"
+		remove_country_modifier = the_slavery_debate
+		set_country_flag = slavery_still_stands
+		badboy = 3
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		add_country_modifier = {
+			name = mass_labour
+			duration = -1
+		}
+		ai_chance = {
+			factor = 60
+			modifier = {
+					factor = 0.5
+					average_militancy = 7
+			}
+		}
+	}
+}
+country_event = {
+	id = 182000
+	title = "White House Burning!"
+	desc = "Our enemies have devastated the glorious seat of our nation!"
+	picture = "washington_burned"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = USA
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = "We will have revenge!"
+		set_country_flag = white_house_burnt
+		casus_belli = {
+			target = FROM
+			type = humiliate
+			months = 240
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "We cannot afford more conflict."
+		set_country_flag = white_house_burnt
+		prestige = -10
+		war_exhaustion = 5
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+country_event = {
+	id = 183000
+	title = "The CSA Offers Haiti"
+	desc = "EVT183000DESC"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = FRA
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "We buy Haiti, naturally."
+		treasury = -50000
+		prestige = 10
+		badboy = 2
+		clr_country_flag = haiti_purchase
+		CSA = {
+			country_event = 183100
+		}
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				NOT = {
+					money = 50000
+				}
+			}
+		}
+	}
+	option = {
+		name = "I think not."
+		clr_country_flag = haiti_purchase
+		badboy = -1
+		CSA = {
+			country_event = 183200
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+	id = 183100
+	title = "Offer Accepted!"
+	desc = "The French have accepted our generous offer to sell them back Haiti."
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CSA
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "An excellent choice on their part."
+		money = 50000
+		prestige = 10
+		badboy = 2
+		relation = {
+			who = FRA
+			value = 30
+		}
+		clr_country_flag = selling_haiti
+		2213 = {
+			remove_core = CSA
+			secede_province = FRA
+			add_core = FRA
+		}
+		2214 = {
+			remove_core = CSA
+			secede_province = FRA
+			add_core = FRA
+		}
+		2215 = {
+			remove_core = CSA
+			secede_province = FRA
+			add_core = FRA
+		}
+		2216 = {
+			remove_core = CSA
+			secede_province = FRA
+			add_core = FRA
+		}
+	}
+}
+country_event = {
+	id = 183200
+	title = "Offer Refused!"
+	desc = "The French have refused to take back their colony of Haiti!"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CSA
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "We'll have to try again later, then."
+		prestige = -5
+		clr_country_flag = selling_haiti
+		relation = {
+			who = FRA
+			value = -20
+		}
+	}
+}
+country_event = {
+	id = 184000
+	title = "NEWSLAVES"
+	desc = "The ships from Africa have come in, and we've received more slaves for our nation!"
+	picture = "slaves_traded"
+	
+	trigger = {
+		OR = {
+			has_country_flag = slave_trade_leader
+			has_country_flag = slave_trader
+		}
+		money = 20000
+	}
+	mean_time_to_happen = {
+		months = 16
+	}
+	option = {
+		name = "NEWSLAVESOPTION"
+		any_pop = {
+			limit = {
+				type = slaves
+			}
+			reduce_pop = 1.1
+		}
+		money = -20000
+	}
+}
+
+country_event = {
+	id = 185000
+	title = "SLAVETRADEOVERBAD"
+	desc = "EVT185000DESC"
+	picture = "slaves_freed"
+	
+	trigger = {
+		has_country_flag = slave_trader
+		NOT = {
+			has_global_flag = slave_trade_reinstated
+		}
+		slavery = yes_slavery
+	}
+	option = {
+		name = "EVTOPTA185000"
+		any_pop = {
+			militancy = -3
+			consciousness = 3
+		}
+		prestige = -3
+		clr_country_flag = slave_trader
+		clr_country_flag = the_slavery_debate
+		clr_global_flag = slave_trade_reinstated
+		remove_country_modifier = the_slavery_debate
+		remove_country_modifier = atlantic_slave_trade
+		add_country_modifier = {
+			name = national_confusion
+			duration = 2860
+		}
+	}
+}
+country_event = {
+	id = 186000
+	title = "MASSLABOUROVER"
+	desc = "EVT186000DESC"
+	picture = "slaves_freed"
+	
+	trigger = {
+		slavery = no_slavery
+		OR = {
+			has_country_modifier = mass_labour
+			has_country_modifier = atlantic_slave_trade
+		}
+		NOT = {
+			has_country_flag = slave_trade_leader
+		}
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = "EVTOPTA186000"
+		any_pop = {
+			militancy = -2
+			consciousness = -2
+		}
+		remove_country_modifier = mass_labour
+		remove_country_modifier = atlantic_slave_trade
+		clr_country_flag = slave_trader
+		clr_country_flag = slavery_still_stands
+		remove_country_modifier = the_slavery_debate
+		clr_country_flag = the_slavery_debate
+		prestige = 5
+		badboy = -1
+	}
+}
+country_event = {
+	id = 186500
+	title = "SLAVETRADEEND"
+	desc = "EVTDESC186500"
+	picture = "slaves_freed"
+	
+	trigger = {
+		slavery = no_slavery
+		has_country_flag = slave_trade_leader
+		has_country_modifier = atlantic_slave_trade
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA186500"
+		any_pop = {
+			militancy = -2
+			consciousness = -1.5
+		}
+		remove_country_modifier = mass_labour
+		remove_country_modifier = atlantic_slave_trade
+		clr_country_flag = slave_trade_leader
+		clr_country_flag = the_slavery_debate
+		clr_country_flag = slave_trade_reinstated
+		clr_country_flag = slavery_still_stands
+		remove_country_modifier = the_slavery_debate
+		prestige = 10
+		badboy = -4
+	}
+}
+country_event = {
+	id = 187000
+	title = "EVTNAME187000"
+	desc = "EVTDESC187000"
+	picture = "Sioux"
+	
+	trigger = {
+		owns = 105
+		year = 1880
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		NOT = {
+			has_country_flag = apache_wars
+		}
+		USA = {
+			NOT = {
+				has_country_flag = apache_wars
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "EVTOPTA187000"
+		105 = {
+			state_scope = {
+				any_pop = {
+					limit = {
+						culture = native_american_minor
+					}
+					militancy = 10
+				}
+				any_pop = {
+					limit = {
+						not = {
+							is_culture_group = native_american
+						}
+					}
+					reduce_pop = 0.5
+				}
+			}
+		}
+		set_country_flag = apache_wars
+	}
+}
+country_event = {
+	id = 187100
+	title = "GERONIMOSURRENDER"
+	desc = "EVTDESC187100"
+	picture = "geronimo"
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1886
+		has_country_flag = apache_wars
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+	}
+	
+	option = {
+		name = "EVTOPTA187100"
+		any_pop = {
+			limit = {
+				culture = native_american_minor
+			}
+			militancy = -10
+			consciousness = -10
+			reduce_pop = 0.8
+		}
+		add_accepted_culture = native_american_minor
+	}
+}
+country_event = {
+
+	id = 187200
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1885
+		NOT = {
+			year = 1888
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "The Adventures of Huckleberry Finn"
+	desc = "EVTDESC44100"
+	picture = "HuckleberryFinn"
+
+	option = {
+		name = "Give this man some praise!" 
+		prestige = 5
+	}
+
+}
+country_event = {
+
+	id = 187250
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1893
+		NOT = {
+			year = 1896
+		}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44101"
+	desc = "EVTDESC44101"
+	picture = "speedrecord"
+
+	option = {
+		name = "EVTOPTA44100" 
+		prestige = 3
+	}
+
+}
+country_event = {
+
+	id = 187300
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		government = democracy
+		invention = double_standard 
+		year = 1895
+		NOT = {
+			year = 1898
+			}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1896
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1897
+		}
+	}
+
+	title = "EVTNAME44102"
+	desc = "EVTDESC44102"
+	picture = "CrossofGold"
+
+	option = {
+		name = "EVTOPTA44102" 
+		plurality = 3
+		any_pop = {
+			consciousness = 1
+		}
+	}
+
+}
+country_event = {
+
+	id = 187350
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		government = democracy
+		year = 1861
+		NOT = {
+			year = 1866
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1862
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME44107"
+	desc = "EVTDESC44107"
+	picture = "CommonLaw"
+
+	option = {
+		name = "EVTOPTA44107" 
+		prestige = 1
+		plurality = 2
+	}
+}
+country_event = {
+
+	id = 187400
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1916
+		government = democracy
+		is_greater_power = yes
+		war = yes
+		NOT = {
+			year = 1930
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1917
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1920
+		}
+	}
+
+	title = "EVTNAME44110"
+	desc = "EVTDESC44110"
+	picture = "Spies"
+
+	option = {
+		name = "EVTOPTA44110" 
+		prestige = -15
+		any_pop = {
+			militancy = -2
+			consciousness = -2
+			}
+		political_reform = censored_press
+		political_reform = non_socialist
+		plurality = -10
+	}
+
+
+	option = {
+		name = "EVTOPTB44110" 
+		prestige = 20
+		political_reform = free_press
+		political_reform = all_trade_unions
+		plurality = 10
+		craftsmen = {
+			ideology = {
+				factor = 0.15
+				value = socialist
+				}
+			}
+		labourers = {
+			ideology = {
+				factor = 0.20
+				value = socialist
+				}
+			}
+		soldiers = {
+			ideology = {
+				factor = 0.05
+				value = socialist
+				}
+			}
+	}
+}
+country_event = {
+
+	id = 187450
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		NOT = {
+			militancy = 5
+		}
+		year = 1865
+		war = no
+		NOT = {
+			year = 1871
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1866
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME44111"
+	desc = "EVTDESC44111"
+	picture = "pinkertons"
+
+	option = {
+		name = "EVTOPTA44111" 
+		prestige = 1
+		
+	}
+}
+country_event = {
+
+	id = 187500
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1876
+		war = no
+		NOT = {
+			year = 1880
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1877
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1878
+		}
+	}
+
+	title = "EVTNAME44112"
+	desc = "EVTDESC44112"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44112" 
+		prestige = 1
+		farmers = {
+			consciousness = -1
+			}
+		labourers = {
+			consciousness = -1
+			}
+		soldiers = {
+			consciousness = -1
+			}
+		artisans = {
+			consciousness = -1
+			}
+		craftsmen = {
+			consciousness = -1
+			}
+		clerks = {
+			consciousness = -1
+			}
+		clergymen = {
+			consciousness = -1
+			}
+	}
+}
+country_event = {
+
+	id = 187550
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1871
+		owns = 163 #Chicago
+		NOT = {
+			year = 1877
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1872
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1873
+		}
+	}
+
+	title = "EVTNAME44113"
+	desc = "EVTDESC44113"
+	picture = "chicagofire"
+
+	option = {
+		name = "EVTOPTA44113" 
+		treasury = -2500
+	}
+}
+country_event = {
+
+	id = 187600
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1881
+		owns = 102 #S Arizona
+		NOT = {
+			year = 1884
+		}	
+	}
+	
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1882
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1883
+		}
+	}
+
+	title = "EVTNAME44114"
+	desc = "EVTDESC44114"
+	picture = "WyattEarp"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 1
+	}
+}
+country_event = {
+	id = 187610
+	title = "ELISHAELEVATOR"
+	desc = "EVT187610DESC"
+	picture = "elevator"
+	
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = TEX
+		}
+		year = 1854
+		NOT = {
+			year = 1864
+		}
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 26
+		modifier = {
+			factor = 0.5
+			year = 1857
+		}
+	}
+	option = {
+		name = "EVTOPTA187610"
+		prestige = 4
+		years_of_research = 0.2
+	}
+}
+country_event = {
+	id = 187620
+	title = "BARNUMPARTYTENT"
+	desc = "EVT187620DESC"
+	picture = "barnum"
+	
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = TEX
+		}
+		year = 1871
+		NOT = {
+			year = 1891
+		}
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.7
+			year = 1888
+		}
+	}
+	option = {
+		name = "EVTOPTA187620"
+		prestige = 5
+		any_pop = {
+			consciousness = -1
+		}
+	}
+}
+country_event = {
+	id = 187630
+	title = "CENTRALTIMEZONE"
+	desc = "EVT187630DESC"
+	picture = "time"
+	
+	trigger = {
+		tag = CSA
+		any_pop = {
+			consciousness = 2.5
+		}
+		year = 1883
+		steel_railroad = 1
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 84
+		modifier = {
+			factor = 0.9
+			year = 1900
+		}
+	}
+	option = {
+		name = "EVTOPTA187630"
+		prestige = 3
+		plurality = 1
+	}
+}
+country_event = {
+	id = 187640
+	title = "RAGTIMENJAZZ"
+	desc = "EVT187640DESC"
+	picture = "jazz"
+	
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = TEX
+		}
+		year = 1897
+		NOT = {
+			year = 1918
+		}
+		expressionism = 1
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.4
+			mass_culture_n_the_avant_garde = 1
+		}
+	}
+	option = {
+		name = "EVTOPTA187640"
+		prestige = 10
+		years_of_research = 0.1
+	}
+}
+country_event = {
+	id = 187650
+	title = "BLUESBABYBLUES"
+	desc = "EVT187650DESC"
+	picture = "blues"
+	
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = TEX
+		}
+		year = 1912
+		mass_culture_n_the_avant_garde = 1
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 72
+		modifier = {
+			factor = 0.4
+			slavery = no_slavery
+		}
+	}
+	option = {
+		name = "EVTOPTA187650"
+		prestige = 20
+		any_pop = {
+			militancy = -2
+			consciousness = 2
+		}
+	}
+}
+country_event = {
+	id = 187660
+	title = "NEWORLEANSTITLE"
+	desc = "EVT187660DESC"
+	picture = "new_orleans"
+	
+	trigger = {
+		tag = USA
+		year = 1840
+		NOT = {
+			year = 1860
+		}
+		war = no
+		owns = 139
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 14
+	}
+	option = {
+		name = "EVTOPTA187665"
+		139 = {
+			life_rating = 15
+			add_province_modifier = {
+				name = orleans_growth
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 187665
+	title = "NEWORLEANSTITLE"
+	desc = "EVT187660DESC"
+	picture = "new_orleans"
+	
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		year = 1850
+		NOT = {
+			year = 1865
+		}
+		war = no
+		owns = 139
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		name = "EVTOPTA187665"
+		139 = {
+			add_province_modifier = {
+				name = orleans_growth_csa
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 187670
+	title = "MARDIGRASTITLE"
+	desc = "EVT187670DESC"
+	picture = "new_orleans"
+	
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = TEX
+		}
+		year = 1875
+		NOT = {
+			year = 1904
+		}
+		owns = 139
+		war = no
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+	option = {
+		name = "EVTOPTA187670"
+		prestige = 5
+		any_pop = {
+			militancy = -0.5
+			consciousness = -1
+		}
+	}
+}
+country_event = {
+	id = 187680
+	title = "SOUTHERNHSPT"
+	desc = "EVT187680DESC"
+	picture = "southern_scene"
+	
+	trigger = {
+		OR = {
+			tag = CSA
+			tag = TEX
+		}
+		NOT = { has_country_modifier = southern_hospitality }
+		NOT = { has_country_modifier = southern_neighbours }
+		NOT = {
+			average_militancy = 6
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+		factor = 1.2
+			NOT = { government = democracy }
+		}
+	}
+	option = {
+		name = "EVTOPTA187680"
+		any_pop = {
+			militancy = -0.5
+			consciousness = -1
+		}
+		plurality = 2
+		add_country_modifier = {
+			name = southern_hospitality
+			duration = 3650
+		}
+	}
+	option = {
+		name = "EVTOPTB187680"
+		any_pop = {
+			consciousness = 2
+		}
+		prestige = 3
+		add_country_modifier = { 
+			name = southern_neighbours
+			duration = 3650
+		}
+	}
+}
+country_event = {
+	id = 187690
+	title = "NRATITLE"
+	desc = "EVT187690DESC"
+	picture = "rifle_range"
+	
+	trigger = {
+		OR = {
+			primary_culture = dixie
+			primary_culture = yankee
+			primary_culture = texan
+		}
+		year = 1871
+		NOT = {
+			year = 1934
+		}
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 72
+		modifier = {
+			factor = 0.5
+			has_recently_lost_war = yes
+		}	
+	}
+	option = {
+		name = "EVTOPTA187690"
+		prestige = 3
+		add_country_modifier = {
+			name = national_rifles
+			duration = -1
+		}
+		any_pop = {
+			militancy = 1
+			consciousness = -1
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB187690"
+		any_pop = {
+			militancy = -3
+		}
+		war_exhaustion = -3
+		random_pop = {
+			limit = {
+				OR = {
+					culture = dixie
+					culture = yankee
+					culture = texan
+				}
+				NOT = {
+					strata = poor
+				}
+			}
+			pop_type = soldiers
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+	id = 187700
+	title = "USACENTENNIAL"
+	desc = "EVT187700DESC"
+	major = yes
+	picture = "centennial"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		year = 1876
+		NOT = {
+			year = 1877
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 7
+	}
+	
+	option = {
+		name = "EVTOPTA187700"
+		plurality = 5
+		prestige = 15
+	}
+}
+country_event = {
+	id = 187710
+	title = "DONNERPARTY"
+	desc = "EVT187710DESC"
+	picture = "donner_party"
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1845
+		owns = 88
+		NOT = {
+			year = 1854
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 20
+		modifier = {
+			factor = 0.75
+			year = 1847
+		}
+	}
+	option = {
+		name = "EVTOPTA187710"
+		prestige = -5
+		88 = {
+			any_pop = {
+				militancy = 2
+				consciousness = 6
+			}
+		}
+	}
+}
+country_event = {
+	id = 187720
+	title = "JTOWNFLOOD"
+	desc = "EVT187720DESC"
+	picture = "johnstown"
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 226
+		year = 1887
+		NOT = {
+			safety_regulations = good_safety
+		}
+		NOT = {
+			year = 1899
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.75
+			safety_regulations = no_safety
+		}
+		modifier = {
+			factor = 2
+			safety_regulations = acceptable_safety
+		}	
+	}
+	option = {
+		name = "EVTOPTA187720"
+		any_pop = {
+			limit = {
+				NOT = {
+					strata = rich
+				}
+			}
+			militancy = -1
+			consciousness = 2.5
+			dominant_issue = {
+				value = good_safety
+				factor = 0.25
+			}
+		}
+		226 = {
+			add_province_modifier = {
+				name = johnstown_flood
+				duration = 730
+			}
+			reduce_pop = 0.9
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+	option = {
+		name = "EVTOPTB187720"
+		money = -25000
+		any_pop = {
+			limit = {
+				NOT = {
+					strata = rich
+				}
+			}
+			militancy = 1
+			consciousness = 1
+			dominant_issue = {
+				value = good_safety
+				factor = 0.1
+			}
+		}
+		226 = {
+			add_province_modifier = {
+				name = johnstown_flood
+				duration = 1460
+			}
+			reduce_pop = 0.8
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+}
+country_event = {
+	id = 187730
+	title = "NYDRAFTRIOTS"
+	desc = "EVT187730DESC"
+	picture = "draft_riots"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		owns = 232
+		war_with = CSA
+		war_exhaustion = 5
+		is_mobilised = yes
+	}
+	mean_time_to_happen = {
+		months = 4
+		modifier = {
+			factor = 0.1
+			war_exhaustion = 25
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA187730"
+		232 = {
+			any_pop = {
+				militancy = 2
+				consciousness = 6
+			}
+		}
+		war_exhaustion = 10
+		prestige = -6
+		money = -7500
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "EVTOPTB187730"
+		set_country_flag = draft_riots_deadly
+		232 = {
+			any_pop = {
+				militancy = 10
+				consciousness = -2
+			}
+			reduce_pop = 0.9
+		}
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		war_exhaustion = 3
+		badboy = 2
+		ai_chance = {
+			factor = 70
+		}
+	}
+}
+
+country_event = {
+	id = 187740
+	title = "FATHERCONSTITUTION"
+	desc = "EVT187740DESC"
+	picture = "founding_fathers"
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1836
+		tag = USA
+	}
+	
+	mean_time_to_happen = {
+		months = 7
+	}
+	
+	option = {
+		name = "EVTOPTA187740"
+		plurality = 2
+		prestige = 2
+	}
+}
+
+country_event = {
+	id = 187750
+	title = "GALVESTONTITLE"
+	desc = "EVT187750DESC"
+	picture = "galveston"
+	
+	trigger = {
+		owns = 137 # San Antonio
+		owns = 138 # Laredo
+		year = 1900
+		NOT = {
+			has_global_flag = galveston
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 10
+	}
+	
+	option = {
+		name = "EVTOPTA187750"
+		set_global_flag = galveston
+		137 = {
+			add_province_modifier = {
+				name = hurricane_cleanup
+				duration = 730
+			}
+			reduce_pop = 0.90
+		}
+		138 = {
+			add_province_modifier = {
+				name = hurricane_cleanup
+				duration = 730
+			}
+			reduce_pop = 0.90
+		}
+		treasury = -200000
+	}
+}
+
+country_event = {
+	id = 187760
+	title = "WFMURDER"
+	desc = "EVT187760DESC"
+	picture = "holmes_murder"
+	
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = TEX
+		}
+		has_country_flag = held_last_world_fair
+		year = 1880
+		NOT = {
+			has_global_flag = hhholmes
+		}
+		NOT = {
+			year = 1910
+		}
+		NOT = {
+			average_militancy = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.6
+			NOT = {
+				average_consciousness = 3
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA187760"
+		set_global_flag = hhholmes
+		any_pop = {
+			consciousness = 2
+		}
+		prestige = -15
+	}
+}
+
+country_event = {
+	id = 187770
+	title = "MISSFLOODTITLE"
+	desc = "MISSFLOOD1DESC"
+	picture = "mississippi_flood"
+	
+	trigger = {
+		OR = {
+			owns = 150
+			owns = 146
+			owns = 123
+		}
+		OR = {
+			tag = USA
+			tag = TEX
+			tag = CSA
+		}
+		year = 1842
+		NOT = {
+			year = 1846
+		}
+		NOT = {
+			has_global_flag = miss_flood1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 10
+	}
+	
+	option = {
+		name = "EVTOPTA187770"
+		set_global_flag = miss_flood1
+		150 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		146 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		123 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		treasury = -50000
+	}
+}
+
+country_event = {
+	id = 187774
+	title = "MISSFLOODTITLE"
+	desc = "MISSFLOOD2DESC"
+	picture = "mississippi_flood"
+	
+	trigger = {
+		OR = {
+			owns = 146
+			owns = 123
+			owns = 151
+			owns = 152
+			owns = 178
+			owns = 166
+		}
+		OR = {
+			tag = USA
+			tag = TEX
+			tag = CSA
+		}
+		year = 1851
+		NOT = {
+			year = 1861
+		}
+		has_global_flag = miss_flood1
+		NOT = { has_global_flag = miss_flood2 }
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	
+	option = {
+		name = "EVTOPTA187774"
+		set_global_flag = miss_flood2
+		146 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		123 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		151 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		152 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		178 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		166 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 365
+			}
+		}
+		treasury = -100000
+	}
+}
+
+country_event = {
+	id = 187778
+	title = "MISSFLOODTITLE"
+	desc = "MISSFLOOD3DESC"
+	picture = "mississippi_flood"
+	
+	trigger = {
+		OR = {
+			owns = 207
+			owns = 139
+			owns = 140
+			owns = 141
+			owns = 150
+			owns = 178
+			owns = 183
+			owns = 185
+			owns = 148
+			owns = 143
+			owns = 144
+			owns = 145
+		}
+		OR = {
+			tag = USA
+			tag = TEX
+			tag = CSA
+		}
+		year = 1926
+		NOT = {
+			year = 1932
+		}
+		has_global_flag = miss_flood2
+		NOT = {
+			has_global_flag = miss_flood3
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA187778"
+		set_global_flag = miss_flood3
+		207 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		139 = {
+			life_rating = -15
+			remove_province_modifier = orleans_growth
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		140 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		141 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		150 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		178 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		183 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		185 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		148 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		143 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		144 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+		145 = {
+			add_province_modifier = {
+				name = mississippi_flooding
+				duration = 450
+			}
+		}
+				
+		treasury = -200000
+	}
+}
+
+#Being disarmed and having a truce with the UK means no slavery for you
+country_event = {
+	id = 187800
+	title = "Slavery Ended"
+	desc = "EVTDESC187800"
+	picture = "slaves_freed"
+	
+	trigger = {
+		slavery = yes_slavery
+		truce_with = ENG
+		ENG = { is_greater_power = yes }
+		is_disarmed = yes
+		war = no
+		NOT = {	has_global_flag = capital_slavery_conference }
+		has_recently_lost_war = yes
+		year = 1850
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "We are at British mercy."
+		political_reform = no_slavery
+		clr_country_flag = slave_trade_leader
+		clr_country_flag = slave_trader
+		remove_country_modifier = the_slavery_debate
+		remove_country_modifier = atlantic_slave_trade
+		add_country_modifier = {
+			name = national_confusion
+			duration = 2860
+		}
+		ENG = {
+			country_event = 187810
+		}
+	}
+}
+
+country_event = {
+	id = 187810
+	title = "SLAVEENDBRITISH"
+	desc = "EVTDESC187810"
+	picture = "slaves_freed"
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = "Our work here is done."
+		prestige = 25
+	}
+}
+
+#USA moves capital to Philadelphia or Boston if White House is burned and CSA exists
+country_event = {
+	id = 187820
+	title = "New Capital"
+	desc = "EVTDESC187820"
+	picture = "washington_burned"
+	
+	trigger = {
+		tag = USA
+		war = no
+		CSA = {	exists = yes }
+		NOT = { owns = 211 }
+		OR = {
+			owns = 223
+			owns = 243
+		}
+		has_country_flag = white_house_burnt
+		capital = 220
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "We will move to Philadelphia."
+		capital = 223
+		223 = {
+			add_province_modifier = {
+				name = new_capital_modifier
+				duration = 3650
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = {
+					owns = 223
+				}
+			}
+		}
+	}
+	option = {
+		name = "We will move to Boston."
+		capital = 243
+		243 = {
+			add_province_modifier = {
+				name = new_capital_modifier
+				duration = 3650
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Mexico should move its capital when Mexico City has an unfriendly neighbour
+country_event = {
+	id = 187830
+	title = "Mexico City in Ruins"
+	desc = "EVTDESC187830"
+	picture = "mexican_soldiers"
+	
+	trigger = {
+		tag = MEX
+		capital = 2172
+		OR = {
+			CSA = { owns = 2173 }
+			CSA = { owns = 2174 }
+			CSA = { owns = 2180 }
+		}
+		war_with = CSA
+		CSA = {
+			controls = 2172
+		}
+		war_exhaustion = 50
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "We must retreat."
+		prestige = -25
+		capital = 2170
+	}
+}
+
+#Protest songs for late-game wars that don't go too well
+country_event = {
+	id = 187840
+	title = "Protest Songs"
+	desc = "EVTDESC187840"
+	picture = "anticorn"
+	
+	trigger = {
+		war = yes
+		press_rights = free_press
+		war_exhaustion = 30
+		year = 1910
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+	}
+	
+	option = {
+		name = "Let them sing their songs."
+		war_exhaustion = 5
+		prestige = -10
+		any_pop = {
+			dominant_issue = {
+				factor = 0.02
+				value = pacifism
+			}
+			consciousness = 2.5
+		}
+	}
+	
+	option = {
+		name = "We cannot let this spread."
+		any_pop = {
+			militancy = 2
+			consciousness = -1
+		}
+		badboy = 2
+		political_reform = state_press
+	}
+}
+
+#Event that fires when Brazil and CSA have max relations, sets a flag used elsewhere
+country_event = {
+	id = 187850
+	title = "National Ties"
+	desc = "EVTDESC187850"
+	picture = "confederate_dollar"
+	
+	trigger = {
+		tag = BRZ
+		war = no
+		NOT = { has_global_flag = csa_brz_friendship }
+		CSA = {	exists = yes }
+		relation = {
+			who = CSA
+			value = 190
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			slavery = yes_slavery
+		}
+	}
+	
+	option = {
+		name = "May our friendship prosper"
+		set_global_flag = csa_brz_friendship
+		create_alliance = CSA
+		diplomatic_influence = {
+			who = CSA
+			value = 200
+		}
+		CSA = {
+			country_event = 187860
+		}
+	}
+}
+
+country_event = {
+	id = 187860
+	title = "National Ties"
+	desc = "EVTDESC187860"
+	picture = "confederate_dollar"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "May our friendship prosper"
+		diplomatic_influence = {
+			who = BRZ
+			value = 200
+		}
+	}
+}
+
+#Fires when Spain doesn't own Cuba or Puerto Rico, ends slavery
+country_event = {
+	id = 187870
+	title = "Lost Colonies"
+	desc = "EVTDESC187870"
+	picture = "Slaves"
+	
+	trigger = {
+		tag = SPA
+		war = no
+		NOT = {
+			has_country_flag = spanish_slavery_ended
+		}
+		slavery = yes_slavery
+		NOT = {
+			owns = 2209
+			owns = 2210
+			owns = 2211
+			owns = 2212
+			owns = 2222
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 7
+	}
+	
+	option = {
+		name = "A more liberal stride for our nation."
+		any_pop = {
+			consciousness = 1
+			militancy = -1
+		}
+		political_reform = no_slavery
+	}
+}
+
+country_event = {
+	id = 187880
+	title = "Brazilian-Confederate Relations"
+	desc = "EVTDESC187880"
+	picture = "deliberation"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		OR = {
+			tag = BRZ
+			tag = CSA
+		}
+		slavery = yes_slavery
+		prestige = 50
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "We have found a strong ally."
+		CSA = {
+			relation = {
+				who = BRZ
+				value = 200
+			}
+		}
+		BRZ = {
+			relation = {
+				who = CSA
+				value = 200
+			}
+		}
+		prestige = 10
+	}
+	option = {
+		name = "We're fine on our own, thank you."
+		plurality = 1
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Brazil, the Religious Question, bringing the Catholic Church into conflict with the Empire
+country_event ={
+	id = 187890
+	title = "The Religious Question"
+	desc = "EVTDESC187890"
+	picture = "religious_question"
+	
+	trigger = {
+		year = 1865
+		tag = BRZ
+		war = no
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		NOT = {
+			has_country_flag = religious_question_started
+		}
+		NOT = {
+			has_country_flag = religious_question_decided
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 28
+		modifier = {
+			factor = 0.3
+			year = 1870
+		}
+	}
+	
+	option = { #Side with the Freemasons, historical
+		name = "The interdict against the Freemasons will be rescinded."
+		prestige = 10
+		set_country_flag = religious_question_started
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = { #Side with the Church
+		name = "The Freemasons are heretics and should be expelled at once."
+		prestige = -10
+		set_country_flag = religious_question_decided
+		add_country_modifier = {
+			name = freemason_expulsion_modifier
+			duration = 1825
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#Dom Vital refuses to rescind his interdict, Costa joins in
+country_event = {
+	id = 187892
+	title = "The Religious Question"
+	desc = "EVTDESC187892"
+	picture = "religious_question"
+	
+	trigger = {
+		has_country_flag = religious_question_started
+		NOT = {
+			has_country_flag = religious_question_decided
+		}
+		NOT = {
+			has_country_flag = rq_imprisoned_bishops
+		}
+		tag = BRZ
+	}
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	option = { #Imprison the two bishops, historical
+		name = "These men are working against the state. Imprison them."
+		prestige = 10
+		set_country_flag = rq_imprisoned_bishops
+		any_pop = {
+			limit = {
+				has_pop_religion = catholic
+			}
+			consciousness = 3
+			militancy = 2
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = { # Accept the interdict, expel the Freemasons
+		name = "Bishop Vital has made his point. Allow the interdict to pass."
+		prestige = -10
+		set_country_flag = religious_question_decided
+		any_pop = {
+			limit = {
+				has_pop_religion = catholic
+			}
+			consciousness = 1.5
+		}
+		add_country_modifier = {
+			name = freemason_expulsion_modifier
+			duration = 1825
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#The Religious Question ends with some disappointment for the monarchy
+country_event = {
+	id = 187894
+	title = "The Religious Question"
+	desc = "EVTDESC187894"
+	picture = "religious_question"
+	
+	trigger = {
+		has_country_flag = rq_bishops_imprisoned
+		NOT = {
+			has_country_flag = religious_question_decided
+		}
+		tag = BRZ
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+	}
+	
+	option = { #No choice but to free the bishops
+		name = "The bishops must be freed."
+		set_country_flag = religious_question_decided
+		prestige = -35
+		plurality = -2
+	}
+}	
+
+
+
+#Praieira Tensions, coinciding with the Liberal Revolution
+country_event = {
+	id = 187910
+	title = "The Praieiros"
+	desc = "EVTDESC187910"
+	picture = "Revolution"
+	
+	trigger = {
+		tag = BRZ
+		NOT = {
+			vote_franchise = universal_voting
+		}
+		year = 1848
+		NOT = {
+			year = 1850
+		}
+		NOT = {
+			has_country_flag = praieiro_revolt_trigger
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 9
+		modifier = {
+			factor = 2
+			slavery = no_slavery
+		}
+	}
+	
+	option = {
+		name = "This had best not come to violence."
+		add_country_modifier = {
+			name = springtime_of_nations
+			duration = 365
+		}
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 4
+			}
+		}
+		set_country_flag = praieiro_revolt_trigger
+	}
+}
+
+#Brazilian reaction to the British Aberdeen Act
+country_event = {
+	id = 187911
+	title = "The Aberdeen Act"
+	desc = "The British Parliament has signed the Aberdeen Act into law, giving them authority to seize and search Brazilian vessels for any slave traders, enforcing an end to the illegal slave trade."
+	picture = "Administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This cannot come to war with the British. Let it be."
+		prestige = -15
+		set_country_flag = aberdeen_accepted_flag
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 3
+			militancy = 3
+		}
+		clr_country_flag = slave_trader
+		clr_country_flag = slave_trade_leader
+		remove_country_modifier = atlantic_slave_trade
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "The British will not rule over us!"
+		prestige = 10
+		any_pop = {
+			limit = {
+				NOT = {
+					type = aristocrats
+				}
+			}
+			consciousness = 3
+			militancy = 2
+		}
+		ENG = {
+			country_event = 187912
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 3
+				is_greater_power = yes
+			}
+		}
+	}
+}
+
+#Reaction event for Aberdeen Act being refused by the Brazilians
+country_event = {
+	id = 187912
+	title = "Brazil Refuses!"
+	desc = "The Brazilians have denied the Aberdeen Act, and are strictly refusing British ships access to their waters."
+	picture = "slaves_freed"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Damn them!"
+		add_casus_belli = {
+			target = THIS
+			type = cut_down_to_size
+			months = 24
+		}
+		prestige = -5
+	}
+}
+
+#Province event for Quilombos to appear in non-American slave states
+province_event = {
+	id = 187913
+	title = "Escaped Slaves"
+	desc = "Escaped slaves have formed a Quilombo in this province, a settlement made up of ex-slaves in hard-to-reach places. It might be some time before we can root them out."
+	
+	trigger = {
+		owner = {
+			NOT = { tag = USA }
+			NOT = {	tag = CSA }
+			NOT = {	tag = TEX }
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+			slavery = yes_slavery
+		}
+		NOT = {
+			has_province_modifier = quilombo_presence
+		}
+	}
+	mean_time_to_happen = {
+		months = 750
+		modifier = {
+			factor = 0.9
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		modifier = {
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {
+			factor = 1.15
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 1.2
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.25
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 8
+		}
+	}
+	option = {
+		name = "Find them!"
+		add_province_modifier = {
+			name = quilombo_presence
+			duration = 1825
+		}
+	}
+}
+
+#Event for Brazil to establish the regency of Pedro II
+country_event = {
+	id = 187914
+	title = "Imperial Regency"
+	desc = "EVTDESC187914"
+	picture = "Administration"
+	
+	trigger = {
+		tag = BRZ
+		OR = {
+			government = hms_government
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+		year = 1836
+		NOT = {
+			has_country_flag = pedro_events_begun
+		}
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = "He will make a good leader, someday."
+		add_country_modifier = {
+			name = regency_modifier
+			duration = -1
+		}
+		prestige = 1
+		set_country_flag = pedro_events_begun
+	}
+}
+
+#Pedro II comes of age early due to a change in laws, the golden age of Brazil begins!
+country_event = {
+	id = 187915
+	title = "Dom Pedro II"
+	desc = "EVTDESC187915"
+	picture = "pedro_ii_grand"
+	major = yes
+	
+	trigger = {
+		year = 1840
+		tag = BRZ
+		has_country_modifier = regency_modifier
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = "The Golden Age of Brazil begins!"
+		prestige = 10
+		set_country_flag = reign_of_pedro
+		remove_country_modifier = regency_modifier
+		add_country_modifier = {
+			name = dom_pedro_ii
+			duration = 18615
+		}
+	}
+}
+
+#Pedro II passes away
+country_event = {
+	id = 187916
+	title = "The Death of Dom Pedro II"
+	desc = "EVTDESC187916"
+	picture = "pedro_ii"
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = reign_of_pedro
+		NOT = {	has_country_flag = death_of_pedro }
+		NOT = { has_country_modifier = dom_pedro_ii }
+		NOT = { has_country_modifier = regency_modifier }
+		tag = BRZ
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = "The whole nation will mourn his passing."
+		prestige = 25
+		add_country_modifier = {
+			name = national_instability
+			duration = 3650
+		}
+		set_country_flag = death_of_pedro
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			militancy = 10
+			consciousness = 10
+		}
+	}
+}
+
+#Pedro II forcefully abdicates
+country_event = {
+	id = 187917
+	title = "The Abdication of Dom Pedro II"
+	desc = "EVTDESC187917"
+	picture = "pedro_ii"
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = reign_of_pedro
+		OR = {
+			has_country_modifier = dom_pedro_ii
+			has_country_modifier = regency_modifier
+		}
+		tag = BRZ
+		NOT = {
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "A dark age for Brazil."
+		prestige = -25
+		add_country_modifier = {
+			name = national_instability
+			duration = 3650
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			militancy = -10
+			consciousness = -10
+		}
+		remove_country_modifier = dom_pedro_ii
+		remove_country_modifier = regency_modifier
+		clr_country_flag = reign_of_pedro
+	}
+}
+
+# Revolt of the Lash
+country_event = {
+	id = 187918
+	title = "Revolt of the Lash"
+	desc = "EVTDESC187918"
+	picture = "revolt_lash"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BRZ
+		slavery = no_slavery
+		OR = {
+			average_militancy = 2
+			average_consciousness = 2
+		}
+		year = 1909
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "Side with the soldiers and promise them amnesty."
+		prestige = -10
+		money = -10000
+		any_pop = {
+			limit = {
+				has_pop_culture = afro_brazilian
+			}
+			militancy = -10
+			consciousness = -10
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = brazilian
+			}
+			militancy = 2
+			consciousness = 2
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = brazilian
+				type = officers
+			}
+			reduce_pop = 0.8
+			militancy = 6
+			consciousness = 6
+		}
+		add_accepted_culture = afro_brazilian
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Side with the white officers and punish the crews."
+		prestige = 10
+		any_pop = {
+			limit = {
+				is_accepted_culture = no
+				is_primary_culture = no
+				type = soldiers
+			}
+			reduce_pop = 0.9
+			militancy = 10
+			consciousness = 10
+		}
+	}
+}
+
+# Brazilian Slave Trade events, pre-Aberdeen
+province_event = {
+	id = 187919
+	title = "Slaves Imported"
+	desc = "EVTDESC187919"
+	
+	trigger = {
+		owner = {
+			tag = BRZ
+			NOT = { has_country_flag = aberdeen_accepted_flag }
+			NOT = { has_country_modifier = atlantic_slave_trade }
+			slavery = yes_slavery
+		}
+		state_scope = {
+			is_slave = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 1.15
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.25
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 2
+		}
+		modifier = {
+			factor = 0.85
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.75
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 0.9
+			has_province_modifier = quilombo_presence
+		}
+	}
+	
+	option = {
+		name = "This is illegal!"
+		owner = {
+			prestige = 0.5
+			badboy = -0.5
+		}
+		any_pop = {
+			consciousness = 0.5
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Okay, just this once..."
+		owner = {
+			prestige = -0.5
+			badboy = 0.5
+		}
+		any_pop = {
+			militancy = -0.5
+		}
+		any_pop = {
+			limit = {
+				type = slaves
+			}
+			reduce_pop = 1.15
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+}
+
+#Star of the South, large diamond found by a slave girl in Brazil, 1853
+country_event = {
+	id = 187920
+	title = "Star of the South"
+	desc = "EVTDESC187920"
+	picture = "goldrush"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BRZ
+		year = 1852
+		slavery = yes_slavery
+	}
+	
+	mean_time_to_happen = {
+		months = 14
+	}
+	
+	option = {
+		name = "Sell it!"
+		money = 65000
+	}
+	option = {
+		name = "Show it around the world!"
+		prestige = 5
+	}
+}
+
+#Creation of the American National Parks, 20th century
+country_event = {
+	id = 187921
+	title = "National Parks"
+	desc = "EVTDESC187921"
+	picture = "national_parks"
+	
+	trigger = {
+		NOT = { has_country_flag = national_parks_flag }
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+			tag = TEX
+			tag = CAL
+			tag = DES
+			tag = NEN
+		}
+		year = 1909
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+	}
+	
+	option = {
+		name = "We shall protect America's natural beauty."
+		prestige = 10
+		set_country_flag = national_parks_flag
+		any_pop = {
+			consciousness = -1
+		}
+	}
+}
+
+#California economic boom, 1850s, allowing for massive growth there
+country_event = {
+	id = 187922
+	title = "California"
+	desc = "EVTDESC187922"
+	picture = "san_francisco"
+	
+	trigger = {
+		year = 1855
+		NOT = { has_country_flag = california_boom_flag }
+		NOT = { has_global_flag = california_global_boom_flag }
+		war = no
+		any_owned_province = {
+			is_core = CAL
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "The Golden State"
+		set_country_flag = california_boom_flag
+		prestige = 5
+		any_owned = {
+			limit = {
+				is_core = CAL
+			}
+			add_province_modifier = {
+				name = california_boom_modifier
+				duration = 18250
+			}
+		}
+		88 = {
+			any_pop = {
+				limit = {
+					type = labourers
+				}
+				move_pop = 89
+			}
+		}
+	}
+}
+
+#Pedro II travels the world
+country_event = {
+	id = 187923
+	title = "Dom Pedro's Travels"
+	desc = "EVTDESC187923"
+	picture = "pedro_ii"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BRZ
+		has_country_modifier = dom_pedro_ii
+		nationalism_n_imperialism = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "A truly worldly man."
+		prestige = 10
+	}
+}
+
+#California boom slows down
+country_event = {
+	id = 187924
+	title = "End of the Boom Era"
+	desc = "EVTDESC187924"
+	picture = "san_francisco"
+
+	fire_only_once = yes
+
+	trigger = {
+		any_owned_province = {
+			is_core = CAL
+			has_province_modifier = california_boom_modifier
+		}
+		year = 1865
+		NOT = { has_global_flag = california_boom_global_flag }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "It was getting a bit crowded here anyhow"
+		set_global_flag = california_boom_global_flag
+		any_owned = {
+			limit = {
+				is_core = CAL
+			}
+			remove_province_modifier = california_boom_modifier
+			add_province_modifier = {
+				name = california_slow_boom_modifier
+				duration = 5600
+			}
+		}
+	}
+}
+		
+
+#Black Abolitionist, post-ACW
+country_event = {
+	id = 187925
+	title = "A Black Abolitionist"
+	desc = "EVTDESC187925"
+	picture = "election_crowd"
+	
+	trigger = {
+		has_global_flag = american_civil_war_has_happened
+		civilized = yes
+		capital_scope = {
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		slavery = yes_slavery
+		war = no
+		NOT = { average_militancy = 4 }
+		NOT = { average_consciousness = 9 }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 0.8
+			NOT = { average_consciousness = 7 }
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { average_consciousness = 5 }
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { average_consciousness = 2 }
+		}
+	}
+	
+	option = {
+		name = "Let him talk."
+		any_pop = {
+			dominant_issue = {
+					value = no_slavery
+					factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				NOT = { type = slaves }
+			}
+			consciousness = 3
+		}
+		owner = { prestige = 5 }
+	}
+	option = {
+		name = "Denounce him!"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 5
+			}
+		}
+		owner = { plurality = -5 }
+	}
+}
+
+#Late 19th century, capitalists form Progressive Societies against slavery
+province_event = {
+	id = 187926
+	title = "EVTTITLE187926"
+	desc = "EVTDESC187926"
+	
+	trigger = {
+		owner = {
+			slavery = yes_slavery
+			civilized = yes
+		}
+		state_scope = {
+			is_slave = yes
+		}
+		is_colonial = no
+		average_consciousness = 4
+		year = 1890
+		NOT = {
+			has_province_modifier = progressive_society_csa
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+		modifier = {
+			factor = 0.9
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 1.1
+			ruling_party_ideology = conservative
+		}
+	}
+	
+	option = {
+		name = "What will all this talking do?"
+		owner = { prestige = -2 }
+		add_province_modifier = {
+			name = progressive_society_csa
+			duration = 1825
+		}
+	}
+}
+
+#Literate slaves learn/spread Marxist doctrines
+province_event = {
+	id = 187930
+	title = "EVTTITLE187930"
+	desc = "EVTDESC187930"
+	
+	trigger = {
+		NOT = { has_province_modifier = marxist_slaves }
+		owner = {
+			slavery = yes_slavery
+			civilized = yes
+		}
+		state_scope = {
+			is_slave = yes
+			is_colonial = no
+		}
+		owner = {
+			is_ideology_enabled = communist
+		}
+		year = 1870
+		literacy = 0.4
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+	}
+	
+	option = {
+		name = "Crack down on these socialist influences."
+		any_pop = {
+			limit = {
+				type = slaves
+			}
+			consciousness = -1
+			militancy = 3
+			ideology = {
+				factor = 0.15
+				value = communist
+			}
+			ideology = {
+				factor = 0.15
+				value = socialist
+			}
+		}
+		add_province_modifier = {
+			name = marxist_slaves
+			duration = 365
+		}
+		owner = { prestige = -5 }
+	}
+	
+	option = {
+		name = "Slaves have no political power anyhow."
+		any_pop = {
+			limit = {
+				type = slaves
+			}
+			literacy = 0.05
+			consciousness = 0.5
+			
+		}
+		add_province_modifier = {
+			name = marxist_slaves
+			duration = 1825
+		}
+	}
+}
+
+#Lategame, factory and farm owners start hiring immigrant workers as slaves cost too much to maintain
+province_event = {
+	id = 187935
+	title = "EVTTITLE187935"
+	desc = "EVTDESC187935"
+	
+	trigger = {
+		owner = {
+			civilized = yes
+			slavery = yes_slavery
+		}
+		year = 1890
+		state_scope = {
+			is_slave = yes
+		}
+		is_colonial = no
+		NOT = {
+			has_province_modifier = immigrant_workers_csa
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = {
+		name = "Do not interfere in local business."
+		add_province_modifier = {
+			name = immigrant_workers_csa
+			duration = 1825
+		}
+		any_pop = {
+			limit = {
+				type = slaves
+			}
+			consciousness = 4
+			militancy = 4
+		}
+	}
+	
+	option = {
+		name = "Restrict factory hiring quotas."
+		add_province_modifier = {
+			name = immigrant_workers_csa
+			duration = 1825
+		}
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			consciousness = 4
+			militancy = 4
+		}
+	}
+}
+
+########################################
+#Events for the Trent Affair during ACW #
+########################################
+
+#Britain gets event of HMS Trent being captured by crew of the USS San Jacinto
+country_event = {
+	id = 187940
+	title = "The Trent Affair"
+	desc = "EVTDESC187940"
+	picture = "hms_trent"
+	
+	trigger = {
+		NOT = { has_global_flag = trent_affair_resolved }
+		NOT = { has_global_flag = trent_affair_begun }
+		is_greater_power = yes
+		tag = ENG
+		USA = {
+			war_with = CSA
+		}
+		NOT = {
+			alliance_with = USA
+		}
+		relation = {
+			who = CSA
+			value = 0
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+	
+	option = {
+		name = "The United States must answer for this!"
+		set_global_flag = trent_affair_begun
+		USA = { country_event = 187942 }
+		CSA = { country_event = 187941 }
+		relation = {
+			who = USA
+			value = -25
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "We will not risk a diplomatic incident."
+		set_global_flag = trent_affair_resolved
+		prestige = -15
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#CSA gets to know what's going on
+country_event = {
+	id = 187941
+	title = "The Trent Affair"
+	desc = "The British HMS Trent, with two Confederate diplomats on board, has been seized by Union forces."
+	picture = "hms_trent"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This could be our chance..."
+	}
+}
+
+#USA decides whether to accept the British demands
+country_event = {
+	id = 187942
+	title = "The Trent Affair"
+	desc = "EVTDESC187942"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will apologize and release the envoys. This mustn't come to war."
+		prestige = -20
+		ENG = {
+			country_event = 187943
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_modifier = raving_loon
+					has_country_modifier = power_vacuum
+					has_country_modifier = gauche_buffoon
+					has_country_modifier = prince_of_terror
+					has_country_modifier = efficient_sociopath
+					has_country_modifier = imperious_autocrat
+					has_country_modifier = pig_headed_isolationist
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					has_country_modifier = lord_admiral
+					has_country_modifier = military_man
+					has_country_modifier = landed_gentleman
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_country_modifier = successful_industrialist
+					has_country_modifier = dour_economist
+					has_country_modifier = administrative_genius
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					has_country_modifier = expert_diplomat
+					has_country_modifier = great_statesman
+					has_country_modifier = backroom_boy
+					has_country_modifier = visionary_thinker
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "All is fair in war!"
+		plurality = 3
+		ENG = {
+			country_event = 187944
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				OR = {
+					has_country_modifier = raving_loon
+					has_country_modifier = power_vacuum
+					has_country_modifier = gauche_buffoon
+					has_country_modifier = prince_of_terror
+					has_country_modifier = efficient_sociopath
+					has_country_modifier = imperious_autocrat
+					has_country_modifier = pig_headed_isolationist
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_country_modifier = lord_admiral
+					has_country_modifier = military_man
+					has_country_modifier = landed_gentleman
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					has_country_modifier = successful_industrialist
+					has_country_modifier = dour_economist
+					has_country_modifier = administrative_genius
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_modifier = expert_diplomat
+					has_country_modifier = great_statesman
+					has_country_modifier = backroom_boy
+					has_country_modifier = visionary_thinker
+				}
+			}
+		}
+	}
+}
+
+#UK reaction event - USA apologizes
+country_event = {
+	id = 187943
+	title = "The Trent Affair"
+	desc = "EVTDESC187943"
+	picture = "hms_trent"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Another victory for England!"
+		set_global_flag = trent_affair_resolved
+		prestige = 10
+		relation = {
+			with = USA
+			value = 25
+		}
+		CSA = {
+			country_event = 187945
+		}
+	}
+}
+#UK reaction event - USA doesn't back down
+country_event = {
+	id = 187944
+	title = "The Trent Affair"
+	desc = "EVTDESC187944"
+	picture = "hms_trent"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "They will regret this."
+		set_global_flag = trent_affair_resolved
+		relation = {
+			with = USA
+			value = -175
+		}
+		war = {
+			target = USA
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+			defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		diplomatic_influence = {
+			who = CSA
+			value = 200
+		}
+	}
+}
+
+#CSA reacts to the USA giving in to the British
+country_event = {
+	id = 187945
+	title = "The Trent Affair"
+	desc = "The Union has given in to the British, and has released our diplomats, evading war."
+	picture = "hms_trent"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This is not in our favor."
+		prestige = -5
+	}
+}
+
+#################################################
+#Boll Weevil & Other Events Below; Flavour Above #
+#################################################
+
+province_event = {
+	id = 188000
+	title = "WEEVILINFEST"
+	desc = "EVT188000DESC"
+	
+	trigger = {
+		owned_by = THIS
+		controlled_by = THIS
+		province_control_days = 730
+		continent = north_america
+		OR = {
+			any_pop = {
+				limit = {
+					pop_type = slaves
+				}
+				militancy = 4
+			}
+			NOT = {
+				unemployment_by_type = {
+					type = farmers
+					value = 0.6
+				}
+			}
+			owned_by = USA
+			owned_by = CSA
+			owned_by = MEX
+		}
+		trade_goods = cotton
+		has_country_flag = boll_weevils_arrived
+		NOT = {
+			has_province_modifier = exhausted_land
+			has_province_modifier = boll_weevils
+			has_province_modifier = boll_weevils_switched
+		}
+		year = 1892
+	}
+	mean_time_to_happen = {
+		months = 600
+	}	
+	option = {
+		name = "Replace the cotton with coffee."
+		trade_goods = coffee
+		add_province_modifier = {
+			name = boll_weevils_switched
+			duration = 700
+		}
+	}
+	option = {
+		name = "Replace the cotton with grain."
+		trade_goods = grain
+		add_province_modifier = {
+			name = boll_weevils_switched
+			duration = 700
+		}
+	}
+	option = {
+		name = "Replace the cotton with spices."
+		trade_goods = spices
+		add_province_modifier = {
+			name = boll_weevils_switched
+			duration = 700
+		}
+	}
+	option = {
+		name = "Replace the cotton with tobacco."
+		trade_goods = tobacco
+		add_province_modifier = {
+			name = boll_weevils_switched
+			duration = 700
+		}
+	}
+	option = {
+		name = "Replace the cotton with fruit."
+		trade_goods = fruit
+		add_province_modifier = {
+			name = boll_weevils_switched
+			duration = 700
+		}
+	}
+	option = {
+		name = "We will not give up on cotton!"
+		add_province_modifier = {
+			name = boll_weevils
+			duration = 730
+		}
+	}
+}
+country_event = {
+	id = 188100
+	title = "BOLLWEEVILMENACE"
+	desc = "EVT188100DESC"
+	picture = "weevils"
+	
+	trigger = {
+		year = 1890
+		any_owned_province = {
+			continent = north_america
+		}
+		produces = cotton
+		NOT = {
+			has_country_flag = boll_weevils_arrived
+		}
+	}
+	mean_time_to_happen = {
+		months = 15
+		modifier = {
+			factor = 0.75
+			slavery = yes_slavery
+		}
+	}
+	option = {
+		name = "EVTOPTA188100"
+		set_country_flag = boll_weevils_arrived
+	}
+}
+country_event = {
+	id = 189000
+	title = "NEWSLAVESTATE"
+	desc = "EVT189000DESC"
+	picture = "slaves"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA189000"
+		political_reform = yes_slavery
+		prestige = -200
+		treasury = 25000
+		FROM = {
+			create_vassal = THIS
+		}
+		add_country_modifier = {
+			name = national_confusion
+			duration = 730
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+
+				tag = FROM
+			}
+			diplomatic_influence = { who = THIS value = 400 }
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = { tag = FROM }
+			}
+			diplomatic_influence = { who = THIS value = -100 }
+		}
+		any_country = {
+			limit = {
+				alliance_with = THIS
+				NOT = { tag = FROM }
+			}
+			leave_alliance = THIS
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+				location = { is_core = THIS }
+			}
+			militancy = 4
+		}
+		any_owned = {
+			limit = { is_core = THIS }
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1825
+			}
+		}
+	}
+}
