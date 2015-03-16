@@ -101,6 +101,7 @@ establish_protectorate_BC_casus_belli
 establish_protectorate_NI_casus_belli
 establish_protectorate_casus_belli
 status_quo
+enforce_slavery
 }
 
 # Great War CB's
@@ -5659,5 +5660,72 @@ conquest_any = {
 	war_name = WAR_CONQUEST_NAME
 	
 	on_add = {
+	}
+}
+
+# Create Slave State
+enforce_slavery = {
+	sprite_index = 3
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.4
+
+	badboy_factor = 2
+	prestige_factor = 1
+	peace_cost_factor = 60
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 2
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 2
+	good_relation_infamy_factor = 2
+	good_relation_militancy_factor = 2
+	
+	can_use = {
+		slavery = no_slavery
+		is_vassal = no
+		civilized = yes
+		NOT = { is_our_vassal = THIS }
+		NOT = {
+			relation = {
+				who = THIS
+				value = 0
+			}
+		}
+		THIS = {
+			NOT = { has_country_modifier = no_more_war }
+		}
+		NOT = { has_country_modifier = neutrality }
+		THIS = {
+			slavery = yes_slavery
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			NOT = { has_country_modifier = neutrality }
+			NOT = { war_policy = pacifism }
+		}	
+	}
+	
+	po_remove_prestige = yes
+	
+	war_name = WAR_ENSLAVE
+	
+	on_add = {
+		FROM = {
+			set_country_flag = enforcing_slavery
+		}
+	}
+	
+	on_po_accepted = {
+		FROM = {
+			badboy = 2
+		}
+		set_country_flag = slavery_enforced
+		country_event = 189000
 	}
 }

@@ -2734,3 +2734,230 @@ colonial_ministry = {
         immigrant_attract = 0.25
         icon = 17
 }
+
+##### CSA/SLAVERY EVENTS #####
+
+atlantic_slave_trade = {
+	rgo_throughput = 0.1
+	global_pop_consciousness_modifier = 0.1
+	badboy = 0.03
+	mobilisation_economy_impact = -0.5
+	icon = 6
+}
+mass_labour = {
+	rgo_throughput = 0.35
+	factory_throughput = -0.15
+	factor_owner_cost = 0.3
+	war_exhaustion = -1
+	non_accepted_pop_militancy_modifier = 0.08
+	icon = 18
+}
+onward_to_progress = {
+	factory_throughput = 0.25
+	factory_owner_cost = -0.3
+	global_pop_militancy_modifier = -0.1
+	icon = 11
+}
+slavery_propaganda = {
+	cb_generation_speed_modifier = 0.1
+	prestige = -0.05
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	icon = 1
+}
+enslaved_freedom = {
+	prestige = -0.08
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	rgo_output = 0.05
+	icon = 18
+}
+orleans_growth = {
+	immigrant_attract = 0.75
+	pop_militancy_modifier = -0.05
+	population_growth = 0.005
+	icon = 19
+}
+southern_hospitality = {
+	global_assimilation_rate = 0.25
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	global_immigrant_attract = -0.25
+	prestige = -0.05
+	icon = 13
+}
+southern_neighbours = {
+	global_immigrant_attract = 0.25
+	global_assimilation_rate = -0.25
+	global_pop_consciousness_modifier = 0.075
+	badboy = -0.02
+	prestige = 0.05
+	icon = 7
+}
+
+national_rifles = {
+	global_pop_militancy_modifier = 0.02
+	war_exhaustion = -0.1
+	mobilisation_size = 0.01
+	icon = 16
+}
+
+boll_weevils_switched = {
+	farm_RGO_eff = -0.2
+	farm_RGO_size = -0.2
+	local_RGO_output = -0.4
+	local_pop_consciousness_modifier = 0.1
+	immigration_push = 0.2
+	icon = 14
+}
+
+boll_weevils = {
+	farm_RGO_eff = -0.4
+	farm_RGO_size = 0.2
+	local_RGO_output = -0.1
+	local_pop_militancy_modifier = 0.02
+	immigration_push = 0.3
+	icon = 14
+}
+
+johnstown_flood = {
+	immigrant_push = 0.3
+	immigrant_attract = -0.5
+	local_RGO_throughput = -0.2
+	pop_militancy_modifier = 0.05
+	icon = 20
+}
+
+national_speech = {
+	icon = 1
+}
+
+hurricane_cleanup = {
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.05
+	immigrant_push = 0.2
+	assimilation_rate = 0.25
+	icon = 20
+}
+
+mississippi_flooding = {
+	pop_militancy_modifier = 0.03
+	immigrant_push = 0.2
+	life_rating = -0.25
+	farm_rgo_eff = -0.3
+	assimilation_rate = 0.25
+	icon = 20
+}
+
+orleans_growth_csa = {
+	immigrant_attract = 1.25
+	pop_militancy_modifier = -0.05
+	population_growth = 0.001
+	icon = 19
+}
+
+new_capital_modifier = {
+	immigrant_attract = 1
+	life_rating = 1
+	population_growth = 0.002
+	icon = 19
+}
+
+freemason_expulsion_modifier = {
+	education_efficiency_modifier = -0.25
+	global_pop_consciousness_modifier = 0.05
+	icon = 18
+}
+
+land_of_freedom_ny = {
+	prestige = 0.03
+	global_immigrant_attract = 1
+	global_assimilation_rate = 0.25
+	icon = 15
+}
+
+mulatto_modifier = {
+	non_accepted_pop_militancy_modifier = -0.05
+	non_accepted_pop_consciousness_modifier = -0.05
+	badboy = 0.025
+	icon = 16
+}
+
+quilombo_presence = {
+	local_RGO_throughput = -0.05
+	pop_militancy_modifier = 0.03
+	pop_consciousness_modifier = 0.03
+	assimilation_rate = -0.1
+	icon = 20
+}	
+
+regency_modifier = {
+	prestige = -0.05
+	core_pop_consciousness_modifier = 0.05
+	core_pop_militancy_modifier = 0.05
+	diplomatic_points_modifier = -0.25
+	ruling_party_support = -0.3
+	icon = 6
+}
+	
+dom_pedro_ii = {
+	core_pop_militancy_modifier = -0.02
+	diplomatic_points_modifier = 0.5
+	research_points_modifier = 0.5
+	education_efficiency_modifier = 0.33
+	prestige = 0.1
+	icon = 5
+}
+
+progressive_society_csa = {
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.05
+	rich_income_modifier = -0.05
+	icon = 4
+}
+
+marxist_slaves = {
+	pop_consciousness_modifier = 0.075
+	local_ruling_party_support = -0.03
+	icon = 20
+}
+
+immigrant_workers_csa = {
+	local_RGO_output = -0.25
+	local_RGO_throughput = -0.25
+	local_factory_throughput = 0.1
+	local_factory_output = 0.1
+	pop_consciousness_modifier = 0.03
+	icon = 14
+}
+
+california_boom_modifier = {
+	immigrant_attract = 100		#10000%
+	population_growth = 0.005
+	pop_consciousness_modifier = -0.05
+	icon = 11
+}
+
+california_slow_boom_modifier = {
+	immigrant_attract = 1		#100%
+	population_growth = 0.001
+	pop_consciousness_modifier = 0.05
+	icon = 11
+}
+
+#### Polish Modifiers ####
+
+commission_of_national_education = {
+	education_efficiency_modifier = 0.15
+	prestige = 0.04
+	research_points_modifier = 0.15
+	core_pop_consciousness_modifier = 0.02
+	icon = 13
+}
+
+polish_academy_learning = {
+	prestige = 0.02
+	immigrant_attract = 0.25
+	local_pop_consciousness_modifier = 0.03
+	icon = 15
+}
