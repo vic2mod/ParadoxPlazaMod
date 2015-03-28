@@ -412,6 +412,10 @@ country_migration_target =
 			}
 		}
 	}
+	modifier = {
+		factor = -2 
+		continent = africa 
+	}
 }
 
 migration_target =
@@ -623,6 +627,12 @@ promote_to =
 				country = {
 					civilized = no
 				}
+			}
+		}
+		modifier = {
+			factor = -100 
+			country = {
+				has_country_flag = kill_capitalists 
 			}
 		}
 	}

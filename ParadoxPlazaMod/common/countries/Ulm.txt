@@ -54,7 +54,7 @@ party = {
 	trade_policy = free_trade
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship
-	war_policy = pacificism
+	war_policy = pacifism
 }
 
 party = {

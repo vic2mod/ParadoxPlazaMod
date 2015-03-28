@@ -474,3 +474,23 @@ option = {
 
     add_country_flag = right_fix_2
 }
+
+country_event = {
+	id = 990050 
+	title = "Reallow the Capitalists"
+	desc = "After the communists took over they committed mass executions against capitalists but now we will re allow them to grow and prosper our economy"
+	
+	trigger = {
+		NOT = { government = proletarian_dictatorship }
+		has_country_flag = kill_capitalists
+		}
+	
+	mean_time_to_happen = {
+		months = 1 
+		}
+		
+	option = {
+		name = "Of course"
+		clr_country_flag = kill_capitalists
+		}
+	}
