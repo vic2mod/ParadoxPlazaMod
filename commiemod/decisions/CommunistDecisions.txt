@@ -212,4 +212,27 @@ political_decisions = {
 			}
 		}
 	}
+	
+	kill_the_capitalists = {
+		potential = {
+			government = proletarian_dictatorship
+			NOT = {
+				has_country_modifier = kill_capitalists
+			}
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					type = capitalists
+					}
+				}
+				reduce_pop = 0.01
+				militancy = 10
+			}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
 }

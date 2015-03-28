@@ -389,6 +389,10 @@ country_migration_target =
 			}
 		}
 	}
+	modifier = {
+		factor = -2 
+		continent = africa 
+	}
 }
 
 migration_target =
