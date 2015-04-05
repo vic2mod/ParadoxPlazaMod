@@ -2951,7 +2951,7 @@ red_shirts = {
 # Indian Sepoys
 ###################################
 indian_sepoys = {
-	icon = 6
+	icon = 9
 	
 	area = nation
 	
@@ -3430,7 +3430,7 @@ indian_nationalists = {
 # Liberal ("Jacobins")
 ###################################
 liberal_rebels = {
-	icon = 4
+	icon = 7 
 	
 	area = nation 					# Stays within the nation
 	
@@ -4305,7 +4305,7 @@ separatist_rebels = {
 # Militant Socialists
 ###################################
 socialist_rebels = {
-	icon = 4
+	icon = 8 
 	
 	area = nation 					# Stays within the nation
 	

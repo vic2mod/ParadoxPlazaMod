@@ -1144,7 +1144,27 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 550
+		modifier = {
+			factor = 0.9
+			invention = early_archaeology
+		}
+		modifier = {
+			factor = 0.8
+			invention = modern_archaeology
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = museum_build
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = archaeological_society
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = famous_archaeologist
+		}
 	}
 	
 	option = {
@@ -1166,7 +1186,19 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 350
+		modifier = {
+			factor = 1.2
+			invention = early_archaeology
+		}
+                modifier = {
+			factor = 1.3
+                        has_country_flag = archaeological_society
+		}
+                modifier = {
+			factor = 1.4
+                        has_country_flag = famous_archaeologist
+		}
 	}
 	
 	option = {
@@ -1198,12 +1230,58 @@ country_event = {
 	major = yes
 	
 	mean_time_to_happen = {
-		months = 2000
+		months = 2500
+		modifier = {
+			factor = 0.8
+			invention = modern_archaeology
+		}
+		modifier = {
+			factor = 0.9
+			invention = early_archaeology
+		}
+                modifier = {
+			factor = 0.9
+			has_country_modifier = mesopotamian_excavations
+		}
+                modifier = {
+			factor = 0.9
+			has_country_modifier = inca_excavations
+		}
+                modifier = {
+			factor = 0.9
+			has_country_modifier = maya_excavations
+		}
+                modifier = {
+			factor = 0.9
+			has_country_modifier = mycenaean_excavations
+		}
+                modifier = {
+			factor = 0.9
+			has_country_modifier = minoan_excavations
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = had_arch_exhibition
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = museum_build
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = archaeological_society
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = famous_archaeologist
+		}
 	}
-	
+
+	fire_only_once = yes
+
 	option = {
 		name = "EVTOPTA19046"
-		prestige = 30
+		prestige = 100
 		years_of_research = 1
 		set_global_flag = tutankhamun_found
 		any_country = {
@@ -1211,6 +1289,7 @@ country_event = {
 		}
 		remove_country_modifier = egyptian_excavations
 		clr_global_flag = egyptian_excavation_rights
+	    country_event = 201037
 	}
 }
 
@@ -1219,14 +1298,35 @@ country_event = {
 	id = 19047
 	title = "EVTNAME19047"
 	desc = "EVTDESC19047"
-	picture = "Egyptian"
+	picture = "Sarcophague"
+
 	
 	trigger = {
 		has_country_modifier = egyptian_excavations
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 350
+		modifier = {
+			factor = 0.9
+			invention = early_archaeology
+		}
+		modifier = {
+			factor = 0.8
+			invention = modern_archaeology
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = museum_build
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = archaeological_society
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = famous_archaeologist
+		}
 	}
 	
 	option = {
@@ -1235,6 +1335,52 @@ country_event = {
 		years_of_research = 0.05
 	}
 }
+
+#Hidden chamber
+country_event = {
+	id = 201020
+	title = "EVTNAME201020"
+	desc = "EVTDESC201020"
+	picture = "hidden_chamber"
+
+	trigger = {
+		has_country_modifier = egyptian_excavations
+	}
+
+	mean_time_to_happen = {
+		months = 450
+		modifier = {
+			factor = 0.9
+			invention = early_archaeology
+		}
+		modifier = {
+			factor = 0.8
+			invention = modern_archaeology
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = museum_build
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = archaeological_society
+		}
+                modifier = {
+			factor = 0.9
+                        has_country_flag = famous_archaeologist
+		}
+	}
+
+	option = {
+		name = "Hidden treasures!"
+		prestige = 10
+		years_of_research = 0.10
+	}
+}
+
+########################################
+# Thanks for playing Gott mit uns! ;-) #
+########################################
 
 #The Ems Dispatch (fired by Prussian decision)
 country_event = {
@@ -2252,6 +2398,88 @@ country_event = {
 		remove_country_modifier = neutrality
 		ai_chance = {
 			factor = 0
+		}
+	}
+}
+
+#Workaround for the "units stuck in neighbour" bug
+country_event = {
+	id = 19360
+	title = "Military Passage"
+	desc = "Some neighbours have left armies in our country which won't leave."
+	
+	trigger = {
+		ai = yes
+		war = no
+		any_owned_province = {
+			units_in_province = 1
+			NOT = { country_units_in_province = THIS }
+			NOT = { country_units_in_province = REB }
+		}
+		any_neighbor_country = {
+			NOT = { military_access = THIS }
+			ai = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Get them out!"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+				OR = {
+					neighbour = THIS
+					truce_with = THIS
+				}
+				ai = yes
+			}
+			military_access = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 19361
+	title = "Revocation of Military Passage"
+	desc = "Not everyone needs to be tromping across our country. $COUNTRY$ is not a battleground."
+	
+	trigger = {
+		ai = yes
+		war = no
+		any_neighbor_country = {
+			military_access = THIS
+			NOT = { alliance_with = THIS }
+			NOT = { is_our_vassal = THIS }
+			OR = {
+				truce_with = THIS
+				NOT = { relation = { who = THIS value = 50 } }
+			}
+			ai = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Revoke their rights of passage."
+		any_country = {
+			limit = {
+				military_access = THIS
+				NOT = { alliance_with = THIS }
+				NOT = { is_our_vassal = THIS }
+				OR = {
+					truce_with = THIS
+					NOT = { relation = { who = THIS value = 50 } }
+				}
+				ai = yes
+			}
+			end_military_access = THIS
 		}
 	}
 }

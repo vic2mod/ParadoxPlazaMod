@@ -1,0 +1,37 @@
+political_decisions = {
+	british_empire_games = {
+		potential = {
+			OR = {
+				tag = ENG
+				has_country_flag = british_monarchical_dominion
+			}
+			year = 1930
+			owns = 55 # Hamilton
+			NOT = { 
+				has_global_flag = british_monarchy_overthrown
+				has_global_flag = british_empire_games
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			money = -30000
+			set_global_flag = british_empire_games
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = {
+						has_country_flag = british_monarchical_dominion
+						tag = ENG
+					}
+				}
+				prestige = 3
+				any_pop = {
+					consciousness = -0.5
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
