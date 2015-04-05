@@ -1,3 +1,27 @@
+As of 4/4/2015 (Sorry it hasn't been updated but this will include all the changes since the last update to the change log) - 
+-Added sanctions for going over the infamy cap 
+-Addition of Ulm as a country
+-Alaska is a civilized country
+-Romansh is an accepted culture for Switzerland
+-Undone the flag and culture additions (I think)
+-Allow for non europeans to get the scramble for africa casus belli 
+-Fix a Japanese strait
+-Integration of Commiemod 
+-Changed dates for socialism and communism appearing
+-Redone 5 year plans
+-Option for no five year plans, everyone gets five year plans, or just for communists and fascists
+-Lots of balancing to try and make commiemod work
+-Fix an invention because of the new economic policies
+-Addition of North and South Italy to stop the problems of Italy losing land and since a country can have only one primary culture it resulted in it assimilating very quickly
+-Fixed anarcho-liberal revolutions to make it become Bourgeoisie dictatorship
+-Addition of population fixes for Hokkaido 
+-Integration of more of freedom and chains minimod 
+-Lessen immigration to Africa
+-Integration of Gott mit uns (Lots of flavor for Germany, Italy, and archaeology)
+-Integration of BIR Dominions (Just makes British dominions have cooler colors)
+-Option to not play with commiemod 
+-New rebel pictures for some rebels
+
 As of 12/15/2014 - CHANGELOG INCOMPLETE
 -Massive flag overhaul implemented
 -Optional rectangular flag frames mod added (temporary until less fuzzy versions can be created)
@@ -9,7 +33,7 @@ As of 12/15/2014 - CHANGELOG INCOMPLETE
 As of 11/30/2014
 
 -Fixed all the bugs that came about from merging North and South America in Vickymod 1.06. They are now two seperate continents again btw.
--Events to reduce militancy and conciousness in fascist and Communist nations if the people's needs are being met unde the new regime. Also changes POP's ideology some
+-Events to reduce militancy and conciousness in fascist and Communist nations if the people's needs are being met under the new regime. Also changes POP's ideology some
 -Allowed anybody to take part in the Scramble for Africa, not just Europeans
 -Created new, stronger policies for fascist parties, Autarky and Dirigisme
 -Added several nations as cultural unions (Yugoslavia, Russia, United Baltic States, Indochina, Central African Republic)

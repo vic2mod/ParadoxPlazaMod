@@ -76,6 +76,10 @@ liquidation_of_assets = {
 			factor = 4
 			trade_policy = protectionism
 		}
+		modifier = {
+			factor = 4 
+			trade_policy = autarky 
+			}
 	}
 	effect = {
 		factory_cost = -0.01
@@ -130,6 +134,10 @@ industrial_rnd_investments = {
 		modifier = {
 			factor = 4
 			trade_policy = protectionism
+		}
+		modifier = {
+			factor = 4 
+			trade_policy = autarky 
 		}
 	}
 	effect = {
@@ -304,6 +312,10 @@ fixed_intramonetary_exchange_rates = {
 			factor = 2
 			economic_policy = planned_economy
 		}
+		modifier = {
+			factor = 2 
+			economic_policy = dirigisme 
+		}
 	}
 	effect = {
 		tax_eff = 1 
@@ -389,6 +401,10 @@ interest_inflation_weapon = {
 		modifier = {
 			factor = 2
 			trade_policy = protectionism
+		}
+		modifier = {
+			factor = 2 
+			trade_policy = autarky 
 		}
 	}
 	effect = {
@@ -1079,6 +1095,10 @@ irving_fischer = {
 			factor = 4
 			economic_policy = interventionism
 		}
+		modifier = {
+			factor = 6 
+			trade_policy = autarky 
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1416,6 +1436,10 @@ financial_regulations = {
 			factor = 4
 			trade_policy = protectionism
 		}
+		modifier = {
+			factor = 4 
+			trade_policy = autarky
+		}
 	}
 	effect = {
 		tax_eff = 1 
@@ -1543,6 +1567,10 @@ centralized_economic_planning = {
 		modifier = {
 			factor = 6
 			economic_policy = planned_economy
+		}
+		modifier = {
+			factor = 6 
+			economic_policy = dirigisme 
 		}
 	}
 	effect = {
