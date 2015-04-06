@@ -1,7 +1,7 @@
 province_event = {
 	id = 99100
-	title = "EVTNAME99025"
-	desc = "EVTDESC99025"
+	title = "The Black Hole of $PROVINCENAME$"
+	desc = "$PROVINCENAME$ has recently fallen under zombie control, and neither the local government nor the military has been able to restore order. Since we are unable to maintain control over the area, our people and the international community deem it terra nullius. Future rehabitation will require extensive reconstruction and repopulation; we estimate that the province's human population is less than 20% of what it was in 1836, if not lower."
 
 	trigger = {
 		province_control_days=1800 #5 years
@@ -53,8 +53,8 @@ province_event = {
 
 country_event = { #note, this must be a country event, otherwise it might happen multiple times at once, which can cause a crash
 	id = 99101
-	title = "EVTNAME99101"
-	desc = "EVTDESC99101"
+	title = "Zombieland"
+	desc = "Parts of our country have recently fallen under zombie control, and neither the local government nor the military have been able to restore order. Since we are unable to maintain control over the area, our people and the international community have come to refer to it as 'Zombieland': A wasteland where all societal structure has collapsed and where zombies roam freely. Future rehabitation will require extensive reconstruction and repopulation; we estimate that the province's human population is less than 20% of what it was in 1836, if not lower."
 
 	trigger = {
 		NOT = { exists = ZOM }
@@ -103,8 +103,8 @@ country_event = { #note, this must be a country event, otherwise it might happen
 
 country_event = {
 	id = 99200
-	title = "EVTNAME99200"
-	desc = "EVTDESC99200"
+	title = "Zombies don't build countries"
+	desc = "Event to turn Zombieland into Terra Nullius"
 	
 	trigger = {
 		OR = {
@@ -137,8 +137,8 @@ country_event = {
 
 country_event = {
 	id = 99201
-	title = "EVTNAME99201"
-	desc = "EVTDESC99201"
+	title = "Zombieland will soon be emptied"
+	desc = "This event stops Zombieland from getting more provinces, hence in about a month's time it will be turned into Terra Nullius"
 	
 	trigger = {
 		OR = {
