@@ -1,3 +1,7 @@
+As of 6 April 2015
+-Allow you to play with zombiemod
+-Gives italian players an option to switch to Italy if someone else forms it
+
 As of 4/4/2015 (Sorry it hasn't been updated but this will include all the changes since the last update to the change log) - 
 -Added sanctions for going over the infamy cap 
 -Addition of Ulm as a country
