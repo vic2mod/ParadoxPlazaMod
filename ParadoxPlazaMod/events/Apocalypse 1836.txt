@@ -1,6 +1,6 @@
 #Outbreak
 country_event = {
-	id = 99001
+	id = 13500
 	title = "EVTNAME99001"
 	desc = "EVTDESC99001"
 	picture = disease
@@ -35,7 +35,7 @@ country_event = {
 
 #Country to Province
 country_event = {
-	id = 99002
+	id = 13501
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = disease
@@ -87,7 +87,7 @@ country_event = {
 
 #Province to Country
 country_event = {
-	id = 99003
+	id = 13502
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = disease
@@ -135,7 +135,7 @@ country_event = {
 
 #Japan to China
 country_event = {
-	id = 99004
+	id = 13503
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -194,7 +194,7 @@ country_event = {
 
 #China to Japan
 country_event = {
-	id = 99005
+	id = 13504
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -253,7 +253,7 @@ country_event = {
 
 #Madagascar to France
 country_event = {
-	id = 99006
+	id = 13505
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -312,7 +312,7 @@ country_event = {
 
 #France to Madagascar
 country_event = {
-	id = 99007
+	id = 13506
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -371,7 +371,7 @@ country_event = {
 
 #Caribbean to United States
 country_event = {
-	id = 99008
+	id = 13507
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -442,7 +442,7 @@ country_event = {
 
 #United States to Caribbean
 country_event = {
-	id = 99009
+	id = 13508
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -504,7 +504,7 @@ country_event = {
 
 #Oceania to United Kingdom
 country_event = {
-	id = 99010
+	id = 13509
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -575,7 +575,7 @@ country_event = {
 
 #United Kingdom to Oceania
 country_event = {
-	id = 99011
+	id = 13510
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -637,7 +637,7 @@ country_event = {
 
 #Iceland to Denmark
 country_event = {
-	id = 99012
+	id = 13511
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -696,7 +696,7 @@ country_event = {
 
 #Denmark to Iceland
 country_event = {
-	id = 99013
+	id = 13512
 	title = "EVTNAME99002"
 	desc = "EVTDESC99002"
 	picture = emigration
@@ -755,7 +755,7 @@ country_event = {
 
 #Province Victory
 province_event = {
-	id = 99014
+	id = 13513
 	title = "EVTNAME99014"
 	desc = "EVTDESC99014"
 
@@ -791,7 +791,7 @@ province_event = {
 
 #Country Victory
 country_event = {
-	id = 99015
+	id = 13514
 	title = "EVTNAME99015"
 	desc = "EVTDESC99015"
 	picture = prosper
@@ -825,7 +825,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99016
+	id = 13515
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -878,7 +878,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99017
+	id = 13516
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -931,7 +931,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99018
+	id = 13517
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -986,7 +986,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99019
+	id = 13518
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -1038,7 +1038,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99020
+	id = 13519
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -1089,7 +1089,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99021
+	id = 13520
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -1140,7 +1140,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99022
+	id = 13521
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -1191,7 +1191,7 @@ country_event = {
 
 #State of Emergency
 country_event = {
-	id = 99023
+	id = 13522
 	title = "EVTNAME99016"
 	desc = "EVTDESC99016"
 	picture = upperhouse
@@ -1243,7 +1243,7 @@ country_event = {
 
 #Global Defeat
 country_event = {
-	id = 99024
+	id = 13523
 	title = "EVTNAME99024"
 	desc = "EVTDESC99024"
 
@@ -1267,7 +1267,7 @@ country_event = {
 
 ##Terra Nullius
 #province_event = {
-#	id = 99025
+#	id = 13524
 #	title = "EVTNAME99025"
 #	desc = "EVTDESC99025"
 #
@@ -1312,7 +1312,7 @@ country_event = {
 
 #Add State of Emergency Modifier
 country_event = {
-	id = 99026
+	id = 13525
 	title = "EVTNAME99026"
 	desc = "EVTDESC99026"
 	picture = "rebellion"
@@ -1330,7 +1330,7 @@ country_event = {
 
 #Remove State of Emergency Modifier
 country_event = {
-	id = 99027
+	id = 13526
 	title = "EVTNAME99027"
 	desc = "EVTDESC99027"
 	picture = "military_reform"
@@ -1369,7 +1369,7 @@ country_event = {
 
 #The Zombies are back!
 country_event = {
-	id = 99028
+	id = 13527
 	title = "EVTNAME99028"
 	desc = "EVTDESC99028"
 	picture = disease
@@ -1404,7 +1404,7 @@ country_event = {
 }
 
 country_event = {
-	id = 99029
+	id = 13528
 	title = "Zombie Mod?"
 	desc = "Do you want to play with Zombie Mod which creates a zombie plague which will destroy much of the world?"
 	
