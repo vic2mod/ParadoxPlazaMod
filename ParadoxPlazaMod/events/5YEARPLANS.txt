@@ -534,7 +534,7 @@ country_event = {
 	trigger = {
 		OR ={
 			government = absolute_monarchy
-			government = presidental_dictatorship
+			government = presidential_dictatorship
 			}
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
@@ -624,7 +624,7 @@ country_event = {
 		NOT = {
 			OR = {
 				government = absolute_monarchy
-				government = presidental_dictatorship
+				government = presidential_dictatorship
 				}
 			}
 		OR = {
