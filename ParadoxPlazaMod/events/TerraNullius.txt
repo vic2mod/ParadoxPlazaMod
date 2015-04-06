@@ -91,7 +91,7 @@ country_event = { #note, this must be a country event, otherwise it might happen
 		}
 		ZOM = {
 			remove_country_modifier = do_not_annex
-			remove_country_modifier = accepts_provinces
+			remove_country_modifier = accepts_new_provinces
 			add_country_modifier = {
 				name = do_not_annex
 				duration = 62
