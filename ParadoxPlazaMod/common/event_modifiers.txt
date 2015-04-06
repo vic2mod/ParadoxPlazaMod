@@ -3021,30 +3021,4 @@ italico_valore = {
 	icon = 15
 }
 
-##### Apocalypse 1836 #####
 
-state_of_emergency = {
-	mobilisation_size = 0.05
-	land_organisation = 0.05
-	naval_organisation = 0.05
-	org_regain = 0.1
-	icon = 15
-}
-
-zombie_outbreak = {
-	immigrant_attract = -0.025
-	pop_consciousness_modifier = -0.3
-	pop_militancy_modifier = 0.5
-	population_growth = -0.025
-	icon = 20
-}
-
-do_not_annex = {
-	immigrant_attract = -.001
-	icon = 20
-}
-
-accepts_new_provinces = {
-	immigrant_attract = -.001
-	icon = 20
-}
