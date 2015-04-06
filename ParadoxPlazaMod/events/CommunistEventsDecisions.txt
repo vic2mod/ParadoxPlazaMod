@@ -1155,11 +1155,11 @@ country_event = {
 		
 	option = {
 		name = "Of course, comrade"
-		set_global_flag = no_commie_mod 
 		}
 	
 	option = {
 		name = "Death to Marx"
+		set_global_flag = no_commie_mod 
 		}
 	}
 	
