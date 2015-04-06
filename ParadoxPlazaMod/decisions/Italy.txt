@@ -1133,4 +1133,41 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	unite_with_italy = {
+		potential = {
+			OR = {
+				primary_culture = south_italian
+				primary_culture = north_italian
+			}
+			ITA = {
+				exists = yes
+				ai = yes
+			}
+			NOT = {
+				tag = ITA
+				has_country_flag = unite_with_italy
+			}
+		}		
+
+	allow = {
+		war = no
+		ITA = {
+			war = no
+			neighbour = THIS
+		}
+	}
+
+	effect = {
+		set_country_flag = unite_with_italy
+		random_country = {
+			limit = {
+				tag = ITA
+				ai = yes
+				}
+			inherit = THIS
+			}
+			change_tag = ITA 
+		}
+	}
 }
