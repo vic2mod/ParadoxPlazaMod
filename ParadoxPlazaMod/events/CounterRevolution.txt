@@ -275,7 +275,8 @@ country_event = {
 				OR = {
 					type = capitalists
 					type = aristocrats
-			}
+				}
+			}	
 			ideology = {
 				value = reactionary
 				factor = 0.2
@@ -447,11 +448,11 @@ trigger = {
     has_country_flag = rightunified
     NOT = { has_country_flag = right_fix_2 }
 	NOT = { has_global_flag = no_commie_mod }
-}
+	}
 
 mean_time_to_happen = {
     months = 6
-}
+	}
 
 option = {
     name = "Then it ends here."
@@ -481,7 +482,8 @@ option = {
     remove_country_modifier = industrial_reform
 
     add_country_flag = right_fix_2
-}
+	}
+}	
 
 country_event = {
 	id = 990050 
@@ -502,4 +504,4 @@ country_event = {
 		name = "Of course"
 		clr_country_flag = kill_capitalists
 		}
-	}
+	}		
