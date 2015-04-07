@@ -199,6 +199,41 @@ political_decisions = {
 				}
 			}
 		}
-	}	
+	}
+
+	final_siege_of_vienna = {
+		picture = greater_turkey
+		
+		potential = {
+			tag = TUR
+			OR = {
+				war_with = AUS
+				war_with = KUK
+				war_with = DNB
+				}
+			NOT = { has_country_flag = final_siege_of_vienna }
+			}
+	
+		allow = {
+			619 = { controlled_by = TUR }
+		}
+	
+		effect = {
+			prestige = 35
+			set_country_flag = final_siege_of_vienna
+			any_pop = {
+				dominant_issue = {
+					value = jingoism
+					factor = .1
+				}
+			}
+			war_exhaustion = -5 
+			add_country_modifier = {
+				name = final_siege_of_vienna
+				duration = -1 
+			}
+		}
+	}
+}	
 	
 }

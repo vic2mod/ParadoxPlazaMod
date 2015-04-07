@@ -761,4 +761,33 @@ political_decisions = {
 		}
 	}	
 	
+	annex_krakow = {
+		picture = german_tyrol
+		
+		potential = {
+			OR = {
+				controls = 716
+				controls = 685
+				controls = 2584
+				controls = 714 
+				}
+			}
+			
+		allow = {
+			is_disarmed = no 
+			war = no 
+			exists = KRA 
+			703 = { owned_by = KRA }
+			}
+			
+		effect = {
+			casus_belli = {
+				target = KRA 
+				type = conquest 
+				months =  16 
+				}
+			badboy = 4 
+			prestige = 5 
+		}
+	}	
 }

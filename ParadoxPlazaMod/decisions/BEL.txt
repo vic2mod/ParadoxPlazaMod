@@ -423,4 +423,36 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	annex_luxembourg = {
+		picture = german_tyrol
+		
+		potential = {
+			OR = {
+				controls = 398
+				controls = 396
+				controls = 413
+				controls = 412
+				controls = 573 
+				controls = 572 
+				}
+			}
+			
+		allow = {
+			is_disarmed = no 
+			war = no 
+			exists = LUX
+			397 = { owned_by = LUX }
+			}
+			
+		effect = {
+			casus_belli = {
+				target = LUX
+				type = conquest 
+				months =  16 
+				}
+			badboy = 4 
+			prestige = 5 
+		}
+	}	
 }

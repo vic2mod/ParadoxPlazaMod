@@ -657,6 +657,10 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = slavery_propaganda
 			}
+			NOT = { capital_scope = {
+				continent = europe 
+				}
+			}
 		}
 		
 		allow = {
@@ -713,6 +717,10 @@ political_decisions = {
 			}
 			NOT = {
 				has_country_modifier = enslaved_freedom
+			}
+			OR = { 	
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america }
 			}
 		}
 		allow = {
