@@ -1,3 +1,11 @@
+As of 7 April 2015
+-Fix some decisions from BIR mod
+-Added a Hungary flavor mod
+-Added part of a Norway flavor mod
+-Option to not play with sanctions
+-Decisions to invade Krakow and Luxembourg if a nation surrounds it
+-Decision for the third siege of Vienna
+
 As of 6 April 2015
 -Allow you to play with zombiemod
 -Gives italian players an option to switch to Italy if someone else forms it

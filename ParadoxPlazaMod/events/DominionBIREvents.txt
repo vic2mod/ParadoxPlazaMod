@@ -133,7 +133,7 @@ country_event = {
 			has_country_flag = accepts_reform_ultimatum
 		}
 		has_country_flag = british_monarchical_dominion
-		is_subject = no
+		is_vassal = no
 		OR = {
 			government = fascist_dictatorship
 			government = proletarian_dictatorship
@@ -707,7 +707,7 @@ country_event = {
 country_event = {
 	id = 811111
 	trigger = {
-		is_subject = no
+		is_vassal = no
 		OR = {
 			has_country_flag = left_british_empire
 			AND = {
@@ -779,7 +779,7 @@ country_event = {
 			tag = HND
 			tag = NEN
 		}
-		is_subject = no
+		is_vassal = no
 		government = hms_government
 		NOT = {
 			tag = ENG

@@ -1,7 +1,7 @@
 political_decisions = {
 	declare_independence_unilaterally = {
 		potential = {
-			is_subject = yes
+			is_vassal = yes
 			NOT = { has_country_flag = unilateral_independence }
 		}
 		allow = {
@@ -52,7 +52,7 @@ political_decisions = {
 
 	petition_for_independence = {
 		potential = {
-			is_subject = yes
+			is_vassal = yes
 			NOT = { has_country_flag = peaceful_independence }
 		}
 		allow = {

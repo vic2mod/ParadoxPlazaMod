@@ -22,6 +22,7 @@ country_event = {
 			has_country_modifier = weak_sanctions
 			has_country_modifier = bad_sanctions
 		}
+		has_global_flag = sanctions_on
 	}
 
 	mean_time_to_happen = {
@@ -68,6 +69,7 @@ country_event = {
 	badboy = 1.7
 	has_country_modifier = weak_sanctions
 	NOT = { has_country_modifier = bad_sanctions }
+	has_global_flag = sanctions_on
 		}
 		
 	mean_time_to_happen = { months = 1 }
@@ -133,6 +135,7 @@ country_event = {
 			has_country_modifier = weak_sanctions 
 			has_country_modifier = bad_sanctions 
 		}
+		has_global_flag = sanctions_on
 	}
 		
 	mean_time_to_happen = { days = 1 }
@@ -141,6 +144,37 @@ country_event = {
 		name = "EVTOPT96153"
 		remove_country_modifier = weak_sanctions
 		remove_country_modifier = bad_sanctions 
+	}
+}
+
+#Allows for players to choose to play without sanctions
+country_event = {
+	id = 96154 
+	title = "Sanctions?"
+	desc = "Do you wish to play with sanctions which will put damages on countries if they go above the infamy limit?"
+	picture = "greatpowers"
+	
+	trigger = {
+		ai = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+
+		modifier = {
+			factor = 0.01
+			year = 1836
+		}
+	}
+
+	option = {
+		name = "Yes"
+		set_global_flag = sanctions_on
+	}
+	option = {
+		name = "No"
 	}
 }
 

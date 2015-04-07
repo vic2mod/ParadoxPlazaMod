@@ -1,0 +1,53 @@
+political_decisions = {
+	Christiania_Oslo = {
+		potential = {
+			tag = NOR
+			owns = 313
+			NOT = {
+				has_country_flag = oslo
+			}
+		}
+		
+		allow = {
+			owns = 313
+			year = 1925
+		}
+		
+		effect = {
+			313 = {
+				change_province_name = "Oslo"
+				add_province_modifier = {
+					name = new_oslo
+					duration = -1
+				}
+			}
+			set_country_flag = oslo
+		}
+	}
+	NOR_industralisation = {
+		potential = {	
+			exists = NOR
+			tech_school = traditional_academic
+			NOT = {
+				has_country_flag = NOR_INDUS
+			}
+			
+		}
+		allow = {
+			year = 1840
+			
+		}
+		effect = {
+			prestige = 5
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 1650
+				}
+	 		tech_school = industrial_tech_school
+
+			}
+			set_country_flag = NOR_INDUS
+		}
+	}
+
+}
