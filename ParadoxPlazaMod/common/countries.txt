@@ -1,7 +1,20 @@
 #Please keep tags sorted alphabetically when you add/remove country tags
 
 # Special countries...
-REB 	= 	"countries/rebels.txt"
+REB 	= "countries/rebels.txt"
+ZOM	= "countries/Zombieland.txt"
+
+Z01 	= "countries/Zombeurope.txt"
+
+Z02	= "countries/Zombasia.txt"
+
+Z03	= "countries/Zombafrica.txt"
+
+Z04	= "countries/North_Zomberica.txt"
+
+Z05	= "countries/South_Zomberica.txt"
+
+Z06	= "countries/Zombeania.txt"
 
 ### r/ParadoxPlaza MOD ###
 
