@@ -1,0 +1,161 @@
+political_decisions = {
+	capitalists_of_undoubted_means = {
+		potential = {
+			tag = CAN
+			has_country_flag = rails_to_the_pacific
+			NOT = {
+				OR= {
+					has_country_flag = capitalist_railway
+					has_country_flag = government_railway
+				}
+			}
+		}
+
+		allow = {
+			any_state = {
+				has_pop_type = capitalists
+			}
+		}
+		effect = {
+			set_country_flag = capitalist_railway
+			set_country_flag = pacific_scandal_waiting
+			add_country_modifier = {
+				name = railway_on_schedule
+				duration = 1825
+			}
+			add_country_modifier = {
+				name = cpr
+				duration = -1
+			}
+			any_pop = {
+				scaled_consciousness = {
+					issue = interventionism
+					factor = 2
+				}
+			}
+			36 = {
+				infrastructure = 1 #track in Winnipeg to allow quick start on Prairie section
+			}
+		}
+		ai_will_do = {
+			factor = 0.95
+		}
+	}
+
+	a_public_railway = {
+		potential = {
+			tag = CAN
+			has_country_flag = rails_to_the_pacific
+			NOT = {
+				has_country_flag = capitalist_railway
+				has_country_flag = government_railway
+			}
+		}
+
+		allow = {
+			NOT = {
+				economic_policy = laissez_faire
+			}
+		}
+
+		effect = {
+			set_country_flag = public_railway
+			add_country_modifier = {
+				name = railway_on_schedule
+				duration = 3650 #twice as long because this way is slower, will need to balance this
+			}
+			any_pop = {
+				scaled_consciousness = {
+					issue = laissez_faire
+					factor = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	dreadnoughts_from_the_empire = {
+		potential = {
+			tag = ENG
+			ai = no
+			any_greater_power = {
+				NOT = {
+					tag = ENG
+				}
+				NOT = {
+					relation = {
+						who = THIS
+						value = 50
+					}
+				}
+				invention = dreadnoughts
+			}
+		}
+
+		allow = {
+			invention = dreadnoughts
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "naval_race"
+				duration = 3650
+			}
+			random_country = {
+				limit = {
+					is_greater_power = yes
+					NOT = {
+						relation = {
+							who = THIS
+							value = 50
+						}
+					}
+					NOT = {
+						alliance_with = THIS
+					}
+					invention = dreadnoughts
+				}
+				relation = {
+					who = THIS
+					value = -100
+				}
+
+				country_event = 44406
+			}
+			any_pop = {
+				dominant_issue = {
+					value = jingoism
+					factor = 0.05
+				}
+				scaled_consciousness = {
+					issue = pacifism
+					factor = 2
+				}
+			}
+		}
+	}
+
+	ruperts_land = {
+		potential = {
+			tag = CAN
+			has_country_flag = confederation
+			year = 1865
+			36 = {
+				owned_by = ENG
+			}
+		}
+
+		allow = {
+			prestige = 100 #Balance this!
+		}
+
+		effect = {
+			36 = {
+				add_core = CAN
+				secede_province = CAN
+			}
+		}
+	}
+}

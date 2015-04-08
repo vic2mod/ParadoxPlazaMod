@@ -1,4 +1,34 @@
 country_event = {
+	id = 980030 
+	title = "Commie mod?"
+	desc = "Do you want to play with commie mod which adds flavour for communist nations and event chains for revolution and counter-revolution?"
+	
+	trigger = { 
+		ai = no 
+		}
+	
+	fire_only_once = yes 
+	
+	mean_time_to_happen = {
+		months = 1 
+		
+		modifier = {
+			factor = 0.01 
+			year = 1836 
+			}
+		}
+		
+	option = {
+		name = "Of course, comrade"
+		}
+	
+	option = {
+		name = "Death to Marx"
+		set_global_flag = no_commie_mod 
+		}
+	}
+	
+country_event = {
 	id = 970120 
 	title = "Five Year Plans"
 	desc = "Do you want to enable 5 year plans which gives bonus to a certain aspect of your country?"
@@ -785,3 +815,75 @@ country_event = {
 		remove_country_modifier = 5yp_ruling_party_support_constitution
 		}
 	}
+	
+country_event = {
+	id = 980020
+	title = "Our Enemies Demand Peace!"
+	desc = "They have demanded democratic peace! How do we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We do not accept!"
+		any_pop = {
+			limit = {
+				OR = {
+					strata = rich
+					pop_majority_ideology = conservative
+					pop_majority_ideology = liberal
+				}
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
+			militancy = -3
+			scaled_militancy = {
+				ideology = fascist
+				factor = -8
+			}
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					pop_majority_ideology = socialist
+					pop_majority_ideology = communist
+					type = soldiers
+				}
+			}
+			militancy = 10
+			consciousness = 10
+		}
+		war_exhaustion = 10
+	}
+	
+	option = {
+		name = "Perhaps this is for the best."
+		any_pop = {
+			limit = {
+				NOT = {
+					strata = rich
+				}
+			}
+			militancy = -3
+			consciousness = -3
+		}
+		any_pop = {
+			limit = {
+				strata = rich
+			}
+			militancy = 10
+			consciousness = 10
+			ideology = {
+				value = reactionary
+				factor = 0.3
+			}
+		}
+		any_country = {
+			limit = {
+				war_with = FROM
+			}
+			end_war = FROM
+		}
+	}
+}

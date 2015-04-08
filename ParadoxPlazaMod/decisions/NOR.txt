@@ -27,6 +27,7 @@ political_decisions = {
 	NOR_industralisation = {
 		potential = {	
 			exists = NOR
+			tag = NOR
 			tech_school = traditional_academic
 			NOT = {
 				has_country_flag = NOR_INDUS

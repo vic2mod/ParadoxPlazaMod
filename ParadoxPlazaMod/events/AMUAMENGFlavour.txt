@@ -1,0 +1,151 @@
+#UK Naval Race
+
+country_event = {
+	id = 944405
+	trigger = {
+		tag = ENG
+		ai = yes #human gets a decision instead
+		is_greater_power = yes
+		invention = dreadnoughts
+		any_greater_power = {
+			NOT = {
+				tag = ENG
+			}
+			NOT = {
+				relation = {
+					who = THIS
+					value = 50
+				}
+			}
+			invention = dreadnoughts
+		}
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	title = "EVTNAME944405"
+	desc = "EVTDESC944405"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944405" #we must maintain command of the seas
+		add_country_modifier = {
+			name = naval_race
+			duration = 3650
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = {
+					relation = {
+						who = THIS
+						value = 50
+					}
+				}
+				NOT = {
+					alliance_with = THIS
+				}
+				invention = dreadnoughts
+			}
+			relation = {
+				who = THIS
+				value = -100
+			}
+
+			country_event = 944406
+		}
+		any_pop = {
+			dominant_issue = {
+				value = jingoism
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				issue = pacifism
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944405" #they have the right to build ships
+		prestige = -10
+		any_pop = {
+			dominant_issue = {
+				value = pacifism
+				factor = 0.05
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = 4
+			}
+			scaled_consciousness = {
+				issue = pro_military
+				factor = 2
+			}
+		}
+	}
+}
+
+#CB for the country targeted in the naval race
+country_event = {
+	id = 944406
+	title = "EVTNAME944406"
+	desc = "EVTDESC944406"
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA944406" #we must challenge them
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 30
+				jingoism = 10
+			}
+			modifier = {
+				factor = 50
+				war_policy = jingoism
+			}
+		}
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+		}
+		prestige = 10
+		add_country_modifer = {
+			name = naval_race
+			duration = 3650
+		}
+		any_pop = {
+			dominant_issue = {
+				value = jingoism
+				factor = 0.05
+			}
+			scaled_militancy = {
+				issue = pacifism
+				factor = 1
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944406" #we cannot afford to anger them
+		prestige = -10
+		relation = {
+			who = FROM
+			value = 40
+		}
+		any_pop = {
+			dominant_issue = {
+				value = pacifism
+				factor = 0.05
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = 4
+			}
+		}
+	}
+}

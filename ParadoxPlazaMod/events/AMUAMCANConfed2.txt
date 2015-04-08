@@ -1,0 +1,276 @@
+#Decision in Fredericton
+country_event = {
+	id = 944325
+	
+	title = "EVTNAME944325"
+	desc = "EVTDESC944325"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944325"
+		set_country_flag = confed_agree
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				check_variable = {
+					which = NBR_confed_support
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 3
+				check_variable = {
+					which = NBR_confed_support
+					value = 7
+				}
+			}
+			modifier = {
+				factor = 4
+				check_variable = {
+					which = NBR_confed_support
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 5
+				check_variable = {
+					which = NBR_confed_support
+					value = 9
+				}
+			}
+		}			
+	}
+	option = {
+		name = "EVTOPTB944325"
+		CAN = {
+			clr_country_flag = NBR_debts
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Decision in Halifax
+country_event = {
+	id = 944326
+	
+	title = "EVTNAME944325"
+	desc = "EVTDESC944325"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944325"
+		set_country_flag = confed_agree
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				check_variable = {
+					which = NOV_confed_support
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 3
+				check_variable = {
+					which = NOV_confed_support
+					value = 7
+				}
+			}
+			modifier = {
+				factor = 4
+				check_variable = {
+					which = NOV_confed_support
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 5
+				check_variable = {
+					which = NOV_confed_support
+					value = 9
+				}
+			}
+		}			
+	}
+	option = {
+		name = "EVTOPTB944325"
+		CAN = {
+			clr_country_flag = NOV_debts
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Decision in Charlottetown
+country_event = {
+	id = 944327
+	
+	title = "EVTNAME944327"
+	desc = "EVTDESC944327"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944327"
+		set_country_flag = confed_agree
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				check_variable = {
+					which = PEI_confed_support
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 3
+				check_variable = {
+					which = PEI_confed_support
+					value = 7
+				}
+			}
+			modifier = {
+				factor = 4
+				check_variable = {
+					which = PEI_confed_support
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 5
+				check_variable = {
+					which = PEI_confed_support
+					value = 9
+				}
+			}
+		}			
+	}
+	option = {
+		name = "EVTOPTB944327"
+		CAN = {
+			clr_country_flag = PEI_landlords
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Decision in St John's
+country_event = {
+	id = 944328
+	
+	title = "EVTNAME944325"
+	desc = "EVTDESC944325"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944325"
+		set_country_flag = confed_agree
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				check_variable = {
+					which = NEW_confed_support
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 3
+				check_variable = {
+					which = NEW_confed_support
+					value = 7
+				}
+			}
+			modifier = {
+				factor = 4
+				check_variable = {
+					which = NEW_confed_support
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 5
+				check_variable = {
+					which = NEW_confed_support
+					value = 9
+				}
+			}
+		}			
+	}
+	option = {
+		name = "EVTOPTB44325"
+		CAN = {
+			clr_country_flag = NEW_minerals
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#the London Conference
+country_event = {
+	id = 944329
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference_done
+		war = no
+		NOV = {
+			war = no
+		}
+		NBR = {
+			war = no
+		}
+		NEW = {
+			war = no
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	title = "EVTNAME944329"
+	desc = "EVTDESC944329"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944329"
+		set_country_flag = confederation
+		any_country = {
+			limit = {
+				has_country_flag = confed_agree
+				NOT = {
+					tag = ENG
+				}
+			}
+			any_owned = {
+				add_core = CAN
+			}
+			country_event = 944324
+		}
+		any_country = {
+			limit = {
+				has_country_flag = confed_agree
+				tag = ENG
+			}
+			70 = {
+				add_core = CAN
+			}
+			country_event = 944319
+		}
+	}
+}
+

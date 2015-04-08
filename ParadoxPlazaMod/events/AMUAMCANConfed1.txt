@@ -1,0 +1,1341 @@
+#######################
+# Confederation Chain #
+#######################
+
+#Ninety-Two Resolutions
+country_event = {
+	id = 944304
+	trigger = {
+		tag = ENG
+		owns = 58 #Montreal
+		NOT = {
+			government = democracy
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	title = "EVTNAME944304"
+	desc = "EVTDESC944304"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944304" # Deny the requests
+		set_country_flag = ninety_two_resolutions
+		ENG_58 = {
+			add_province_modifier = {
+				name = liberal_agitation
+				duration = 1460
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = french_canadian
+				}
+				dominant_issue = {
+					value = population_equal_weight
+					factor = 0.05
+				}
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944304" # Accept the resolutions
+		release_vassal = CAN
+		CAN = {
+			upper_house_composition = population_equal_weight
+			political_parties = non_secret_ballots
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Assembly of the Six Counties
+country_event = {
+	id = 944305
+	trigger = {
+		tag = ENG
+		year = 1837
+		owns = 58 #Montreal
+		has_country_flag = ninety_two_resolutions
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME944305"
+	desc = "EVTDESC944305"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944305"
+		set_country_flag = six_counties
+		ENG_58 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = french_canadian
+				}
+				militancy = 4
+			}
+			add_province_modifier = {
+				name = patriote_agitation
+				duration = 365
+			}
+		}
+	}
+}
+
+#Mackenzie's Newspaper
+country_event = {
+	id = 944306
+	trigger = {
+		tag = ENG
+		owns = 46 #Toronto
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME944306"
+	desc = "EVTDESC944306"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944306" #suppress the newspaper
+		set_country_flag = mackenzie_newspaper
+		ENG_46 = {
+			add_province_modifier = {
+				name = w_l_mackenzie
+				duration = 730
+			}
+			any_pop = {
+				dominant_issue = {
+					value = universal_voting
+					factor = 0.10
+				}
+			}
+		}
+		scaled_consciousness = {
+			issue = free_press
+			factor = 2
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944306" #let him publish
+		set_country_flag = mackenzie_newspaper
+		ENG_46 = {
+			add_province_modifier = {
+				name = liberal_agitation
+				duration = 730
+			}
+		}
+		prestige = -10
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#Report on the Affairs of $COUNTRYNAME$
+#country_event = {
+#	id = 944307
+#	trigger = {
+#		OR = {
+#			AND = {
+#				tag = CAN
+#				ENG = {
+#					has_country_flag = ninety_two_resolutions
+#				}
+#			}
+#			AND = {
+#				tag = COL
+#				ENG = {
+#					has_global_flag = fraser_gold_rush
+#				}
+#			}
+#			tag = NOV
+#			tag = NBR
+#			tag = NEW
+#		}
+#		ENG = {
+#			THIS = {
+#				is_possible_vassal = yes
+#			}
+#			any_owned = {
+#				limit = {
+#					is_core = THIS
+#				}
+#				any_pop = {
+#					consciousness = 6
+#				}
+#			}	
+#		}
+#		year = 1838
+#	}
+#
+#	mean_time_to_happen = {
+#		#months = 72
+#		months = 1
+#		modifier = {
+#			factor = 0.8
+#			ENG = {
+#				has_country_flag = six_counties
+#			}
+#		}
+#		modifier = {
+#			factor = 0.8
+#			ENG = {
+#				has_country_flag = mackenzie_newspaper
+#			}
+#		}
+#		modifier = {
+#			factor = 1.5
+#			ENG = {
+#				ruling_party_ideology = reactionary
+#			}
+#		}
+#		modifier = {
+#			factor = 2.5
+#			tag = NEW
+#		}
+#	}
+#
+#	title = "EVTNAME944307"
+#	desc = "EVTDESC944307"
+#
+#	option = {
+#		name = "EVTOPTA944307" #pass on to ENG
+#		ENG = {
+#			country_event = 944308
+#		}
+#	}
+#}
+
+#The $FROMCOUNTRY$ Act of Union
+#country_event = {
+#	id = 944308
+#
+#	title = "EVTNAME944308"
+#	desc = "EVTDESC944308"
+#
+#	is_triggered_only = yes
+#	option = {
+#		name = "EVTOPTA944308" #We can afford to grant this
+#		release_vassal = FROM
+#		prestige = 5
+#		ai_chance = {
+#			factor = 95
+#			modifier = {
+#				factor = 0.5
+#				OR = {
+#					ruling_party_ideology = reactionary
+#					government = absolute_monarchy
+#					government = presidential_dictatorship
+#				}
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTB944308" #We will never give them up
+#		badboy = 1
+#		prestige = -5
+#		any_owned = {
+#			limit = {
+#				is_core = FROM
+#			}
+#			any_pop = {
+#				consciousness = 4
+#				militancy = 3
+#			}
+#		}
+#		ai_chance = {
+#			factor = 5
+#			modifier = {
+#				factor = 0.5
+#				government = democracy
+#			}
+#		}
+#	}
+#}
+
+#Report on the Affairs of the Canadas
+country_event = {
+	id = 944337
+	trigger = {
+		year = 1838
+		tag = ENG
+		has_country_flag = ninety_two_resolutions
+		is_possible_vassal = CAN
+		any_owned_province = {
+			is_core = CAN
+			any_pop = {
+					consciousness = 6
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 72
+
+		modifier = {
+			factor = 0.8
+			has_country_flag = six_counties
+		}
+
+		modifier = {
+			factor = 0.8
+			has_country_flag = mackenzie_newspaper
+		}
+
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = reactionary
+		}
+	}
+
+	title = "EVTNAME944337"
+	desc = "EVTDESC944337"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944337"
+		badboy = 2
+		prestige = -25
+		any_owned = {
+			limit = {
+				is_core = CAN
+			}
+			any_pop = {
+				consciousness = 4
+				militancy = 3
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				government = democracy
+			}
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTB944337"
+		release_vassal = CAN
+		prestige = 10
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.5
+				OR = {
+					ruling_party_ideology = reactionary
+					government = absolute_monarchy
+					government = presidential_dictatorship
+				}
+			}
+		}
+	}
+}
+
+#Report on the Affairs of Nova Scotia
+country_event = {
+	id = 944338
+	trigger = {
+		year = 1838
+		tag = ENG
+		is_possible_vassal = NOV
+		any_owned_province = {
+			is_core = NOV
+			any_pop = {
+					consciousness = 6
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 72
+
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = reactionary
+		}
+	}
+
+	title = "EVTNAME944338"
+	desc = "EVTDESC944338"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944338"
+		badboy = 1
+		prestige = -25
+		any_owned = {
+			limit = {
+				is_core = NOV
+			}
+			any_pop = {
+				consciousness = 4
+				militancy = 3
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				government = democracy
+			}
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTB944338"
+		release_vassal = NOV
+		prestige = 10
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.5
+				OR = {
+					ruling_party_ideology = reactionary
+					government = absolute_monarchy
+					government = presidential_dictatorship
+				}
+			}
+		}
+	}
+}
+
+#Report on the Affairs of New Brunswick
+country_event = {
+	id = 944339
+	trigger = {
+		year = 1838
+		tag = ENG
+		is_possible_vassal = NBR
+		any_owned_province = {
+			is_core = NBR
+			any_pop = {
+					consciousness = 6
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 72
+
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = reactionary
+		}
+	}
+
+	title = "EVTNAME944339"
+	desc = "EVTDESC944339"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944339"
+		badboy = 1
+		prestige = -25
+		any_owned = {
+			limit = {
+				is_core = NBR
+			}
+			any_pop = {
+				consciousness = 4
+				militancy = 3
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				government = democracy
+			}
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTB944339"
+		release_vassal = NBR
+		prestige = 10
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.5
+				OR = {
+					ruling_party_ideology = reactionary
+					government = absolute_monarchy
+					government = presidential_dictatorship
+				}
+			}
+		}
+	}
+}
+
+#Report on the Affairs of Columbia
+country_event = {
+	id = 944340
+	trigger = {
+		year = 1838
+		tag = ENG
+		is_possible_vassal = COL
+		any_owned_province = {
+			is_core = COL
+			any_pop = {
+					consciousness = 6
+			}
+		}
+		has_global_flag = fraser_gold_rush
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 72
+
+		modifier = {
+			factor = 0.8
+			has_global_flag = cariboo_gold_rush
+		}
+
+		modifier = {
+			factor = 0.8
+			has_global_flag = omineca_gold_rush
+		}
+
+		modifier = {
+			factor = 0.8
+			has_global_flag = stikine_gold_rush
+		}
+
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = reactionary
+		}
+	}
+
+	title = "EVTNAME944340"
+	desc = "EVTDESC944340"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944340"
+		badboy = 1
+		prestige = -25
+		any_owned = {
+			limit = {
+				is_core = COL
+			}
+			any_pop = {
+				consciousness = 4
+				militancy = 3
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				government = democracy
+			}
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTB944340"
+		release_vassal = COL
+		prestige = 10
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.5
+				OR = {
+					ruling_party_ideology = reactionary
+					government = absolute_monarchy
+					government = presidential_dictatorship
+				}
+			}
+		}
+	}
+}
+
+#Report on the Affairs of Newfoundland
+country_event = {
+	id = 944341
+	trigger = {
+		year = 1838
+		tag = ENG
+		is_possible_vassal = NEW
+		any_owned_province = {
+			is_core = NEW
+			any_pop = {
+					consciousness = 6
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 180
+
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = reactionary
+		}
+	}
+
+	title = "EVTNAME944341"
+	desc = "EVTDESC944341"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944341"
+		badboy = 1
+		prestige = -25
+		any_owned = {
+			limit = {
+				is_core = NEW
+			}
+			any_pop = {
+				consciousness = 4
+				militancy = 3
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0.5
+				government = democracy
+			}
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTB944341"
+		release_vassal = NEW
+		prestige = 10
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.5
+				OR = {
+					ruling_party_ideology = reactionary
+					government = absolute_monarchy
+					government = presidential_dictatorship
+				}
+			}
+		}
+	}
+}
+
+
+		
+
+#the Charlottetown Conference
+country_event = {
+	id = 944309
+	trigger = {
+		tag = NOV
+		exists = NBR
+		year = 1855
+		war = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.8
+			USA = {
+				trade_policy = protectionism
+			}
+		}
+		modifier = {
+			factor = 0.8
+			has_global_flag = american_civil_war_has_happened
+		}
+		modifier = {
+			factor = 0.5
+			has_country_flag = mackenzie_newspaper
+		}
+
+		modifier = {
+			factor = 0.9
+			ENG = {
+				NOT = {
+					relation = {
+						who = USA
+						value = 0
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			ENG = {
+				OR = {
+					war_policy = anti_military
+					war_policy = pacifism
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			USA = {
+				has_country_flag = hasmanifestdestiny
+			}
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.9
+			NBR = {
+				average_consciousness = 6
+			}
+		}
+	}
+
+	title = "EVTNAME944309"
+	desc = "EVTDESC944309"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944309"
+		set_global_flag = charlottetown_conference
+		CAN = {
+			country_event = 944310
+		}
+	}
+}
+
+#Invitation to Charlottetown
+country_event = {
+	id = 944310
+	title = "EVTNAME944310"
+	desc = "EVTDESC944310"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944310" #We should send a delegation
+		set_country_flag = at_charlottetown
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944310" #We have nothing in common with them
+		set_country_flag = charlottetown_refused
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Conference is a Success
+country_event = {
+	id = 944311
+	trigger = {
+		tag = NOV
+		CAN = {
+			has_country_flag = at_charlottetown
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME944311"
+	desc = "EVTDESC944311"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944311"
+		set_global_flag = charlottetown_success
+	}
+}
+
+#Maritime Union
+country_event = {
+	id = 944312
+	trigger = {
+		tag = NOV
+		CAN = {
+			has_country_flag = charlottetown_refused
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME944312"
+	desc = "EVTDESC944312"
+	major = yes
+
+	option = {
+		name = "EVTOPTA44312"
+		NBR = {
+			any_owned = {
+				add_core = NOV
+			}
+		}
+		inherit = NBR
+		70 = {
+			secede_province = NOV
+		}
+	}
+}
+
+#Quebec Conference
+country_event = {
+	id = 944313
+	trigger = {
+		tag = CAN
+		has_global_flag = charlottetown_success
+		war = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	title = "EVTNAME944313"
+	desc = "EVTDESC944313"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944313"
+		set_global_flag = quebec_conference
+		any_owned = {
+			add_province_modifier = {
+				name = confederation_debated
+				duration = -1
+			}
+		}
+		NOV = {
+			any_owned = {
+				add_province_modifier = {
+					name = confederation_debated
+					duration = -1
+				}
+			}
+		}
+		NBR = {
+			any_owned = {
+				add_province_modifier = {
+					name = confederation_debated
+					duration = -1
+				}
+			}
+		}
+		NEW = {
+			any_owned = {
+				add_province_modifier = {
+					name = confederation_debated
+					duration = -1
+				}
+			}
+		}
+		set_variable = {
+			which = NOV_confed_support
+			value = 5
+		}
+		set_variable = {
+			which = NBR_confed_support
+			value = 5
+		}
+		set_variable = {
+			which = PEI_confed_support
+			value = 4
+		}
+		set_variable = {
+			which = NEW_confed_support
+			value = 3
+		}
+		set_variable = {
+			which = confed_debts
+			value = 0
+		}
+	}
+}
+
+#Promise a Railway?
+country_event = {
+	id = 944314
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+		NOT = {
+			AND = {
+				46 = {
+					has_building = railroad
+				}
+				56 = {
+					has_building = railroad
+				}
+				58 = {
+					has_building = railroad
+				}
+				66 = {
+					has_building = railroad
+				}
+				67 = {
+					has_building = railroad
+				}
+				69 = {
+					has_building = railroad
+				}
+				68 = {
+					has_building = railroad
+				}
+				72 = {
+					has_building = railroad
+				}
+				71 = {
+					has_building = railroad
+				}
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944314"
+	desc = "EVTDESC944314"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944314"
+		set_country_flag = intercolonial
+		change_variable = {
+			which = NOV_confed_support
+			value = 2
+		}
+		change_variable = {
+			which = NBR_confed_support
+			value = 2
+		}
+		capitalists = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.2
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944314"
+		set_country_flag = no_intercolonial
+		change_variable = {
+			which = NOV_confed_support
+			value = -1
+		}
+		change_variable = {
+			which = NBR_confed_support
+			value = -1
+		}
+	}
+}
+
+#Promise a ferry?
+country_event = {
+	id = 944315
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944315"
+	desc = "EVTDESC944315"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944315"
+		set_country_flag = PEI_ferry
+		change_variable = {
+			which = PEI_confed_support
+			value = 2
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944316"
+		set_country_flag = no_PEI_ferry
+		change_variable = {
+			which = PEI_confed_support
+			value = -1
+		}
+	}
+}
+
+#Senate Representation
+country_event = {
+	id = 944316
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+		OR = {
+			government = democracy
+			government = hms_government
+			government = prussian_constitutionalism
+		}
+		NOT = {
+			OR = {
+				upper_house_composition = state_equal_weight
+				upper_house_composition = population_equal_weight
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944316"
+	desc = "EVTDESC944316"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944316"
+		set_country_flag = appointed_senate
+		change_variable = {
+			which = NOV_confed_support
+			value = -1
+		}
+		change_variable = {
+			which = NBR_confed_support
+			value = -1
+		}
+		change_variable = {
+			which = NEW_confed_support
+			value = -1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944316"
+		set_country_flag = equal_senate
+		change_variable = {
+			which = NOV_confed_support
+			value = 1
+		}
+		change_variable = {
+			which = NBR_confed_support
+			value = 1
+		}
+		change_variable = {
+			which = NEW_confed_support
+			value = 1
+		}
+	}
+}
+
+#Nova Scotian debts
+country_event = {
+	id = 944317
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944317"
+	desc = "EVTDESC944317"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944317"
+		set_country_flag = NOV_debts
+		change_variable = {
+			which = confed_debts
+			value = 1
+		}
+		change_variable = {
+			which = NOV_confed_support
+			value = 1
+		}
+		farmers = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.05
+			}
+		}
+		capitalists = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.1
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB944317"
+		set_country_flag = NOV_debts
+		change_variable = {
+			which = NOV_confed_support
+			value = -1
+		}
+	}		
+}
+
+#New Brunswick debts
+country_event = {
+	id = 944318
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944318"
+	desc = "EVTDESC944318"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944318"
+		set_country_flag = NBR_debts
+		change_variable = {
+			which = confed_debts
+			value = 1
+		}
+		change_variable = {
+			which = NBR_confed_support
+			value = 1
+		}
+		farmers = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.05
+			}
+		}
+		capitalists = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.1
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB944318"
+		set_country_flag = NBR_debts
+		change_variable = {
+			which = NBR_confed_support
+			value = -1
+		}
+	}
+}
+
+#PEI Landlords
+country_event = {
+	id = 944320
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944320"
+	desc = "EVTDESC944320"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944320"
+		set_country_flag = PEI_landlords
+		change_variable = {
+			which = confed_debts
+			value = 1
+		}
+		change_variable = {
+			which = PEI_confed_support
+			value = 1
+		}
+		farmers = {
+			consciousness = -0.3
+		}
+		capitalists = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.1
+			}
+		}
+		aristocrats = {
+			consciousness = 0.5
+		}
+	}
+	option = {
+		name = "EVTOPTB944320"
+		set_country_flag = PEI_landlords
+		change_variable = {
+			which = PEI_confed_support
+			value = -1
+		}
+	}
+}
+
+#Newfoundland mineral rights
+country_event = {
+	id = 944321
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME944321"
+	desc = "EVTDESC944321"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944321"
+		set_country_flag = NEW_minerals
+		change_variable = {
+			which = confed_debts
+			value = 1
+		}
+		change_variable = {
+			which = NEW_confed_support
+			value = 1
+		}
+		capitalists = {
+			dominant_issue = {
+				value = laissez_faire
+				factor = 0.1
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB944321"
+		set_country_flag = NEW_minerals
+		change_variable = {
+			which = NEW_confed_support
+			value = -2
+		}
+	}
+}
+
+#Final deliberations
+country_event = {
+	id = 944323
+	trigger = {
+		tag = CAN
+		has_global_flag = quebec_conference
+		OR = {
+			has_country_flag = intercolonial
+			has_country_flag = no_intercolonial
+		}
+		OR = {
+			has_country_flag = PEI_ferry
+			has_country_flag = no_PEI_ferry
+		}
+		OR = {
+			has_country_flag = equal_senate
+			has_country_flag = appointed_senate
+		}
+		has_country_flag = NOV_debts
+		has_country_flag = NBR_debts
+		has_country_flag = PEI_landlords
+		has_country_flag = NEW_minerals
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME944323"
+	desc = "EVTDESC944323"
+	major = yes
+
+	option = {
+		set_global_flag = quebec_conference_done
+		name = "EVTOPTA944323"
+		NBR = {
+			country_event = 944325
+		}
+		NOV = {
+			country_event = 944326
+		}
+		ENG = {
+			country_event = 944327
+		}
+		NEW = {
+			country_event = 944328
+		}
+	}
+}

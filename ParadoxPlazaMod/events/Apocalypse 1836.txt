@@ -1267,7 +1267,7 @@ country_event = {
 ##Terra Nullius
 #province_event = {
 #	id = 9999025
-#	title = "EVTNAME999025"
+#	title = "EVTNAME9999025"
 #	desc = "EVTDESC999025"
 #
 #	trigger = {

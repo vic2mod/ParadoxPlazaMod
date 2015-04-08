@@ -1,0 +1,970 @@
+country_event = {
+
+	id = 944303
+	trigger = {
+		tag = CAN 
+		year = 1866
+		owns = 57 #Ottawa ON
+		NOT = {
+			year = 1890
+		}
+	}
+ 
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "EVTNAME944303"
+	desc = "EVTDESC944303"
+	picture = "mcgeefuneral"
+
+	option = {
+		name = "EVTOPTA944303" #mourn his passing
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			consciousness = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944303" #arrest the murderers
+		any_pop = {
+			limit = {
+				has_pop_religion = protestant
+			}
+			ideology = {
+				factor = 0.05
+				value = conservative
+			}
+		}
+		plurality = -1			
+	}
+}
+#################
+# Railway Chain #
+#################
+#rails to the pacific
+country_event = {
+	id = 944350
+	trigger = {
+		tag = CAN
+		year = 1860
+		owns = 13 #Vancouver
+		owns = 57 #Ottawa
+		owns = 58 #Montreal
+		NOT = {
+			has_country_flag = railway_completed
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			average_consciousness = 6
+		}
+	}
+	title = "EVTNAME944350"
+	desc = "EVTDESC944350"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944350"
+		prestige = 2
+		set_country_flag = rails_to_the_pacific
+		#any_owned = {
+		#	limit = {
+		#		OR = {
+		#			province_id = 58
+		#			province_id = 57
+		#			province_id = 52
+		#			province_id = 51
+		#			province_id = 50
+		#			province_id = 49
+		#			province_id = 36
+		#			province_id = 41
+		#			province_id = 30
+		#			province_id = 35
+		#			province_id = 29
+		#			province_id = 26
+		#			province_id = 25
+		#			province_id = 21
+		#			province_id = 20
+		#			province_id = 13
+		#		}
+		#	}
+		#	add_province_modifier = {
+		#		name = cpr_route
+		#		duration = -1
+		#	}
+		#}
+	}
+}
+
+#Railway opens new frontier (public chain)
+province_event = {
+	id = 944351
+	trigger = {
+		owned_by = CAN
+		CAN = {
+			has_country_flag = public_railway
+		}
+		OR = {
+			province_id = 50
+			province_id = 49
+			province_id = 36
+			province_id = 41
+			province_id = 30
+			province_id = 35
+			province_id = 29
+			province_id = 26
+			province_id = 25
+			province_id = 21
+			province_id = 20
+			province_id = 13
+		}
+		has_building = railroad
+		NOT = {
+			has_province_modifier =  cpr_route
+		}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME944351"
+	desc = "EVTDESC944351"
+
+	option = {
+		name = "EVTOPTA944351"
+		add_province_modifier = {
+			name = cpr_route
+			duration = -1
+		}
+		random_empty_neighbor_province = {
+			limit = {
+				OR = {
+					province_id = 49 #uncolonized railway provinces
+					province_id = 41
+					province_id = 30
+					province_id = 35
+					province_id = 29
+					province_id = 26
+					province_id = 25
+					province_id = 21
+					province_id = 20
+				}
+			}
+			life_rating = 30
+			secede_province = CAN
+			add_core = CAN
+		}
+	}
+}
+
+#railway pushes on (uncolonized)
+province_event = {
+	id = 944352
+	title = "EVTNAME944352"
+	desc = "EVTDESC944352"
+	
+	trigger = {
+		owned_by = CAN
+		CAN = {
+			has_country_flag = capitalist_railway
+		}
+		has_building = railroad
+		OR = {
+			province_id = 50
+			province_id = 49
+			province_id = 36
+			province_id = 41
+			province_id = 30
+			province_id = 35
+			province_id = 29
+			province_id = 26
+			province_id = 25
+			province_id = 21
+			province_id = 20
+			province_id = 13
+		}
+		has_building = railroad
+		NOT = {
+			has_province_modifier =  cpr_route
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA944352"
+		add_province_modifier = {
+			name = cpr_route
+			duration = -1
+		}
+		random_empty_neighbor_province = {
+			limit = {
+				OR = {
+					province_id = 49 #uncolonized railway provinces
+					province_id = 41
+					province_id = 30
+					province_id = 35
+					province_id = 29
+					province_id = 26
+					province_id = 25
+					province_id = 21
+					province_id = 20
+				}
+			}
+			secede_province = CAN
+			add_core = CAN
+			add_province_modifier = {
+				name = railway_construction
+				duration = -1
+			}
+		}
+	}
+}
+
+#railway pushes on (colonized)
+province_event = {
+	id = 944353
+	title = "EVTNAME944353"
+	desc = "EVTDESC944353"
+	
+	trigger = {
+		owned_by = CAN
+		CAN = {
+			has_country_flag = capitalist_railway
+		}
+		NOT = {
+			has_building = railroad
+		}
+		NOT = {
+			has_province_modifier = railway_construction
+		}
+		OR = {
+			province_id = 57 #railway provinces
+			province_id = 52 
+			province_id = 51
+			province_id = 50
+			province_id = 49
+			province_id = 36
+			province_id = 41
+			province_id = 30
+			province_id = 35
+			province_id = 29
+			province_id = 26
+			province_id = 25
+			province_id = 21
+			province_id = 20
+			province_id = 13
+		}
+		any_neighbor_province = {
+			has_building = railroad
+			owned_by = CAN
+			OR = {
+				province_id = 58
+				province_id = 57
+				province_id = 52
+				province_id = 51
+				province_id = 50
+				province_id = 49
+				province_id = 36
+				province_id = 41
+				province_id = 30
+				province_id = 35
+				province_id = 29
+				province_id = 26
+				province_id = 25
+				province_id = 21
+				province_id = 20
+				province_id = 13
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA944353"
+		add_province_modifier = {
+			name = railway_construction
+			duration = -1
+		}
+	}
+}
+
+#railway contract completed (uncolonized ones)
+province_event = {
+	id = 944354
+	title = "EVTNAME944354"
+	desc = "EVTDESC944354"
+	
+	trigger = {
+		owned_by = CAN
+		CAN = {
+			has_country_flag = capitalist_railway
+		}
+		has_province_modifier = railway_construction
+		OR = {
+			province_id = 49 #uncolonized railway provinces
+			province_id = 41
+			province_id = 30
+			province_id = 35
+			province_id = 29
+			province_id = 26
+			province_id = 25
+			province_id = 21
+			province_id = 20
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		
+		modifier = {
+			factor = 2
+			has_province_modifier = railway_delays
+		}
+		
+		modifier = {
+			factor = 2
+			OR = {
+				province_id = 20
+				province_id = 21
+				province_id = 25
+				province_id = 49
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA944354"
+		infrastructure = 1
+		life_rating = 30
+		remove_province_modifier = railway_delays
+		remove_province_modifier = railway_construction
+	}
+}
+
+#railway contract completed (colonized ones)
+province_event = {
+	id = 944355
+	title = "EVTNAME944355"
+	desc = "EVTDESC944355"
+	
+	trigger = {
+		owned_by = CAN
+		CAN = {
+			has_country_flag = capitalist_railway
+		}
+		has_province_modifier = railway_construction
+		OR = {
+			province_id = 57 #colonized railway provinces
+			province_id = 52 
+			province_id = 51
+			province_id = 50
+			province_id = 36
+			province_id = 13
+
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		
+		modifier = {
+			factor = 2
+			has_province_modifier = railway_delays
+		}
+		
+		modifier = {
+			factor = 2
+			OR = {
+				province_id = 50
+				province_id = 51
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA944355"
+		infrastructure = 1
+		remove_province_modifier = railway_delays
+		remove_province_modifier = railway_construction
+	}
+}
+
+#Construction Delay (Uncolonized)(Private Chain)
+province_event = {
+	id = 944356
+	trigger = {
+		owned_by = CAN
+		has_province_modifier = railway_construction
+		NOT = {
+			has_province_modifier = railway_delays
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	title = "EVTNAME944356"
+	desc = "EVTDESC944356"
+
+	option = {
+		name = "EVTOPTA944356"
+		add_province_modifier = {
+			name = railway_delays
+			duration = -1
+		}
+	}
+}
+
+#Construction Delay (Uncolonized)(Private Chain)
+#province_event = {
+#	id = 944357
+#	trigger = {
+#		owned_by = CAN
+#		has_province_modifier = railway_construction
+#		NOT = {
+#			has_province_modifier = railway_delays
+#		}
+#	}
+#	mean_time_to_happen = {
+#		months = 2
+#	}
+#	
+#	title = "EVTNAME944357"
+#	desc = "EVTDESC944357"
+#
+#	option = {
+#		name = "EVTOPTA944357"
+#		add_province_modifier = {
+#			name = railway_delays
+#			duration = -1
+#		}
+#	}
+#}
+
+#Railway Company in Crisis (Private Chain)
+country_event = {
+	id = 944358
+	trigger = {
+		has_country_flag = capitalist_railway
+	}
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	title = "EVTNAME944358"
+	desc = "EVTNAME944358"
+
+	#help them out
+	option = {
+		name = "EVTOPTA944358"
+		treasury = -75000 #check if this is a realistic value
+	}
+
+	#let them help themselves
+	option = {
+		name = "EVTOPTB944358"
+		any_owned = {
+			limit = {
+				has_province_modifier = railway_construction
+			}
+			add_province_modifier = {
+				name = railway_delays
+				duration = -1
+			}
+		}
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			consciousness = 2
+		}
+	}
+}
+
+#Railway behind schedule (Both Chains)
+country_event = {
+	id = 944359
+	trigger = {
+		OR = {
+			has_country_flag = capitalist_railway
+			has_country_flag = public_railway
+		}
+		NOT = {
+			has_country_modifier = railway_on_schedule
+		}
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME944359"
+	desc = "EVTDESC944359"
+
+	option = {
+		name = "EVTOPTA944359"
+		prestige = -5
+		13 = {
+			state_scope = {
+				any_owned = {
+					any_pop = {
+						militancy = 4
+						consciousness = 4
+					}
+					add_province_modifier = {
+						name = railway_behind_schedule
+						duration = 1825
+					}
+				}
+			}
+		}
+	}
+}
+
+#The Last Spike
+country_event = {
+	id = 944360
+	trigger = {
+		tag = CAN
+		OR = {
+			has_country_flag = public_railway
+			has_country_flag = capitalist_railway
+		}
+		58 = {
+			has_building = railroad
+		}
+		57 = {
+			has_building = railroad
+		}
+		52 = {
+			has_building = railroad
+		}
+		51 = {
+			has_building = railroad
+		}
+		50 = {
+			has_building = railroad
+		}
+		49 = {
+			has_building = railroad
+		}
+		#OR = {
+		36 = {
+			has_building = railroad
+		}
+		#	42 = {
+		#		has_building = railroad
+		#	}
+		#}
+		41 = {
+			has_building = railroad
+		}
+		30 = {
+			has_building = railroad
+		}
+		#OR = {
+		#	AND = {
+		#		33 = {
+		#			has_building = railroad
+		#		}
+		#		27 = {
+		#			has_building = railroad
+		#		}
+		#		22 = {
+		#			has_building = railroad
+		#		}
+		#		24 = {
+		#			has_building = railroad
+		#		}
+		#		19 = {
+		#			has_building = railroad
+		#		}
+		#	}
+		#	AND = {
+		35 = {
+			has_building = railroad
+		}
+		29 = {
+			has_building = railroad
+		}
+		26 = {
+			has_building = railroad
+		}
+		25 = {
+			has_building = railroad
+		}
+		21 = {
+			has_building = railroad
+		}
+		#	}
+		#}
+		20 = {
+			has_building = railroad
+		}
+		13 = {
+			has_building = railroad
+		}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME944360"
+	desc = "EVTDESC944360"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944360"
+		clr_country_flag = capitalist_railway
+		clr_country_flag = public_railway
+		clr_country_flag = pacific_scandal_waiting
+		clr_country_flag = rails_to_the_pacific
+		set_country_flag = railway_completed
+		remove_country_modifier = railway_on_schedule
+		any_owned = {
+			remove_province_modifier = railway_delays
+			remove_province_modifier = railway_behind_schedule
+			remove_province_modifier = cpr_route
+		}
+		ENG_13 = {
+			limit = {
+				NOT = {
+					life_rating = 15
+				}
+			}
+			life_rating = 30
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_22 = {
+			limit = {
+				NOT = {
+					life_rating = 15
+				}
+			}
+			life_rating = 30
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_30 = {
+			limit = {
+				NOT = {
+					life_rating = 15
+				}
+			}
+			life_rating = 30
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_36 = {
+			limit = {
+				NOT = {
+					life_rating = 15
+				}
+			}
+			life_rating = 30
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_46 = {
+			limit = {
+				NOT = {
+					life_rating = 15
+				}
+			}
+			life_rating = 10
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_58 = {
+			limit = {
+				NOT = {
+					life_rating = 15
+				}
+			}
+			life_rating = 10
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_6 = {
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_9 = {
+			secede_province = CAN
+			add_core = CAN
+		}
+		ENG_43 = {
+			secede_province = CAN
+			add_core = CAN
+		}
+		prestige = 10
+	}
+}
+
+#CPR Pays Dividend
+country_event = {
+	id = 944361
+	trigger = {
+		tag = CAN
+		has_country_modifier = cpr
+		has_country_flag = railway_completed
+		NOT = {
+			economic_policy = planned_economy
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 15
+		modifier = {
+			factor = 0.8
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = great_depression
+		}
+		modifier = {
+			factor = 2
+			economic_policy = state_capitalism
+		}
+	}
+
+	title = "EVTNAME944361"
+	desc = "EVTDESC944361"
+
+	option = {
+		name = "EVTOPTA944361"
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			money = 50
+		}
+	}
+}
+
+####################
+# Naval Race Chain #
+####################
+#Dreadnoughts For The Mother Country
+country_event = {
+	id = 944407
+	trigger = {
+		tag = CAN
+		ENG = {
+			has_country_modifier = naval_race
+		}
+		OR = {
+			alliance_with = ENG
+			vassal_of = ENG
+			relation = {
+				who = ENG
+				value = 100
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.5
+			OR = {
+				jingoism = 5
+				pro_military = 5
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				jingoism = 10
+				pro_military = 10
+			}
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				pacifism = 5
+				anti_military = 5
+			}
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				pacifism = 10
+				anti_military = 10
+			}
+		}
+	}
+
+	title = "EVTNAME944407"
+	desc = "EVTDESC944407"
+
+	option = {
+		name = "EVTOPTA944407" #Fund a British dreadnought
+		steamer_convoy = -100
+		artillery = -25
+		canned_food = -10
+		telephones = -10
+		ENG = {
+			# steamer_convoy = 100
+			# artillery = 25
+			# canned_food = 10
+			# telephones = 10
+			303 = {
+				sub_unit = {
+					type = dreadnought
+					value = current
+				}
+			}
+		}
+		relation = {
+			who = ENG
+			value = 50
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = french_canadian
+			}
+			consciousness = 3
+			dominant_issue = {
+				factor = 0.5
+				value = anti_military
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				issue = pacifism
+				factor = 4
+			}
+			scaled_consciousness = {
+				issue = pacifism
+				factor = 4
+			}
+			scaled_consciousness = {
+				issue = anti_military
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 3
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 2
+				war_policy = pro_military
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944407" #Build our own cruisers
+		steamer_convoy = -60
+		artillery = -12
+		canned_food = -8
+		14 = {
+			sub_unit = {
+				type = cruiser
+				value = current
+			}
+		}
+		71 = {
+			sub_unit = {
+				type = cruiser
+				value = current
+			}
+		}
+		prestige = 10
+		relation = {
+			who = ENG
+			value = 25
+		}
+		any_pop = {
+			scaled_consciousness = {
+				issue = pacifism
+				factor = 3
+			}
+			scaled_consciousness = {
+				issue = anti_military
+				factor = 1.5
+			}
+			scaled_consciousness = {
+				issue = jingoism
+				factor = 1.5
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTC944407" #What do we care?
+		prestige = -10
+		relation = {
+			who = ENG
+			value = -25
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = anglo_canadian
+					has_pop_culture = british
+				}
+			}
+			dominant_issue = {
+				factor = 0.2
+				value = jingoism
+			}
+			consciousness = 3
+		}
+		any_pop = {
+			scaled_consciousness = {
+				issue = jingoism
+				factor = 4
+			}
+			scaled_consciousness = {
+				issue = pro_military
+				factor = 2
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = 4
+			}
+			scaled_militancy = {
+				issue = anti_military
+				factor = -2
+			}
+			scaled_militancy = {
+				issue = pacifism
+				factor = -4
+			}
+		}
+	}
+}

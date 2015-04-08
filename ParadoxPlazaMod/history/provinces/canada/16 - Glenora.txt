@@ -1,7 +1,13 @@
-owner = ENG
-controller = ENG
-add_core = CAN
-add_core = COL
 trade_goods = timber
-life_rating = 30
-colonial = 2
+life_rating = 5
+1861.1.1 = {
+	life_rating = 35
+	owner = COL
+	controller = COL
+	add_core = COL
+	trade_goods = precious_metal
+	add_province_modifier = {
+		name = gold_rush
+		duration = 730
+	}
+}

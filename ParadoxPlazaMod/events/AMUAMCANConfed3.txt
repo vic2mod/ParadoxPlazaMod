@@ -1,0 +1,264 @@
+#We Join Confederation
+country_event = {
+	id = 944324
+
+	title = "EVTNAME944324"
+	desc = "EVTDESC944324"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944324" #Go into retirement
+		CAN = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944324" #Try our hand in this new country
+		CAN = {
+			inherit = THIS
+		}
+		change_tag_no_core_switch = CAN
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#PEI Joins Confederation
+country_event = {
+	id = 944319
+
+	title = "EVTNAME944319"
+	desc = "EVTDESC944319"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944319" #Good luck
+		70 = {
+			secede_province = CAN
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944319" #Try our hand in this new country
+		70 = {
+			secede_province = CAN
+		}
+		change_tag_no_core_switch = CAN
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Railway promise comes due
+country_event = {
+	id = 944330
+	trigger = {
+		tag = CAN
+		has_country_flag = confederation
+		has_country_flag = intercolonial
+		war = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	title = "EVTNAME944330"
+	desc = "EVTDESC944330"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944330" #uphold our promise
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 46
+					province_id = 56
+					province_id = 58
+					province_id = 66
+					province_id = 67
+					province_id = 69
+					province_id = 68
+					province_id = 72
+					province_id = 71
+				}
+				NOT = {
+					has_building = railroad
+				}
+			}
+			infrastructure = 0.16
+			owner = {
+				timber = -10
+				cement = -10
+				steel = -10
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB944330" #We cannot afford this expense
+		68 = {
+			state_scope = {
+				any_pop = {
+					militancy = 2
+					consciousness = 4
+				}
+			}
+		}
+		prestige = -10
+	}
+}
+
+#Ferry promise comes due
+country_event = {
+	id = 944331
+	trigger = {
+		tag = CAN
+		has_country_flag = confederation
+		has_country_flag = PEI_ferry
+		war = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	title = "EVTNAME944331"
+	desc = "EVTDESC944332"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944331"
+		70 = {
+			add_province_modifier = {
+				name = northumberland_ferry
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB944331"
+		70 = {
+			any_pop = {
+				militancy = 2
+				consciousness = 4
+			}
+		}
+	}
+}
+
+#Senate promises
+country_event = {
+	id = 944332
+	trigger = {
+		tag = CAN
+		has_country_flag = confederation
+		has_country_flag = equal_senate
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	title = "EVTNAME944332"
+	desc = "EVTDESC944332"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944332"
+		upper_house_composition = state_equal_weight
+	}
+	option = {
+		name = "EVTOPTB944332"
+		68 = {
+			state_scope = {
+				any_pop = {
+					dominant_issue = {
+						value = state_equal_weight
+						factor = 0.3
+					}
+					consciousness = 2
+				}
+			}
+		}
+	}
+}
+
+#Inherited debts
+country_event = {
+	id = 944333
+	trigger = {
+		tag = CAN
+		has_country_flag = confederation
+		NOT = {
+			check_variable = {
+				which = confed_debts
+				value = 0
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	title = "EVTNAME944333"
+	desc = "EVTDESC944333"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944333"
+		treasury = -2500 #Check if this is balanced!
+		change_variable = {
+			which = confed_debts
+			value = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB944333"
+		prestige = -20
+		change_variable = {
+			which = confed_debts
+			value = -1
+		}
+	}
+}
+
+#BC Joins the Fold
+country_event = {
+	id = 944335
+
+	title = "EVTNAME944335"
+	desc = "EVTDESC944335"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA944335" #We should welcome this new addition
+		FROM = {
+			any_owned = {
+				add_core = CAN
+			}
+		}
+		inherit = FROM
+		prestige = 10
+	}
+}
+

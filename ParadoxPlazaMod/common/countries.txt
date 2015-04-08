@@ -520,21 +520,21 @@ TPG		="countries/Taiping.txt"
 
 #MiniMod
 HNS		="countries/Hansa.txt"
-HOH 	="countries/Hohenzollern.txt"
+HOH 		="countries/Hohenzollern.txt"
 FIU		="countries/Fiume.txt"
 LVN		="countries/Lombardy-Venice.txt"
 CHK		="countries/Champasak.txt"
 IDO		="countries/Indochina.txt"
 GEN		="countries/Genoa.txt"
 BIA		="countries/Biafra.txt"
-ITP 	="countries/Papal Italy.txt"
-TAH 	="countries/Tahiti.txt"
-ANK 	="countries/Ankole.txt"
+ITP 		="countries/Papal Italy.txt"
+TAH 		="countries/Tahiti.txt"
+ANK 		="countries/Ankole.txt"
 BNY		="countries/Bunyoro.txt"
 MLD		="countries/Maldives.txt"
 BAH		="countries/Bahawalpur.txt"
 SHL		="countries/Shilluk.txt"
-DOS 	="countries/Dosso.txt"
+DOS 		="countries/Dosso.txt"
 ADW		="countries/Adamawa.txt"
 BAM		="countries/Bamum.txt"
 LHJ		="countries/Lahej.txt"
@@ -543,6 +543,10 @@ KTH		="countries/Kathiri.txt"
 MHR		="countries/Mahra.txt"
 WRS		="countries/Warsangali.txt"
 MSQ		="countries/Mosquito Coast.txt"
+
+#AMUAM
+NBR		="countries/New Brunswick.txt"
+NOV		="countries/Nova Scotia.txt"
 
 
 ##HoD Dominions
