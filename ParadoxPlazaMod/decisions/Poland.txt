@@ -766,10 +766,10 @@ political_decisions = {
 		
 		potential = {
 			OR = {
-				controls = 716
-				controls = 685
-				controls = 2584
-				controls = 714 
+				owns = 716
+				owns = 685
+				owns = 2584
+				owns = 714 
 				}
 			}
 			
@@ -778,6 +778,12 @@ political_decisions = {
 			war = no 
 			exists = KRA 
 			703 = { owned_by = KRA }
+			AND = {
+				owns = 716
+				owns = 685
+				owns = 2584
+				owns = 714 
+				}
 			}
 			
 		effect = {

@@ -1,0 +1,300 @@
+#Fraser Gold Rush
+country_event = {
+	id = 944362
+	trigger = {
+		owns = 14 # Vancouver Island
+		year = 1853
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	title = "EVTNAME944362"
+	desc = "EVTDESC944362"
+	picture = "goldrush"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944362"
+		set_global_flag = fraser_gold_rush
+		#Vancouver
+		13 = {
+			add_core = COL
+			secede_province = THIS
+			trade_goods = precious_metal
+			life_rating = 20
+			add_province_modifier = {
+				name = "gold_rush"
+				duration = 730
+			}
+		}
+
+		# if England still controls Vancouver Island, Columbia is released.
+		ENG = {
+			release_vassal = COL
+		}
+	}
+}
+
+#Cariboo Gold Rush
+country_event = {
+	id = 944363
+	trigger = {
+		owns = 14 # Vancouver Island
+		year = 1856
+		has_global_flag = fraser_gold_rush
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	title = "EVTNAME944363"
+	desc = "EVTDESC944363"
+	picture = "goldrush"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944363"
+		set_global_flag = cariboo_gold_rush
+		#clr_global_flag = fraser_gold_rush
+		#Prince George
+		19 = {
+			add_core = COL
+			secede_province = THIS
+			trade_goods = precious_metal
+			life_rating = 20
+			add_province_modifier = {
+				name = gold_rush
+				duration = 730
+			}
+		}
+		#Kelowna
+		20 = {
+			add_core = COL
+			secede_province = THIS
+			trade_goods = precious_metal
+			life_rating = 20
+			add_province_modifier = {
+				name = gold_rush
+				duration = 730
+			}
+		}
+	}
+}
+
+#Omineca Gold Rush
+country_event = {
+	id = 944364
+	trigger = {
+		owns = 14 # Vancouver Island
+		year = 1859
+		has_global_flag = cariboo_gold_rush
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	title = "EVTNAME944364"
+	desc = "EVTDESC944364"
+	picture = "goldrush"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944364"
+		set_global_flag = omineca_gold_rush
+		#clr_global_flag = cariboo_gold_rush
+		#Prince Rupert
+		15 = {
+			add_core = COL
+			secede_province = THIS
+			trade_goods = precious_metal
+			life_rating = 20
+			add_province_modifier = {
+				name = gold_rush
+				duration = 730
+			}
+		}
+		#Glenora
+		16 = {
+			add_core = COL
+			secede_province = THIS
+			trade_goods = precious_metal
+			life_rating = 20
+			add_province_modifier = {
+				name = gold_rush
+				duration = 730
+			}
+		}
+	}
+}
+
+#Stikine Gold Rush
+country_event = {
+	id = 944365
+	trigger = {
+		owns = 14 # Vancouver Island
+		year = 1864
+		has_global_flag = omineca_gold_rush
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	title = "EVTNAME944365"
+	desc = "EVTDESC944365"
+	picture = "goldrush"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944365"
+		set_global_flag = stikine_gold_rush
+		#clr_global_flag = omineca_gold_rush
+		#Atlin
+		17 = {
+			add_core = COL
+			secede_province = THIS
+			trade_goods = precious_metal
+			life_rating = 20
+			add_province_modifier = {
+				name = gold_rush
+				duration = 730
+			}
+		}
+	}
+}
+
+
+#Gold Rush Ends
+province_event = {
+	id = 944366
+	trigger = {
+		OR = {
+			province_id = 7
+			province_id = 13
+			province_id = 15
+			province_id = 16
+			province_id = 17
+			province_id = 19
+		}
+		trade_goods = precious_metal
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 4
+			has_province_modifier = gold_rush
+		}
+	}
+
+	title = "EVTNAME944366"
+	desc = "EVTDESC944366"
+
+	option = {
+		name = "EVTOPTA944366"
+		trade_goods = timber
+		remove_province_modifier = gold_rush
+	}
+}
+
+#Gold Rush ends, specific to Kelowna
+province_event = {
+	id = 944367
+	trigger = {
+		province_id = 20
+		trade_goods = precious_metal
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 4
+			has_province_modifier = gold_rush
+		}
+	}
+
+	title = "EVTNAME944367"
+	desc = "EVTDESC944367"
+
+	option = {
+		name = "EVTOPTA944367"
+		trade_goods = grain
+		remove_province_modifier = gold_rush
+	}
+}
+
+#A mari usque ad mare
+country_event = {
+	id = 944334
+	trigger = {
+		or = {
+			tag = COL
+			tag = NBR
+			tag = NEW
+			tag = NOV
+		}
+		CAN = {
+			has_country_flag = confederation
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 72
+		modifier = {
+			factor = 0.8
+			USA = {
+				has_country_flag = hasmanifestdestiny
+			}
+		}
+		modifier = {
+			factor = 0.8
+			neighbour = USA
+		}
+	}
+
+	title = "EVTNAME944334"
+	desc = "EVTDESC944334"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944334" #enter into negotiations
+		CAN = {
+			country_event = 944335
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB944334" #We should join them
+		change_tag_no_core_switch = CAN
+		CAN = {
+			country_event = 944335
+		}	
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "EVTOPTC944334" #We want no part of this
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

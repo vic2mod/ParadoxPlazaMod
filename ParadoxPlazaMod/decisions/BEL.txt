@@ -429,12 +429,12 @@ political_decisions = {
 		
 		potential = {
 			OR = {
-				controls = 398
-				controls = 396
-				controls = 413
-				controls = 412
-				controls = 573 
-				controls = 572 
+				owns = 398
+				owns = 396
+				owns = 413
+				owns = 412
+				owns = 573 
+				owns = 572 
 				}
 			}
 			
@@ -443,6 +443,14 @@ political_decisions = {
 			war = no 
 			exists = LUX
 			397 = { owned_by = LUX }
+			AND = {
+				owns = 398
+				owns = 396
+				owns = 413
+				owns = 412
+				owns = 573 
+				owns = 572 
+				}
 			}
 			
 		effect = {

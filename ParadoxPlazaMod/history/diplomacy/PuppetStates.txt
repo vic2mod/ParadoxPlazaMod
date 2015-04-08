@@ -354,3 +354,35 @@ vassal = {
 	start_date = 1861.1.1
 	end_date = 1936.1.1
 }
+
+#######AMUAM#######
+vassal = {
+	first = ENG
+	second = COL
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = ENG
+	second = CAN
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = ENG
+	second = NBR
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = ENG
+	second = NOV
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = ENG
+	second = NEW
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}

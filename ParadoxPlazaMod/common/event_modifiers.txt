@@ -3095,3 +3095,46 @@ new_oslo = {
 	prestige = 0.01
 	icon = 15
 }
+
+#### CAN - Canada ####
+cpr_route = {
+	icon = 11
+}
+
+railway_construction = {
+	icon = 11
+}
+
+railway_delays = {
+	icon = 11
+}
+
+railway_on_schedule = {
+	icon = 11
+}
+
+railway_behind_schedule = {
+	icon = 11
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.05
+}
+
+cpr = {
+	icon = 11
+	global_immigrant_attract = 0.5		#50%
+}
+
+patriote_agitation = {
+	icon = 4
+	pop_militancy_modifier = 0.4
+}
+
+w_l_mackenzie = {
+	icon = 4
+	pop_militancy_modifier = 0.1
+}
+
+confederation_debated = {
+	icon = 4
+	pop_consciousness_modifier = 0.05
+}

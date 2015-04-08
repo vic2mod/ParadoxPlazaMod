@@ -1,0 +1,15 @@
+army = {
+	name = "Canadian Army"
+	location = 58
+	regiment = {
+		name= "1.1. Canadian Division"
+		type = infantry
+		home = 46
+	}
+
+	regiment = {
+		name= "2.1. Canadian Division"
+		type = infantry
+		home = 56
+	}
+}

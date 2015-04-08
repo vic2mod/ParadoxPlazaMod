@@ -1,0 +1,73 @@
+#Klondike Gold Rush
+country_event = {
+	id = 944368
+	trigger = {
+		OR = {
+			owns = 6 #Whitehorse
+			AND = {
+				owns = 17 #Atlin
+				NOT = {
+					any_country = {
+						owns = 6
+					}
+				}
+			}
+		}
+		year = 1880
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.2
+			owns = 6 #Whitehorse
+		}
+	}
+
+	title = "EVTNAME944368"
+	desc = "EVTDESC944368"
+	major = yes
+
+	option = {
+		name = "EVTOPTA944368"
+		set_global_flag = klondike_gold_rush
+		ENG_6 = {
+			add_core = THIS
+			secede_province = THIS
+			add_province_modifier = {
+				name = "gold_rush"
+				duration = 730
+			}
+		}
+		#Dawson
+		7 = {
+			trade_goods = precious_metal
+		}
+	}
+}
+
+#Robert Service
+country_event = {
+	id = 944370
+	trigger = {
+		tag = CAN
+		owns = 7 #Dawson
+		has_global_flag = klondike_gold_rush
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	title = "EVTNAME944370"
+	desc = "EVTDESC944370"
+
+	option = {
+		name = "EVTOPTA944370"
+		prestige = 5
+	}
+}
