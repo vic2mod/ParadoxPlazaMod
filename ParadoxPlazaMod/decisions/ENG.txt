@@ -738,4 +738,62 @@ political_decisions = {
 			SIN = { annex_to = THIS }
 		}
 	}
+
+	build_the_big_ben = {
+		picture = bigben
+		potential = {
+			OR = {
+			tag = ENG
+			tag = ENL
+			}
+			year = 1844
+			NOT = { has_country_flag = big_ben_construction }		
+			NOT = { year = 1860 }
+			300 = { NOT = { has_province_modifier = the_big_ben } }
+		}
+		
+		allow = {
+			NOT = { year = 1860 }
+			money = 7500
+			election = no
+			war = no
+			upper_house = {
+				ideology = conservative
+					value = 0.3
+				}
+		}
+		
+		effect = {
+			set_country_flag = big_ben_construction
+			country_event = 3697000
+		}
+	ai_will_do = {
+			factor = 1
+			}
+	}
+
+	rhodesia_renaminc_act = {
+		picture = rhodesia_renaminc_act
+		potential = {
+			tag = RHO
+			owns = 2068
+			owns = 2070
+			owns = 2635
+			NOT = { has_country_flag = renaming_act }
+		}
+		
+		allow = {
+			owns = 2068
+			owns = 2070
+			owns = 2635
+		}
+		
+		effect = {
+			set_country_flag = renaming_act
+			2068 = { state_scope = { change_region_name = "Southern Rhodesia" } }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
 }
+

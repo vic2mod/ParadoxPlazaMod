@@ -459,7 +459,7 @@ political_decisions = {
 				type = conquest 
 				months =  16 
 				}
-			badboy = 4 
+			badboy = 8
 			prestige = 5 
 		}
 	}	

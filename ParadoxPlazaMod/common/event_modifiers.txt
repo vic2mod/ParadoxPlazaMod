@@ -3138,3 +3138,22 @@ confederation_debated = {
 	icon = 4
 	pop_consciousness_modifier = 0.05
 }
+
+####
+eiffel_tower_construction = {
+	icon = 11
+}
+
+bigben_construction = {
+	icon = 11
+}
+
+the_big_ben = {
+	local_factory_output = 0.01
+	icon = 5
+}
+
+the_eiffel_tower = {
+	prestige = 0.05
+	icon = 15
+}

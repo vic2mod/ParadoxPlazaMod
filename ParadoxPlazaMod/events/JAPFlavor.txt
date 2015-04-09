@@ -2654,7 +2654,10 @@ country_event = {
 	picture = "ship_attacked"
 	
 	trigger = {
-		tag = JAP
+		OR = {
+			tag = JAP 
+			tag = TKG 
+		}
 		has_country_modifier = line_of_advantage
 		is_disarmed = no
 		war = no
@@ -2751,15 +2754,8 @@ country_event = {
 		name = "We cannot fight them."
 		random_owned = {
 			limit = {
-				owner = { NOT = { number_of_states = 2 } }
-			}
-			THIS = { civilized = no }
-			JAP = { inherit = THIS }
-			THIS = { civilized = yes }
-		}
-		random_owned = {
-			limit = {
 				owner = { number_of_states = 2 }
+				exists = JAP 
 			}
 			owner = {
 				prestige = -10
@@ -2767,6 +2763,20 @@ country_event = {
 					limit = { region = CHI_1485 }
 					add_core = TAI
 					secede_province = JAP
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { number_of_states = 2 }
+				exists = TKG 
+			}
+			owner = {
+				prestige = -10
+				any_owned = {
+					limit = { region = CHI_1485 }
+					add_core = TAI
+					secede_province = TKG
 				}
 			}
 		}

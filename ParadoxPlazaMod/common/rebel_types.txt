@@ -4305,7 +4305,7 @@ separatist_rebels = {
 # Militant Socialists
 ###################################
 socialist_rebels = {
-	icon = 8 
+	icon = 8
 	
 	area = nation 					# Stays within the nation
 	
@@ -4828,7 +4828,7 @@ independence_rebels = {
 # Turkish Nationalists
 ###################################
 turkish_nationalist_rebels = {
-	icon = 4
+	icon = 5
 	
 	area = nation 					# Stays within the nation
 	
@@ -5106,7 +5106,7 @@ turkish_nationalist_rebels = {
 # Native Rebels
 ###################################
 native_rebels = {
-	icon = 5
+	icon = 6
 	
 	area = nation 					# Stays within the nation
 	
@@ -5527,7 +5527,7 @@ apache = {
 # Zombies
 ###################################
 zombie_rebels = {
-	icon = 4
+	icon = 5
 
 	area = all
 	break_alliance_on_win = no

@@ -797,7 +797,7 @@ CHI_1524 = { 1524 1525 1528 1529 } #West Hunan
 
 CHI_1526 = { 1526 1527 1530 } #East Hunan
 
-CHI_1532 = { 1532 1533 1534 1535 } #Inner Mongolia
+CHI_1532 = { 1532 1534 1535 } #Inner Mongolia
 
 CHI_2221 = { 2221 1538 1537 1539 1544 } #South Jiangsu
 
@@ -807,7 +807,7 @@ CHI_1545 = { 1545 1546 1549 1551 } #North Jiangxi
 
 CHI_1547 = { 1547 1548 1550 } #South Jiangxi
 
-CHI_1552 = { 1552 1002 1553 } #Heilongjiang
+CHI_1552 = { 1552 1002 1553 1533 } #Heilongjiang
 
 CHI_1557 = { 1557 1558 1556 } #Kokonor/Qinghai
 
