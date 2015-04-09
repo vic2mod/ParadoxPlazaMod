@@ -322,6 +322,20 @@ vassal = {
 	end_date = 1911.1.1
 }
 
+vassal = {
+	first = QNG
+	second = MCK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = QNG
+	tag = XIN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 #########1861
 # Siam - Cambodia
 vassal = {

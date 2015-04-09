@@ -2603,3 +2603,139 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 3697000
+	title = "EVTNAME3697000" #Start building the big ben
+	desc = "EVTDESC3697000"
+	picture = "big_ben_construction"
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT37236OPTA"
+		treasury = -10000
+		random_list = {
+			50 = {
+			add_country_modifier = {
+				name =  bigben_construction
+				duration = 2920
+					}
+				}
+			
+			40 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 3650
+					}
+			}
+			
+			10 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 4380
+					}
+			}
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "EVT37236OPTB"
+		treasury = -7500
+		random_list = {
+			30 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 2920
+					}
+				}
+			
+			50 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 3650
+					}
+			}
+			
+			20 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 4380
+					}
+			}
+		}
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = "EVT37236OPTC"
+		treasury = -5000
+		random_list = {
+			30 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 2920
+					}
+				}
+			
+			30 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 3650
+					}
+			}
+			
+			40 = {
+			add_country_modifier = {
+				name = bigben_construction
+				duration = 4380
+					}
+			}
+		}
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+
+	id = 3697001
+	title = "EVTNAME3697001" #Big Ben Finished
+	desc = "EVTDESC3697001"
+	picture = "big_ben_finished"
+
+	fire_only_once = yes
+	
+	trigger = {
+	OR = {
+		tag = ENG
+		tag = ENL
+		}
+		NOT = { has_country_modifier = bigben_construction }
+		has_country_flag = big_ben_construction	
+		}
+		
+	mean_time_to_happen = { days = 5 }
+	
+	option = {
+		name = "EVT3697001OPTA"
+		300 = {
+				set_province_flag = big_ben_built
+				add_province_modifier = {
+					name = the_big_ben
+					duration = -1
+					}
+			}
+			prestige = 20
+		}
+	}

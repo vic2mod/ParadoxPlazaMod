@@ -1,6 +1,11 @@
-weak_sanctions;International Sanctions;;;;;;;;;;;;;x,
-weak_sanctions_desc;We have been declared a threat to world stability due to our aggressive nature. The effects will be made worse if we keep down this path.;;;;;;;;;;;;;x,
-bad_sanctions;International Enemy;;;;;;;;;;;;;x,
-bad_sanctions_desc;During our aggressive expansion we have made many enemies. Together they have formed a coalition against us, we must be on the defense.;;;;;;;;;;;;;x
-colonial_ministry:Aniu Assimilation;;;;;;;;;;;;;x,
-colonial_ministry_desc;The Colonial Ministry is actively working to assimilate the Ainu into the Yamato Race.;;;;;;;;;;;;;x,
+weak_sanctions;International Sanctions;;;;;;;;;;;;;x,,,
+weak_sanctions_desc;We have been declared a threat to world stability due to our aggressive nature. The effects will be made worse if we keep down this path.;;;;;;;;;;;;;x,,,
+bad_sanctions;International Enemy;;;;;;;;;;;;;x,,,
+bad_sanctions_desc;During our aggressive expansion we have made many enemies. Together they have formed a coalition against us, we must be on the defense.;;;;;;;;;;;;;x,,
+colonial_ministry:Aniu Assimilation;;;;;;;;;;;;;x,,,
+colonial_ministry_desc;The Colonial Ministry is actively working to assimilate the Ainu into the Yamato Race.;;;;;;;;;;;;;x,,,
+the_big_ben;The Big Ben;;;;;;;;;;;;;x,,,
+the_big_ben_desc;The Clock Tower derives its nickname from the bell, the Big Ben. With an extreme accuracy, the clock tower dominates life and work in London, always striking on time.;;;;;;;;;;;;;x
+bigben_construction;Reconstruction of the Palace of Westminster;;;;;;;;;;;;;x,,,
+bigben_construction_desc;The Palace of Westminster is being reconstructed and with it, a huge clock tower.;;;;;;;;;;;;;x,,
+eiffel_tower_construction;Eiffel Tower Under Construction;;;;;;;;;;;;;x,,,

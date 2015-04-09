@@ -11,8 +11,16 @@ province_event = {
 	desc = "EVTDESC80120"
 	
 	trigger = {
-		owned_by = QNG
-		controlled_by = QNG
+		OR = {
+			AND = {
+				owned_by = QNG
+				controlled_by = QNG
+			}
+			AND = {
+				owned_by = XIN 
+				controlled_by = XIN 
+			}
+		}
 		NOT = { has_province_modifier = anti_manchu_sentiment }
 		owner = {
 			has_global_flag = hong
@@ -270,10 +278,8 @@ country_event = {
 	option = {
 		name = "The rebels must be destroyed!"
 		set_global_flag = dungan_rebellion
-		any_owned = {
-			limit = { is_core = UYG }
-			secede_province = UYG
-		}
+		releaswe_vassal = XIN 
+		UYG = { inherit = XIN }
 		UYG = {
 			capital = 1594
 			any_pop = {
@@ -298,10 +304,8 @@ country_event = {
 	option = {
 		name = "Down with the Qing! (Become Kashgaria)"
 		set_global_flag = dungan_rebellion
-		any_owned = {
-			limit = { is_core = UYG }
-			secede_province = UYG
-		}
+		releaswe_vassal = XIN 
+		UYG = { inherit = XIN }
 		UYG = {
 			capital = 1594
 			any_pop = {

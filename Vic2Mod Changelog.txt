@@ -1,3 +1,11 @@
+As of 9 April 2015
+-Integration of AMUAM mod which adds lots of flavor for canada
+-Readded Manchuria and Xinjiang as chinese substates
+-Some events/decisions fixing for adding the substates
+-Redrawn some state boundaries
+-Fixed rebels pictures
+-Added Eiffel Tower and Big Ben
+
 As of 7 April 2015
 -Fix some decisions from BIR mod
 -Added a Hungary flavor mod
