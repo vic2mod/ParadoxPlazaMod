@@ -2739,3 +2739,35 @@ country_event = {
 			prestige = 20
 		}
 	}
+	
+country_event = {
+	id = 3697010 
+	title = "Walvis Bay Purchase"
+	desc = "Delegates from $FROMCOUNTRY$ have offered a generous sum for out isolated colony of Walvis Bay. How do we respond?"
+	picture = "Bacino"
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = "Prepare the colony to leave our realm"
+		any_country = {
+			limit = {
+				has_country_flag = walvis_repurchase 
+				}
+			secede_province = 2083 
+			treasury = -100000
+			prestige = 5 
+			}
+		treasury = 100000
+		ai_chance = {
+			factor = 100 
+			}
+		}
+		
+	option = {
+		name = "We will keep the land"
+		ai_chance = {
+			factor = 0
+			}
+		}
+	}

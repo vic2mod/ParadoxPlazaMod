@@ -5,6 +5,9 @@ As of 9 April 2015
 -Redrawn some state boundaries
 -Fixed rebels pictures
 -Added Eiffel Tower and Big Ben
+-Removed Ukraine cores from Crimea since it wasn't Ukraine until 20th century
+-Removed infamy gained from releasing one of your spheres
+-Fixed problem where province employment cap was far too large
 
 As of 7 April 2015
 -Fix some decisions from BIR mod

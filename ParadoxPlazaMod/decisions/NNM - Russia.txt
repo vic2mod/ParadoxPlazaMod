@@ -209,10 +209,7 @@ political_decisions = {
 			961 = { add_core = UKR }
 			962 = { add_core = UKR }
 			963 = { add_core = UKR }
-			964 = { add_core = UKR }
 			965 = { add_core = UKR }
-			966 = { add_core = UKR }
-			967 = { add_core = UKR }
 			968 = { add_core = UKR }
 			969 = { add_core = UKR }
 			970 = { add_core = UKR }

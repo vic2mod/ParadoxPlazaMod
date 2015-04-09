@@ -262,91 +262,91 @@ country_migration_target =
 
 	## Safety
 	modifier = {
-		factor = 1.25
+		factor = 2.0
 		safety_regulations = trinket_safety
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.75
 		safety_regulations = low_safety
 	}
 	modifier = {
-		factor = 1.75
+		factor = 1.5
 		safety_regulations = acceptable_safety
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.0
 		safety_regulations = good_safety
 	}
 
 	## Unemployment subsidies
 	modifier = {
-		factor = 1.25
+		factor = 2.0
 		unemployment_subsidies = trinket_subsidies
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.75
 		unemployment_subsidies = low_subsidies
 	}
 	modifier = {
-		factor = 1.75
+		factor = 1.5
 		unemployment_subsidies = acceptable_subsidies
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.0
 		unemployment_subsidies = good_subsidies
 	}
 
 	## Healthcare
 	modifier = {
-		factor = 1.25
+		factor = 2.0
 		health_care = trinket_health_care
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.75
 		health_care = low_health_care
 	}
 	modifier = {
-		factor = 1.75
+		factor = 1.5
 		health_care = acceptable_health_care
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.0
 		health_care = good_health_care
 	}
 
 	## Wage laws
 	modifier = {
-		factor = 1.25
+		factor = 2.0
 		wage_reform = trinket_wage
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.75
 		wage_reform = low_minimum_wage
 	}
 	modifier = {
-		factor = 1.75
+		factor = 1.5
 		wage_reform = acceptable_minimum_wage
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.0
 		wage_reform = good_minimum_wage
 	}
 
 	## Pensions
 	modifier = {
-		factor = 1.25
+		factor = 2.0
 		pensions = trinket_pensions
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.75
 		pensions = low_pensions
 	}
 	modifier = {
-		factor = 1.75
+		factor = 1.5
 		pensions = acceptable_pensions
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.0
 		pensions = good_pensions
 	}
 
@@ -1256,7 +1256,7 @@ ideologies = {
 	}
 
 	socialist = {
-		factor = 0.9
+		factor = 0.5
 		modifier = {
 			factor = 1.1
 			nationalvalue = nv_equality
@@ -1361,7 +1361,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 0.8
+		factor = 0
 		modifier = {
 			factor = 0.1
 			NOT = { militancy = 6 }
@@ -1702,7 +1702,7 @@ issues =
 		}
 	} 
 	state_capitalism = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -1734,7 +1734,7 @@ issues =
 		}
 	} 
 	planned_economy = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			NOT = {

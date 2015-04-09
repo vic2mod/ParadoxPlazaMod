@@ -1612,7 +1612,5 @@ country_event = {
 		set_global_flag = 1836_set_up
 		enable_canal = 4
 		enable_canal = 5
-		1612 = { set_province_flag = summer_palace }
-		1008 = { set_province_flag = moscow_city }
 		}
 	}
