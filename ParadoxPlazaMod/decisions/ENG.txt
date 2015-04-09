@@ -795,5 +795,42 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+	
+	purchase_walvic_bay = {
+		picture = treaty_signing 
+		
+		potential = {
+			OR = {
+				ENG = { owns = 2083 }
+				SAF = { owns = 2083 }
+				ENL = { owns = 2083 }
+				}
+			ENG_2078 = {
+				owned_by = THIS 
+				}
+			ENG_2083 = {
+				owned_by = THIS 
+				}
+			}
+			
+		enable = {
+			war = no
+			NOT = { has_country_flag = walvis_repurchase }
+			treasury = 100000 
+			}
+			
+		effect = {
+			ENG = { country_event = 3697010 }
+			set_country_flag = walvis_repurchase
+			}
+			
+		ai_will_do = {
+			factor = 1 
+			modifier = {
+				factor = 0 
+				NOT = { money = 100000 }
+				}
+			}
+		}
 }
 
