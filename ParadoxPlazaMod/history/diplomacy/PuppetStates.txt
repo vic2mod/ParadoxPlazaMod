@@ -331,7 +331,7 @@ vassal = {
 
 vassal = {
 	first = QNG
-	tag = XIN
+	second = XIN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
