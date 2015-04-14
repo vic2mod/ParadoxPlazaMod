@@ -48,7 +48,5 @@ political_decisions = {
 
 			}
 			set_country_flag = NOR_INDUS
-		}
 	}
-
 }

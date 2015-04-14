@@ -273,33 +273,7 @@ political_decisions = {
 				badboy = 0.5
 			}
 		}
-	}
-	
-	build_the_eiffel_tower = {
-		potential = {
-			tag = FRA
-			NOT = {
-				has_country_flag = the_eiffel_tower_was_built
-			}
-			has_country_flag = world_fair_planner
-		}
-		
-		allow = {
-			cheap_steel = 1
-		}
-		
-		effect = {
-			425 = {
-				add_province_modifier = {
-					name = the_eiffel_tower
-					duration = -1
-				}
-			}
-			prestige = 20
-			set_country_flag = the_eiffel_tower_was_built
-		}
-	}
-	
+	}	
 	haussmanns_renovations = {
 		potential = {
 			tag = FRA

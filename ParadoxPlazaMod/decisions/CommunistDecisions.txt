@@ -113,7 +113,7 @@ political_decisions = {
 		potential = {
 			government = proletarian_dictatorship
 			has_country_modifier = Maoist
-			invention = mass_line
+			invention = assembly_line #was 'mass_line'
 
 			NOT = {
 				has_country_modifier = mass_line
