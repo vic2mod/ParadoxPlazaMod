@@ -168,7 +168,6 @@ school_reforms = low_schools
 	mechanized_fishing_vessels = yes
 	steamer_automatic_construction_plants = yes
 	steamer_transports = yes
-	commerce_raiders = yes
 	academic_training = yes
 	combat_station_training = yes
 	societal_status = yes

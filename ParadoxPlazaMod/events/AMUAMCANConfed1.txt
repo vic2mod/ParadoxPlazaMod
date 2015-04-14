@@ -753,7 +753,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA944310"  send a delegation
+		name = "EVTOPTA944310"  #send a delegation
 		set_country_flag = at_charlottetown
 		ai_chance = {
 			factor = 95
@@ -761,7 +761,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB944310"  We have nothing in common with them
+		name = "EVTOPTB944310"  #We have nothing in common with them
 		set_country_flag = charlottetown_refused
 		ai_chance = {
 			factor = 5

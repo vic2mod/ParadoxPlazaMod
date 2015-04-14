@@ -1030,7 +1030,7 @@ country_event = {
 		name = "We will do as the people demand!"
 		any_country = {
 			limit = {
-				war_with = FROM
+				war_with = ROM
 				NOT = {
 					proletarian_dictatorship
 				}

@@ -199,7 +199,6 @@ province_event = {
 			province_id = 20
 			province_id = 13
 		}
-		has_building = railroad
 		NOT = {
 			has_province_modifier =  cpr_route
 		}
