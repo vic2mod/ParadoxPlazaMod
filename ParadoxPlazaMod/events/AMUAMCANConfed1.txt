@@ -753,7 +753,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA944310"  We should send a delegation
+		name = "EVTOPTA944310"  send a delegation
 		set_country_flag = at_charlottetown
 		ai_chance = {
 			factor = 95
