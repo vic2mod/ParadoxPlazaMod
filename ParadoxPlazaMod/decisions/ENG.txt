@@ -816,7 +816,7 @@ political_decisions = {
 		enable = {
 			war = no
 			NOT = { has_country_flag = walvis_repurchase }
-			treasury = 100000 
+			money = 100000 
 			}
 			
 		effect = {

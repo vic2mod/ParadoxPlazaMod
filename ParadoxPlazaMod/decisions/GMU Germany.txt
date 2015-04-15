@@ -137,38 +137,38 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = goethe_denkmal_build
-                        prestige = 10
-                        plurality = 5
-                        treasury = -5000
-		any_pop = {
+            prestige = 10
+            plurality = 5
+            treasury = -5000
+			any_pop = {
 			    scaled_consciousness = {
 					ideology = liberal
 					factor = 0.5
 			    }
-		}
-		any_pop = {
+			}
+			any_pop = {
 			    scaled_militancy = {
 					ideology = liberal
 					factor = -1
 			    }
-		}
-		any_pop = {
+			}
+			any_pop = {
 			    scaled_militancy = {
 					ideology = conservative
 					factor = -1
 			    }
-		}
-		any_country = {
-			limit = {
-				is_culture_group = germanic
-				NOT = {
-					tag = THIS
-				}
 			}
-			country_event = 200033
-		}
-	        }
-       }
+			any_country = {
+				limit = {
+					is_culture_group = germanic
+					NOT = {
+					tag = THIS
+					}
+				}
+				country_event = 200033
+			}
+	    }
+    }
 
 ###############
 # Württemberg #
