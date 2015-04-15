@@ -1022,3 +1022,418 @@ country_event = {
 		remove_country_modifier = emergency_tax_measures2
 	}
 }
+
+country_event = {
+
+	id = 6016804
+	title = "EVTNAME6016803"
+	desc = "EVTDESC6016803"
+	picture = "polish_uprising_aus"
+	
+	trigger = {
+		NOT = { has_country_flag = serfdom_abolished_generic }
+		any_owned_province = { has_pop_type = serfs }
+		NOT = { debt_law = serfdom }
+	}
+		
+	mean_time_to_happen = { days = 10 } 
+	
+	option = {
+		name = "EVT60055557OPTA"
+		set_country_flag = serfdom_abolished_generic
+		any_pop = {
+			limit = {
+			OR = {
+			pop_type = farmers
+			pop_type = labourers
+			pop_type = serfs
+				}
+			}
+		money = 1
+		consciousness = 1
+		militancy = -2
+		}
+		any_owned = { limit = { state_scope = { has_pop_type = serfs } }
+			any_pop = { limit = { type = aristocrats }
+			consciousness = 3
+			militancy = 2
+			money = -50
+			}
+		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+				trade_goods = tropical_wood
+				trade_goods = timber
+				trade_goods = rubber
+				}
+			}
+		any_pop = { limit = { type = serfs } pop_type = labourers }
+		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = cattle
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = dye
+				trade_goods = fish
+				trade_goods = grain
+				trade_goods = opium
+				trade_goods = fruit
+				trade_goods = wool
+				trade_goods = silk
+				trade_goods = tea
+				trade_goods = tobacco
+					}
+			}
+		any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
+		ai_chance = { factor = 80 }
+	}
+		
+	option = {
+		name = "EVT60055557OPTB"
+		set_country_flag = serfdom_abolished_generic
+		any_pop = {
+			limit = {
+			OR = {
+			pop_type = farmers
+			pop_type = labourers
+			pop_type = serfs
+				}
+			}
+		consciousness = 3
+		militancy = 2
+		}
+		any_owned = { limit = { state_scope = { has_pop_type = serfs } }
+			any_pop = { limit = { type = aristocrats }
+			consciousness = 1
+			militancy = -2
+				}
+			}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+				trade_goods = tropical_wood
+				trade_goods = timber
+				trade_goods = rubber
+				}
+			}
+		any_pop = { limit = { type = serfs } pop_type = labourers }
+		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = cattle
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = dye
+				trade_goods = fish
+				trade_goods = grain
+				trade_goods = opium
+				trade_goods = fruit
+				trade_goods = wool
+				trade_goods = silk
+				trade_goods = tea
+				trade_goods = tobacco
+					}
+			}
+		any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
+		ai_chance = { factor = 20 }
+		}
+		
+	option = {
+		name = "EVT60055557OPTC"
+		set_country_flag = serfdom_abolished_generic
+		any_pop = {
+			limit = {
+			OR = {
+			pop_type = farmers
+			pop_type = labourers
+			pop_type = serfs
+				}
+			}
+		money = 1
+		consciousness = 2
+		militancy = -2
+			}
+		any_owned = { limit = { state_scope = { has_pop_type = serfs } }
+			any_pop = { limit = { type = aristocrats }
+				money = 50
+				consciousness = 2
+				}
+			}
+		add_tax_relative_income = -0.75
+		any_owned = { limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+				trade_goods = tropical_wood
+				trade_goods = timber
+				trade_goods = rubber
+				}
+			}
+		any_pop = { limit = { type = serfs } pop_type = labourers }
+		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = cattle
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = dye
+				trade_goods = fish
+				trade_goods = grain
+				trade_goods = opium
+				trade_goods = fruit
+				trade_goods = wool
+				trade_goods = silk
+				trade_goods = tea
+				trade_goods = tobacco
+					}
+			}
+		any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
+		ai_chance = { factor = 0 }
+		}
+	}
+country_event = {
+
+	id = 6016805
+	title = "EVTNAME6016803"
+	desc = "EVTDESC6016803"
+	picture = "polish_uprising_aus"
+	
+	trigger = {
+		ai = yes
+		any_neighbor_country = {
+			has_country_flag = serfdom_abolished_generic
+			any_owned_province = { has_pop_type = serfs }
+			NOT = { debt_law = serfdom }
+			}
+	}
+		
+	mean_time_to_happen = { days = 1 } 
+	
+	option = {
+		name = "EVT60055557OPTA"
+		any_country = {
+			limit = {
+				has_country_flag = serfdom_abolished_generic
+				any_owned_province = { has_pop_type = serfs }
+				NOT = { debt_law = serfdom }
+				}
+		any_owned = { 
+		limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+				trade_goods = tropical_wood
+				trade_goods = timber
+				trade_goods = rubber
+				}
+			}
+		any_pop = { limit = { type = serfs } pop_type = labourers }
+		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = cattle
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = dye
+				trade_goods = fish
+				trade_goods = grain
+				trade_goods = opium
+				trade_goods = fruit
+				trade_goods = wool
+				trade_goods = silk
+				trade_goods = tea
+				trade_goods = tobacco
+					}
+			}
+		any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
+		}
+	}
+}
+#flags to pass bankruptcy
+country_event = {
+	id = 6016806
+	title = "EVTNAME6016800"
+	desc = "EVTDESC6016800"
+	picture = "rise_of_modern_medicine"
+	
+	allow_multiple_instances = no
+	
+	trigger = {
+		OR = {
+		AND = {
+			ai = yes
+			any_greater_power = { 
+				ai = no
+				NOT = { has_country_flag = modern_central_bank_system_invented }
+				modern_central_bank_system = 1
+				}
+			}
+		AND = {
+		ai = yes
+		any_neighbor_country = {
+			NOT = { has_country_flag = modern_central_bank_system_invented }
+			modern_central_bank_system = 1
+				}
+			}
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT6016800PTA"
+		any_country = {
+			limit = { 
+			NOT = { has_country_flag = modern_central_bank_system_invented }
+			modern_central_bank_system = 1 
+			}
+			set_country_flag = modern_central_bank_system_invented
+		}
+	}
+}
+
+#Set up on how crisis will be
+country_event = {
+	id = 6016807
+	title = "EVTNAME6016807"
+	desc = "EVTDESC6016807"
+	picture = "abraham_speech"
+		
+	trigger = {
+		ai = no
+		NOT = { has_global_flag = crisis_set_up }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT6016807PTA"
+		set_global_flag = crisis_set_up
+	}
+	
+	option = {
+		name = "EVT6016807PTB"
+		set_global_flag = revolution_n_counter_researched
+		set_global_flag = crisis_set_up
+	}
+}
+
+#Freedom of Bukovina
+country_event = {
+	id = 6016808
+	title = "EVTNAME6016808"
+	desc = "EVTDESC6016808"
+	picture = "greatpowers"
+		
+	trigger = {
+		owns = 662
+		owns = 663
+		OR = {
+			tag = AUS
+			tag = KUK
+			}
+		NOT = { owns = 660 }	
+		NOT = { owns = 661 }
+		NOT = { owns = 953 }
+		NOT = { owns = 952 }
+		BKV = { exists = no }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT6016808PTA"
+		release_vassal = BKV
+		diplomatic_influence = { who = BKV value = 400 }
+		relation = { who = BKV value = 400 }
+		create_alliance = BKV
+	}
+}
+
+#Totalitarian modifiers in a non totalitarian regime
+country_event = {
+	id = 6016809
+	title = "EVTNAME6016809"
+	desc = "EVTDESC6016809"
+	picture = "greatpowers"
+		
+	trigger = {
+		NOT = { government = fascist_dictatorship }
+		NOT = { government = proletarian_dictatorship }
+		OR = {
+			has_country_modifier = totalitarian_system
+			has_country_modifier = political_education
+			has_country_modifier = cult_of_personality
+			has_country_modifier = the_terror
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT6016809PTA"
+			remove_country_modifier = totalitarian_system
+			remove_country_modifier = political_education
+			remove_country_modifier = cult_of_personality
+			remove_country_modifier = the_terror
+	}
+}
+
+#population growth in Africa
+country_event = {
+	id = 6016810
+	title = "EVTNAME6016809"
+	desc = "EVTDESC6016809"
+	picture = "greatpowers"
+		
+	trigger = {
+		year = 1902
+		ai = yes
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT6016809PTA"
+			any_country = { limit = { any_owned_province = { continent = africa is_colonial = yes } }
+				any_owned = { limit = { continent = africa is_colonial = yes NOT = { terrain = desert } NOT = { terrain = semidesert } NOT = { is_core = SOK is_core = NIG is_core = OYO is_core = ARO is_core = CLA is_core = BEN is_core = ETH } }
+					add_province_modifier = {
+						name = baby_boom
+						duration = 7300
+					}
+				}
+			}
+			any_country = { limit = { any_owned_province = { continent = africa is_colonial = yes } }
+				any_owned = { limit = { continent = africa NOT = { terrain = desert } NOT = { terrain = semidesert } life_rating = 10 NOT = { life_rating = 11 } }
+					life_rating = 25
+				}
+			}
+			any_country = { limit = { any_owned_province = { continent = africa is_colonial = yes } }
+				any_owned = { limit = { continent = africa NOT = { terrain = desert } NOT = { terrain = semidesert } life_rating = 15 NOT = { life_rating = 16 } }
+					life_rating = 20
+				}
+			}
+		}
+}

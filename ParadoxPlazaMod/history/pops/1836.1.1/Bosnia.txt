@@ -77,15 +77,13 @@
 	soldiers = {
 		culture = serb
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 	
 	soldiers = {
 		culture = bosniak
 		religion = sunni
-		size= 800
-
+		size = 800
 	}
 
 	clergymen = {

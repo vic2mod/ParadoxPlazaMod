@@ -285,13 +285,13 @@
 	soldiers = {
 		culture = nguni
 		religion = animist
-		size = 1050
+		size = 8050
 	}
 
 	farmers = {
 		culture = nguni
 		religion = animist
-		size = 21000
+		size = 29000
 	}
 
 	aristocrats = {
@@ -339,7 +339,7 @@
 	farmers = {
 		culture = sotho
 		religion = animist
-		size = 3650
+		size = 6650
 	}
 }
 #Hwange (96000/24000 POPS)
@@ -365,13 +365,13 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 1100
+		size = 150
 	}
 
 	farmers = {
 		culture = shona
 		religion = animist
-		size = 10000
+		size = 10950
 	}
 
 	aristocrats = {

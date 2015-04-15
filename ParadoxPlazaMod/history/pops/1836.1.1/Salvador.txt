@@ -41,6 +41,7 @@
 		culture = central_american
 		religion = catholic
 		size = 1100
+
 		militancy = 9
 	}
 
@@ -78,6 +79,7 @@
 		culture = central_american
 		religion = catholic
 		size = 450
+
 		militancy = 9
 	}
 

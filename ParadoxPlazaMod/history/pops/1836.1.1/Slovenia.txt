@@ -59,57 +59,26 @@
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 42500
+		size = 22500
 	}
-
-	farmers = {
-		culture = hungarian
+	
+	serfs = {
+		culture = gypsy
 		religion = catholic
 		size = 1000
-	}	
+	}
+	
+	serfs = {
+		culture = slovene
+		religion = catholic
+		size = 20000
+	}
 	
 }
 #Carniola Region (460000)  
 #under the rule of Austria in 1836  
 #Ljubljana (280000/70000 POPS) 
 768 = {
-
-	aristocrats = {
-		culture = south_german
-		religion = catholic
-		size = 250 
-	}
-	
-	bureaucrats = {
-		culture = south_german
-		religion = catholic
-		size = 50
-	}
-
-	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 25 
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 200
-	}
-
-	soldiers = {
-		culture = south_german
-		religion = catholic
-		size = 50 
-	}
-
-	farmers = {
-		culture = south_german
-		religion = catholic
-		size = 1050
-	}
-
 	aristocrats = {
 		culture = slovene
 		religion = catholic
@@ -149,8 +118,15 @@
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 61550
+		size = 43150
 	}
+	
+	serfs = {
+		culture = slovene
+		religion = catholic
+		size = 20000
+	}
+	
 }
 #Postojna (180000/45000 POPS) 
 769 = {
@@ -181,7 +157,19 @@
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 39575
+		size = 29075
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 500
+	}
+	
+	serfs = {
+		culture = slovene
+		religion = catholic
+		size = 10000
 	}
 
 	clergymen = {

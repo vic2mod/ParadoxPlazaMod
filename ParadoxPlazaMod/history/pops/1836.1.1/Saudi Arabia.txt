@@ -35,8 +35,7 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -66,8 +65,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -105,8 +103,7 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -136,8 +133,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -175,8 +171,7 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -206,8 +201,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -245,8 +239,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -278,8 +271,7 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -309,14 +301,19 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
 		size = 8300
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 1500
 	}
 }
 #Badiyat al-Sham Region (20000)  #see Jordan.txt, Iraq.txt & Syria.txt for balance of region
@@ -344,8 +341,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -391,21 +387,25 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
 		size = 47625
+	}
+	
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 5000
 	}
 }
 #Rafha (20000/5000 POPS)
@@ -431,8 +431,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 1200
-
+		size = 1200
 	}
 
 	farmers = {
@@ -464,8 +463,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -503,21 +501,25 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
 		size = 22750
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 3000
 	}
 }
 #Sharawah (28000/7000 POPS)
@@ -543,8 +545,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -590,8 +591,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -621,14 +621,19 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = shiite
 		size = 18675
+	}
+	
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 1000
 	}
 }
 #Hufuf (96000/POPS)
@@ -654,8 +659,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 1200
-
+		size = 1200
 	}
 
 	farmers = {
@@ -685,8 +689,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -718,8 +721,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {

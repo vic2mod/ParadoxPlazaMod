@@ -81,7 +81,6 @@ RHI		= "countries/Rhineland.txt"
 PZN		= "countries/Poznan.txt"
 SLS		= "countries/Silesia.txt"
 WES		= "countries/Westfalen.txt"
-GCF		= "countries/GermanConfed.txt"
 
 #Russia
 AKH		= "countries/Astrakhan.txt"
@@ -281,6 +280,7 @@ POR		= "countries/Portugal.txt"
 SCO		= "countries/Scotland.txt"
 SPA		= "countries/Spain.txt"
 WLL		= "countries/Wallonia.txt"
+AGN		= "countries/Aragon.txt"
 
 # Germany
 ANH		= "countries/Anhalt.txt"

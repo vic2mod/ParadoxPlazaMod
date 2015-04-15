@@ -420,7 +420,7 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 36825
+		size = 33825
 	}
 
 	clergymen = {
@@ -439,6 +439,12 @@
 		culture = yue
 		religion = mahayana
 		size = 1100
+	}
+
+	slaves = {
+		culture = malay
+		religion = sunni
+		size = 3000
 	}
 
 }
@@ -485,7 +491,13 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 5425
+		size = 5000
+	}
+	
+	slaves = {
+		culture = malay
+		religion = sunni
+		size = 500
 	}
 }
 #Kuching (88000/22000 POPS)
@@ -517,7 +529,7 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 8300
+		size = 12300
 	}
 
 	aristocrats = {
@@ -547,7 +559,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 10125
+		size = 3125
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 3000
 	}
 
 	clergymen = {
@@ -597,7 +615,7 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 2725
+		size = 4725
 	}
 
 	aristocrats = {
@@ -627,7 +645,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 7375
+		size = 3375
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 2000
 	}
 }
 #Api (56000/14000 POPS)
@@ -659,7 +683,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 5575
+		size = 2575
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 3000
 	}
 
 	aristocrats = {
@@ -740,7 +770,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 6475
+		size = 3475
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 3000
 	}
 
 	aristocrats = {

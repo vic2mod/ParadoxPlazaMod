@@ -220,6 +220,12 @@
 		size = 375
 	}
 
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 400
+	}
+
 	clergymen = {
 		culture = tibetan
 		religion = gelugpa
@@ -242,6 +248,12 @@
 		culture = tibetan
 		religion = gelugpa
 		size = 1730
+	}
+
+	slaves = {
+		culture = tibetan
+		religion = gelugpa
+		size = 600
 	}
 }
 #Ngari (304000/76000 POPS)

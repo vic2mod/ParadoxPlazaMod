@@ -90,14 +90,8 @@
 2128 = {
 	farmers = {
 		culture = african_minor
-		religion = protestant
+		religion = catholic
 		size = 175
 	}
 
-	bureaucrats = {
-		culture = british
-		religion = protestant
-		size = 5
-	}	
-	
 }

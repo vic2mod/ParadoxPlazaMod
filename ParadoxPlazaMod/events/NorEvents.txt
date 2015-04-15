@@ -41,6 +41,7 @@ country_event = {
 				factor = 0.1
 				value = liberal
 			}
+		}
 	}
 }
 

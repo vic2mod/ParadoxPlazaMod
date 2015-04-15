@@ -194,4 +194,49 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	
+	enslave_the_serfs = {
+		alert = no
+		picture = enslave_the_serfs_image
+		potential = {
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+			}
+			debt_law = serfdom
+		}
+		
+		allow = {
+			war = no
+			ruling_party_ideology = reactionary
+			slavery = yes_slavery
+			state_n_government = 1
+		}
+		
+		effect = {
+			badboy = 5
+			country_event = 443035
+			any_pop = {
+				limit = {
+					OR = { 
+						pop_majority_ideology = liberal
+						pop_majority_ideology = socialist
+						pop_majority_ideology = communist	
+						}
+					}
+			militancy = 5 consciousness = 7
+				}
+			any_greater_power = { limit = { civilized = yes slavery = no_slavery } relation = { who = THIS value = -100 } }
+			any_neighbor_country = { limit = { is_greater_power = no civilized = yes slavery = no_slavery NOT = { vassal_of = THIS } NOT = { in_sphere = THIS } } relation = { who = THIS value = -50 } }
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+			 modifier = {
+				factor = 0
+				badboy = 0.25
+			}
+		}
+	}
 }

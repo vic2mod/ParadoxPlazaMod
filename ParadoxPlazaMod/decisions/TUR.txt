@@ -25,6 +25,26 @@ political_decisions = {
 		effect = {
 			set_country_flag = tanzimat_reforms_enacted
 			remove_country_modifier = ottoman_oppression
+			random_owned = {
+				limit = {
+					owner = { debt_law = serfdom }
+					}
+				owner = { political_reform = peonage }
+			}
+			
+			random_owned = {
+				limit = {
+					owner = { slavery = yes_slavery }
+					}
+				owner = { political_reform = no_slavery }
+			}
+			
+			random_owned = {
+				limit = {
+					owner = { slavery = freedom_of_womb }
+					}
+				owner = { political_reform = no_slavery }
+			}
 			any_pop = {
 				limit = { is_primary_culture = no }
 				militancy = -3

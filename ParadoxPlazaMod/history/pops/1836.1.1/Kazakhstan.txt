@@ -309,6 +309,12 @@
 		religion = sunni
 		size = 18250
 	}
+
+	slaves = {
+		culture = russian
+		religion = orthodox
+		size = 5000
+	}
 }
 #Zhambul (76000/19000 POPS)
 2606 = {
@@ -406,6 +412,12 @@
 		culture = kazak
 		religion = sunni
 		size = 18250
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 500
 	}
 }
 #Qaratal (108000/27000 POPS)
@@ -531,6 +543,18 @@
 		culture = kazak
 		religion = sunni
 		size = 14575
+	}
+
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 4000
+	}
+
+	slaves = {
+		culture = russian
+		religion = orthodox
+		size = 3000
 	}
 }
 #Khwarazm Region (168000) #see Uzbekistan.txt and Turkmenistan.txt for balance of region 
@@ -723,6 +747,12 @@
 		culture = kazak
 		religion = sunni
 		size = 27450
+	}
+
+	slaves = {
+		culture = russian
+		religion = orthodox
+		size = 6000
 	}
 
 }

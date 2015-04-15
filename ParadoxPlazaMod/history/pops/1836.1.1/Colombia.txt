@@ -641,25 +641,25 @@
 	clergymen = {
 		culture = guajiro
 		religion = catholic
-		size = 60
+		size = 10
 	}
 
 	artisans = {
 		culture = guajiro
 		religion = catholic
-		size = 200
+		size = 50
 	}
 
 	soldiers = {
 		culture = guajiro
 		religion = catholic
-		size = 500
+		size = 10
 	}
 
 	farmers = {
 		culture = guajiro
 		religion = catholic
-		size = 6330
+		size = 930
 	}
 }
 #Cauca Region (300000)

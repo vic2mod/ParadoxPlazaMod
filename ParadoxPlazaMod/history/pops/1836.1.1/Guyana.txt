@@ -29,8 +29,7 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -54,8 +53,7 @@
 	soldiers = {
 		culture = afro_caribbean
 		religion = protestant
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -87,8 +85,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -120,8 +117,7 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -145,8 +141,7 @@
 	soldiers = {
 		culture = afro_caribbean
 		religion = protestant
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -178,8 +173,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {

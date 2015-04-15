@@ -30,6 +30,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+# New Reforms
+conscription = mandatory_service
+debt_law = debtors_prisons
+penal_system = incarceration
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+
 ruling_party = SWI_conservative
 set_country_flag = tory_election_win
 last_election = 1835.1.1

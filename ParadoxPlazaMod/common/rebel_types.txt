@@ -236,6 +236,12 @@ reactionary_rebels = {
 				pop_majority_ideology = conservative
 			}
 		}	
+		modifier = {
+			factor = 0.5
+			location = {
+				is_colonial = yes
+			}
+		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -343,12 +349,25 @@ reactionary_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
 		}
-		prestige_factor = -0.2
-		war_exhaustion = 50
+		add_country_modifier = {
+			name = the_eye_of_the_storm
+			duration = 1095
+		}
+		war_exhaustion = 25
 		country_event = 800050
 	}
 }
@@ -457,8 +476,21 @@ fascist_rebels = {
 			}
 		}
 		modifier = {
-			factor = 5
-			reactionary = 10
+			factor = 0.01
+			NOT = {
+				OR = {
+					reactionary = 10
+					fascist = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { fascist = 5 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { fascist = 10 }
 		}
 		modifier = {
 			factor = 5
@@ -649,6 +681,16 @@ fascist_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -764,6 +806,14 @@ communist_rebels = {
 					socialist = 10
 				}
 			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { communist = 5 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { communist = 10 }
 		}
 		modifier = {
 			factor = 5
@@ -994,6 +1044,16 @@ communist_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -1272,7 +1332,7 @@ anarcho_liberal_rebels = {
 	demands_enforced_effect = {
 		ruling_party_ideology = anarcho_liberal
 		political_reform = universal_voting
-		political_reform = appointed
+		political_reform = party_appointed
 		political_reform = yes_meeting
 		political_reform = free_press
 		political_reform = all_trade_unions
@@ -1315,6 +1375,18 @@ anarcho_liberal_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -1522,6 +1594,62 @@ nationalist_rebels = {
 			}
 		}
 		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = sudan
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = west_africa
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = equatorial_africa
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = east_africa
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = congo
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = east_africa
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = south_africa
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_colonial = no
+				continent = south_west_africa
+			}
+		}
+		modifier = {
 			factor = 5
 			culture = irish
 			country = { has_global_flag = no_help_for_the_irish }
@@ -1601,7 +1729,14 @@ nationalist_rebels = {
 			tag = REB
 			relation = -150
 		}
-		prestige_factor = -0.1
+		random_owned = {
+			limit = {
+				owner = {
+					not = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 	}
 }
 
@@ -1951,11 +2086,50 @@ pan_nationalist_rebels = {
 	}
 	
 	demands_enforced_effect = {
-		political_reform = wealth_voting
+		random_owned = {
+			limit = {
+				owner = {
+					not = { vote_franschise = universal_weighted_voting }
+					not = { vote_franschise = universal_voting }
+				}
+			}
+			political_reform = wealth_voting
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					vote_franschise = wealth_voting
+				}
+			}
+			political_reform = universal_weighted_voting
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					vote_franschise = universal_weighted_voting
+				}
+			}
+			political_reform = universal_voting
+		}
 		political_reform = population_equal_weight
 		political_reform = yes_meeting
 		political_reform = free_press
-		political_reform = non_socialist
+		random_owned = {
+			limit = {
+				owner = {
+					not = { trade_unions = all_trade_unions }
+				}
+			}
+			political_reform = non_socialist
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					trade_unions = all_trade_unions
+				}
+			}
+			political_reform = all_trade_unions
+		}
 		political_reform = secret_ballots
 		prestige_factor = -0.2
 		random_owned = {
@@ -2005,6 +2179,14 @@ pan_nationalist_rebels = {
 				}
 			}
 			owner = { country_event = 96200 }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
 		}
 	}
 }
@@ -2071,7 +2253,19 @@ carlist_rebels = {
 			factor = 0.95
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.85
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.5
 			OR = {
 				has_country_flag = carlist_war
 				has_country_flag = king_leopold_rules
@@ -2098,6 +2292,13 @@ carlist_rebels = {
 			factor = 0
 			country = { 
 				NOT = { tag = SPA }
+			}
+		}
+		modifier = {
+			factor = 0
+
+			country = {
+				NOT = { has_country_flag = carlism_questioned }
 			}
 		}
 		modifier = {
@@ -2272,8 +2473,15 @@ carlist_rebels = {
 		political_reform = state_press
 		political_reform = state_controlled
 		political_reform = underground_parties
-		prestige_factor = -0.2
-		war_exhaustion = 50
+		random_owned = {
+			limit = {
+				owner = {
+					not = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
+		war_exhaustion = 25
 		country_event = 37710
 	}
 }
@@ -2338,6 +2546,18 @@ christino_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 8
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -2349,6 +2569,16 @@ christino_rebels = {
 			country = { 
 				NOT = { tag = SPC }
 			}
+		}
+		modifier = {
+			factor = 0
+			country = {
+				NOT = { has_country_flag = carlism_questioned }
+			}
+		}
+		modifier = {
+			factor = 0
+			year = 1876
 		}
 		modifier = {
 			factor = 100
@@ -2508,6 +2738,7 @@ christino_rebels = {
 			}
 		}
 		change_tag = SPA
+		plurality = 5
 		ruling_party_ideology = liberal
 		political_reform = wealth_voting
 		political_reform = state_equal_weight
@@ -2515,8 +2746,15 @@ christino_rebels = {
 		political_reform = censored_press
 		political_reform = no_trade_unions
 		political_reform = non_secret_ballots
-		prestige_factor = -0.2
-		war_exhaustion = 50
+		random_owned = {
+			limit = {
+				owner = {
+					not = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
+		war_exhaustion = 25
 		country_event = 37716
 	}
 }
@@ -3565,7 +3803,7 @@ liberal_rebels = {
 			}
 		}
 		modifier = {
-			factor = -6
+			factor = 0
 			country = {
 				OR = {
 					government = prussian_constitutionalism
@@ -3598,9 +3836,15 @@ liberal_rebels = {
 					government = democracy
 					government = hms_government
 				}
-				OR = {
-					vote_franschise = universal_voting
+				vote_franschise = universal_voting
+				political_parties = secret_ballots
+				or = {
+					trade_unions = all_trade_unions
+					trade_unions = non_socialist
 				}
+				press_rights = free_press
+				public_meetings = yes_meeting
+				upper_house_composition = population_equal_weight
 			}
 		}
 		modifier = {
@@ -3712,7 +3956,13 @@ liberal_rebels = {
 				}
 				NOT = { has_country_flag = wants_to_unify }
 			}
-		}		
+		}
+		modifier = {
+			factor = 0.5
+			location = {
+				is_colonial = yes
+			}
+		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -3852,12 +4102,25 @@ liberal_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
 		}
-		prestige_factor = -0.2
-		war_exhaustion = 50
+		add_country_modifier = {
+			name = the_eye_of_the_storm
+			duration = 1095
+		}
+		war_exhaustion = 25
 		country_event = 800054
 	}
 }
@@ -4199,6 +4462,10 @@ separatist_rebels = {
 			}
 		}
 		modifier = {
+			factor = 10
+			location = { has_province_modifier = nationalist_agitation }
+		}
+		modifier = {
 			factor = 30
 			country = {
 				OR = {
@@ -4274,7 +4541,14 @@ separatist_rebels = {
 		}
 	}
 	demands_enforced_effect = {
-		prestige_factor = -0.2
+		random_owned = {
+			limit = {
+				owner = {
+					not = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		any_owned = {
 			limit = {
 				any_core = {
@@ -4476,10 +4750,11 @@ socialist_rebels = {
 					government = democracy
 					government = hms_government
 				}
-				OR = { 
-					vote_franschise = universal_weighted_voting
-					vote_franschise = universal_voting
-				}
+				vote_franschise = universal_voting
+				public_meetings = yes_meeting
+				press_rights = free_press
+				trade_unions = all_trade_unions
+				upper_house_composition = population_equal_weight
 				ruling_party_ideology = socialist
 			}
 		}
@@ -4541,7 +4816,13 @@ socialist_rebels = {
 				}
 				NOT = { has_country_flag = wants_to_unify }
 			}
-		}		
+		}
+		modifier = {
+			factor = 0.5
+			location = {
+				is_colonial = yes
+			}
+		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -4659,12 +4940,27 @@ socialist_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
 		}
-		prestige_factor = -0.2
-		war_exhaustion = 50
+		add_country_modifier = {
+			name = the_eye_of_the_storm
+			duration = 1095
+		}
+		war_exhaustion = 25
 		country_event = 810056
 	}
 }
@@ -5092,9 +5388,23 @@ turkish_nationalist_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { has_country_modifier = the_eye_of_the_storm }
+				}
+			}
+			owner = { prestige_factor = -0.1 }
+		}
 		add_country_modifier = {
 			name = national_confusion
-			duration = 365
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = the_eye_of_the_storm
+			duration = 1095
 		}
 		prestige_factor = -0.2
 		war_exhaustion = 25

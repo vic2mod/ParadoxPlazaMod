@@ -1,3 +1,5 @@
+#http://pages.uoregon.edu/caguirre/Ramirez_Agentes.pdf
+#41,000 registered slaves in 1821, that means 10250 slave pops.
 #Loreto Region (96000)
 #Ruled by Peru 1836
 #Iquitos (60000/15000 POPS)
@@ -35,8 +37,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -60,8 +61,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -91,8 +91,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -125,8 +124,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -158,8 +156,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -191,8 +188,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -238,8 +234,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 1125
-
+		size = 1125
 	}
 
 	farmers = {
@@ -263,8 +258,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -296,8 +290,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -321,14 +314,13 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 10000
+		size = 9500
 	}
 
 	clergymen = {
@@ -346,8 +338,7 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -359,7 +350,7 @@
 	slaves = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 750
+		size = 1000
 	}
 }
 #Trujillo (68000/17000 POPS)
@@ -385,8 +376,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -410,8 +400,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -435,8 +424,7 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -474,8 +462,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -499,8 +486,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -530,8 +516,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -565,8 +550,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -590,8 +574,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -623,8 +606,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -648,8 +630,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -693,8 +674,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -718,8 +698,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 225
-
+		size = 225
 	}
 
 	farmers = {
@@ -771,13 +750,13 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 3000
+		size = 3000
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 2000
+		size = 2000
 	}
 
 	farmers = {
@@ -801,8 +780,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -826,8 +804,7 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -865,8 +842,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -890,8 +866,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -915,8 +890,7 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -925,11 +899,6 @@
 		size = 500
 	}
 
-	slaves = {
-		culture = afro_caribeno
-		religion = catholic
-		size = 400
-	}
 }
 #Huaraz (100000/25000 POPS)
 2298 = {
@@ -954,8 +923,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -979,8 +947,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -1004,20 +971,13 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
 		size = 1100
-	}
-
-	slaves = {
-		culture = afro_caribeno
-		religion = catholic
-		size = 750
 	}
 }
 #Ucayali Region (32000)
@@ -1051,8 +1011,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -1082,8 +1041,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -1115,8 +1073,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1162,8 +1119,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -1187,7 +1143,13 @@
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 39275
+		size = 34275
+	}
+
+	slaves = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 5000
 	}
 }
 #Puno (104000/26000 POPS)
@@ -1213,8 +1175,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -1238,8 +1199,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -1271,8 +1231,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 1050
-
+		size = 1050
 	}
 
 	farmers = {
@@ -1296,8 +1255,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -1343,8 +1301,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -1368,14 +1325,19 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
 		culture = aimara
 		religion = catholic
-		size = 18700
+		size = 16700
+	}
+
+	slaves = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 2000
 	}
 
 }

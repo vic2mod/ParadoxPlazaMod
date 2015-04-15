@@ -2,25 +2,25 @@
 #Torshavn (7000/1750 POPS)
 253 = {
 	bureaucrats = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 135
 	}
 
 	farmers = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 1575
 	}
@@ -68,22 +68,19 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -115,8 +112,7 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 500
-
+		size = 500
 	}
 
 	farmers = {
@@ -148,8 +144,7 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 500
-
+		size = 500
 	}
 
 	farmers = {
@@ -175,8 +170,7 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 250
-
+		size = 250
 	}
 	aristocrats = {
 		culture = danish
@@ -215,8 +209,7 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -258,8 +251,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size= 500
-
+		size = 500
 	}
 
 	farmers = {
@@ -285,8 +277,7 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -316,8 +307,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -375,29 +365,25 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
@@ -441,22 +427,19 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -482,8 +465,7 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {

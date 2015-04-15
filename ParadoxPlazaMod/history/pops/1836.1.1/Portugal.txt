@@ -22,47 +22,44 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 600
+		size = 1100
 	}
-	
-	clergymen = {
-		culture = galician
-		religion = catholic
-		size = 500
-	}
-	
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
+	}
+	
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 5500
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 2500
-
+		size = 2500
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 100200
+		size = 150200
 	}
-	
-	farmers = {
-		culture = galician
-		religion = catholic
-		size = 50200
-	}
-	
 }
 #Vila Real (324000/81000) POPS
 519 = {
@@ -75,46 +72,26 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 325
+		size = 625
 	}
-	
-	clergymen = {
-		culture = galician
-		religion = catholic
-		size = 300
-	}	
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 6000
+		size = 8250
 	}
-	
-	artisans = {
-		culture = galician
-		religion = catholic
-		size = 2250
-	}	
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 34000
+		size = 69275
 	}
-	
-	farmers = {
-		culture = galician
-		religion = catholic
-		size = 35275
-	}	
-	
 }
 #Covilha (568000/142000 POPS)
 520 = {
@@ -133,9 +110,9 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = portuguese
 		religion = catholic
@@ -145,8 +122,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 1500
-
+		size = 1500
 	}
 
 	farmers = {
@@ -186,50 +162,43 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = portuguese
 		religion = catholic
 		size = 8500
 	}
 
-	craftsmen = {
-		culture = portuguese
-		religion = catholic
-		size = 6000
-	}
-
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 3000
-
+		size = 3000
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 22500
+		size = 28500
 	}
 }
 #Coimbra (460000/115000 POPS)
@@ -249,9 +218,9 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = portuguese
 		religion = catholic
@@ -261,8 +230,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
@@ -294,8 +262,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
@@ -327,8 +294,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 1500
-
+		size = 1500
 	}
 
 	farmers = {
@@ -374,8 +340,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -407,8 +372,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -440,8 +404,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 350
-
+		size = 350
 	}
 
 	farmers = {
@@ -487,8 +450,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -520,8 +482,7 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {

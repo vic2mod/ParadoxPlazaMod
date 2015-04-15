@@ -26,13 +26,6 @@
 		size = 525
 	}
 
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 5750
-	}	
-	
 	artisans = {
 		culture = uighur
 		religion = sunni
@@ -42,14 +35,13 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 2525
-
+		size = 2525
 	}
 
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 61775
+		size = 66775
 	}
 
 	aristocrats = {
@@ -73,14 +65,13 @@
 	soldiers = {
 		culture = kirgiz
 		religion = animist
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
 		culture = kirgiz
 		religion = animist
-		size = 10975
+		size = 8975
 	}
 
 	clergymen = {
@@ -112,6 +103,12 @@
 		religion = sunni
 		size = 975
 	}
+
+	slaves = {
+		culture = beifaren
+		religion = mahayana
+		size = 9000
+	}
 }
 #Ili (168000/42000 POPS)
 1595 = {
@@ -120,7 +117,7 @@
 		religion = sunni
 		size = 575
 	}
-	
+
 	bureaucrats = {
 		culture = uighur
 		religion = sunni
@@ -142,8 +139,7 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -173,8 +169,7 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -188,7 +183,7 @@
 		religion = sunni
 		size = 20
 	}
-	
+
 	bureaucrats = {
 		culture = beifaren
 		religion = sunni
@@ -210,8 +205,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -241,8 +235,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -274,8 +267,7 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -305,8 +297,7 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -336,8 +327,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -367,8 +357,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -400,8 +389,7 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 500
-
+		size = 500
 	}
 
 	farmers = {
@@ -433,8 +421,7 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 225
-
+		size = 225
 	}
 
 	farmers = {
@@ -449,6 +436,12 @@
 		culture = uighur
 		religion = sunni
 		size = 850
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
 	}
 
 	clergymen = {
@@ -466,8 +459,7 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 425
-
+		size = 425
 	}
 
 	farmers = {
@@ -497,8 +489,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -522,8 +513,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -531,8 +521,14 @@
 		religion = mahayana
 		size = 900
 	}
+
+	slaves = {
+		culture = kirgiz
+		religion = mahayana
+		size = 900
+	}
 }
-#Urumqi (332000/83000 POPS)
+#Urumqi (Tihwa) (332000/83000 POPS)
 1600 = {
 	aristocrats = {
 		culture = uighur
@@ -555,14 +551,13 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 1675
-
+		size = 1675
 	}
 
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 60225
+		size = 80225
 	}
 
 	aristocrats = {
@@ -586,14 +581,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 24325
+		size = 7325
 	}
 
 	bureaucrats = {
@@ -617,14 +611,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 10750
+		size = 2750
 	}
 
 	aristocrats = {
@@ -648,8 +641,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -679,14 +671,19 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
 		culture = kazak
 		religion = sunni
 		size = 3600
+	}
+
+	slaves = {
+		culture = beifaren
+		religion = mahayana
+		size = 14000
 	}
 }
 #Lopnur (32000/8000 POPS)
@@ -712,8 +709,7 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -743,21 +739,13 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 25
-
+		size = 25
 	}
 
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 250
-	}	
-	
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 2450
+		size = 2700
 	}
 
 }

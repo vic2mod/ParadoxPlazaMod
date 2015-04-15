@@ -1,6 +1,6 @@
 #Laos Region (700000) 
 #under the rule of Luang Prabang in 1836  
-#Louangprabang (240000/60000 POPS) #asian_minor = hmong/montagnard  
+#Luang Prabang (240000/60000 POPS) #asian_minor = hmong/montagnard  
 1356 = {
 	aristocrats = {
 		culture = lao
@@ -71,7 +71,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 15575
+		size = 10575
+	}
+	
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 6000
 	}
 }
 #Vientiane (88000/22000 POPS)   
@@ -133,7 +139,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 6375
+		size = 3375
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 3000
 	}
 }
 #Savannakhet (80000/20000 POPS)   
@@ -198,7 +210,7 @@
 		size = 4550
 	}
 }
-#Satavan (168000/42000 POPS)   
+#Salavan (168000/42000 POPS)   
 1362 = {
 	aristocrats = {
 		culture = lao
@@ -257,7 +269,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 16425
+		size = 11425
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 5000
 	}
 }
 #under the rule of Siam in 1836  
@@ -323,7 +341,7 @@
 		size = 6375
 	}
 }
-#Paekche (60000/15000 POPS)   
+#Pakse (60000/15000 POPS)   
 1363 = {
 	aristocrats = {
 		culture = lao
@@ -352,13 +370,7 @@
 	farmers = {
 		culture = lao
 		religion = theravada
-		size = 13000
+		size = 13700
 	}
-	
-	farmers = {
-		culture = khmer
-		religion = theravada
-		size = 1000
-	}	
 
 }

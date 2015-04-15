@@ -23,8 +23,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -56,8 +55,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {

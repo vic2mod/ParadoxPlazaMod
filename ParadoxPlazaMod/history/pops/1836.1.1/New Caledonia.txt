@@ -23,8 +23,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {

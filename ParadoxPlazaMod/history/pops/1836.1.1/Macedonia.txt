@@ -29,14 +29,8 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 24000
+		size = 25225
 	}
-	
-	farmers = {
-		culture = aromanian
-		religion = sunni
-		size = 2225
-	}	
 
 	clergymen = {
 		culture = bulgarian
@@ -53,14 +47,8 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 54000
+		size = 56475
 	}
-	
-	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 1475
-	}	
 
 	clergymen = {
 		culture = greek
@@ -97,13 +85,6 @@
 		religion = jewish
 		size = 275
 	}
-	
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 1050
-	}	
-	
 }
 #Monastir Region (268000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
@@ -124,7 +105,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 35275
+		size = 36275
 	}
 
 	aristocrats = {
@@ -160,7 +141,7 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 1000
+		size = 1100
 	}
 
 	farmers = {
@@ -184,20 +165,14 @@
 	soldiers = {
 		culture = albanian
 		religion = sunni
-		size = 1000
+		size = 1100
 	}
 
 	farmers = {
 		culture = albanian
 		religion = sunni
-		size = 12000
+		size = 12275
 	}
-	
-	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 1775
-	}	
 
 	clergymen = {
 		culture = greek
@@ -214,7 +189,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 9075
+		size = 9575
 	}
 
 	clergymen = {
@@ -229,10 +204,4 @@
 		size = 975
 	}
 
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 1450
-	}	
-	
 }

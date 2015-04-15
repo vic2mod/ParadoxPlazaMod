@@ -35,8 +35,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -74,8 +73,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -126,8 +124,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 220
-
+		size = 220
 	}
 
 	farmers = {
@@ -165,8 +162,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -218,8 +214,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -251,8 +246,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -284,8 +278,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -315,8 +308,7 @@
 	soldiers = {
 		culture = mande
 		religion = sunni
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -350,8 +342,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -381,8 +372,7 @@
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {

@@ -198,9 +198,9 @@
 #Bonin (60/15 POPS)
 1654 = {
 	farmers = {
-		culture = micronesian
-		religion = animist
-		size = 15
+		culture = yankee
+		religion = protestant
+		size = 7
 	}
 }
 #Wake (60/15 POPS)

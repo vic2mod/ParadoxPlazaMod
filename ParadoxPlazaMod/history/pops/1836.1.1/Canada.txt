@@ -23,8 +23,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -56,8 +55,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -89,8 +87,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -125,8 +122,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -158,8 +154,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -191,8 +186,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -224,8 +218,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -257,8 +250,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -290,8 +282,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -323,8 +314,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -356,8 +346,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -389,8 +378,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -423,8 +411,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -443,13 +430,13 @@
 		religion = protestant
 		size = 20
 	}	
-	
+
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 400
 	}
-	
+
 	aristocrats = {
 		culture = native_american_minor
 		religion = animist
@@ -471,8 +458,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -495,7 +481,7 @@
 		religion = protestant
 		size = 200
 	}
-	
+
 	aristocrats = {
 		culture = native_american_minor
 		religion = animist
@@ -517,8 +503,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -550,8 +535,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -583,8 +567,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -616,8 +599,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -649,8 +631,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -682,8 +663,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -715,8 +695,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -748,8 +727,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -782,8 +760,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -811,8 +788,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -842,8 +818,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -873,8 +848,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -906,8 +880,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -939,8 +912,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -972,8 +944,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -999,8 +970,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1030,8 +1000,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1057,8 +1026,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1088,8 +1056,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1115,8 +1082,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1146,8 +1112,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1179,8 +1144,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1213,8 +1177,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -1248,8 +1211,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1273,8 +1235,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1306,8 +1267,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1333,8 +1293,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1364,8 +1323,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1391,8 +1349,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1422,8 +1379,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1449,8 +1405,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1480,8 +1435,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1513,8 +1467,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1549,8 +1502,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1574,8 +1526,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1599,8 +1550,7 @@
 	soldiers = {
 		culture = metis
 		religion = protestant
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1632,8 +1582,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1665,8 +1614,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1698,8 +1646,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1723,8 +1670,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1756,8 +1702,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1781,8 +1726,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1814,8 +1758,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1839,8 +1782,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1872,8 +1814,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1897,8 +1838,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -1933,8 +1873,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -1966,8 +1905,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 20
-
+		size = 20
 	}
 
 	farmers = {
@@ -1999,8 +1937,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -2024,8 +1961,7 @@
 	soldiers = {
 		culture = metis
 		religion = catholic
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2057,8 +1993,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -2090,8 +2025,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2121,8 +2055,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2154,8 +2087,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -2187,8 +2119,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2221,8 +2152,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2255,8 +2185,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2290,8 +2219,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -2317,8 +2245,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	labourers = {
@@ -2344,8 +2271,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
@@ -2371,8 +2297,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -2396,8 +2321,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -2423,8 +2347,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -2448,8 +2371,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -2484,8 +2406,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -2518,8 +2439,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2549,8 +2469,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2583,8 +2502,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2614,8 +2532,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2647,8 +2564,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2678,8 +2594,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2711,8 +2626,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -2744,8 +2658,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -2778,8 +2691,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -2809,8 +2721,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
@@ -2842,8 +2753,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -2867,8 +2777,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -2900,8 +2809,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2925,8 +2833,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -2958,8 +2865,7 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size= 15
-
+		size = 15
 	}
 
 	farmers = {
@@ -2983,8 +2889,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -3010,8 +2915,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 150
-
+		size = 150
 	}
 
 	labourers = {
@@ -3037,8 +2941,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 500
-
+		size = 500
 	}
 
 	farmers = {
@@ -3064,8 +2967,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -3089,8 +2991,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -3116,8 +3017,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 150
-
+		size = 150
 	}
 
 	labourers = {
@@ -3152,8 +3052,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -3177,8 +3076,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -3204,8 +3102,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 150
-
+		size = 150
 	}
 
 	labourers = {
@@ -3229,8 +3126,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -3259,8 +3155,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -3294,8 +3189,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
@@ -3333,8 +3227,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -3366,8 +3259,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -3402,8 +3294,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -3447,8 +3338,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -3498,8 +3388,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 5
-
+		size = 5
 	}
 
 	farmers = {
@@ -3532,8 +3421,7 @@
 	soldiers = {
 		culture = inuit
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -3547,28 +3435,34 @@
 #Ruled by France 1836
 #Saint Pierre (2000/500 POPS)
 77 = {
-	bureaucrats = {
-		culture = french_canadian
-		religion = catholic
-		size = 1
-	}
-
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
 		size = 4
 	}
 
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 1
+	}
+
 	artisans = {
-		culture = french_canadian
+		culture = basque
 		religion = catholic
 		size = 45
 	}
 
 	labourers = {
-		culture = french_canadian
+		culture = breton
 		religion = catholic
-		size = 450
+		size = 40
+	}
+	
+	labourers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
 	}
 
 }

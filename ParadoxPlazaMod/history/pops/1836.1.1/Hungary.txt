@@ -35,8 +35,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -78,8 +77,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1250
-
+		size = 1250
 	}
 
 	farmers = {
@@ -103,11 +101,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 1200
-
+		size = 1200
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 2740   
@@ -142,8 +139,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -173,35 +169,37 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 105750
+		size = 100000
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 5750
 	}
 
 	aristocrats = {
@@ -225,11 +223,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 300
-
+		size = 300
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 29075  
@@ -250,8 +247,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -275,11 +271,10 @@
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size= 150
-
+		size = 150
 	}
 
-	farmers = {
+	serfs = {
 		culture = slovene
 		religion = catholic
 		size = 13950 
@@ -300,11 +295,10 @@
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
-	farmers = {
+	serfs = {
 		culture = croat
 		religion = catholic
 		size = 6525 
@@ -347,8 +341,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -372,11 +365,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 1050
-
+		size = 1050
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 4625    
@@ -415,8 +407,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -446,8 +437,7 @@
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -499,8 +489,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 2100
-
+		size = 2100
 	}
 
 	farmers = {
@@ -530,16 +519,21 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 2500
-
+		size = 2500
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
-		size =  38050    
+		size =  35050    
 	}
 
+	serfs = {
+		culture = gypsy
+		religion = protestant
+		size =  3000    
+	}
+	
 	clergymen = {
 		culture = hungarian
 		religion = jewish
@@ -555,8 +549,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -598,8 +591,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 1275
-
+		size = 1275
 	}
 
 	farmers = {
@@ -631,15 +623,13 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -663,14 +653,13 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
-		size =  4525   
+		size = 4525   
 	}
 
 	clergymen = {
@@ -688,8 +677,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -713,8 +701,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -738,11 +725,10 @@
 	soldiers = {
 		culture = slovak
 		religion = catholic
-		size= 300
-
+		size = 300
 	}
 
-	farmers = {
+	serfs = {
 		culture = slovak
 		religion = catholic
 		size = 29925 
@@ -771,8 +757,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -802,11 +787,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 175
-
+		size = 175
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 16275    
@@ -833,8 +817,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 275
-
+		size = 275
 	}
 
 	farmers = {
@@ -866,8 +849,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -897,11 +879,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 150
-
+		size = 150
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 13525     
@@ -922,8 +903,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -947,8 +927,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -980,8 +959,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -1011,11 +989,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 5550     
@@ -1036,8 +1013,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1061,8 +1037,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1102,8 +1077,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 450
-
+		size = 450
 	}
 
 	farmers = {
@@ -1127,8 +1101,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 275
-
+		size = 275
 	}
 
 	farmers = {
@@ -1152,8 +1125,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1177,11 +1149,10 @@
 	soldiers = {
 		culture = slovak
 		religion = catholic
-		size= 50
-
+		size = 50
 	}
 
-	farmers = {
+	serfs = {
 		culture = slovak
 		religion = catholic
 		size = 6600 
@@ -1218,8 +1189,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -1249,11 +1219,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 125
-
+		size = 125
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = protestant
 		size = 8975    
@@ -1274,8 +1243,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1299,8 +1267,7 @@
 	soldiers = {
 		culture = slovak
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1338,11 +1305,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 1100
-
+		size = 1100
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = catholic
 		size = 54375 
@@ -1369,8 +1335,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 900
-
+		size = 900
 	}
 
 	farmers = {
@@ -1394,8 +1359,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1419,8 +1383,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -1458,11 +1421,10 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size= 325
-
+		size = 325
 	}
 
-	farmers = {
+	serfs = {
 		culture = hungarian
 		religion = catholic
 		size = 27375
@@ -1489,8 +1451,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size= 450
-
+		size = 450
 	}
 
 	farmers = {
@@ -1514,8 +1475,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = jewish
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -1539,8 +1499,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {

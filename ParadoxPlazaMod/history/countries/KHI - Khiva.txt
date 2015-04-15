@@ -26,6 +26,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = two_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
+
 ruling_party = KHI_conservative
 upper_house = {
 	fascist = 0
@@ -38,8 +45,10 @@ upper_house = {
 }
 
  
+foreign_weapons = yes_foreign_weapons
 
 # Technologies
+flintlock_rifles = 1
 
 # Inventions
 

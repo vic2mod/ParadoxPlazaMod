@@ -95,7 +95,7 @@
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {
@@ -217,14 +217,14 @@
 	}
 
 	aristocrats = {
-		culture = african_minor
-		religion = animist
+		culture = baguirmi
+		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = animist
+		culture = baguirmi
+		religion = sunni
 		size = 75
 	}
 
@@ -235,15 +235,21 @@
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = animist
+		culture = baguirmi
+		religion = sunni
 		size = 75
+	}
+
+	farmers = {
+		culture = baguirmi
+		religion = sunni
+		size = 1000
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 6375
+		size = 5375
 	}
 }
 #Wadai Region (488000)
@@ -289,14 +295,8 @@
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 12000
+		size = 13000
 	}
-	
-	farmers = {
-		culture = bedouin
-		religion = sunni
-		size = 2000
-	}	
 
 	aristocrats = {
 		culture = teda
@@ -325,7 +325,7 @@
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 8000
+		size = 9000
 	}
 
 	slaves = {
@@ -531,7 +531,7 @@
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 63400
+		size = 93400
 	}
 
 	aristocrats = {
@@ -603,7 +603,7 @@
 	farmers = {
 		culture = kanuri
 		religion = sunni
-		size = 53400
+		size = 23400
 	}
 
 	slaves = {

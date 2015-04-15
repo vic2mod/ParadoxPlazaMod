@@ -35,22 +35,19 @@
 	soldiers = {
 		culture = nepali
 		religion = hindu
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = nepali
 		religion = hindu
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = nepali
 		religion = hindu
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -80,8 +77,7 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -111,14 +107,19 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 21125
+		size = 6000
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 15125
 	}
 }
 #Jumla (412000/103000 POPS)   
@@ -144,8 +145,7 @@
 	soldiers = {
 		culture = nepali
 		religion = hindu
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -175,8 +175,7 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size= 350
-
+		size = 350
 	}
 
 	farmers = {
@@ -206,11 +205,10 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size= 200
-
+		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = asian_minor
 		religion = animist
 		size = 18300

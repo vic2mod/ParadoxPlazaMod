@@ -9,38 +9,37 @@
 	}
 
 	soldiers = {
-		culture = south_italian
-		religion = catholic
-		size= 500
-
+		culture = british
+		religion = protestant
+		size = 500
 	}
 
 	artisans = {
-		culture = south_italian
-		religion = catholic
+		culture = british
+		religion = protestant
 		size = 150
 	}
 
 	aristocrats = {
-		culture = south_italian
+		culture = maltese
 		religion = catholic
 		size = 200
 	}
 
 	bureaucrats = {
-		culture = south_italian
+		culture = maltese
 		religion = catholic
 		size = 10
 	}
 
 	clergymen = {
-		culture = south_italian
+		culture = maltese
 		religion = catholic
 		size = 275
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = maltese
 		religion = catholic
 		size = 8000
 	}
@@ -48,8 +47,7 @@
 	soldiers = {
 		culture = maltese
 		religion = catholic
-		size= 340
-
+		size = 340
 	}
 
 	farmers = {

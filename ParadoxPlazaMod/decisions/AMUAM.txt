@@ -100,7 +100,7 @@ political_decisions = {
 
 		effect = {
 			add_country_modifier = {
-				name = "naval_race"
+				name = naval_race
 				duration = 3650
 			}
 			random_country = {

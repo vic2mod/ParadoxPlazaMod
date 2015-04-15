@@ -24,6 +24,7 @@ political_decisions = {
 			set_country_flag = oslo
 		}
 	}
+	
 	NOR_industralisation = {
 		potential = {	
 			exists = NOR
@@ -32,8 +33,8 @@ political_decisions = {
 			NOT = {
 				has_country_flag = NOR_INDUS
 			}
-			
 		}
+		
 		allow = {
 			year = 1840
 			
@@ -49,6 +50,5 @@ political_decisions = {
 			}
 			set_country_flag = NOR_INDUS
 		}
-	}
-
 }
+

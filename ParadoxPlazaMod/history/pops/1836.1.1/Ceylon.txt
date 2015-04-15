@@ -123,31 +123,31 @@
 	}
 
 	aristocrats = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 1500
 	}
 
 	soldiers = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 25
 	}
 
 	labourers = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 3375
 	}
@@ -371,7 +371,7 @@
 	labourers = {
 		culture = tamil
 		religion = hindu
-		size = 18750
+		size = 22750
 	}
 
 	clergymen = {
@@ -447,65 +447,65 @@
 	}
 
 	aristocrats = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 750
 	}
 
 	soldiers = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
 		size = 25
 	}
 
 	labourers = {
-		culture = maghrebi
+		culture = mashriqi
 		religion = sunni
-		size = 6150
+		size = 2150
 	}
 }
 #Maldives (24000/6000 POPS) #now independent
 1325 = {
 	aristocrats = {
-		culture = maldivian
+		culture = asian_minor
 		religion = sunni
-		size = 125
+		size = 50
 	}
 
 	clergymen = {
-		culture = maldivian
+		culture = asian_minor
 		religion = sunni
-		size = 150
+		size = 50
 	}
 
 	artisans = {
-		culture = maldivian
+		culture = asian_minor
 		religion = sunni
-		size = 1500
+		size = 500
 	}
 
 	soldiers = {
-		culture = maldivian
+		culture = asian_minor
 		religion = sunni
-		size = 150
+		size = 75
 	}
 
 	farmers = {
-		culture = maldivian
+		culture = asian_minor
 		religion = sunni
-		size = 10000
+		size = 5325
 	}
 
 }

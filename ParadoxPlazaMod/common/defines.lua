@@ -462,7 +462,7 @@ diplomacy = {
 
 	REMOVEFROMSPHERE_RELATION_ON_ACCEPT = -10,
 	REMOVEFROMSPHERE_INFLUENCE_COST = 100,
-	REMOVEFROMSPHERE_PRESTIGE_COST = 10, -- only applied if removing country is sphere leader
+	REMOVEFROMSPHERE_PRESTIGE_COST = 0, -- only applied if removing country is sphere leader
 	REMOVEFROMSPHERE_INFAMY_COST = 0, -- only applied if removing country is sphere leader
 
 	INCREASEOPINION_RELATION_ON_ACCEPT = 20,
@@ -549,7 +549,7 @@ diplomacy = {
 	CB_GENERATION_BASE_SPEED = 1,
 	CB_GENERATION_SPEED_BONUS_ON_COLONY_COMPETITION = 1.1, -- speed bonus when 2 countries compete for colony province
 	CB_GENERATION_SPEED_BONUS_ON_COLONY_COMPETITION_TROOPS_PRESENCE = 1.1, -- even bigger bonus when having
-	MAKE_CB_RELATION_LIMIT = 5,
+	MAKE_CB_RELATION_LIMIT = 25,
 	CB_DETECTION_CHANCE_BASE = 12, -- chance out of 1000 every day
 	INVESTMENT_INFLUENCE_DEFENSE = 0.5,	-- maximum defense factor in sphere of having invested in a country
 	RELATION_INFLUENCE_MODIFIER = 200, -- divisor for relation

@@ -381,14 +381,8 @@
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 40575
+		size = 63575
 	}
-	
-	farmers = {
-		culture = tiv
-		religion = animist
-		size = 23575
-	}	
 
 	slaves = {
 		culture = african_minor
@@ -556,7 +550,7 @@
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {

@@ -1642,6 +1642,27 @@ vangaurd_party = {
 	}
 }
 #mass_politics
+mass_line = {
+	limit = { mass_politics = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 35
+			has_country_modifier = Maoist
+		}
+		modifier = {
+			factor = 10
+			government = proletarian_dictatorship
+		}
+	}
+	effect = {
+		rebel_org_gain = {
+			faction = communist_rebels
+			value = 0.75
+		}
+	}
+}
 the_doctrine_of_fascism = {
 	limit = { mass_politics = 1 }
 	news = no

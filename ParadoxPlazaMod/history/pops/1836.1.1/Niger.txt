@@ -73,6 +73,12 @@
 		religion = sunni
 		size = 450
 	}
+	
+	bureaucrats = {
+		culture = hausa
+		religion = sunni
+		size = 25
+	}
 
 	clergymen = {
 		culture = songhai
@@ -351,37 +357,37 @@
 	farmers = {
 		culture = hausa
 		religion = sunni
-		size = 11900
+		size = 31900
 	}
 
 	aristocrats = {
-		culture = songhai
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = songhai
+		culture = african_minor
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = songhai
+		culture = african_minor
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = songhai
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = songhai
+		culture = african_minor
 		religion = animist
-		size = 23600
+		size = 3600
 	}
 
 	slaves = {
@@ -725,14 +731,8 @@
 	farmers = {
 		culture = hausa
 		religion = sunni
-		size = 60000
+		size = 62900
 	}
-	
-	farmers = {
-		culture = bedouin
-		religion = sunni
-		size = 2900
-	}	
 
 	aristocrats = {
 		culture = african_minor
@@ -830,14 +830,8 @@
 	farmers = {
 		culture = kanuri
 		religion = sunni
-		size = 50000
+		size = 56600
 	}
-	
-	farmers = {
-		culture = bedouin
-		religion = sunni
-		size = 6600
-	}	
 
 	aristocrats = {
 		culture = tuareg

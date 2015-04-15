@@ -59,7 +59,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 11150
+		size = 10150
+	}
+
+	slaves = {
+		culture = greek
+		religion = orthodox
+		size = 1000
 	}
 }
 #Limassol (44000/11000 POPS)
@@ -141,14 +147,8 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 2300
+		size = 2500
 	}
-	
-	farmers = {
-		culture = mashriqi
-		religion = catholic
-		size = 200
-	}	
 
 	clergymen = {
 		culture = greek
