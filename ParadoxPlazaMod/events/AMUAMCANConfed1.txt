@@ -1,13 +1,13 @@
-#####################                       
-#Confederation Chain# 
-#####################                      
+#######################
+# Confederation Chain #
+#######################
 
 #Ninety-Two Resolutions
 country_event = {
 	id = 944304
 	trigger = {
 		tag = ENG
-		owns = 58  
+		owns = 58 #Montreal
 		NOT = {
 			government = democracy
 		}
@@ -24,7 +24,7 @@ country_event = {
 	major = yes
 
 	option = {
-		name = "EVTOPTA944304" 
+		name = "EVTOPTA944304" # Deny the requests
 		set_country_flag = ninety_two_resolutions
 		ENG_58 = {
 			add_province_modifier = {
@@ -47,7 +47,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB944304"  
+		name = "EVTOPTB944304" # Accept the resolutions
 		release_vassal = CAN
 		CAN = {
 			upper_house_composition = population_equal_weight
@@ -65,7 +65,7 @@ country_event = {
 	trigger = {
 		tag = ENG
 		year = 1837
-		owns = 58 
+		owns = 58 #Montreal
 		has_country_flag = ninety_two_resolutions
 	}
 
@@ -102,8 +102,7 @@ country_event = {
 	id = 944306
 	trigger = {
 		tag = ENG
-		owns = 46  
-		NOT = { has_country_flag = mackenzie_newspaper }
+		owns = 46 #Toronto
 	}
 
 	fire_only_once = yes
@@ -117,7 +116,7 @@ country_event = {
 	major = yes
 
 	option = {
-		name = "EVTOPTA944306" 
+		name = "EVTOPTA944306" #suppress the newspaper
 		set_country_flag = mackenzie_newspaper
 		ENG_46 = {
 			add_province_modifier = {
@@ -141,7 +140,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB944306" 
+		name = "EVTOPTB944306" #let him publish
 		set_country_flag = mackenzie_newspaper
 		ENG_46 = {
 			add_province_modifier = {
@@ -157,127 +156,127 @@ country_event = {
 }
 
 #Report on the Affairs of $COUNTRYNAME$
-country_event = {
-	id = 944307
-	
-	trigger = {
-		OR = {
-			AND = {
-				tag = CAN
-				ENG = {
-					has_country_flag = ninety_two_resolutions
-				}
-			}
-			AND = {
-				tag = COL
-				ENG = {
-					has_global_flag = fraser_gold_rush
-				}
-			}
-			tag = NOV
-			tag = NBR
-			tag = NEW
-		}
-		ENG = {
-			THIS = {
-				is_possible_vassal = yes
-			}
-			any_owned = {
-				limit = {
-					is_core = THIS
-				}
-				any_pop = {
-					consciousness = 6
-				}
-			}	
-		}
-		year = 1838
- 	}
- 
- 	mean_time_to_happen = {
- 		months = 72
- 		modifier = {
- 			factor = 0.8
- 			ENG = {
- 				has_country_flag = six_counties
- 			}
- 		}
- 		modifier = {
- 			factor = 0.8
- 			ENG = {
- 				has_country_flag = mackenzie_newspaper
- 			}
- 		}
- 		modifier = {
- 			factor = 1.5
- 			ENG = {
- 				ruling_party_ideology = reactionary
- 			}
- 		}
- 		modifier = {
- 			factor = 2.5
- 			tag = NEW
- 		}
- 	}
- 
- 	title = "EVTNAME944307"
- 	desc = "EVTDESC944307"
- 
- 	option = {
- 		name = "EVTOPTA944307"  
- 		ENG = {
- 			country_event = 944308
- 		}
- 	}
- }
+#country_event = {
+#	id = 944307
+#	trigger = {
+#		OR = {
+#			AND = {
+#				tag = CAN
+#				ENG = {
+#					has_country_flag = ninety_two_resolutions
+#				}
+#			}
+#			AND = {
+#				tag = COL
+#				ENG = {
+#					has_global_flag = fraser_gold_rush
+#				}
+#			}
+#			tag = NOV
+#			tag = NBR
+#			tag = NEW
+#		}
+#		ENG = {
+#			THIS = {
+#				is_possible_vassal = yes
+#			}
+#			any_owned = {
+#				limit = {
+#					is_core = THIS
+#				}
+#				any_pop = {
+#					consciousness = 6
+#				}
+#			}	
+#		}
+#		year = 1838
+#	}
+#
+#	mean_time_to_happen = {
+#		#months = 72
+#		months = 1
+#		modifier = {
+#			factor = 0.8
+#			ENG = {
+#				has_country_flag = six_counties
+#			}
+#		}
+#		modifier = {
+#			factor = 0.8
+#			ENG = {
+#				has_country_flag = mackenzie_newspaper
+#			}
+#		}
+#		modifier = {
+#			factor = 1.5
+#			ENG = {
+#				ruling_party_ideology = reactionary
+#			}
+#		}
+#		modifier = {
+#			factor = 2.5
+#			tag = NEW
+#		}
+#	}
+#
+#	title = "EVTNAME944307"
+#	desc = "EVTDESC944307"
+#
+#	option = {
+#		name = "EVTOPTA944307" #pass on to ENG
+#		ENG = {
+#			country_event = 944308
+#		}
+#	}
+#}
 
 #The $FROMCOUNTRY$ Act of Union
- country_event = {
- 	id = 944308
- 
- 	title = "EVTNAME944308"
- 	desc = "EVTDESC944308"
- 
- 	is_triggered_only = yes
- 	option = {
- 		name = "EVTOPTA944308"  
- 		release_vassal = FROM
- 		prestige = 5
- 		ai_chance = {
- 			factor = 95
- 			modifier = {
- 				factor = 0.5
- 				OR = {
- 					ruling_party_ideology = reactionary
- 					government = absolute_monarchy
- 					government = presidential_dictatorship
- 				}
- 			}
- 		}
- 	}
- 
- 	option = {
- 		name = "EVTOPTB944308"  
- 		badboy = 1
- 		prestige = -5
- 		any_owned = {
- 			limit = {
- 				is_core = FROM
- 			}
- 			any_pop = {
- 				consciousness = 4
- 				militancy = 3
- 			}
- 		}
- 		ai_chance = {
- 			factor = 5
- 			modifier = {
- 				factor = 0.5
- 				government = democracy
- 			}
- 		}
- 	}
- }
+#country_event = {
+#	id = 944308
+#
+#	title = "EVTNAME944308"
+#	desc = "EVTDESC944308"
+#
+#	is_triggered_only = yes
+#	option = {
+#		name = "EVTOPTA944308" #We can afford to grant this
+#		release_vassal = FROM
+#		prestige = 5
+#		ai_chance = {
+#			factor = 95
+#			modifier = {
+#				factor = 0.5
+#				OR = {
+#					ruling_party_ideology = reactionary
+#					government = absolute_monarchy
+#					government = presidential_dictatorship
+#				}
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTB944308" #We will never give them up
+#		badboy = 1
+#		prestige = -5
+#		any_owned = {
+#			limit = {
+#				is_core = FROM
+#			}
+#			any_pop = {
+#				consciousness = 4
+#				militancy = 3
+#			}
+#		}
+#		ai_chance = {
+#			factor = 5
+#			modifier = {
+#				factor = 0.5
+#				government = democracy
+#			}
+#		}
+#	}
+#}
 
 #Report on the Affairs of the Canadas
 country_event = {
@@ -753,7 +752,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA944310"  We should send a delegation
+		name = "EVTOPTA944310" #We should send a delegation
 		set_country_flag = at_charlottetown
 		ai_chance = {
 			factor = 95
@@ -761,7 +760,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB944310"  We have nothing in common with them
+		name = "EVTOPTB944310" #We have nothing in common with them
 		set_country_flag = charlottetown_refused
 		ai_chance = {
 			factor = 5

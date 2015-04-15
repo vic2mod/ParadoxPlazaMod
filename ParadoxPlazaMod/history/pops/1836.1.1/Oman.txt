@@ -35,15 +35,13 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -67,8 +65,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -86,8 +83,7 @@
 	soldiers = {
 		culture = baluchi
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -143,8 +139,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -176,8 +171,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -201,8 +195,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {
@@ -234,8 +227,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -259,8 +251,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -278,8 +269,7 @@
 	soldiers = {
 		culture = baluchi
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -291,7 +281,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 1000
+		size = 1100
 	}
 }
 #Duqm (20000/5000 POPS)   
@@ -317,8 +307,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -382,8 +371,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {

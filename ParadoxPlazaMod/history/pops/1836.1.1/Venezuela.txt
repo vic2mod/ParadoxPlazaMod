@@ -557,25 +557,25 @@
 	clergymen = {
 		culture = guajiro
 		religion = catholic
-		size = 20
+		size = 10
 	}
 
 	artisans = {
 		culture = guajiro
 		religion = catholic
-		size = 100
+		size = 50
 	}
 
 	soldiers = {
 		culture = guajiro
 		religion = catholic
-		size = 50
+		size = 10
 	}
 
 	farmers = {
 		culture = guajiro
 		religion = catholic
-		size = 1930
+		size = 930
 	}
 }
 #Valera (128000/32000 POPS)

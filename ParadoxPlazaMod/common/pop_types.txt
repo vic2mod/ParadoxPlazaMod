@@ -96,7 +96,13 @@ promotion_chance =
 	}
 	modifier = {
 		factor = -0.1
-		country = { slavery = yes_slavery }
+		country = { 
+		OR = {
+		slavery = yes_slavery 
+		slavery = freedom_of_womb
+		debt_law = serfdom
+			}
+		}
 	}
 	modifier = {
 		factor = -0.05
@@ -126,13 +132,17 @@ demotion_chance =
 		strata = poor
 	}
 	modifier = {
-		factor = -0.05
-		country = {
-			has_country_flag = serfdom_not_abolished
+		factor = -0.1
+		country = { 
+		OR = {
+		slavery = yes_slavery
+		slavery = freedom_of_womb
+		debt_law = serfdom
+			}
 		}
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		country = { slavery = yes_slavery }
 	}
 	modifier = {

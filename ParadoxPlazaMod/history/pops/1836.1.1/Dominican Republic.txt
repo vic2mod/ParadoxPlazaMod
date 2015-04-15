@@ -5,13 +5,19 @@
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 300
+		size = 700
 	}
-
+	
+	bureaucrats = {
+		culture = caribeno
+		religion = catholic
+		size = 25
+	}
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 125
+		size = 100
 	}
 
 	artisans = {
@@ -29,7 +35,7 @@
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 6150
+		size = 62375
 	}
 
 	clergymen = {
@@ -47,13 +53,13 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 100
+		size = 50
 	}
 
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 9350
+		size = 45350
 	}
 }
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
@@ -61,9 +67,9 @@
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 250
+		size = 550
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
@@ -79,13 +85,13 @@
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 75
+		size = 50
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 7175
+		size = 30175
 	}
 
 	clergymen = {
@@ -109,7 +115,7 @@
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5575
+		size = 19575
 	}
 
 }

@@ -150,6 +150,12 @@
 		size = 3100
 	}
 
+	farmers = {
+		culture = circassian
+		religion = sunni
+		size = 100
+	}
+	
 	clergymen = {
 		culture = sephardic
 		religion = jewish

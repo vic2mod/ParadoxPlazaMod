@@ -1,6 +1,6 @@
 #Taiwan Region (2980000) 
 #under the rule of China in 1836  
-#Taipei (1452000/363000 POPS) #91000 gaoshan  
+#Taipei (1452000/363000 POPS) #now part of Taiwan   
 1485 = {
 	aristocrats = {
 		culture = nanfaren
@@ -35,14 +35,13 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size= 1250
-
+		size = 1250
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 80625
+		size = 110625
 	}
 
 	aristocrats = {
@@ -60,9 +59,9 @@
 	artisans = {
 		culture = min
 		religion = mahayana
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = min
 		religion = mahayana
@@ -72,27 +71,14 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size= 2400
-
+		size = 2400
 	}
 
 	farmers = {
 		culture = min
 		religion = mahayana
-		size = 170200
+		size = 220200
 	}
-	
-	farmers = {
-		culture = gaoshan
-		religion = catholic
-		size = 21200
-	}
-
-	farmers = {
-		culture = gaoshan
-		religion = mahayana
-		size = 71200
-	}		
 
 	bureaucrats = {
 		culture = manchu
@@ -109,11 +95,10 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size= 50
-
+		size = 50
 	}
 }
-#Tainan (1528000/382000 POPS) #gaoshan 150000
+#Tainan (1528000/382000 POPS) #now part of Taiwan  
 2562 = {
 	aristocrats = {
 		culture = nanfaren
@@ -136,14 +121,19 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size= 1325
-
+		size = 1325
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 71225
+		size = 121225
+	}	
+
+	slaves = {
+		culture = nanfaren
+		religion = mahayana
+		size = 20000
 	}
 
 	aristocrats = {
@@ -161,9 +151,9 @@
 	artisans = {
 		culture = min
 		religion = mahayana
-		size = 11000
+		size = 10000
 	}
-	
+
 	artisans = {
 		culture = min
 		religion = mahayana
@@ -173,26 +163,13 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size= 2500
-
+		size = 2500
 	}
 
-	farmers = {
-		culture = gaoshan
-		religion = catholic
-		size = 51200
-	}
-
-	farmers = {
-		culture = gaoshan
-		religion = mahayana
-		size = 111200
-	}	
-	
 	farmers = {
 		culture = min
 		religion = mahayana
-		size = 129000
+		size = 229000
 	}
 
 }

@@ -83,7 +83,7 @@
 	officers = {
 		culture = platinean
 		religion = catholic
-		size = 150
+		size = 300
 	}
 
 	clergymen = {
@@ -101,7 +101,7 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 8100
+		size = 20100
 	}
 
 	farmers = {
@@ -125,13 +125,13 @@
 	soldiers = {
 		culture = guarani
 		religion = catholic
-		size = 1250
+		size = 18250
 	}
 
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 24425
+		size = 38425
 	}
 
 	clergymen = {
@@ -155,13 +155,13 @@
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 3150
+		size = 150
 	}
 
 	slaves = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 1500
+		size = 9500
 	}
 }
 #Pilar (68000/17000 POPS)
@@ -353,7 +353,7 @@
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 8200
+		size = 7200
 	}
 
 	clergymen = {
@@ -377,7 +377,7 @@
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 8125
+		size = 7125
 	}
 
 	clergymen = {
@@ -402,6 +402,12 @@
 		culture = guarani
 		religion = animist
 		size = 910
+	}
+
+	slaves = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 2500
 	}
 }
 #Concepcion (16000/4000 POPS)

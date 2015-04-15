@@ -23,7 +23,7 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 28775
+		size = 32775
 	}
 
 	aristocrats = {
@@ -50,7 +50,7 @@
 		size = 75
 	}
 
-	farmers = {
+	serfs = {
 		culture = polish
 		religion = catholic
 		size = 15550
@@ -101,7 +101,7 @@
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 9700
+		size = 4700
 	}
 
 	clergymen = {
@@ -190,7 +190,7 @@
 		size = 100
 	}
 
-	farmers = {
+	serfs = {
 		culture = polish
 		religion = catholic
 		size = 24050
@@ -297,7 +297,7 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 44600
+		size = 45200
 	}
 
 	aristocrats = {
@@ -309,13 +309,13 @@
 	clergymen = {
 		culture = polish
 		religion = catholic
-		size = 150
+		size = 50
 	}
 
 	artisans = {
 		culture = polish
 		religion = catholic
-		size = 550
+		size = 150
 	}
 
 	soldiers = {
@@ -342,7 +342,7 @@
 		size = 150
 	}
 
-	farmers = {
+	serfs = {
 		culture = ukrainian
 		religion = orthodox
 		size = 14300
@@ -397,7 +397,13 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 91000
+		size = 41000
+	}
+	
+	serfs = {
+		culture = byelorussian
+		religion = orthodox
+		size = 50000
 	}
 
 	aristocrats = {
@@ -540,7 +546,7 @@
 		size = 250
 	}
 
-	farmers = {
+	serfs = {
 		culture = lithuanian
 		religion = catholic
 		size = 15875
@@ -674,7 +680,7 @@
 		size = 50
 	}
 
-	farmers = {
+	serfs = {
 		culture = polish
 		religion = catholic
 		size = 1475
@@ -751,7 +757,13 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 40200
+		size = 20200
+	}
+	
+	serfs = {
+		culture = byelorussian
+		religion = orthodox
+		size = 20000
 	}
 
 	aristocrats = {
@@ -825,7 +837,13 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 42725
+		size = 22725
+	}
+	
+	serfs = {
+		culture = byelorussian
+		religion = orthodox
+		size = 20000
 	}
 
 	aristocrats = {
@@ -849,7 +867,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {
@@ -916,7 +934,7 @@
 		size = 75
 	}
 
-	farmers = {
+	serfs = {
 		culture = russian
 		religion = orthodox
 		size = 4450
@@ -992,7 +1010,7 @@
 		size = 1000
 	}
 
-	farmers = {
+	serfs = {
 		culture = byelorussian
 		religion = orthodox
 		size = 49825
@@ -1117,7 +1135,13 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 119075
+		size = 49075
+	}
+	
+	serfs = {
+		culture = byelorussian
+		religion = orthodox
+		size = 70000
 	}
 
 	aristocrats = {
@@ -1236,10 +1260,10 @@
 		size = 600
 	}
 
-	farmers = {
+	serfs = {
 		culture = lithuanian
 		religion = catholic
-		size = 45850
+		size = 55850
 	}
 
 	clergymen = {
@@ -1263,7 +1287,7 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 24125
+		size = 14125
 	}
 
 	aristocrats = {
@@ -1394,7 +1418,7 @@
 		size = 50
 	}
 
-	farmers = {
+	serfs = {
 		culture = russian
 		religion = orthodox
 		size = 3175
@@ -1447,7 +1471,13 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 76840
+		size = 26840
+	}
+	
+	serfs = {
+		culture = byelorussian
+		religion = orthodox
+		size = 50000
 	}
 
 	aristocrats = {

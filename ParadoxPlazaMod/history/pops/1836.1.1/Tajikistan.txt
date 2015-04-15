@@ -95,6 +95,18 @@
 		religion = sunni
 		size = 27450
 	}
+
+	slaves = {
+		culture = tajik
+		religion = sunni
+		size = 2000
+	}
+
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 4000
+	}
 }
 #Khorugh (92000/23000 POPS)   
 1208 = {
@@ -149,13 +161,19 @@
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 25
+		size = 500
 	}
 
 	farmers = {
 		culture = kirgiz
 		religion = sunni
 		size = 3650
+	}
+
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 5000
 	}
 
 }

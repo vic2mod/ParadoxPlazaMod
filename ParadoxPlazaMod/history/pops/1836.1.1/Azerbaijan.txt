@@ -185,38 +185,33 @@
 	}
 
 	aristocrats = {
-		culture = north_caucasian
+		culture = dagestani
 		religion = sunni
 		size = 75
-		militancy = 9
 	}
 
 	clergymen = {
-		culture = north_caucasian
+		culture = dagestani
 		religion = sunni
 		size = 75
-		militancy = 9
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = sunni
 		size = 200
-		militancy = 9
 	}
 
 	soldiers = {
-		culture = north_caucasian
+		culture = dagestani
 		religion = sunni
 		size = 50
-		militancy = 9
 	}
 
 	farmers = {
-		culture = north_caucasian
+		culture = dagestani
 		religion = sunni
 		size = 3600
-		militancy = 9
 	}
 }
 #Sheki (24000/6000 POPS)
@@ -285,35 +280,30 @@
 		culture = north_caucasian
 		religion = sunni
 		size = 50
-		militancy = 9
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = sunni
 		size = 50
-		militancy = 9
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = sunni
 		size = 150
-		militancy = 9
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = sunni
 		size = 50
-		militancy = 9
 	}
 
 	farmers = {
-		culture = north_caucasian
+		culture = dagestani
 		religion = sunni
 		size = 2600
-		militancy = 9
 	}
 }
 #Ganja (68000/17000 POPS)

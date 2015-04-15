@@ -36,8 +36,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 1125
-
+		size = 1125
 	}
 
 	farmers = {
@@ -75,8 +74,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -106,8 +104,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -146,8 +143,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 1175
-
+		size = 1175
 	}
 
 	farmers = {
@@ -181,8 +177,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
@@ -232,8 +227,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -285,8 +279,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 1750
-
+		size = 1750
 	}
 
 	farmers = {
@@ -330,8 +323,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
@@ -363,8 +355,7 @@
 	soldiers = {
 		culture = somali
 		religion = sunni
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -394,8 +385,7 @@
 	soldiers = {
 		culture = afar
 		religion = sunni
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {

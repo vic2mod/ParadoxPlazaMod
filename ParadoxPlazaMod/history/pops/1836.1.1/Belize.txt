@@ -23,8 +23,7 @@
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size= 10
-
+		size = 10
 	}
 
 	farmers = {

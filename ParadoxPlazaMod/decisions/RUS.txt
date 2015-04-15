@@ -2,6 +2,7 @@ political_decisions = {
 	abolish_serfdom = {
 		potential = {
 			tag = RUS
+			debt_law = serfdom
 			has_country_flag = serfdom_not_abolished
 			#government = absolute_monarchy
 		}
@@ -22,17 +23,63 @@ political_decisions = {
 			}
 		}
 		effect = {
-			farmers = {
-				militancy = -2
-				consciousness = 1
-			}
-			labourers = {
-				militancy = -2
-				consciousness = 1
-			}
+			set_country_flag = serfdom_abolished_generic
 			badboy = -4
-			years_of_research = 0.05
+			political_reform = peonage
 			clr_country_flag = serfdom_not_abolished
+			random_country = {
+				limit = {
+					tag = TCA
+					 OR = {
+						exists = no
+						vassal_of = THIS
+						}
+					}
+				political_reform = peonage
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						type = farmers
+						type = labourers
+						type = serfs
+						}
+					}
+				militancy = -2
+				consciousness = 1
+			}
+			any_owned = { limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+				trade_goods = tropical_wood
+				trade_goods = timber
+				trade_goods = rubber
+				}
+			}
+		any_pop = { limit = { type = serfs } pop_type = labourers }
+		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = cattle
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = dye
+				trade_goods = fish
+				trade_goods = grain
+				trade_goods = opium
+				trade_goods = fruit
+				trade_goods = wool
+				trade_goods = silk
+				trade_goods = tea
+				trade_goods = tobacco
+					}
+			}
+		any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
 		}
 	}
 	
@@ -803,5 +850,75 @@ political_decisions = {
 			factor = 1
 		}
 	}	
+	
+	alexander_reforms = {
+		picture = alexander_emancipating
+		potential = {
+			tag = RUS
+			OR = {
+				has_country_flag = crimean_war
+				year = 1870
+				is_greater_power = no
+			}
+			NOT = { has_country_flag = alexander_reforms }
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_recently_lost_war = yes
+				is_greater_power = no
+			}
+			militancy = 1
+			NOT = { debt_law = serfdom }
+		}
+		
+		effect = {
+			set_country_flag = alexander_reforms
+			war_exhaustion = -5
+			tech_school = army_tech_school
+			political_reform = mandatory_service
+			add_country_modifier = {
+				name = educational_reform
+				duration = 1095	
+			}
+			any_pop = {
+				militancy = -1
+				consciousness = -3
+			}
+			random_owned = {
+				limit = {
+					owner = { citizens_rights = primary_culture_only }
+					}
+				owner = { political_reform = culture_voting_only }
+			}
+			random_owned = {
+				limit = {
+					owner = { penal_system = capital_punishment }
+					}
+				owner = { social_reform = colonial_transportation }
+			}
+			
+			random_owned = {
+				limit = {
+					owner = { school_reforms = low_schools }
+					}
+				owner = { social_reform = acceptable_schools }
+			}
+			
+			random_owned = {
+				limit = {
+					owner = { school_reforms = no_schools }
+					}
+				owner = { social_reform = low_schools }
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+		}
 	
 }

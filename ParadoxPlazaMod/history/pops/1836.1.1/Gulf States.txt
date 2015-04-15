@@ -95,6 +95,12 @@
 		religion = shiite
 		size = 3300
 	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 400
+	}
 }
 #Doha (8000/2000 POPS) #now part of Qatar 
 1165 = {
@@ -119,13 +125,19 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 325
+		size = 1050
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
 		size = 1525
+	}
+	
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 200
 	}
 }
 #Uman Region (36000) #see Oman.txt for balance of region 
@@ -173,6 +185,12 @@
 		religion = sunni
 		size = 3650
 	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 800
+	}
 }
 #Dubai (16000/4000 POPS)   #now part of UAE 
 1168 = {
@@ -204,6 +222,12 @@
 		culture = bedouin
 		religion = sunni
 		size = 2625
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 300
 	}
 
 }

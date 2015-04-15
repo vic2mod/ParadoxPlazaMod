@@ -41,11 +41,10 @@
 	soldiers = {
 		culture = albanian
 		religion = sunni
-		size= 100
-
+		size = 100
 	}
 
-	farmers = {
+	serfs = {
 		culture = albanian
 		religion = sunni
 		size = 825
@@ -71,7 +70,7 @@
 		size = 500
 	}
 
-	farmers = {
+	serfs = {
 		culture = serb
 		religion = orthodox
 		size = 11400
@@ -98,8 +97,7 @@
 	soldiers = {
 		culture = bosniak
 		religion = sunni
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -144,14 +142,19 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
 		size = 23375
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 }
 #Kosovo-Sanjak Region (52000)  #see Serbia.txt for balance of region 
@@ -170,7 +173,7 @@
 		size = 250
 	}
 
-	farmers = {
+	serfs = {
 		culture = serb
 		religion = orthodox
 		size = 8175
@@ -197,8 +200,7 @@
 	soldiers = {
 		culture = bosniak
 		religion = sunni
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -217,47 +219,23 @@
 		size = 50
 	}
 
-	farmers = {
-		culture = croat
-		religion = catholic
-		size = 3900
-	}	
-
 	artisans = {
 		culture = croat
 		religion = catholic
-		size = 440
-	}	
-	
+		size = 250
+	}
+
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size= 50
+		size = 50
 	}
 
-	aristocrats = {
-		culture = north_italian
+	serfs = {
+		culture = croat
 		religion = catholic
-		size = 200 
-	}	
-	
-	artisans = {
-		culture = north_italian
-		religion = catholic
-		size = 1100
+		size = 4650
 	}
-
-	soldiers = {
-		culture = north_italian
-		religion = catholic
-		size= 180
-	}	
-	
-	farmers = {
-		culture = north_italian
-		religion = catholic
-		size = 700
-	}		
 
 	clergymen = {
 		culture = serb
@@ -265,16 +243,22 @@
 		size = 100
 	}
 
+	artisans = {
+		culture = serb
+		religion = orthodox
+		size = 550
+	}
+
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size= 175
+		size = 125
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 10125
+		size = 10225
 	}
 
 }

@@ -2,6 +2,7 @@ country_event = {
 	id = 980030 
 	title = "Commie mod?"
 	desc = "Do you want to play with commie mod which adds flavour for communist nations and event chains for revolution and counter-revolution?"
+	picture = "become_leader_of_communists"
 	
 	trigger = { 
 		ai = no 

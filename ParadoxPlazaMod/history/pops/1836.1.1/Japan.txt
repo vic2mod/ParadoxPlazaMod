@@ -35,8 +35,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1275
-
+		size = 1275
 	}
 
 	farmers = {
@@ -66,8 +65,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 425
-
+		size = 425
 	}
 
 	farmers = {
@@ -99,8 +97,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 975
-
+		size = 975
 	}
 
 	farmers = {
@@ -130,8 +127,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -169,8 +165,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1025
-
+		size = 1025
 	}
 
 	farmers = {
@@ -200,29 +195,25 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1275
-
+		size = 1275
 	}
 
 	farmers = {
@@ -254,8 +245,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1075
-
+		size = 1075
 	}
 
 	farmers = {
@@ -285,8 +275,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -295,183 +284,163 @@
 		size = 27325
 	}
 }
-#Hokkaido Region (65000)
+#Hokkaido Region (840000)
 #under the rule of Japan in 1836
-#Hakodate (45500/11375 POPS)
+#Hakodate (240000/60000 POPS)
 1642 = {
-        aristocrats = {
-                culture = japanese
-                religion = shinto
-                size = 50
-        }
- 
-        bureaucrats = {
-                culture = japanese
-                religion = shinto
-                size = 25
-        }
- 
-        clergymen = {
-                culture = japanese
-                religion = shinto
-                size = 50
-        }
- 
-        artisans = {
-                culture = japanese
-                religion = shinto
-                size = 250
-        }
- 
-        soldiers = {
-                culture = japanese
-                religion = shinto
-                size = 500
-        }
- 
-        farmers = {
-                culture = japanese
-                religion = shinto
-                size = 3250
-        }
- 
-        clergymen = {
-                culture = japanese
-                religion = shinto
-                size = 50
-        }
- 
-        artisans = {
-                culture = japanese
-                religion = shinto
-                size = 250
-        }
- 
-        soldiers = {
-                culture = japanese
-                religion = shinto
-                size = 100
-        }
- 
-        farmers = {
-                culture = japanese
-                religion = shinto
-                size = 4375
-        }
- 
-        aristocrats = {
-                culture = ainu
-                religion = animist
-                size = 40
-        }
- 
-        clergymen = {
-                culture = ainu
-                religion = animist
-                size = 35
-        }
- 
-        artisans = {
-                culture = ainu
-                religion = animist
-                size = 100
-        }
- 
-        soldiers = {
-                culture = ainu
-                religion = animist
-                size = 100
-        }
- 
-        farmers = {
-                culture = ainu
-                religion = animist
-                size = 2200
-        }
+	aristocrats = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = shinto
+		size = 25
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 1100
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 8175
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 9300
+	}
+
+	aristocrats = {
+		culture = ainu
+		religion = animist
+		size = 250
+	}
+
+	clergymen = {
+		culture = ainu
+		religion = animist
+		size = 425
+	}
+
+	artisans = {
+		culture = ainu
+		religion = animist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = ainu
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = ainu
+		religion = animist
+		size = 37075
+	}
 }
-#Ishikara (13000/3250 POPS)
+#Ishikara (240000/60000 POPS)
 1643 = {
-        aristocrats = {
-                culture = ainu
-                religion = animist
-                size = 100
-        }
-       
-        bureaucrats = {
-                culture = ainu
-                religion = animist
-                size = 50
-        }
- 
-        clergymen = {
-                culture = ainu
-                religion = animist
-                size = 150
-        }
- 
-        artisans = {
-                culture = ainu
-                religion = animist
-                size = 450
-        }
- 
-        farmers = {
-                culture = ainu
-                religion = animist
-                size = 1400
-        }
-        bureaucrats = {
-                culture = japanese
-                religion = shinto
-                size = 25
-        }
-        clergymen = {
-                culture = japanese
-                religion = shinto
-                size = 25
-        }
-        artisans = {
-                culture = japanese
-                religion = shinto
-                size = 50
-        }
-        farmers = {
-                culture = japanese
-                religion = shinto
-                size = 1000
-        }
+	aristocrats = {
+		culture = ainu
+		religion = animist
+		size = 800
+	}
+	
+	bureaucrats = {
+		culture = ainu
+		religion = animist
+		size = 400
+	}
+
+	clergymen = {
+		culture = ainu
+		religion = animist
+		size = 575
+	}
+
+	artisans = {
+		culture = ainu
+		religion = animist
+		size = 2000
+	}
+
+	farmers = {
+		culture = ainu
+		religion = animist
+		size = 56275
+	}
 }
-#Nemuru (6500/1625 POPS)
+#Nemuru (360000/90000 POPS)
 1644 = {
-        aristocrats = {
-                culture = ainu
-                religion = animist
-                size = 25
-        }
- 
-        clergymen = {
-                culture = ainu
-                religion = animist
-                size = 50
-        }
- 
-        artisans = {
-                culture = ainu
-                religion = animist
-                size = 150
-        }
- 
-        soldiers = {
-                culture = ainu
-                religion = animist
-                size = 150
-        }
- 
-        farmers = {
-                culture = ainu
-                religion = animist
-                size = 1250
-        }
+	aristocrats = {
+		culture = ainu
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = ainu
+		religion = animist
+		size = 750
+	}
+
+	artisans = {
+		culture = ainu
+		religion = animist
+		size = 3000
+	}
+
+	soldiers = {
+		culture = ainu
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = ainu
+		religion = animist
+		size = 75350
+	}
 }
 #Hokuriku Region (1892000)
 #under the rule of Japan in 1836
@@ -510,8 +479,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1875
-
+		size = 1875
 	}
 
 	farmers = {
@@ -541,8 +509,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 625
-
+		size = 625
 	}
 
 	farmers = {
@@ -574,8 +541,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 675
-
+		size = 675
 	}
 
 	farmers = {
@@ -605,8 +571,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -638,8 +603,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -669,8 +633,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -702,8 +665,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 625
-
+		size = 625
 	}
 
 	farmers = {
@@ -733,8 +695,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 275
-
+		size = 275
 	}
 
 	farmers = {
@@ -774,61 +735,61 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -840,50 +801,43 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2075
-
+		size = 2075
 	}
 
 	farmers = {
@@ -907,13 +861,13 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -925,8 +879,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 700
-
+		size = 700
 	}
 
 	farmers = {
@@ -964,8 +917,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1600
-
+		size = 1600
 	}
 
 	farmers = {
@@ -995,8 +947,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
@@ -1028,8 +979,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1125
-
+		size = 1125
 	}
 
 	farmers = {
@@ -1059,8 +1009,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -1086,7 +1035,7 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -1098,8 +1047,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2350
-
+		size = 2350
 	}
 
 	farmers = {
@@ -1129,8 +1077,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 550
-
+		size = 550
 	}
 
 	farmers = {
@@ -1162,8 +1109,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1175
-
+		size = 1175
 	}
 
 	farmers = {
@@ -1193,8 +1139,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -1222,25 +1167,25 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -1252,8 +1197,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2575
-
+		size = 2575
 	}
 
 	farmers = {
@@ -1283,8 +1227,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -1316,8 +1259,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 875
-
+		size = 875
 	}
 
 	farmers = {
@@ -1347,8 +1289,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 800
-
+		size = 800
 	}
 
 	farmers = {
@@ -1386,19 +1327,19 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -1410,8 +1351,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1900
-
+		size = 1900
 	}
 
 	farmers = {
@@ -1441,8 +1381,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 725
-
+		size = 725
 	}
 
 	farmers = {
@@ -1468,7 +1407,7 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -1480,8 +1419,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -1511,8 +1449,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 900
-
+		size = 900
 	}
 
 	farmers = {
@@ -1544,8 +1481,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 975
-
+		size = 975
 	}
 
 	farmers = {
@@ -1575,8 +1511,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 850
-
+		size = 850
 	}
 
 	farmers = {
@@ -1622,8 +1557,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1525
-
+		size = 1525
 	}
 
 	farmers = {
@@ -1653,8 +1587,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 450
-
+		size = 450
 	}
 
 	farmers = {
@@ -1686,8 +1619,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1850
-
+		size = 1850
 	}
 
 	farmers = {
@@ -1717,8 +1649,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 700
-
+		size = 700
 	}
 
 	farmers = {
@@ -1750,29 +1681,25 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2275
-
+		size = 2275
 	}
 
 	farmers = {
@@ -1802,8 +1729,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 375
-
+		size = 375
 	}
 
 	farmers = {
@@ -1835,8 +1761,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 650
-
+		size = 650
 	}
 
 	farmers = {
@@ -1866,8 +1791,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -1899,8 +1823,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1475
-
+		size = 1475
 	}
 
 	farmers = {
@@ -1930,8 +1853,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 450
-
+		size = 450
 	}
 
 	farmers = {
@@ -1965,8 +1887,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	farmers = {
@@ -1996,15 +1917,13 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -2036,8 +1955,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -2067,8 +1985,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 325
-
+		size = 325
 	}
 
 	farmers = {
@@ -2112,8 +2029,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1225
-
+		size = 1225
 	}
 
 	farmers = {
@@ -2143,8 +2059,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 525
-
+		size = 525
 	}
 
 	farmers = {
@@ -2190,15 +2105,13 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1175
-
+		size = 1175
 	}
 
 	farmers = {
@@ -2228,8 +2141,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
@@ -2261,8 +2173,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2050
-
+		size = 2050
 	}
 
 	farmers = {
@@ -2292,8 +2203,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1450
-
+		size = 1450
 	}
 
 	farmers = {
@@ -2325,8 +2235,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 575
-
+		size = 575
 	}
 
 	farmers = {
@@ -2356,8 +2265,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 225
-
+		size = 225
 	}
 
 	farmers = {
@@ -2389,8 +2297,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 700
-
+		size = 700
 	}
 
 	farmers = {
@@ -2420,8 +2327,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -2453,8 +2359,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 650
-
+		size = 650
 	}
 
 	farmers = {
@@ -2484,8 +2389,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -2517,15 +2421,13 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -2555,8 +2457,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -2588,8 +2489,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 650
-
+		size = 650
 	}
 
 	farmers = {
@@ -2619,8 +2519,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 375
-
+		size = 375
 	}
 
 	farmers = {
@@ -2660,7 +2559,7 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -2672,29 +2571,25 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2600
-
+		size = 2600
 	}
 
 	farmers = {
@@ -2724,8 +2619,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -2751,7 +2645,7 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -2763,15 +2657,13 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 1700
-
+		size = 1700
 	}
 
 	farmers = {
@@ -2801,8 +2693,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 400
-
+		size = 400
 	}
 
 	farmers = {
@@ -2828,7 +2719,7 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -2840,8 +2731,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 2350
-
+		size = 2350
 	}
 
 	farmers = {
@@ -2871,8 +2761,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 900
-
+		size = 900
 	}
 
 	farmers = {
@@ -2918,8 +2807,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 450
-
+		size = 450
 	}
 
 	farmers = {
@@ -2949,8 +2837,7 @@
 	soldiers = {
 		culture = nanfaren
 		religion = shinto
-		size= 2050
-
+		size = 2050
 	}
 
 	farmers = {
@@ -2982,8 +2869,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {

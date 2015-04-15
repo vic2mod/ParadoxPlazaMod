@@ -11,19 +11,19 @@
 	artisans = {
 		culture = latvian
 		religion = protestant
-		size = 1000
+		size = 1500
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = protestant
-		size = 200
+		size = 400
 	}
 
 	farmers = {
 		culture = latvian
 		religion = protestant
-		size = 26775
+		size = 38775
 	}
 
 	aristocrats = {
@@ -35,7 +35,7 @@
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 600
+		size = 200
 	}
 
 	officers = {
@@ -47,26 +47,20 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 275
+		size = 75
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 7225
+		size = 6725
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1500
+		size = 100
 	}
-	
-	farmers = {
-		culture = north_german
-		religion = protestant
-		size = 2000
-	}	
 
 	aristocrats = {
 		culture = russian
@@ -127,13 +121,13 @@
 	clergymen = {
 		culture = latvian
 		religion = protestant
-		size = 800
+		size = 1100
 	}
 
 	artisans = {
 		culture = latvian
 		religion = protestant
-		size = 1350
+		size = 3350
 	}
 
 	soldiers = {
@@ -145,7 +139,7 @@
 	farmers = {
 		culture = latvian
 		religion = protestant
-		size = 104500
+		size = 113375
 	}
 
 	aristocrats = {
@@ -153,23 +147,17 @@
 		religion = protestant
 		size = 1250
 	}
-	
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 1200
-	}	
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 250
+		size = 50
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 2600
+		size = 600
 	}
 
 	soldiers = {
@@ -187,7 +175,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {
@@ -256,11 +244,6 @@
 		size = 75
 	}
 
-	farmers = {
-		culture = polish
-		religion = catholic
-		size = 6875
-	}
 }
 #Daugavpils (136000/34000 POPS)  
 356 = {
@@ -285,7 +268,7 @@
 	farmers = {
 		culture = latvian
 		religion = protestant
-		size = 26175
+		size = 19800
 	}
 
 	aristocrats = {
@@ -293,12 +276,6 @@
 		religion = protestant
 		size = 700
 	}
-	
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 500
-	}	
 
 	clergymen = {
 		culture = north_german
@@ -369,7 +346,19 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1050
+		size = 2050
+	}
+
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 3850
+	}
+
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 2025
 	}
 }
 #Jelgava (128000/32000 POPS)  
@@ -395,7 +384,7 @@
 	farmers = {
 		culture = latvian
 		religion = protestant
-		size = 26275
+		size = 28275
 	}
 
 	aristocrats = {
@@ -404,22 +393,16 @@
 		size = 1150
 	}
 
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 800
-	}	
-	
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 250
+		size = 50
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 1750
+		size = 750
 	}
 
 	soldiers = {
@@ -475,7 +458,7 @@
 	farmers = {
 		culture = latvian
 		religion = protestant
-		size = 27650
+		size = 29450
 	}
 
 	aristocrats = {
@@ -484,22 +467,16 @@
 		size = 1200
 	}
 
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 600
-	}	
-	
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 250
+		size = 50
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 1700
+		size = 700
 	}
 
 	soldiers = {
@@ -561,7 +538,7 @@
 	farmers = {
 		culture = latvian
 		religion = protestant
-		size = 19975
+		size = 21475
 	}
 
 	aristocrats = {
@@ -573,25 +550,19 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 225
+		size = 25
 	}
 
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 200
-	}	
-	
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 1400
+		size = 400
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 125
+		size = 25
 	}
 
 	clergymen = {

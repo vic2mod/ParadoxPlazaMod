@@ -29,8 +29,7 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size= 25
-
+		size = 25
 	}
 
 	farmers = {
@@ -54,8 +53,7 @@
 	soldiers = {
 		culture = afro_caribbean
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -105,8 +103,7 @@
 	soldiers = {
 		culture = afro_caribbean
 		religion = protestant
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {

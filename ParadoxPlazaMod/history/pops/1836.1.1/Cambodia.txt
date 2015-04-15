@@ -35,33 +35,25 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
 		culture = khmer
 		religion = theravada
-		size = 83025
+		size = 93025
 	}
-	
-	farmers = {
-		culture = cham
-		religion = sunni
-		size = 15025
-	}	
 
 	slaves = {
 		culture = khmer
 		religion = theravada
-		size = 2000
+		size = 9000
 	}
 
 	clergymen = {
@@ -105,21 +97,14 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = khmer
 		religion = theravada
-		size = 31150
+		size = 34150
 	}
-	
-	farmers = {
-		culture = cham
-		religion = sunni
-		size = 3150
-	}	
 
 	clergymen = {
 		culture = yue
@@ -137,6 +122,12 @@
 		culture = yue
 		religion = mahayana
 		size = 1475
+	}
+
+	slaves = {
+		culture = yue
+		religion = mahayana
+		size = 3000
 	}
 }
 #Stongtreng (84000/21000 POPS)
@@ -162,51 +153,49 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
 		culture = khmer
 		religion = theravada
-		size = 11450
+		size = 16450
 	}
-	
-	farmers = {
-		culture = vietnamese
-		religion = mahayana
-		size = 4000
-	}	
 
 	aristocrats = {
-		culture = cham
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = cham
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = cham
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 125
 	}
 
 	soldiers = {
-		culture = cham
-		religion = sunni
-		size= 25
-
+		culture = asian_minor
+		religion = animist
+		size = 25
 	}
 
 	farmers = {
-		culture = cham
-		religion = sunni
-		size = 3750
+		culture = asian_minor
+		religion = animist
+		size = 2750
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = animist
+		size = 2000
 	}
 }
 #under the rule of Siam in 1836
@@ -245,8 +234,7 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {
@@ -276,8 +264,7 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size= 425
-
+		size = 425
 	}
 
 	farmers = {
@@ -289,7 +276,7 @@
 	slaves = {
 		culture = khmer
 		religion = theravada
-		size = 1100
+		size = 3100
 	}
 
 	clergymen = {
@@ -307,8 +294,7 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size= 50
-
+		size = 50
 	}
 
 	farmers = {

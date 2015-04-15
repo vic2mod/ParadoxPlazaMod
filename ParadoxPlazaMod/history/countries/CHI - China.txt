@@ -27,6 +27,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+
 ruling_party = CHI_conservative
 upper_house = {
 	fascist = 0
@@ -41,8 +48,11 @@ upper_house = {
 set_country_flag = existing_country
 
 foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
 army_schools = yes_army_schools
 admin_reform = yes_admin_reform
+finance_reform = yes_finance_reform
+
 
 # Technologies
 flintlock_rifles = 1

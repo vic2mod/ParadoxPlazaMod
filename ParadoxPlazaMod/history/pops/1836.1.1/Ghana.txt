@@ -23,15 +23,13 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 1350
-
+		size = 1350
 	}
 
 	farmers = {
@@ -69,8 +67,7 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -126,8 +123,7 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 225
-
+		size = 225
 	}
 
 	farmers = {
@@ -173,7 +169,7 @@
 	artisans = {
 		culture = akan
 		religion = animist
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -185,15 +181,13 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -231,8 +225,7 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
@@ -270,8 +263,7 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
@@ -301,8 +293,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size= 615
-
+		size = 615
 	}
 
 	farmers = {
@@ -338,8 +329,7 @@
 	soldiers = {
 		culture = mossi
 		religion = animist
-		size= 265
-
+		size = 265
 	}
 
 	farmers = {
@@ -371,8 +361,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size= 760
-
+		size = 760
 	}
 
 	farmers = {
@@ -408,8 +397,7 @@
 	soldiers = {
 		culture = mossi
 		religion = animist
-		size= 350
-
+		size = 350
 	}
 
 	farmers = {
@@ -443,8 +431,7 @@
 	soldiers = {
 		culture = akan
 		religion = animist
-		size= 440
-
+		size = 440
 	}
 
 	farmers = {
@@ -480,8 +467,7 @@
 	soldiers = {
 		culture = ewe
 		religion = animist
-		size= 700
-
+		size = 700
 	}
 
 	farmers = {
@@ -520,8 +506,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size= 840
-
+		size = 840
 	}
 
 	farmers = {

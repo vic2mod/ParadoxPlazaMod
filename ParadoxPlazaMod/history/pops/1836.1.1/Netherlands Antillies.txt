@@ -2,6 +2,13 @@
 #Ruled by Netherlands 1836
 #Curacao (12300/3100 POPS)
 2234 = {
+
+	aristocrats = {
+		culture = dutch
+		religion = protestant
+		size = 12
+	}
+
 	bureaucrats = {
 		culture = dutch
 		religion = protestant
@@ -11,8 +18,7 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size= 25
-
+		size = 25
 	}
 
 	artisans = {
@@ -22,54 +28,61 @@
 	}
 
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = dutch
+		religion = protestant
 		size = 20
 	}
 
-	artisans = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 150
-	}
-
-	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size= 30
-
-	}
-
 	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 2080
+	}
+	
+	slaves = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 2800
+		size = 900
 	}
 }
 #Aruba (2400/600 POPS)
 2235 = {
+	
+	aristocrats = {
+		culture = dutch
+		religion = protestant
+		size = 1
+	}
+	
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = dutch
+		religion = protestant
 		size = 25
 	}
-
-	artisans = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 25
-	}
-
+	
 	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 400
+	}
+
+	slaves = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 550
+		size = 175
 	}
 }
 #Saint Martin (4800/1200 POPS)
 2236 = {
+
+	aristocrats = {
+		culture = dutch
+		religion = protestant
+		size = 10
+	}
+	
 	clergymen = {
-		culture = afro_caribbean
+		culture = dutch
 		religion = protestant
 		size = 25
 	}
@@ -79,11 +92,17 @@
 		religion = protestant
 		size = 55
 	}
-
+	
 	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 800
+	}
+
+	slaves = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 1120
+		size = 420
 	}
 
 }

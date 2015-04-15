@@ -1,6 +1,6 @@
 #Outer Mongolia Region (1292000) 
 #under the rule of China in 1836  
-#Ugra (376000/94000 POPS)   
+#Urga (376000/94000 POPS)   
 1465 = {
 	aristocrats = {
 		culture = mongol
@@ -35,8 +35,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 900
-
+		size = 900
 	}
 
 	farmers = {
@@ -66,14 +65,19 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
 		size = 3300
+	}
+	
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 6000
 	}
 }
 #Dalandzadgad (212000/53000 POPS)   
@@ -99,14 +103,19 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 550
-
+		size = 550
 	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 48200
+		size = 44200
+	}
+	
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 5000
 	}
 }
 #Bayan Tumen (176000/44000 POPS)   
@@ -132,8 +141,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 425
-
+		size = 425
 	}
 
 	farmers = {
@@ -163,17 +171,16 @@
 	soldiers = {
 		culture = yakut
 		religion = animist
-		size= 25
-
+		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = yakut
 		religion = animist
-		size = 2750
+		size = 3000
 	}
 }
-#Uliastay (140000/35000 POPS)   
+#Uliastai (140000/35000 POPS)   
 1468 = {
 	aristocrats = {
 		culture = mongol
@@ -196,14 +203,19 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 350
-
+		size = 350
 	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
 		size = 31900
+	}
+	
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 2000
 	}
 }
 
@@ -230,8 +242,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -264,8 +275,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 375
-
+		size = 375
 	}
 
 	farmers = {
@@ -297,8 +307,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 225
-
+		size = 225
 	}
 
 	farmers = {
@@ -330,8 +339,7 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -361,20 +369,31 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size= 125
-
+		size = 125
 	}
-
+	
 	farmers = {
 		culture = kazak
 		religion = sunni
 		size = 10975
 	}
+	
+	slaves = {
+		culture = kazak
+		religion = sunni
+		size = 2000
+	}
 }
-#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
+#Uliatai / Uriankhai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
 1469 = {
 	aristocrats = {
 		culture = tatar
+		religion = gelugpa
+		size = 150
+	}
+	
+	aristocrats  = {
+		culture = mongol
 		religion = gelugpa
 		size = 150
 	}
@@ -394,14 +413,19 @@
 	soldiers = {
 		culture = tatar
 		religion = gelugpa
-		size= 75
-
+		size = 75
 	}
 
 	farmers = {
 		culture = tatar
 		religion = gelugpa
 		size = 7300
+	}
+	
+	slaves = {
+		culture = tatar
+		religion = gelugpa
+		size = 1000
 	}
 
 }

@@ -3,37 +3,37 @@
 #Kigali (496000/124000 POPS) 
 2034 = {
 	aristocrats = {
-		culture = rundi
+		culture = ruanda
 		religion = animist
 		size = 2450
 	}
 
 	bureaucrats = {
-		culture = rundi
+		culture = ruanda
 		religion = animist
 		size = 25
 	}
 
 	officers = {
-		culture = rundi
+		culture = ruanda
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = rundi
+		culture = ruanda
 		religion = animist
 		size = 1750
 	}
 
 	artisans = {
-		culture = rundi
+		culture = ruanda
 		religion = animist
 		size = 6200
 	}
 
 	soldiers = {
-		culture = rundi
+		culture = ruanda
 		religion = animist
 		size = 1250
 	}
@@ -41,21 +41,8 @@
 	farmers = {
 		culture = ruanda
 		religion = animist
-		size = 90000
+		size = 113200
 	}
-	
-	farmers = {
-		culture = rundi
-		religion = animist
-		size = 13000
-	}	
-	
-	farmers = {
-		culture = hema
-		religion = animist
-		size = 10200
-	}	
-	
 }
 #uncolonized in 1836/ruled by kingdom of Burundi
 #Usumbura (448000/112000 POPS) 
@@ -91,27 +78,15 @@
 	}
 
 	soldiers = {
-		culture = ruanda
+		culture = rundi
 		religion = animist
 		size = 1125
 	}
 
 	farmers = {
-		culture = ruanda
-		religion = animist
-		size = 90000
-	}
-	
-	farmers = {
 		culture = rundi
 		religion = animist
-		size = 10000
-	}	
-	
-	farmers = {
-		culture = hema
-		religion = animist
-		size = 1850
-	}	
+		size = 101850
+	}
 
 }

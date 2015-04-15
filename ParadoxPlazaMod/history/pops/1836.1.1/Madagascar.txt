@@ -23,7 +23,7 @@
 	artisans = {
 		culture = malagasy
 		religion = animist
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -35,22 +35,19 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -124,15 +121,13 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -164,8 +159,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = sunni
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -201,8 +195,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
@@ -234,8 +227,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size= 125
-
+		size = 125
 	}
 
 	farmers = {
@@ -271,8 +263,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {
@@ -346,8 +337,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -383,8 +373,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -418,8 +407,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -449,8 +437,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -482,8 +469,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size= 275
-
+		size = 275
 	}
 
 	farmers = {
@@ -519,8 +505,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 200
-
+		size = 200
 	}
 
 	farmers = {
@@ -552,8 +537,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size= 175
-
+		size = 175
 	}
 
 	farmers = {
@@ -565,7 +549,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 11000
+		size = 10000
 	}
 
 	aristocrats = {
@@ -589,8 +573,7 @@
 	soldiers = {
 		culture = malagasy
 		religion = animist
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {

@@ -493,10 +493,51 @@ migration_target =
 	}
 }
 
-promote_to =
-{
-		artisans =
-	{
+promote_to = {
+
+serfs = {
+		factor = 0.1
+		
+		modifier = {
+			factor = 10
+			unemployment = 0.3
+		}
+		
+		modifier = {
+			factor = 10
+			NOT = { life_needs = 0.1 }
+		}
+		
+		modifier = {
+			factor = 5
+			NOT = { life_needs = 0.2 }
+		}
+		
+		modifier = {
+			factor = 2.5
+			NOT = { life_needs = 0.3 }
+		}
+		
+		modifier = {
+			factor = 2
+			NOT = { life_needs = 0.4 }
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = { life_needs = 0.5 }
+		}
+		
+		modifier = {
+				factor = -100
+				OR = {
+				NOT = { debt_law = serfdom }
+				serfs = 0.4
+				}
+			}
+	}
+	
+	artisans = {
 		factor = 0.01
 			modifier = {
 				factor = 1

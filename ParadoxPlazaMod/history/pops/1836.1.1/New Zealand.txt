@@ -38,6 +38,12 @@
 		religion = protestant
 		size = 1250
 	}
+	
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 250
+	}
 }
 #New Plymouth (8000/2000 POPS)
 2510 = {
@@ -66,9 +72,21 @@
 	}
 
 	farmers = {
+		culture = british
+		religion = protestant
+		size = 5
+	}
+	
+	farmers = {
 		culture = maori
 		religion = animist
 		size = 1775
+	}
+	
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
 	}
 }
 #Napier (12000/3000 POPS)
@@ -97,6 +115,12 @@
 		size = 75
 	}
 
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
+	}
+	
 	farmers = {
 		culture = maori
 		religion = animist
@@ -127,6 +151,12 @@
 		culture = maori
 		religion = animist
 		size = 75
+	}
+	
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
 	}
 
 	farmers = {
@@ -159,6 +189,12 @@
 		culture = maori
 		religion = animist
 		size = 75
+	}
+	
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 50
 	}
 
 	farmers = {
@@ -196,6 +232,12 @@
 	}
 
 	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
+	}
+	
+	farmers = {
 		culture = maori
 		religion = animist
 		size = 900
@@ -227,6 +269,12 @@
 		size = 15
 	}
 
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
+	}
+	
 	farmers = {
 		culture = maori
 		religion = animist
@@ -260,6 +308,12 @@
 	}
 
 	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
+	}
+	
+	farmers = {
 		culture = maori
 		religion = animist
 		size = 1775
@@ -291,6 +345,12 @@
 		size = 75
 	}
 
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 5
+	}
+	
 	farmers = {
 		culture = maori
 		religion = animist

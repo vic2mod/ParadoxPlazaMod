@@ -23,8 +23,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 550
-
+		size = 550
 	}
 
 	farmers = {
@@ -56,8 +55,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 300
-
+		size = 300
 	}
 
 	farmers = {
@@ -89,8 +87,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 675
-
+		size = 675
 	}
 
 	farmers = {
@@ -122,8 +119,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 750
-
+		size = 750
 	}
 
 	farmers = {
@@ -157,8 +153,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 275
-
+		size = 275
 	}
 
 	farmers = {
@@ -190,8 +185,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 375
-
+		size = 375
 	}
 
 	farmers = {
@@ -223,8 +217,7 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size= 150
-
+		size = 150
 	}
 
 	farmers = {

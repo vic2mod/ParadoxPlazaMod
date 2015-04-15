@@ -3697,9 +3697,40 @@ country_event = {
 			militancy = 4
 			consciousness = 1
 		}
-		ENG = {
-			country_event = 13358
+		ENG = { country_event = 13358 }
+		political_reform = peonage
+		any_owned = { limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+				trade_goods = tropical_wood
+				trade_goods = timber
+				trade_goods = rubber
+				}
+			}
+		any_pop = { limit = { type = serfs } pop_type = labourers }
 		}
+		any_owned = { limit = {
+			OR = {
+				trade_goods = cattle
+				trade_goods = coffee
+				trade_goods = cotton
+				trade_goods = dye
+				trade_goods = fish
+				trade_goods = grain
+				trade_goods = opium
+				trade_goods = fruit
+				trade_goods = wool
+				trade_goods = silk
+				trade_goods = tea
+				trade_goods = tobacco
+					}
+			}
+		any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
 	}
 }
 
@@ -3888,5 +3919,100 @@ country_event = {
 		remove_country_modifier = trade_restrictions
 		remove_country_modifier = sayings_of_the_dutch
 		remove_country_modifier = meiji_restoration_boost
+	}
+}
+
+#Migration to Hong Kong
+province_event = {
+	id = 90956
+	title = "EVTNAME90956"
+	desc = "EVTDESC90956"
+		
+	trigger = {
+		province_id = 1496
+		has_province_modifier = treaty_port
+		1496 = { owner = { civilized = yes capital_scope = { NOT = {continent = asia } } } }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 1 }
+	
+	immediate = {
+		random_list = {
+			40 = { 1497 = { artisans = { move_pop = 1496 } } }
+			10 = { random_neighbor_province = { limit = { owner = { civilized = no } } soldiers = { limit = { culture = yue } move_pop = 1496 } } }
+			10 = { random_neighbor_province = { limit = { owner = { civilized = no } } bureaucrats = { limit = { culture = yue } move_pop = 1496 } } }
+			40 = { 1493 = { serfs = { limit = { culture = yue } move_pop = 1496 } } }
+			}
+		}
+	
+	option = {
+		name = "EVTOPTA90956"
+		
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				is_accepted_culture = no 
+				is_culture_group = east_asian 
+				OR = {
+					type = artisans
+					type = soldiers
+					type = clergymen
+					type = serfs
+					}
+				}
+			pop_type = labourers	
+			}
+		}
+}
+
+
+#Cleaning Bukhara cores on Kandahar
+country_event = {
+	id = 90957
+	title = "EVTNAME90957"
+	desc = "EVTDESC90957"
+	picture = "central_asian_tribes"
+	
+	trigger = {
+		tag = AFG
+		owns = 1211
+		BUK = { exists = no }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 12 }
+	
+	option = {
+		name = "EVTOPTA90957"
+		1211 = { remove_core = BUK }
+	}
+}
+
+#Flipping Caouzhou huge gold mine
+country_event = {
+	id = 90958
+	title = "EVTNAME90958"
+	desc = "EVTDESC90958"
+	picture = "diamonds_in_kimberley"
+		
+	trigger = {
+		owns = 1564
+		1564 = { trade_goods = precious_metal }
+		OR = {
+			year = 1900
+			civilized = yes
+		}
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { months = 30 }
+	
+	option = {
+		name = "EVTOPTA90958"
+		1564 = { trade_goods = grain }
+		1576 = { trade_goods = precious_metal }
 	}
 }

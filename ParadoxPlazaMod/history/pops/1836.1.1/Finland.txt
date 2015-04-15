@@ -69,7 +69,7 @@
 	clergymen = {
 		culture = finnish
 		religion = protestant
-		size = 75
+		size = 100
 	}
 
 	artisans = {
@@ -87,13 +87,13 @@
 	farmers = {
 		culture = finnish
 		religion = protestant
-		size = 8025
+		size = 8425
 	}
 
 	farmers = {
 		culture = sami
 		religion = protestant
-		size = 1400
+		size = 1075
 	}
 }
 #Karelia Region (524000)
@@ -353,7 +353,7 @@
 	soldiers = {
 		culture = finnish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
 
 	farmers = {
@@ -477,7 +477,7 @@
 	soldiers = {
 		culture = finnish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
 
 	farmers = {
@@ -533,7 +533,7 @@
 	soldiers = {
 		culture = finnish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
 
 	farmers = {
@@ -545,7 +545,7 @@
 	aristocrats = {
 		culture = swedish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
 
 	clergymen = {
@@ -557,7 +557,7 @@
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {
@@ -583,7 +583,7 @@
 	artisans = {
 		culture = finnish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {

@@ -491,7 +491,6 @@ JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
 QNG		= "countries/Qing China.txt"
-GCF		= "countries/GermanConfed.txt"
 
 
 #new for 1.2

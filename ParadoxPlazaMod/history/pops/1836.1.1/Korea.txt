@@ -35,20 +35,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 172125
+		size = 132125
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 50000
 	}
 }
 #Chonchon (796000/190000 POPS)
@@ -74,20 +73,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 163625
+		size = 123625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 50000
 	}
 }
 #Hamgyong Region (920000)
@@ -127,20 +125,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 700
-
+		size = 700
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 63300
+		size = 43300
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 25000
 	}
 }
 #Chongjin (360000/90000 POPS)
@@ -166,20 +163,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 72600
+		size = 52600
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 30000
 	}
 }
 #Kimchaek (260000/65000 POPS)
@@ -205,20 +201,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 600
-
+		size = 600
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 54625
+		size = 44625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 15000
 	}
 }
 #Kyonggi Region (2620000)
@@ -252,7 +247,7 @@
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 10000
 	}
 	
 	artisans = {
@@ -264,20 +259,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 3000
-
+		size = 3000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 248725
+		size = 208725
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 60000
 	}
 }
 #Kaesong (280000/70000 POPS)
@@ -303,20 +297,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 650
-
+		size = 650
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 59150
+		size = 39150
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 25000
 	}
 }
 #Haeju (260000/65000 POPS)
@@ -342,20 +335,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 600
-
+		size = 600
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 54625
+		size = 34625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 25000
 	}
 }
 #Sariwon (340000/85000 POPS)
@@ -381,20 +373,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 72625
+		size = 52625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 25000
 	}
 }
 #Inchon (560000/140000 POPS)
@@ -420,20 +411,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 117625
+		size = 87625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 30000
 	}
 }
 #Gangwon Region (920000)
@@ -473,20 +463,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 76800
+		size = 56800
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 30000
 	}
 }
 #Kangnung (260000/65000 POPS)
@@ -512,20 +501,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 600
-
+		size = 600
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 54625
+		size = 44625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 15000
 	}
 }
 #Wonju (280000/70000 POPS)
@@ -551,20 +539,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 650
-
+		size = 650
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 59175
+		size = 39175
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 25000
 	}
 }
 #Kyongsang Region (1800000)
@@ -604,20 +591,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 158150
+		size = 118150
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 50000
 	}
 }
 #Taejon (420000/105000 POPS)
@@ -643,20 +629,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 91050
+		size = 81050
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 15000
 	}
 }
 #Pohang (640000/160000 POPS)
@@ -682,20 +667,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 136050
+		size = 106050
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 30000
 	}
 }
 #Cholla Region (1504000)
@@ -735,20 +719,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 136300
+		size = 116300
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 30000
 	}
 }
 #Taegu (560000/140000 POPS)
@@ -774,20 +757,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 2000
-
+		size = 2000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 117625
+		size = 107625
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 11000
+		size = 20000
 	}
 }
 #Cheju (300000/75000 POPS)
@@ -813,20 +795,19 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size= 700
-
+		size = 700
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 63725
+		size = 53725
 	}
 
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 15000
 	}
 
 }

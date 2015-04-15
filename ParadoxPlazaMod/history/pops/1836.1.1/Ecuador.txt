@@ -29,7 +29,7 @@
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 5900
+		size = 300
 	}
 
 	soldiers = {
@@ -41,7 +41,7 @@
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 21600
+		size = 20600
 	}
 
 	clergymen = {
@@ -65,7 +65,13 @@
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 39725
+		size = 36725
+	}
+
+	slaves = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 7000
 	}
 }
 #Zamora (176000/44000 POPS)
@@ -286,7 +292,7 @@
 		size = 1100
 	}
 }
-#Esmereldas (88000/22000 POPS)
+#Esmereldas / Esmeraldas(88000/22000 POPS)
 2281 = {
 	aristocrats = {
 		culture = north_andean
@@ -315,7 +321,7 @@
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 6800
+		size = 5800
 	}
 
 	clergymen = {
@@ -339,13 +345,13 @@
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 6025
+		size = 5025
 	}
 
 	slaves = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 8000
+		size = 4000
 	}
 }
 #Loja (160000/40000 POPS)

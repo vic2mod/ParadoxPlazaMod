@@ -25,6 +25,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = one_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+
 ruling_party = IRQ_conservative
 last_election = 1834.1.1
 upper_house = {
@@ -36,3 +43,7 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+flintlock_rifles = 1

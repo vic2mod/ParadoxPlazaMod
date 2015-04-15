@@ -51,16 +51,10 @@
 	}
 
 	artisans = {
-		culture = georgian
+		culture = armenian
 		religion = orthodox
-		size = 6725
+		size = 725
 	}
-	
-	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 325
-	}	
 
 	soldiers = {
 		culture = georgian
@@ -68,10 +62,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	serfs = {
 		culture = georgian
 		religion = orthodox
-		size = 39625
+		size = 45625
 	}
 
 	aristocrats = {
@@ -191,7 +185,7 @@
 	}
 
 	artisans = {
-		culture = georgian
+		culture = armenian
 		religion = orthodox
 		size = 500
 	}
@@ -202,7 +196,7 @@
 		size = 100
 	}
 
-	farmers = {
+	serfs = {
 		culture = georgian
 		religion = orthodox
 		size = 9100
@@ -212,35 +206,36 @@
 		culture = north_caucasian
 		religion = orthodox
 		size = 100
-		militancy = 9
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 50
-		militancy = 9
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 300
-		militancy = 9
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 50
-		militancy = 9
 	}
 
 	farmers = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 5500
-		militancy = 9
+	}
+	
+	farmers = {
+		culture = chechen
+		religion = sunni
+		size = 500
 	}
 
 	aristocrats = {
@@ -299,7 +294,7 @@
 		size = 300
 	}
 
-	farmers = {
+	serfs = {
 		culture = georgian
 		religion = orthodox
 		size = 27300
@@ -343,7 +338,7 @@
 		size = 50
 	}
 
-	farmers = {
+	serfs = {
 		culture = georgian
 		religion = orthodox
 		size = 3625
@@ -435,13 +430,13 @@
 		size = 275
 	}
 
-	farmers = {
+	serfs = {
 		culture = georgian
 		religion = orthodox
 		size = 23675
 	}
 }
-#Sukhumi (72000/18000 POPS) #circassian = abkhaz
+#Sukhumi (72000/18000 POPS) #north_caucasian = abkhaz
 1095 = {
 	aristocrats = {
 		culture = georgian
@@ -470,85 +465,68 @@
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 3600
+		size = 17600
 	}
 
 	aristocrats = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 150
-		militancy = 9
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 75
-		militancy = 9
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = orthodox
 		size = 450
-		militancy = 9
 	}
-
+	
 	soldiers = {
-		culture = north_caucasian
+		culture = russian
 		religion = orthodox
 		size = 100
-		militancy = 9
 	}
 
 	farmers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 8225
-		militancy = 9
+		size = 28225
 	}
 
 	aristocrats = {
 		culture = north_caucasian
 		religion = sunni
 		size = 100
-		militancy = 9
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = sunni
 		size = 50
-		militancy = 9
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = sunni
 		size = 250
-		militancy = 9
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = sunni
 		size = 50
-		militancy = 9
 	}
 
 	farmers = {
-		culture = north_caucasian
+		culture = circassian
 		religion = sunni
-		size = 4000
-		militancy = 9
+		size = 20550
 	}
-	
-	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 550
-	}	
-	
 }
 #Kars Region (76000) #see Turkey.txt for balance of region  
 #under the rule of Ottoman Empire in 1836  

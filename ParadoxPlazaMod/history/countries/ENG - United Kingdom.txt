@@ -31,6 +31,13 @@ unemployment_subsidies = trinket_subsidies
 pensions = no_pensions 
 school_reforms = low_schools
 
+#New Reforms
+conscription = four_year_draft
+debt_law = debtors_prisons
+penal_system = colonial_transportation
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1

@@ -180,12 +180,13 @@ political_decisions = {
 			}
 			NOT = { has_global_flag = no_commie_mod }
 		}
+	
 		
 		effect = {
 			set_country_flag = chart_own_course
 		}
 		
-		ai_wil_do = {
+		ai_will_do = {
 			factor = 0
 		}
 	}
@@ -216,7 +217,7 @@ political_decisions = {
 			factor = 0.5
 			modifier = {
 				factor = 100
-				has_country_modifier = maoist
+				has_country_modifier = Maoist
 			}
 		}
 	}
@@ -235,9 +236,10 @@ political_decisions = {
 				limit = {
 					type = capitalists
 					}
-				}
-				reduce_pop = 0.01
+				reduce_pop = 0.0
 				militancy = 10
+				}
+			add_country_modifier = kill_capitalists
 			}
 		
 		ai_will_do = {

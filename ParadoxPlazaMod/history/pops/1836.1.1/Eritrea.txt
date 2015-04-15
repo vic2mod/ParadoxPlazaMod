@@ -178,7 +178,7 @@
 	farmers = {
 		culture = tigray
 		religion = coptic
-		size = 10825
+		size = 9825
 	}
 
 	aristocrats = {
@@ -209,6 +209,12 @@
 		culture = tigray
 		religion = sunni
 		size = 7300
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 2000
 	}
 }
 #Akordat (28000/7000 POPS)  

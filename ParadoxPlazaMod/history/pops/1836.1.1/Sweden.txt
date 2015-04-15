@@ -34,8 +34,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -67,8 +66,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 250
-
+		size = 250
 	}
 
 	farmers = {
@@ -94,8 +92,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	labourers = {
@@ -127,8 +124,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 250
-
+		size = 250
 	}
 
 	labourers = {
@@ -140,15 +136,8 @@
 	farmers = {
 		culture = finnish
 		religion = protestant
-		size = 1000
+		size = 1100
 	}
-
-	farmers = {
-		culture = sami
-		religion = protestant
-		size = 100
-	}	
-	
 }
 #Lulea (44000/11000 POPS)
 321 = {
@@ -167,14 +156,13 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	labourers = {
 		culture = swedish
 		religion = protestant
-		size = 6250
+		size = 6050
 	}
 
 	artisans = {
@@ -186,7 +174,7 @@
 	farmers = {
 		culture = sami
 		religion = protestant
-		size = 2500
+		size = 2200
 	}
 
 	farmers = {
@@ -228,13 +216,13 @@
 		religion = protestant
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = swedish
 		religion = protestant
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = swedish
 		religion = protestant
@@ -244,15 +232,13 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 3000
-
+		size = 3000
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1000
-
+		size = 1000
 	}
 
 	farmers = {
@@ -284,8 +270,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -317,8 +302,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -350,8 +334,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -383,8 +366,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -416,8 +398,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -449,8 +430,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -496,8 +476,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -529,8 +508,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -562,8 +540,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 100
-
+		size = 100
 	}
 
 	farmers = {
@@ -595,8 +572,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -628,8 +604,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -645,7 +620,7 @@
 		religion = protestant
 		size = 750
 	}
-	
+
 	bureaucrats = {
 		culture = swedish
 		religion = protestant
@@ -667,8 +642,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -700,8 +674,7 @@
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size= 1100
-
+		size = 1100
 	}
 
 	farmers = {
@@ -710,4 +683,37 @@
 		size = 60625
 	}
 
+}
+#Jan Mayen, now St Barths 
+3246 = {
+	
+	aristocrats = {
+		culture = swedish
+		religion = protestant
+		size = 20
+	}
+	
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 50
+	}
+	
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 100
+	}
+	
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 500
+	}
+	
+	slaves = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 242
+	}
 }

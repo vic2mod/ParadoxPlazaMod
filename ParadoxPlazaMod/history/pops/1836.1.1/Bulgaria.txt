@@ -20,23 +20,11 @@
 		size = 1500
 	}
 
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 500
-	}
-
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 14200
+		size = 15700
 	}
-	
-	farmers = {
-		culture = aromanian
-		religion = sunni
-		size = 1500
-	}	
 
 	clergymen = {
 		culture = bulgarian
@@ -53,15 +41,8 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 25000
+		size = 28075
 	}
-	
-	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 3075
-	}	
-	
 }
 #Bulgaria Region (1132000)
 #under the rule of Ottoman Empire in 1836
@@ -97,16 +78,10 @@
 		size = 2500
 	}
 
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 2000
-	}
-
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 14125
+		size = 15125
 	}
 
 	clergymen = {
@@ -124,7 +99,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 40425
+		size = 38425
+	}
+	
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 2000
 	}
 
 	clergymen = {
@@ -148,15 +129,8 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 975
+		size = 1975
 	}
-	
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 200
-	}		
-	
 }
 #Vidin (124000/31000 POPS)
 810 = {
@@ -181,13 +155,13 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 1000
+		size = 500
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 625
+		size = 1125
 	}
 
 	clergymen = {
@@ -205,14 +179,8 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 25050
+		size = 26350
 	}
-	
-	farmers = {
-		culture = romanian
-		religion = orthodox
-		size = 1350
-	}	
 
 	clergymen = {
 		culture = sephardic
@@ -249,7 +217,13 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 2000
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 250
 	}
 
 	farmers = {
@@ -311,13 +285,13 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 2000
+		size = 1000
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 5675
+		size = 6675
 	}
 
 	clergymen = {
@@ -336,6 +310,12 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 37650
+	}
+
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 250
 	}
 }
 #Shumen (144000/36000 POPS)
@@ -361,7 +341,7 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 1000
+		size = 1100
 	}
 
 	farmers = {
@@ -417,14 +397,8 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 10000
+		size = 12425
 	}
-	
-	farmers = {
-		culture = tatar
-		religion = sunni
-		size = 2425
-	}	
 
 	clergymen = {
 		culture = bulgarian
@@ -441,21 +415,14 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 30000
+		size = 35875
 	}
-	
-	farmers = {
+
+	soldiers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 5875
-	}	
-	
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 2900
-	}		
-	
+		size = 250
+	}
 }
 #Rumelia Region (396000)
 #under the rule of Ottoman Empire in 1836
@@ -488,7 +455,7 @@
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 1000
+		size = 1100
 	}
 
 	soldiers = {
@@ -523,25 +490,25 @@
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
-		size = 50
+		religion = orthodox
+		size = 250
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = orthodox
 		size = 200
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
-		size = 50
+		religion = orthodox
+		size = 250
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = orthodox
 		size = 2700
 	}
 
@@ -554,13 +521,13 @@
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 1600
+		size = 600
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 3300
+		size = 2300
 	}
 
 	clergymen = {
@@ -574,13 +541,6 @@
 		religion = jewish
 		size = 740
 	}
-	
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 1000
-	}		
-	
 }
 #Stara Zagora (80000/20000 POPS)
 816 = {
@@ -646,8 +606,8 @@
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
-		size = 25
+		religion = orthodox
+		size = 225
 	}
 
 	farmers = {
@@ -718,9 +678,15 @@
 		size = 100
 	}
 
+	farmers = {
+		culture = circassian
+		religion = sunni
+		size = 50
+	}
+	
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = orthodox
 		size = 50
 	}
 
@@ -748,12 +714,6 @@
 		size = 4950
 	}
 
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 1100
-	}		
-	
 }
 #Dobruja Region (84000) #see Romania.txt for balance of Region  
 #under the rule of the Ottoman Empire in 1836 
@@ -774,7 +734,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 9500
+		size = 9250
+	}
+
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 250
 	}
 
 	clergymen = {
@@ -816,25 +782,12 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 500
+		size = 1100
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 2100  
+		size = 4100  
 	}
-	
-	soldiers = {
-		culture = tatar
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-		culture = tatar
-		religion = sunni
-		size = 2000 
-	}	
-	
 }
