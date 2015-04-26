@@ -3723,6 +3723,12 @@ demand_concession_casus_belli = {
 				capital_scope = { continent = africa }
 				}
 		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
+				capital_scope = { continent = africa }
+				}
+		}
 	}
 	
 	allowed_states = {
@@ -3838,6 +3844,12 @@ demand_concession_NI_casus_belli = {
 				capital_scope = { continent = africa }
 				}
 		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
+				capital_scope = { continent = africa }
+				}
+		}
 	}
 	
 	allowed_states = {
@@ -3946,6 +3958,12 @@ demand_concession_BC_casus_belli = {
 		NOT = {
 			AND = {
 				has_global_flag = no_early_africa 
+				capital_scope = { continent = africa }
+				}
+		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
 				capital_scope = { continent = africa }
 				}
 		}
@@ -4329,6 +4347,12 @@ annex_africa = {
 				capital_scope = { continent = africa }
 				}
 		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
+				capital_scope = { continent = africa }
+				}
+		}
 	}
 	
 	allowed_states = {
@@ -4432,6 +4456,12 @@ annex_africa_full = {
 				capital_scope = { continent = africa }
 				}
 		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
+				capital_scope = { continent = africa }
+				}
+		}
 	}
 	
 	po_annex = yes
@@ -4517,6 +4547,12 @@ establish_protectorate_casus_belli = {
 		NOT = {
 			AND = {
 				has_global_flag = no_early_africa 
+				capital_scope = { continent = africa }
+				}
+		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
 				capital_scope = { continent = africa }
 				}
 		}
@@ -4645,6 +4681,12 @@ establish_protectorate_BC_casus_belli = {
 		NOT = {
 			AND = {
 				has_global_flag = no_early_africa 
+				capital_scope = { continent = africa }
+				}
+		}
+		NOT = {
+			AND = {
+				has_global_flag = no_inorganic_africa 
 				capital_scope = { continent = africa }
 				}
 		}
