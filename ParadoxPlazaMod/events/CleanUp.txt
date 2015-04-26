@@ -1269,47 +1269,6 @@ country_event = {
 		}
 	}
 }
-#flags to pass bankruptcy
-country_event = {
-	id = 6016806
-	title = "EVTNAME6016800"
-	desc = "EVTDESC6016800"
-	picture = "rise_of_modern_medicine"
-	
-	allow_multiple_instances = no
-	
-	trigger = {
-		OR = {
-		AND = {
-			ai = yes
-			any_greater_power = { 
-				ai = no
-				NOT = { has_country_flag = modern_central_bank_system_invented }
-				modern_central_bank_system = 1
-				}
-			}
-		AND = {
-		ai = yes
-		any_neighbor_country = {
-			NOT = { has_country_flag = modern_central_bank_system_invented }
-			modern_central_bank_system = 1
-				}
-			}
-		}
-	}
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = "EVT6016800PTA"
-		any_country = {
-			limit = { 
-			NOT = { has_country_flag = modern_central_bank_system_invented }
-			modern_central_bank_system = 1 
-			}
-			set_country_flag = modern_central_bank_system_invented
-		}
-	}
-}
 
 #Set up on how crisis will be
 country_event = {

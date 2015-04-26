@@ -44,6 +44,7 @@ country_event = {
 		name = "We must civilize all of Africa"
 		set_global_flag = berlin_conference
 		prestige = 25
+		clr_global_flag = no_early_africa
 	}
 }
 
