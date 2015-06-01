@@ -23,7 +23,8 @@
 	soldiers = {
 		culture = nguni
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -59,7 +60,8 @@
 	soldiers = {
 		culture = tonga
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -97,7 +99,8 @@
 	soldiers = {
 		culture = nguni
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -133,7 +136,8 @@
 	soldiers = {
 		culture = tonga
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -171,7 +175,8 @@
 	soldiers = {
 		culture = nguni
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -207,7 +212,8 @@
 	soldiers = {
 		culture = tonga
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -219,7 +225,7 @@
 	slaves = {
 		culture = tonga
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 }
 #Massekisse (172000/43000 POPS)
@@ -245,7 +251,8 @@
 	soldiers = {
 		culture = nguni
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -275,7 +282,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -322,7 +330,8 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	aristocrats = {
@@ -346,7 +355,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -382,7 +392,8 @@
 	soldiers = {
 		culture = sena
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -432,7 +443,8 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	aristocrats = {
@@ -456,7 +468,8 @@
 	soldiers = {
 		culture = sena
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -504,7 +517,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -543,7 +557,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -579,7 +594,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -615,7 +631,8 @@
 	soldiers = {
 		culture = sena
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -647,7 +664,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -659,7 +677,7 @@
 	slaves = {
 		culture = shona
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 }
 #Zombo (104000/26000 POPS)
@@ -685,7 +703,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -721,7 +740,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -757,7 +777,8 @@
 	soldiers = {
 		culture = sena
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -789,7 +810,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -825,7 +847,8 @@
 	soldiers = {
 		culture = sena
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -855,7 +878,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -905,7 +929,8 @@
 	soldiers = {
 		culture = shona
 		religion = animist
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -917,7 +942,7 @@
 	slaves = {
 		culture = shona
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 
 }
@@ -952,7 +977,8 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	aristocrats = {
@@ -976,7 +1002,8 @@
 	soldiers = {
 		culture = makua
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1015,7 +1042,8 @@
 	soldiers = {
 		culture = makua
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1051,7 +1079,8 @@
 	soldiers = {
 		culture = makua
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1095,7 +1124,8 @@
 	soldiers = {
 		culture = makua
 		religion = animist
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -1107,7 +1137,7 @@
 	slaves = {
 		culture = makua
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 
 	clergymen = {
@@ -1145,7 +1175,8 @@
 	soldiers = {
 		culture = yao
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1181,7 +1212,8 @@
 	soldiers = {
 		culture = makua
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1225,7 +1257,8 @@
 	soldiers = {
 		culture = sena
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1261,7 +1294,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {

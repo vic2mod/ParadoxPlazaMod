@@ -31,15 +31,15 @@ political_decisions = {
 			ENG_291 = { add_core = ENL }
 			ENG_296 = { add_core = ENL }
 			517 = { add_core = ENL }
-			854 = { add_core = ENL }
+			854 - { add_core = ENL
 			ENG = {
 				all_core = { remove_core = ENG }
 			}
 			any_owned = {
 				limit = {
-					is_core = ENG 
+					is_core = ENG
 					}
-					remove_core = ENG 
+					remove_core = ENG
 			}
 			change_tag = ENL
 		}

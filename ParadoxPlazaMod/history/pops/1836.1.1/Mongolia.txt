@@ -1,6 +1,6 @@
 #Outer Mongolia Region (1292000) 
 #under the rule of China in 1836  
-#Urga (376000/94000 POPS)   
+#Ugra (376000/94000 POPS)   
 1465 = {
 	aristocrats = {
 		culture = mongol
@@ -35,7 +35,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -65,7 +66,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -103,7 +105,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -141,7 +144,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {
@@ -171,7 +175,8 @@
 	soldiers = {
 		culture = yakut
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	slaves = {
@@ -180,7 +185,7 @@
 		size = 3000
 	}
 }
-#Uliastai (140000/35000 POPS)   
+#Uliastay (140000/35000 POPS)   
 1468 = {
 	aristocrats = {
 		culture = mongol
@@ -203,7 +208,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -242,7 +248,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -275,7 +282,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -307,7 +315,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -339,7 +348,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -369,9 +379,10 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
-	
+
 	farmers = {
 		culture = kazak
 		religion = sunni
@@ -384,7 +395,7 @@
 		size = 2000
 	}
 }
-#Uliatai / Uriankhai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
+#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
 1469 = {
 	aristocrats = {
 		culture = tatar
@@ -413,7 +424,8 @@
 	soldiers = {
 		culture = tatar
 		religion = gelugpa
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {

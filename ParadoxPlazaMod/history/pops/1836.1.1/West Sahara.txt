@@ -1,6 +1,6 @@
 #Rio de Oro Region (20000) #see Mauritania.txt for balance of region
 #uncolonized in 1836  
-#Al Aiyun (12000/3000 POPS)  aguia el-Hamra
+#Al Aiyun (12000/3000 POPS)  
 1773 = {
 	aristocrats = {
 		culture = bedouin
@@ -29,7 +29,7 @@
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	aristocrats = {
@@ -59,7 +59,7 @@
 	farmers = {
 		culture = berber
 		religion = sunni
-		size = 800
+		size = 1800
 	}
 }
 #Dahkla (8000/2000 POPS)  
@@ -91,7 +91,7 @@
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 300
+		size = 900
 	}
 
 	aristocrats = {
@@ -121,7 +121,7 @@
 	farmers = {
 		culture = maures
 		religion = sunni
-		size = 300
+		size = 900
 	}
 
 }

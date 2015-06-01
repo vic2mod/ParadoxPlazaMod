@@ -94,4 +94,10 @@
 		size = 175
 	}
 
+	bureaucrats = {
+		culture = british
+		religion = protestant
+		size = 5
+	}	
+	
 }

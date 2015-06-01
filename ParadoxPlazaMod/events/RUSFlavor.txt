@@ -480,7 +480,12 @@ country_event = {
 		USA_1 = { add_core = THIS }
 		FROM = {
 			any_owned = {
-				limit = { continent = south_america }
+				limit = {
+				OR = {
+				continent = south_america
+				continent = north_america
+				}
+				}
 				secede_province = THIS
 			}
 		}

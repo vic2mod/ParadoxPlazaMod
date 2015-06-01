@@ -23,9 +23,15 @@
 	farmers = {
 		culture = estonian
 		religion = protestant
-		size = 34925
+		size = 33225
 	}
 
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}		
+	
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -177,6 +183,37 @@
 		religion = orthodox
 		size = 1100
 	}
+	
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 800
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 100
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 300
+	}		
+	
 }
 #Parnu (92000/23000 POPS)  
 351 = {
@@ -189,9 +226,15 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 250
 	}
 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 225
+	}	
+	
 	artisans = {
 		culture = north_german
 		religion = protestant
@@ -201,8 +244,14 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 250
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}		
 
 	clergymen = {
 		culture = estonian
@@ -242,6 +291,12 @@
 		size = 50
 	}
 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 225
+	}	
+	
 	artisans = {
 		culture = north_german
 		religion = protestant
@@ -254,6 +309,12 @@
 		size = 50
 	}
 
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 1000
+	}	
+	
 	clergymen = {
 		culture = estonian
 		religion = protestant
@@ -316,6 +377,12 @@
 		size = 10
 	}
 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}		
+	
 	artisans = {
 		culture = north_german
 		religion = protestant
@@ -328,6 +395,7 @@
 		size = 10
 	}
 
+	
 	clergymen = {
 		culture = estonian
 		religion = protestant

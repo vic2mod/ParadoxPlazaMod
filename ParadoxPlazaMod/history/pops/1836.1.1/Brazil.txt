@@ -23,7 +23,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -69,7 +70,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -93,7 +95,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -126,7 +129,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -158,7 +162,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -190,7 +195,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -222,7 +228,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -254,7 +261,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -286,7 +294,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -332,7 +341,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -356,7 +366,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -392,7 +403,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -424,7 +436,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -448,7 +461,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -478,7 +492,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -505,7 +520,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -535,7 +551,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -561,7 +578,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -591,7 +609,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -600,7 +619,89 @@
 		size = 1800
 	}
 }
+#Amapa (8000/2000 POPS)
+2414 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 40
+	}
 
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 15
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size= 25
+
+	}
+
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size= 10
+
+	}
+
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 150
+	}
+
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 680
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size= 15
+
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 910
+	}
+}
 #Macapa (8000/2000 POPS)
 2415 = {
 	clergymen = {
@@ -805,7 +906,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -829,7 +931,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -856,7 +959,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -886,7 +990,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -912,7 +1017,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -942,7 +1048,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -972,7 +1079,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -998,7 +1106,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1028,7 +1137,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -1056,7 +1166,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1086,7 +1197,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1132,7 +1244,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1156,7 +1269,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1189,7 +1303,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1219,7 +1334,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -1245,7 +1361,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1275,7 +1392,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1321,7 +1439,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1345,7 +1464,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1383,7 +1503,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1407,7 +1528,8 @@
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1439,7 +1561,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1463,7 +1586,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1501,7 +1625,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1525,7 +1650,8 @@
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1559,7 +1685,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1583,7 +1710,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1633,7 +1761,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1657,7 +1786,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1695,7 +1825,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1719,7 +1850,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1757,7 +1889,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1781,7 +1914,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1833,7 +1967,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1857,7 +1992,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1895,7 +2031,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1919,7 +2056,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1957,7 +2095,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1981,7 +2120,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -2019,7 +2159,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -2043,7 +2184,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2091,13 +2233,13 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = brazilian
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = brazilian
 		religion = catholic
@@ -2131,7 +2273,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -2169,7 +2312,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2193,7 +2337,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -2231,7 +2376,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2255,7 +2401,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -2293,7 +2440,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -2317,7 +2465,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2355,7 +2504,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2379,7 +2529,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -2431,7 +2582,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -2455,7 +2607,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -2493,7 +2646,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2517,7 +2671,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2555,7 +2710,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2579,7 +2735,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -2617,7 +2774,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2641,7 +2799,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2679,7 +2838,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -2703,7 +2863,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2741,7 +2902,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2765,7 +2927,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2825,7 +2988,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = brazilian
 		religion = catholic
@@ -2835,25 +2998,29 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -2877,7 +3044,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -2915,7 +3083,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2939,7 +3108,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2977,7 +3147,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -3001,7 +3172,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -3035,7 +3207,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3065,7 +3238,8 @@
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -3109,7 +3283,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -3133,7 +3308,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -3171,7 +3347,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -3195,7 +3372,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3233,7 +3411,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3257,7 +3436,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3295,7 +3475,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3319,7 +3500,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3357,7 +3539,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -3381,7 +3564,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3413,7 +3597,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3443,7 +3628,8 @@
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -3489,7 +3675,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -3513,7 +3700,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3551,7 +3739,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3575,7 +3764,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3605,7 +3795,8 @@
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -3637,7 +3828,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3661,7 +3853,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3697,7 +3890,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3729,7 +3923,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -3753,7 +3948,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3783,7 +3979,8 @@
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -3815,7 +4012,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -3839,7 +4037,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3877,7 +4076,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -3901,7 +4101,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3953,13 +4154,15 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -3983,7 +4186,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -4021,7 +4225,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 2400
+		size= 2400
+
 	}
 
 	farmers = {
@@ -4045,7 +4250,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -4083,7 +4289,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 2450
+		size= 2450
+
 	}
 
 	farmers = {
@@ -4107,7 +4314,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -4137,7 +4345,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -4169,7 +4378,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 2700
+		size= 2700
+
 	}
 
 	farmers = {
@@ -4193,7 +4403,8 @@
 	soldiers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -4225,7 +4436,8 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1725
+		size= 1725
+
 	}
 
 	farmers = {
@@ -4255,7 +4467,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -4289,7 +4502,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -4315,7 +4529,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -4345,7 +4560,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {

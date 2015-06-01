@@ -29,7 +29,8 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	aristocrats = {
@@ -53,13 +54,13 @@
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -71,13 +72,15 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -119,7 +122,8 @@
 	soldiers = {
 		culture = malay
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -151,7 +155,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -181,7 +186,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -213,7 +219,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 1350
+		size= 1350
+
 	}
 
 	farmers = {
@@ -221,7 +228,6 @@
 		religion = catholic
 		size = 122525
 	}
-	
 
 	clergymen = {
 		culture = malay
@@ -238,7 +244,8 @@
 	soldiers = {
 		culture = malay
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	slaves = {
@@ -270,7 +277,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -294,7 +302,8 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -329,7 +338,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -359,7 +369,8 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -383,7 +394,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -415,7 +427,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
@@ -439,7 +452,8 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	slaves = {
@@ -471,7 +485,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 850
+		size= 850
+
 	}
 
 	farmers = {
@@ -503,7 +518,8 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	aristocrats = {
@@ -533,7 +549,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
@@ -554,10 +571,17 @@
 		size = 500
 	}
 
-	slaves = {
+	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 7375
+		size= 75
+
+	}
+
+	farmers = {
+		culture = filipino
+		religion = sunni
+		size = 5375
 	}
 
 }
@@ -580,7 +604,8 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	aristocrats = {
@@ -604,7 +629,8 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -634,7 +660,8 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -670,7 +697,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -679,7 +707,7 @@
 		size = 7375
 	}
 }
-#Under rule of Spain in 1836
+#Under rule of Sultans of Sulu in 1836
 #Zamboanga (300000/75000 POPS)
 1462 = {
 	aristocrats = {
@@ -703,7 +731,8 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -757,7 +786,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 	
 	slaves = {
@@ -801,7 +831,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -815,4 +846,5 @@
 		religion = sunni
 		size = 2000
 	}
+
 }

@@ -258,32 +258,6 @@ YEM = {
 	value = -50
 }
 
-CAN = {
-	value = 125
-	level = 5
-	influence_value = 25
-}
-COL = {
-	value = 125
-	level = 5
-	influence_value = 25
-}
-NBR = {
-	value = 125
-	level = 5
-	influence_value = 25
-}
-NOV = {
-	value = 125
-	level = 5
-	influence_value = 25
-}
-NEW = {
-	value = 125
-	level = 5
-	influence_value = 25
-}
-
 army = {
 	name = "Royal Army"
 	location = 300

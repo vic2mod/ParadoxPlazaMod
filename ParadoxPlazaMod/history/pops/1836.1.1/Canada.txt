@@ -425,18 +425,6 @@
 #uncolonized in 1836
 #Vancouver (12000/3000 POPS)
 13 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 20
-	}	
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 400
-	}
-
 	aristocrats = {
 		culture = native_american_minor
 		religion = animist
@@ -470,18 +458,6 @@
 }
 #Vancouver Island (8000/2000 POPS)
 14 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}	
-	
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 200
-	}
-
 	aristocrats = {
 		culture = native_american_minor
 		religion = animist
@@ -1558,6 +1534,12 @@
 		religion = protestant
 		size = 910
 	}
+	farmers = {
+		culture = british
+		religion = protestant
+		size = 500
+	}
+
 }
 #Churchill (4000/1000 POPS)
 37 = {
@@ -1853,8 +1835,8 @@
 #Fort Severn (2800/700 POPS)
 47 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 10
 	}
 
@@ -1885,8 +1867,8 @@
 #Fort Albany (6400/1600 POPS)
 48 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 25
 	}
 
@@ -1917,8 +1899,8 @@
 #Dryden (12000/3000 POPS)
 49 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 25
 	}
 
@@ -1973,8 +1955,8 @@
 #Thunder Bay (8000/2000 POPS)
 50 = {
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 25
 	}
 
@@ -2005,9 +1987,9 @@
 #Sault Ste Marie (8000/2000 POPS)
 51 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
-		size = 10
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
 	}
 
 	clergymen = {
@@ -2032,12 +2014,6 @@
 		culture = cree
 		religion = animist
 		size = 900
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
 	}
 
 	clergymen = {
@@ -2067,8 +2043,8 @@
 #Sudbury (8000/2000 POPS)
 52 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 25
 	}
 
@@ -2099,8 +2075,8 @@
 #Barrie (4000/1000 POPS)
 53 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 10
 	}
 
@@ -2132,8 +2108,8 @@
 #Pickle Lake (1200/3000 POPS)
 2594 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 5
 	}
 
@@ -2165,8 +2141,8 @@
 #Attawapiskat (5600/1600 POPS)
 2628 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = anglo_canadian
+		religion = protestant
 		size = 25
 	}
 
@@ -2219,7 +2195,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1100
+		size = 1000
 	}
 
 	farmers = {
@@ -2265,7 +2241,7 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
@@ -2308,7 +2284,7 @@
 
 	clergymen = {
 		culture = french_canadian
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
@@ -2320,7 +2296,7 @@
 
 	soldiers = {
 		culture = french_canadian
-		religion = protestant
+		religion = catholic
 		size = 25
 	}
 
@@ -2358,7 +2334,7 @@
 
 	clergymen = {
 		culture = french_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
@@ -2370,7 +2346,7 @@
 
 	soldiers = {
 		culture = french_canadian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
@@ -2386,8 +2362,8 @@
 #Nitchequon (2800/700 POPS)
 59 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 10
 	}
 
@@ -2419,8 +2395,8 @@
 #Erik Cove (2400/600 POPS)
 2592 = {
 	aristocrats = {
-		culture = inuit
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 5
 	}
 
@@ -2449,8 +2425,8 @@
 	}
 
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 2
 	}
 
@@ -2482,8 +2458,8 @@
 #Port Harrison (2400/600 POPS)
 2626 = {
 	aristocrats = {
-		culture = inuit
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 2
 	}
 
@@ -2512,8 +2488,8 @@
 	}
 
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 5
 	}
 
@@ -2544,8 +2520,8 @@
 #Fort Chimo (2400/600 POPS)
 2627 = {
 	aristocrats = {
-		culture = inuit
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 5
 	}
 
@@ -2574,8 +2550,8 @@
 	}
 
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 2
 	}
 
@@ -2606,8 +2582,8 @@
 #Fort Rupert (2400/600 POPS)
 60 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 15
 	}
 
@@ -2638,8 +2614,8 @@
 #Fort George (1600/400 POPS)
 2593 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 5
 	}
 
@@ -2670,6 +2646,11 @@
 #ruled by Britain in 1836
 #58 - Montreal (248000/62000 POPS)
 58 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
 	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
@@ -2698,6 +2679,12 @@
 		culture = anglo_canadian
 		religion = protestant
 		size = 13425
+	}
+
+	aristocrats = {
+		culture = french_canadian
+		religion = catholic
+		size = 200
 	}
 
 	bureaucrats = {
@@ -2733,8 +2720,8 @@
 #Chicoutimi (11200/2800 POPS)
 61 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 15
 	}
 
@@ -2789,8 +2776,8 @@
 #Sept-Iles (8000/2000 POPS)
 62 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 10
 	}
 
@@ -2845,8 +2832,8 @@
 #Temiscaming (16000/4000 POPS)
 63 = {
 	aristocrats = {
-		culture = cree
-		religion = animist
+		culture = french_canadian
+		religion = catholic
 		size = 10
 	}
 
@@ -2909,7 +2896,7 @@
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
@@ -3201,7 +3188,7 @@
 	labourers = {
 		culture = french_canadian
 		religion = catholic
-		size = 1100
+		size = 1000
 	}
 
 	labourers = {
@@ -3239,7 +3226,7 @@
 	labourers = {
 		culture = french_canadian
 		religion = catholic
-		size = 1100
+		size = 1000
 	}
 }
 #Cape Breton Island (20000/5000 POPS)
@@ -3435,34 +3422,28 @@
 #Ruled by France 1836
 #Saint Pierre (2000/500 POPS)
 77 = {
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 4
-	}
-
-	clergymen = {
+	bureaucrats = {
 		culture = french
 		religion = catholic
 		size = 1
 	}
 
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 4
+	}
+
 	artisans = {
-		culture = basque
+		culture = french
 		religion = catholic
 		size = 45
 	}
 
 	labourers = {
-		culture = breton
+		culture = french
 		religion = catholic
-		size = 40
-	}
-	
-	labourers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
+		size = 450
 	}
 
 }

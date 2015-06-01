@@ -132,6 +132,7 @@ killcommies = {
 	
 	icon = 16
 }
+
 nv_change = {
 	icon = 19
 }
@@ -398,6 +399,7 @@ mass_line = {
 	
 	icon =13
 }
+
 labor_union = {
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.05
@@ -613,6 +615,7 @@ blood_and_iron_mine = {
 	pop_militancy_modifier = 0.01
 	icon = 14
 }
+
 agrarian_reform_beginning = {
 	farm_rgo_eff = 0.20
 	tax_efficiency = 0.20
@@ -930,6 +933,11 @@ the_french_foreign_legion = {
 	prestige = 0.01
 	global_immigrant_attract = 0.05	#1%..
 	icon = 17
+}
+
+the_eiffel_tower = {
+	prestige = 0.05
+	icon = 13
 }
 
 #### SWI - Switzerland ####
@@ -1508,52 +1516,6 @@ international_pariah = {
 	non_accepted_pop_militancy_modifier = 0.2
 	prestige = -0.2
 	icon = 4
-}
-
-weak_sanctions = {
-	diplomatic_points_modifier = -0.4
-	global_immigrant_attract = -1
-	non_accepted_pop_consciousness_modifier = 0.9
-	non_accepted_pop_militancy_modifier = 0.6
-	political_reform_desire = 0.75
-	loan_interest = 1
-	mobilisation_economy_impact = 2
-	prestige = -0.02
-	ruling_party_support = -0.5
-	tax_efficiency = -0.1
-	war_exhaustion = 0.1
-	poor_life_needs = 0.25
-	middle_life_needs = 0.15
-	rich_life_needs = 0.1
-	rich_income_modifier = -0.3
-	middle_income_modifier = -0.2
-	poor_income_modifier = -0.1
-	icon = 8
-}
-
-
-bad_sanctions = {
-	diplomatic_points_modifier = -0.9
-	global_immigrant_attract = -2.0
-	global_pop_consciousness_modifier = 0.2
-	non_accepted_pop_consciousness_modifier = 4
-	non_accepted_pop_militancy_modifier = 2
-	political_reform_desire = 0.8
-	loan_interest = 3
-	mobilisation_economy_impact = 3
-	mobilisation_size = -0.4
-	prestige = -0.03
-	ruling_party_support = -1
-	tax_efficiency = -0.3
-	factory_output = -0.1
-	war_exhaustion = 0.3
-	poor_life_needs = 0.5
-	middle_life_needs = 0.3
-	rich_life_needs = 0.2
-	rich_income_modifier = -0.9
-	middle_income_modifier = -0.6
-	poor_income_modifier = -0.3
-	icon = 8
 }
 
 ### Dynamic Cores ###
@@ -2712,6 +2674,54 @@ communist_technology = {
 	icon = 17 
 	}
 	
+####Sanctions
+
+weak_sanctions = {
+	diplomatic_points_modifier = -0.4
+	global_immigrant_attract = -1
+	non_accepted_pop_consciousness_modifier = 0.9
+	non_accepted_pop_militancy_modifier = 0.6
+	political_reform_desire = 0.75
+	loan_interest = 1
+	mobilisation_economy_impact = 2
+	prestige = -0.02
+	ruling_party_support = -0.5
+	tax_efficiency = -0.1
+	war_exhaustion = 0.1
+	poor_life_needs = 0.25
+	middle_life_needs = 0.15
+	rich_life_needs = 0.1
+	rich_income_modifier = -0.3
+	middle_income_modifier = -0.2
+	poor_income_modifier = -0.1
+	icon = 8
+}
+
+
+bad_sanctions = {
+	diplomatic_points_modifier = -0.9
+	global_immigrant_attract = -2.0
+	global_pop_consciousness_modifier = 0.2
+	non_accepted_pop_consciousness_modifier = 4
+	non_accepted_pop_militancy_modifier = 2
+	political_reform_desire = 0.8
+	loan_interest = 3
+	mobilisation_economy_impact = 3
+	mobilisation_size = -0.4
+	prestige = -0.03
+	ruling_party_support = -1
+	tax_efficiency = -0.3
+	factory_output = -0.1
+	war_exhaustion = 0.3
+	poor_life_needs = 0.5
+	middle_life_needs = 0.3
+	rich_life_needs = 0.2
+	rich_income_modifier = -0.9
+	middle_income_modifier = -0.6
+	poor_income_modifier = -0.3
+	icon = 8
+}
+
 ####
 
 north_italy_core_2 = {
@@ -2721,7 +2731,7 @@ north_italy_core_2 = {
 south_italy_core_2 = {
 	icon = 18 
 	}
-
+	
 ####
 
 colonial_ministry = {
@@ -2940,6 +2950,7 @@ california_slow_boom_modifier = {
 	icon = 11
 }
 
+
 #### Polish Modifiers ####
 
 commission_of_national_education = {
@@ -3014,42 +3025,6 @@ italico_valore = {
 	war_exhaustion = -0.03
 	supply_consumption = -0.3
 	icon = 15
-}
-
-##### Apocalypse 1836 #####
-
-state_of_emergency = {
-	mobilisation_size = 0.05
-	land_organisation = 0.05
-	naval_organisation = 0.05
-	org_regain = 0.1
-	icon = 15
-}
-
-zombie_outbreak = {
-	immigrant_attract = -0.025
-	pop_consciousness_modifier = -0.3
-	pop_militancy_modifier = 0.5
-	population_growth = -0.025
-	icon = 20
-}
-
-do_not_annex = {
-	immigrant_attract = -.001
-	icon = 20
-}
-
-accepts_new_provinces = {
-	immigrant_attract = -.001
-	icon = 20
-}
-
-####
-final_siege_of_vienna = {
-	research_points = 1 
-	land_organisation = .1
-	org_regain = .1
-	prestige = 0.05
 }
 
 ## HUN
@@ -3507,3 +3482,4 @@ small_immigration_boom = {
 	global_immigrant_attract = 1
 	icon = 17
 }
+

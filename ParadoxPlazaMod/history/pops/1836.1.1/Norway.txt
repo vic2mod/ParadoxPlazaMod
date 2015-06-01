@@ -72,8 +72,14 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 13100
+		size = 12100
 	}
+	
+	farmers = {
+		culture = sami
+		religion = protestant
+		size = 1000
+	}	
 
 	farmers = {
 		culture = finnish
@@ -157,6 +163,14 @@
 		size = 17825
 	}
 
+}
+#Jan Mayen (60/15 POPS)
+3246 = {
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 15
+	}
 }
 
 #Vestlandet-Sorlandet Region : 544000
@@ -319,19 +333,19 @@
 	officers = {
 		culture = norwegian
 		religion = protestant
-		size = 100
+		size = 250
 	}
 
 	clergymen = {
 		culture = norwegian
 		religion = protestant
-		size = 125
+		size = 750
 	}
 
 	artisans = {
 		culture = norwegian
 		religion = protestant
-		size = 7000
+		size = 10000
 	}
 
 	soldiers = {
@@ -343,13 +357,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 18275
+		size = 22075
 	}
 
 	capitalists = {
 		culture = norwegian
 		religion = protestant
-		size = 5
+		size = 10
 	}
 }
 #Hamar (80000/20000 POPS)

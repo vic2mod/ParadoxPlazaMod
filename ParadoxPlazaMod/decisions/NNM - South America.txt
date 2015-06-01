@@ -6,7 +6,12 @@ political_decisions = {
 	create_south_american_states = {
 		potential = {
 			ai = yes
-			any_owned_province = { continent = south_america }
+			any_owned_province = {
+			OR = {
+			continent = south_america 
+			continent = north_america
+			}
+			}
 			NOT = { has_global_flag = south_american_states_created }
 		}
 		allow = {

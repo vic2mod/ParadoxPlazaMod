@@ -43,6 +43,12 @@
 		religion = sunni
 		size = 56025
 	}
+	
+	farmers = {
+		culture = aromanian
+		religion = sunni
+		size = 1025
+	}	
 
 	clergymen = {
 		culture = albanian
@@ -170,6 +176,12 @@
 		size = 3250
 	}
 
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1000
+	}	
+	
 	soldiers = {
 		culture = albanian
 		religion = sunni
@@ -181,7 +193,25 @@
 		religion = sunni
 		size = 56025
 	}
+	
+	farmers = {
+		culture = aromanian
+		religion = sunni
+		size = 1025
+	}	
 
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 3025
+	}	
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 1025
+	}	
+	
 	clergymen = {
 		culture = albanian
 		religion = orthodox
@@ -193,6 +223,7 @@
 		religion = orthodox
 		size = 5450
 	}
+	
 }
 #Epirus Region (168000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836
@@ -252,5 +283,17 @@
 		religion = orthodox
 		size = 8775
 	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 3875
+	}	
 
+	farmers = {
+		culture = aromanian
+		religion = sunni
+		size = 875
+	}	
+	
 }

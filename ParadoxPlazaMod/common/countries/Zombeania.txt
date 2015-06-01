@@ -1,5 +1,0 @@
-graphical_culture = Generic
-color = { 48  48  48 }
-
-unit_names = {
-}

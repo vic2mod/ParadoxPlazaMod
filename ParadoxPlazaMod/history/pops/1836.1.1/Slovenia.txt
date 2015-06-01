@@ -79,6 +79,43 @@
 #under the rule of Austria in 1836  
 #Ljubljana (280000/70000 POPS) 
 768 = {
+
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 250 
+	}
+	
+	bureaucrats = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 25 
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 50 
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 1050
+	}
+
 	aristocrats = {
 		culture = slovene
 		religion = catholic
@@ -126,7 +163,6 @@
 		religion = catholic
 		size = 20000
 	}
-	
 }
 #Postojna (180000/45000 POPS) 
 769 = {

@@ -556,7 +556,7 @@
 	farmers = {
 		culture = polynesian
 		religion = animist
-		size = 675
+		size = 875
 	}
 
 }

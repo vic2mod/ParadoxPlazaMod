@@ -33,7 +33,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 125
+		size= 125
 
 		militancy = 5
 	}
@@ -66,7 +66,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -101,7 +102,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 10
+		size= 10
 
 		militancy = 4
 	}
@@ -137,7 +138,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
 
 		militancy = 9
 	}
@@ -175,7 +176,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 100
+		size= 100
 
 		militancy = 7
 	}
@@ -208,7 +209,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -242,7 +244,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 10
+		size= 10
 
 		militancy = 9
 	}
@@ -276,7 +278,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -307,7 +310,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -354,7 +358,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -384,7 +389,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -417,7 +423,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -449,7 +456,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -482,7 +490,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -512,7 +521,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -547,7 +557,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -591,7 +602,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -615,7 +627,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -648,7 +661,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 125
+		size= 125
 
 		militancy = 9
 	}
@@ -682,7 +695,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -706,7 +720,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -757,7 +772,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 200
+		size= 200
 
 		militancy = 9
 	}
@@ -786,7 +801,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 75
+		size= 75
 
 		militancy = 9
 	}
@@ -821,7 +836,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -853,7 +869,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -885,7 +902,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -919,7 +937,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -949,7 +968,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -981,7 +1001,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1011,7 +1032,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1055,7 +1077,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1087,7 +1110,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1138,7 +1162,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 425
+		size= 425
 
 		militancy = 9
 	}
@@ -1167,7 +1191,7 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 450
+		size= 450
 
 		militancy = 9
 	}
@@ -1202,7 +1226,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -1234,7 +1259,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1258,7 +1284,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1293,7 +1320,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -1318,7 +1346,8 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -1363,7 +1392,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 2000
+		size= 2000
 
 		militancy = 9
 	}
@@ -1391,7 +1420,7 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 1050
+		size= 1050
 
 		militancy = 9
 	}
@@ -1425,7 +1454,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 2000
+		size= 2000
 
 		militancy = 9
 	}
@@ -1453,7 +1482,7 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 575
+		size= 575
 
 		militancy = 9
 	}
@@ -1507,7 +1536,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
 
 		militancy = 5
 	}
@@ -1536,7 +1565,7 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 225
+		size= 225
 
 		militancy = 5
 	}
@@ -1565,7 +1594,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = catholic
-		size = 100
+		size= 100
 
 		militancy = 5
 	}
@@ -1600,7 +1629,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1624,7 +1654,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1656,7 +1687,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1680,7 +1712,8 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1712,7 +1745,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1736,7 +1770,8 @@
 	soldiers = {
 		culture = mayan
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1780,7 +1815,7 @@
 	artisans = {
 		culture = mexican
 		religion = catholic
-		size = 10000
+		size = 11000
 		militancy = 5
 	}
 	
@@ -1794,7 +1829,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 650
+		size= 650
 
 		militancy = 5
 	}
@@ -1821,7 +1856,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = catholic
-		size = 125
+		size= 125
 
 		militancy = 9
 	}
@@ -1855,7 +1890,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1879,7 +1915,8 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1913,7 +1950,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -1957,7 +1995,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 525
+		size= 525
+
 	}
 
 	farmers = {
@@ -1981,7 +2020,8 @@
 	soldiers = {
 		culture = tarascan
 		religion = catholic
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -2013,7 +2053,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2037,7 +2078,8 @@
 	soldiers = {
 		culture = tarascan
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2077,13 +2119,13 @@
 	artisans = {
 		culture = mexican
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = mexican
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -2095,7 +2137,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -2113,7 +2156,7 @@
 	artisans = {
 		culture = nahua
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -2125,7 +2168,8 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -2157,7 +2201,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -2181,7 +2226,8 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -2215,7 +2261,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2239,7 +2286,8 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -2283,7 +2331,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -2307,7 +2356,8 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
@@ -2353,7 +2403,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -2377,7 +2428,8 @@
 	soldiers = {
 		culture = zapotec
 		religion = catholic
-		size = 700
+		size= 700
+
 	}
 
 	farmers = {
@@ -2409,7 +2461,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2433,7 +2486,8 @@
 	soldiers = {
 		culture = zapotec
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2479,7 +2533,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -2503,7 +2558,8 @@
 	soldiers = {
 		culture = tarascan
 		religion = catholic
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -2535,7 +2591,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2559,7 +2616,8 @@
 	soldiers = {
 		culture = tarascan
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -2605,7 +2663,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2629,7 +2688,8 @@
 	soldiers = {
 		culture = mayan
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -2661,7 +2721,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2753,7 +2814,7 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 2000
+		size= 2000
 
 		militancy = 9
 	}
@@ -2782,7 +2843,7 @@
 	soldiers = {
 		culture = mayan
 		religion = catholic
-		size = 400
+		size= 400
 
 		militancy = 9
 	}
@@ -2817,7 +2878,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2841,7 +2903,8 @@
 	soldiers = {
 		culture = mayan
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2873,7 +2936,8 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -2897,13 +2961,20 @@
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
-		size = 20625
+		size = 10000
 	}
+	
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 10625
+	}	
 
 }

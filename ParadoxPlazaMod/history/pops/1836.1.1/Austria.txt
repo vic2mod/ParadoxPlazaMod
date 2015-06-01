@@ -35,7 +35,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
@@ -73,7 +74,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -105,7 +107,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -137,7 +140,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1125
+		size= 1125
+
 	}
 
 	farmers = {
@@ -183,7 +187,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 2050
+		size= 2050
+
 	}
 
 	farmers = {
@@ -215,13 +220,15 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1050
+		size= 1050
+
 	}
 
 	farmers = {
@@ -253,7 +260,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -277,7 +285,8 @@
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -299,7 +308,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 3100
+		size = 3100 
 	}
 
 	officers = {
@@ -319,7 +328,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = south_german
 		religion = catholic
@@ -331,7 +340,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = south_german
 		religion = catholic
@@ -515,19 +524,22 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size= 1550
+
 	}
 
 	farmers = {
@@ -561,7 +573,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 2100
+		size= 2100
+
 	}
 
 	farmers = {

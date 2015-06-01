@@ -122,7 +122,7 @@ political_decisions = {
 					value = -100
 				}
 
-				country_event = 944406
+				country_event = 44406
 			}
 			any_pop = {
 				dominant_issue = {

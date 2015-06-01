@@ -2654,10 +2654,7 @@ country_event = {
 	picture = "ship_attacked"
 	
 	trigger = {
-		OR = {
-			tag = JAP 
-			tag = TKG 
-		}
+		tag = JAP
 		has_country_modifier = line_of_advantage
 		is_disarmed = no
 		war = no
@@ -2769,7 +2766,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = { number_of_states = 2 }
-				exists = TKG 
+				exists = TKG
 			}
 			owner = {
 				prestige = -10

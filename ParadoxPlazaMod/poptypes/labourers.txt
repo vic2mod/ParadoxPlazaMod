@@ -7,6 +7,11 @@ equivalent = farmers
 
 
 everyday_needs = {
+	cattle = 0.75
+	wool =  1
+	fish =  1
+	fruit =  1
+	grain =  2.5
 	tea = 4
 	coal = 1
 	liquor = 3
@@ -35,7 +40,7 @@ luxury_needs = {
 	fuel = 0.1
 	coffee = 0.45
 	tobacco = 0.95
-	#dye = 0.5
+	dye = 0.5
 }
 
 
@@ -43,347 +48,43 @@ country_migration_target =
 {
 	factor = 1
 
-	# Poor POPs
-	## Lower taxes
 	modifier = {
-		factor = -5.0
-		poor_tax = 0.9
-	}
-	modifier = {
-		factor = -3.0
-		NOT ={ poor_tax = 0.9 }
-		poor_tax = 0.66
-	}
-	modifier = {
-		factor = 1.5
-		NOT ={ poor_tax = 0.66 }
-		poor_tax = 0.33
-	}
-	modifier = {
-		factor = 2.0
-		NOT ={ poor_tax = 0.33 }
-		poor_tax = 0.1
-	}
-	modifier = {
-		factor = 3.0
-		NOT ={ poor_tax = 0.1 }
-	}
-
-	## Voting rights
-	modifier = {
-		factor = -3.0
-		vote_franschise = no_voting
-	}
-	modifier = {
-		factor = 2.0
-		vote_franschise = universal_weighted_voting
-	}
-	modifier = {
-		factor = 3.0
-		vote_franschise = universal_voting
-	}
-
-	#All POPs
-
-	# Unemployment
-	modifier = {
-		factor = 0.9
-		unemployment = 0.05
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.1
-	}
-	modifier = {
-		factor = 0.9
+		factor = 0.8
 		unemployment = 0.15
 	}
 	modifier = {
-		factor = 0.9
-		unemployment = 0.2
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.25
-	}
-	modifier = {
-		factor = 0.9
+		factor = 0.8
 		unemployment = 0.3
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.35
 	}
 	modifier = {
 		factor = 0.1
 		unemployment = 0.5
 	}
-
-	## Avoid high militancy
 	modifier = {
-		factor = -1.0
-		average_militancy = 1.0
+		factor = 1.2
+		is_greater_power = yes
 	}
-	modifier = {
-		factor = -2.0
-		average_militancy = 2.0
-	}
-
-	modifier = {
-		factor = -3.0
-		average_militancy = 3.0
-	}
-	
-	modifier = {
-		factor = -4.0
-		average_militancy = 4.0
-	}
-	
-	modifier = {
-		factor = 0
-		average_militancy = 5.0
-	}
-
-	## Avoid no available jobs
-	modifier = {
-		factor = -1.0
-		unemployment = 0.1
-	}
-	modifier = {
-		factor = -2.0
-		unemployment = 0.2
-	}
-	modifier = {
-		factor = -3.0
-		unemployment = 0.3
-	}
-	modifier = {
-		factor = -4.0
-		unemployment = 0.4
-	}
-	modifier = {
-		factor = 0
-		unemployment = 0.5
-	}
-
-	## Democracy
-	modifier = {
-		factor = 2.0
-		government = democracy
-	}
-
-	## Similar culture
 	modifier = {
 		factor = 2.0
 		has_pop_culture = THIS
 	}
 	modifier = {
-		factor = 2.0
-		is_cultural_union = yes
-		has_pop_culture = THIS
+		factor = 1.05
+		vote_franschise = wealth_voting
 	}
-
-	## Similar religion
-	modifier = {
-		factor = 1.5
-		religion = THIS
-	}
-	modifier = {
-		factor = -3.0
-		religious_policy = moralism
-		NOT = { religion = THIS }
-	}
-	modifier = {
-		factor = 1.5
-		religious_policy = moralism
-		religion = THIS
-	}
-	modifier = {
-		factor = 1.5
-		religious_policy = pluralism
-	}
-	modifier = {
-		factor = -2.0
-		religious_policy = pro_atheism
-	}
-	modifier = {
-		factor = 2.0
-		religious_policy = secularized
-	}
-
-	## Citizenship
-	modifier = {
-		factor = -3.0
-		citizenship_policy = residency
-		NOT = { culture = THIS }
-	}
-	modifier = {
-		factor = 1.5
-		citizenship_policy = residency
-		# culture = THIS
-	}
-	modifier = {
-		factor = -3.0
-		citizenship_policy = limited_citizenship
-		is_accepted_culture = no
-	}
-	modifier = {
-		factor = 1.5
-		citizenship_policy = limited_citizenship
-		is_accepted_culture = yes
-	}
-	modifier = {
-		factor = 2.0
-		citizenship_policy = full_citizenship
-	}
-
-	## Better work hours
 	modifier = {
 		factor = 1.25
-		work_hours = fourteen_hours
+		vote_franschise = universal_weighted_voting
 	}
 	modifier = {
 		factor = 1.5
-		work_hours = twelve_hours
-	}
-	modifier = {
-		factor = 1.75
-		work_hours = ten_hours
-	}
-	modifier = {
-		factor = 2.0
-		work_hours = eight_hours
-	}
-
-	## Safety
-	modifier = {
-		factor = 1.25
-		safety_regulations = trinket_safety
-	}
-	modifier = {
-		factor = 1.5
-		safety_regulations = low_safety
-	}
-	modifier = {
-		factor = 1.75
-		safety_regulations = acceptable_safety
-	}
-	modifier = {
-		factor = 2.0
-		safety_regulations = good_safety
-	}
-
-	## Unemployment subsidies
-	modifier = {
-		factor = 1.25
-		unemployment_subsidies = trinket_subsidies
-	}
-	modifier = {
-		factor = 1.5
-		unemployment_subsidies = low_subsidies
-	}
-	modifier = {
-		factor = 1.75
-		unemployment_subsidies = acceptable_subsidies
-	}
-	modifier = {
-		factor = 2.0
-		unemployment_subsidies = good_subsidies
-	}
-
-	## Healthcare
-	modifier = {
-		factor = 1.25
-		health_care = trinket_health_care
-	}
-	modifier = {
-		factor = 1.5
-		health_care = low_health_care
-	}
-	modifier = {
-		factor = 1.75
-		health_care = acceptable_health_care
-	}
-	modifier = {
-		factor = 2.0
-		health_care = good_health_care
-	}
-
-	## Wage laws
-	modifier = {
-		factor = 1.25
-		wage_reform = trinket_wage
-	}
-	modifier = {
-		factor = 1.5
-		wage_reform = low_minimum_wage
-	}
-	modifier = {
-		factor = 1.75
-		wage_reform = acceptable_minimum_wage
-	}
-	modifier = {
-		factor = 2.0
-		wage_reform = good_minimum_wage
-	}
-
-	## Pensions
-	modifier = {
-		factor = 1.25
-		pensions = trinket_pensions
-	}
-	modifier = {
-		factor = 1.5
-		pensions = low_pensions
-	}
-	modifier = {
-		factor = 1.75
-		pensions = acceptable_pensions
-	}
-	modifier = {
-		factor = 2.0
-		pensions = good_pensions
-	}
-
-	## Satellites or in sphere of influence
-	modifier = {
-		factor = 2.0
-		location = { owner = { vassal_of = THIS } }
-	}
-	modifier = {
-		factor = 2.0
-		location = { owner = { is_sphere_leader_of = THIS }	}
-	}
-
-	# From vanilla
-	modifier = {
-		factor = 0.1
-		NOT = {
-			any_owned_province = {
-				life_rating = 30
-				OR = {
-					AND = {
-						has_pop_type = labourers
-						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
-					}
-					AND = {
-						has_pop_type = farmers
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-					AND = {
-						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-				}
-			}
-		}
+		vote_franschise = universal_voting
 	}
 	modifier = {
 		factor = -2 
 		continent = africa 
 	}
 }
-
 
 migration_target =
 {
@@ -398,89 +99,52 @@ migration_target =
 		state_scope = {
 			has_factories = no
 			}
-	}
-
-	modifier = {
-		factor = 1.2
-		total_pops = 250000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 500000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 750000
 	}	
-	
 	modifier = {
 		factor = 0
-					AND = {
-				state_scope = {
-					has_factories = no
-				}
-				can_build_factory = no
+		AND = {
+			state_scope = {
+				has_factories = no
 			}
+			can_build_factory = no
+		}
 		OR = { 
-			unemployment_by_type = { type = farmers value = 0.1  }
-			unemployment_by_type = { type = labourers value = 0.1  }
+			unemployment_by_type = { type = farmers value = 0.05  }
+			unemployment_by_type = { type = labourers value = 0.05  }
 		}
 	}
 	modifier = {
-		factor = 1.2
-		has_pop_culture = THIS
-	}
-	modifier = {
-    	factor = 0.25
+    	factor = 0.1
     	has_culture_core = no
 	}
 	modifier = {
 		factor = 2
 		state_scope = {
-					has_factories = yes
-				}
-	}
-	modifier = {
-		factor = 1.2
-		has_pop_religion = THIS
-	}
-	modifier = {
-		factor = 1.5
-		any_core = { is_primary_culture = THIS }
-	}
-	modifier = {
-		factor = 0.75
-		state_scope = {
-			is_slave = yes
+			has_factories = yes
 		}
 	}
 	modifier = {
 		factor = 2
 		is_state_capital = yes
-	}		
+	}
 	modifier = {
 		factor = 1.5
 		is_capital = yes
-	}
+	}	
 	modifier = {
-		factor = 1.05
-		is_coastal = yes
-	}
-	
-	modifier = {
-		factor = 0.6
+		factor = 0.25
 		terrain = mountain
 	}
 	modifier = {
-		factor = 0.1
+		factor = 0.02
 		terrain = desert
 	}
 	modifier = {
-		factor = 0.6
+		factor = 0.15
 		terrain = marsh
 	}
 	modifier = {
-		factor = 0.1
+		factor = 0.02
 		terrain = arctic
 	}
 	modifier = {
@@ -490,6 +154,13 @@ migration_target =
 	modifier = {
 		factor = 2
 		life_rating = 50
+	}
+	modifier = {
+		factor = 4
+		AND = {
+			is_colonial = yes
+			is_primary_culture = yes
+		}
 	}
 }
 
@@ -539,6 +210,7 @@ serfs = {
 	
 	artisans = {
 		factor = 0.01
+		group = {
 			modifier = {
 				factor = 1
 				not = { literacy = 0.1 }
@@ -559,6 +231,7 @@ serfs = {
 				factor = 1
 				not = { literacy = 0.5 } 
 			}
+		}
 		group = {		
 			modifier = {
 				factor = 1
@@ -642,6 +315,18 @@ serfs = {
 				}
 				can_build_factory = no
 			}
+		}
+	}
+	slaves = 
+	{
+		factor = 0.01
+		modifier = {
+			factor = 50
+			country = { has_country_flag = kebabbies }
+			country = { slavery = yes_slavery }
+			location = { is_colonial = no }
+			is_primary_culture = no
+			is_accepted_culture = no
 		}
 	}
 	bureaucrats =
@@ -764,85 +449,157 @@ serfs = {
 				state_scope = { bureaucrats = 0.040 }
 			}
 		}
-		
 		modifier = {
-			factor = 4
-			health_care = trinket_health_care
+			factor = 15
+			state_scope = { is_colonial = yes }
+			NOT = { state_scope = { bureaucrats = 0.010 } }
+			OR = { 
+				is_accepted_culture = yes 
+				is_primary_culture = yes 
+			}
+			country = { slavery = no_slavery }
 		}
-		modifier = {
-			factor = 8
-			health_care = low_health_care
+		group = {
+			modifier = {
+				factor = 1
+				OR = {
+					health_care = trinket_health_care
+					health_care = low_health_care
+					health_care = acceptable_health_care
+					health_care = good_health_care 
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					health_care = low_health_care
+					health_care = acceptable_health_care
+					health_care = good_health_care 
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					health_care = acceptable_health_care
+					health_care = good_health_care 
+				}
+			}
+			modifier = {
+				factor = 1
+				health_care = good_health_care 
+			}
 		}
-		modifier = {
-			factor = 12
-			health_care = acceptable_health_care
+		group = {
+			modifier = {
+				factor = 1
+				OR = {
+					school_reforms = low_schools 
+					school_reforms = acceptable_schools
+					school_reforms = good_schools
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					school_reforms = acceptable_schools
+					school_reforms = good_schools
+				}
+			}
+			modifier = {
+				factor = 1
+				school_reforms = good_schools
+			}
 		}
-		modifier = {
-			factor = 16
-			health_care = good_health_care  
+		group = {
+			modifier = {
+				factor = 1
+				OR = {
+					safety_regulations = trinket_safety
+					safety_regulations = low_safety
+					safety_regulations = acceptable_safety
+					safety_regulations = good_safety
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					safety_regulations = low_safety
+					safety_regulations = acceptable_safety
+					safety_regulations = good_safety
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					safety_regulations = acceptable_safety
+					safety_regulations = good_safety
+				}
+			}
+			modifier = {
+				factor = 1
+				safety_regulations = good_safety
+			}
 		}
-		modifier = {
-			factor = 4
-			school_reforms = low_schools  
+		group = {
+			modifier = {
+				factor = 1
+				OR = {
+					work_hours = fourteen_hours
+					work_hours = twelve_hours
+					work_hours = ten_hours
+					work_hours = eight_hours
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					work_hours = twelve_hours
+					work_hours = ten_hours
+					work_hours = eight_hours
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					work_hours = ten_hours
+					work_hours = eight_hours
+				}
+			}
+			modifier = {
+				factor = 1
+				work_hours = eight_hours
+			}
+		}
+		group = {
+			modifier = {
+				factor = 1
+				OR = {
+					wage_reform = trinket_wage
+					wage_reform = low_minimum_wage
+					wage_reform = acceptable_minimum_wage
+					wage_reform = good_minimum_wage
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					wage_reform = low_minimum_wage
+					wage_reform = acceptable_minimum_wage
+					wage_reform = good_minimum_wage
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					wage_reform = acceptable_minimum_wage
+					wage_reform = good_minimum_wage
+				}
+			}
+			modifier = {
+				factor = 1
+				wage_reform = good_minimum_wage
+			}
 		}		
-		modifier = {
-			factor = 8
-			school_reforms = acceptable_schools
-		}	
-		modifier = {
-			factor = 12
-			school_reforms = good_schools 
-		}	
-		modifier = {
-			factor = 4
-			safety_regulations = trinket_safety
-		}
-		modifier = {
-			factor = 8
-			safety_regulations = low_safety
-		}		
-		modifier = {
-			factor = 12
-			safety_regulations = acceptable_safety
-		}
-		modifier = {
-			factor = 16
-			safety_regulations = good_safety
-		}
-		
-		modifier = {
-			factor = 4
-			work_hours = fourteen_hours
-		}
-		modifier = {
-			factor = 8
-			work_hours = twelve_hours
-		}		
-		modifier = {
-			factor = 12
-			work_hours  = ten_hours
-		}
-		modifier = {
-			factor = 16
-			work_hours = eight_hours
-		}
-		modifier = {
-			factor = 4
-			wage_reform = trinket_wage
-		}
-		modifier = {
-			factor = 8
-			wage_reform = low_minimum_wage
-		}		
-		modifier = {
-			factor = 12
-			wage_reform  = acceptable_minimum_wage
-		}
-		modifier = {
-			factor = 16
-			wage_reform = good_minimum_wage
-		}
-		
 		group = {
 			modifier = {
 				factor = 2
@@ -884,6 +641,10 @@ serfs = {
 				factor = 2
 				crime_fighting = 0.99
 			}
+		}
+		modifier = {
+			factor = 5
+			country = { ai = yes }
 		}
 	}
 	soldiers =
@@ -1401,6 +1162,10 @@ ideologies = {
 			factor = 1.1
 			poor_strata_militancy = 8
 		}
+		modifier = {
+			factor = 2
+			location = { has_pop_type = slaves }
+		}
 	}
 
 	conservative = {
@@ -1870,6 +1635,40 @@ issues =
 			country = { trade_policy = free_trade }
 		}
 	}
+	autarky = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				life_needs = 1.0
+			}
+			country = { trade_policy = autarky }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 1.0
+			country = { trade_policy = autarky }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 0.25
+			country = { trade_policy = autarky }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 0.5
+			country = { trade_policy = autarky }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 0.75
+			country = { trade_policy = autarky }
+		}
+		modifier ={
+			factor = 0 
+			NOT = { is_ideology_enabled = fascist }
+		}
+	}
 	laissez_faire = {
 		factor = 1
 		modifier = {
@@ -1998,6 +1797,42 @@ issues =
 			country = { economic_policy = planned_economy }
 		}
 	} 
+	dirigisme = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				life_needs = 1.0
+			}
+			country = {
+				economic_policy = dirigisme
+			}
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 1.0
+			country = { economic_policy = dirigisme }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 0.25
+			country = { economic_policy = dirigisme }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 0.5
+			country = { economic_policy = dirigisme }
+		}
+		modifier = {
+			factor = 1.1
+			everyday_needs = 0.75
+			country = { economic_policy = dirigisme }
+		}
+		modifier ={
+			factor = 0 
+			NOT = { is_ideology_enabled = fascist }
+		}
+	}
 	jingoism = {
 		factor = 1
 		modifier = {
@@ -3088,7 +2923,7 @@ issues =
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { literacy = 50 }
+			NOT = { literacy = .50 }
 		}
 		modifier = {
 			factor = 1.25
@@ -3133,7 +2968,7 @@ issues =
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { literacy = 50 }
+			NOT = { literacy = .50 }
 		}
 		modifier = {
 			factor = 1.25

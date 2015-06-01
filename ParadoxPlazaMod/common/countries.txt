@@ -1,18 +1,11 @@
 #Please keep tags sorted alphabetically when you add/remove country tags
 
 # Special countries...
-REB 	= "countries/rebels.txt"
-ZOM	= "countries/Zombieland.txt"
-Z01 	= "countries/Zombeurope.txt"
-Z02	= "countries/Zombasia.txt"
-Z03	= "countries/Zombafrica.txt"
-Z04	= "countries/North_Zomberica.txt"
-Z05	= "countries/South_Zomberica.txt"
-Z06	= "countries/Zombeania.txt"
+REB 	= 	"countries/rebels.txt"
 
-### r/ParadoxPlaza MOD ###
+### r/ParadoxPlazaMOD ###
 
-#Europe
+#Europe 
 
 ULM = "countries/Ulm.txt"
 
@@ -87,15 +80,15 @@ AKH		= "countries/Astrakhan.txt"
 ALT		= "countries/Altai Republic.txt"
 CPL		= "countries/Congress Poland.txt"
 DON		= "countries/Cossackia.txt"
-KAZ		= "countries/Kazakhstan.txt"
-KAM		= "countries/Kamchatka.txt"
+KAZ 		= "countries/Kazakhstan.txt"
+KAM 		= "countries/Kamchatka.txt"
 KMK		= "countries/Kalmykia.txt"
 KRL		= "countries/Karelia.txt"
 SIB		= "countries/Siberian Republic.txt"
-TAR		= "countries/Tatarstan.txt"
+TAR 		= "countries/Tatarstan.txt"
 TNT		= "countries/Tannu Tuva.txt"
-URA		= "countries/Ural Republic.txt"
-YAK		= "countries/Yakutia.txt"
+URA 		= "countries/Ural Republic.txt"
+YAK 		= "countries/Yakutia.txt"
 
 #Middle East
 ARU		= "countries/Arab Union.txt"
@@ -250,9 +243,9 @@ TOS		= "countries/Tosa.txt"
 YZW		= "countries/Yonezawa.txt"
 
 # Australasia & the Pacific
-AOT     = "countries/Aotearoa.txt"
+AOT    	 	= "countries/Aotearoa.txt"
 FIJ		= "countries/Fiji.txt"
-SNZ     = "countries/South Island.txt"
+SNZ     	= "countries/South Island.txt"
 TGA		= "countries/Tonga.txt"
 
 ### END OF NEW NATIONS MOD ###
@@ -280,7 +273,6 @@ POR		= "countries/Portugal.txt"
 SCO		= "countries/Scotland.txt"
 SPA		= "countries/Spain.txt"
 WLL		= "countries/Wallonia.txt"
-AGN		= "countries/Aragon.txt"
 
 # Germany
 ANH		= "countries/Anhalt.txt"
@@ -377,7 +369,7 @@ TUN		="countries/Tunis.txt"
 ZAN		="countries/Zanzibar.txt"
 ZUL		="countries/Zulu.txt"
 
-# Central Asia
+# Cental Asia
 ABU		="countries/Abu Dhabi.txt"
 AFG		="countries/Afghanistan.txt"
 ARM		="countries/Armenia.txt"

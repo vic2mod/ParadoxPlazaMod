@@ -8,8 +8,8 @@ country_event = {
 
 	id = 1000000
 
-	title = "EVTNAME1000000"
-	desc = "EVTDESC1000000"
+	title = "Succesful Communist Regime!"
+	desc = "We have been able to secure the dictatorship of the proletariat and can now reap the rewards!"
 	picture = "communist_crowd"
 
 	trigger = {
@@ -40,7 +40,7 @@ country_event = {
 				poor_strata_everyday_needs = .9
 			}
 	}
-}
+
 	option = {
 		name = "Congrats, Comrade!"
 		owner = {
@@ -93,14 +93,16 @@ country_event = {
 					factor = 4
 					}
 				}
+			}
 		}
-}
+	}
+
 country_event = {
 
 	id = 1000001
 
-	title = "EVTNAME1000001"
-	desc = "EVTDESC1000001"
+	title = "Successful Fascist Regime!"
+	desc = "We have been able to secure a fascist dictatorship and can now reap the rewards!"
 	picture = "senate_debate"
 
 	trigger = {
@@ -131,7 +133,7 @@ country_event = {
 				poor_strata_everyday_needs = .9
 			}
 	}
-}
+
 	option = {
 		name = "Congrats, Great Leader!"
 		owner = {
@@ -184,8 +186,6 @@ country_event = {
 					factor = 4
 					}
 				}
+			}
 		}
-}
-
-		
- 
+	}

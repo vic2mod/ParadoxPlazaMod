@@ -132,7 +132,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = wallonian
 		religion = catholic
@@ -208,7 +208,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = flemish
 		religion = catholic
@@ -242,7 +242,8 @@
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 }
 #Antwerp (354000/88500 POPS)
@@ -276,7 +277,7 @@
 		religion = catholic
 		size = 3600
 	}
-
+	
 	artisans = {
 		culture = flemish
 		religion = catholic
@@ -286,7 +287,8 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 1400
+		size= 1400
+
 	}
 
 	farmers = {
@@ -310,7 +312,8 @@
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 }
 #Hasselt (272000/68000 POPS)
@@ -336,7 +339,8 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -347,7 +351,7 @@
 
 }
 #Wallonia Region (1432000)
-#Namur (388000/97000 POPS)
+#Liege (388000/97000 POPS)
 392 = {
 	aristocrats = {
 		culture = wallonian
@@ -424,7 +428,8 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	labourers = {
@@ -462,7 +467,8 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -504,7 +510,8 @@
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -548,7 +555,8 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -578,7 +586,8 @@
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -587,7 +596,7 @@
 		size = 80725
 	}
 }
-#Liege (212000/53000 POPS)
+#Namur (212000/53000 POPS)
 395 = {
 	aristocrats = {
 		culture = wallonian
@@ -622,7 +631,8 @@
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {

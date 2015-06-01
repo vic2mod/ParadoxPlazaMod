@@ -71,8 +71,20 @@
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 27325
+		size = 12500
 	}
+	
+	farmers = {
+		culture = hema
+		religion = animist
+		size = 7325
+	}
+
+	farmers = {
+		culture = nyoro
+		religion = animist
+		size = 7500
+	}		
 
 	slaves = {
 		culture = african_minor
@@ -113,34 +125,46 @@
 	}
 
 	aristocrats = {
-		culture = african_minor
+		culture = hema
 		religion = animist
 		size = 475
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = hema
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
+		culture = hema
+		religion = animist
+		size = 750
+	}
+	
+	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 1250
-	}
+		size = 500
+	}	
 
 	soldiers = {
-		culture = african_minor
+		culture = hema
 		religion = animist
 		size = 1250
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = hema
 		religion = animist
-		size = 21775
+		size = 20000
 	}
+	
+	farmers = {
+		culture = nyoro
+		religion = animist
+		size = 1775
+	}	
 
 	slaves = {
 		culture = african_minor
@@ -181,34 +205,46 @@
 #Masindi (192000/48000 POPS) 
 2021 = {
 	aristocrats = {
-		culture = african_minor
+		culture = nyoro
 		religion = animist
 		size = 550
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = nyoro
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = nyoro
 		religion = animist
 		size = 1450
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = nyoro
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = nyoro
 		religion = animist
-		size = 26400
+		size = 25000
 	}
+	
+	farmers = {
+		culture = hema
+		religion = animist
+		size = 1000
+	}	
+	
+	farmers = {
+		culture = baganda
+		religion = animist
+		size = 400
+	}		
 
 	slaves = {
 		culture = african_minor

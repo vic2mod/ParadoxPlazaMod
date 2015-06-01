@@ -29,7 +29,8 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -53,7 +54,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -72,7 +74,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -129,7 +132,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -165,7 +169,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -203,19 +208,22 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -239,7 +247,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 1600
+		size= 1600
+
 	}
 
 	farmers = {
@@ -277,7 +286,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -307,7 +317,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -348,7 +359,8 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 875
+		size= 875
+
 	}
 
 	farmers = {
@@ -372,7 +384,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -390,7 +403,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -412,7 +426,7 @@
 	}
 }
 #Aljazair-ruled in 1836 :
-#Tilimsan - Tlemcen (221600/55400 POPS)
+#Tilimsan (221600/55400 POPS)
 1705 = {
 	aristocrats = {
 		culture = maghrebi
@@ -447,13 +461,15 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -484,7 +500,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -505,7 +522,7 @@
 		size = 8000
 	}
 }
-#Mustaghanim (188000/47000 POPS)
+#Mustaghanem (188000/47000 POPS)
 1706 = {
 	aristocrats = {
 		culture = maghrebi
@@ -528,7 +545,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -558,7 +576,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -590,13 +609,15 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -620,7 +641,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -655,7 +677,8 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -679,7 +702,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -698,7 +722,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -743,7 +768,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -779,7 +805,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -823,7 +850,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -853,7 +881,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -882,7 +911,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 30
+		size= 30
+
 	}
 
 	farmers = {
@@ -907,7 +937,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -931,7 +962,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -957,7 +989,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -981,7 +1014,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 70
+		size= 70
+
 	}
 
 	farmers = {
@@ -1013,7 +1047,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1043,7 +1078,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1073,7 +1109,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = shiite
-		size = 40
+		size= 40
+
 	}
 
 	farmers = {
@@ -1107,7 +1144,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 55
+		size= 55
+
 	}
 
 	farmers = {
@@ -1131,7 +1169,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 130
+		size= 130
+
 	}
 
 	farmers = {
@@ -1155,7 +1194,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1187,7 +1227,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1217,7 +1258,8 @@
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1243,7 +1285,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1270,7 +1313,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1300,7 +1344,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 60
+		size= 60
+
 	}
 
 	farmers = {
@@ -1327,7 +1372,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 60
+		size= 60
+
 	}
 
 	farmers = {
@@ -1354,7 +1400,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1384,7 +1431,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1410,7 +1458,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1437,7 +1486,8 @@
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1461,7 +1511,8 @@
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {

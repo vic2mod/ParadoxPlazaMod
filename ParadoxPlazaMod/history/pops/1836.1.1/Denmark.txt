@@ -68,19 +68,22 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -112,7 +115,8 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -144,7 +148,8 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -170,7 +175,8 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size= 250
+
 	}
 	aristocrats = {
 		culture = danish
@@ -209,7 +215,8 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -251,7 +258,8 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -277,7 +285,8 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -307,7 +316,8 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -365,25 +375,29 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -427,19 +441,22 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -465,7 +482,8 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {

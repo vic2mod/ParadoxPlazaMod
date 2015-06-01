@@ -245,7 +245,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -270,7 +271,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -297,7 +299,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -323,7 +326,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -349,7 +353,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -374,10 +379,12 @@
 		size = 75
 	}
 
+
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -403,7 +410,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -429,7 +437,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -455,7 +464,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -481,7 +491,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -507,7 +518,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -537,7 +549,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -572,7 +585,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -596,7 +610,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -655,7 +670,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -681,7 +697,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -707,7 +724,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -733,7 +751,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -759,7 +778,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -785,7 +805,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -813,7 +834,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 90
+		size= 90
+
 	}
 
 	farmers = {
@@ -842,7 +864,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -868,7 +891,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -894,7 +918,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -920,7 +945,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -946,7 +972,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -972,7 +999,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -1026,7 +1054,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1052,7 +1081,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1080,7 +1110,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1106,7 +1137,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -1132,7 +1164,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1158,7 +1191,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1184,7 +1218,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1210,7 +1245,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -1237,7 +1273,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 5
+		size= 5
+
 	}
 
 	farmers = {
@@ -1263,7 +1300,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 5
+		size= 5
+
 	}
 
 	farmers = {
@@ -1289,7 +1327,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1317,7 +1356,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1343,7 +1383,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1369,7 +1410,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1396,7 +1438,8 @@
 	soldiers = {
 		culture = aborigine
 		religion = animist
-		size = 5
+		size= 5
+
 	}
 
 	farmers = {
@@ -1419,7 +1462,8 @@
 	soldiers = {
 		culture = australian
 		religion = protestant
-		size = 2
+		size= 2
+
 	}
 
 	farmers = {

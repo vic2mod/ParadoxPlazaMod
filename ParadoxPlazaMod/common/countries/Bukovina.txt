@@ -157,26 +157,26 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 		
 	}
 	ironclad = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 	}
 	manowar = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 		
 	}
 	cruiser = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 		
 	}
 	frigate = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 		
 	}
 	monitor = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 		
 	}
 	clipper_transport = {
@@ -186,7 +186,7 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "RÃ¢ul Prut" Suceava "TÃ¢rgul Moldovei" Vaslui
+		Bukovina Cernauti "Stefan cel Mare" "Mihail Sturdza" "Athleta Christi" Baia "Bogdan I" Iuga "Râul Prut" Suceava "Târgul Moldovei" Vaslui
 		
 	}
 }

@@ -768,6 +768,7 @@ province_event = {
 			trade_goods = silk
 			continent = europe
 			continent = south_america
+			continent = north_america
 			has_province_modifier = switched_production
 		}
 		OR = {

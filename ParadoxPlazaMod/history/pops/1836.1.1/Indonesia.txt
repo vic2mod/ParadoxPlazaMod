@@ -23,7 +23,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -59,7 +60,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -95,7 +97,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -125,7 +128,8 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 }
 #Tanjungpinang (100000/25000 POPS)
@@ -145,7 +149,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -175,7 +180,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -205,7 +211,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -237,7 +244,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -267,7 +275,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -297,7 +306,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -331,7 +341,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -361,7 +372,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -393,7 +405,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 40
+		size= 40
+
 	}
 
 	farmers = {
@@ -423,7 +436,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -457,7 +471,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -505,7 +520,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	slaves = {
@@ -537,7 +553,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1150
+		size= 1150
+
 	}
 
 	farmers = {
@@ -585,7 +602,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -623,7 +641,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -671,7 +690,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	slaves = {
@@ -718,7 +738,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -748,7 +769,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -792,7 +814,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -822,7 +845,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -860,7 +884,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -890,7 +915,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -942,7 +968,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -951,10 +978,23 @@
 		size = 36975
 	}
 
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
 	artisans = {
 		culture = yue
 		religion = mahayana
 		size = 750
+	}
+
+	soldiers = {
+		culture = yue
+		religion = mahayana
+		size= 25
+
 	}
 
 	farmers = {
@@ -984,7 +1024,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1022,7 +1063,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -1046,7 +1088,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1076,7 +1119,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -1114,7 +1158,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1144,7 +1189,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1180,7 +1226,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1210,7 +1257,8 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 }
 #Gunungsitoli (68000/17000 POPS)
@@ -1236,7 +1284,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1270,7 +1319,20 @@
 	artisans = {
 		culture = javan
 		religion = sunni
-		size = 16000
+		size = 10000
+	}
+	
+	artisans = {
+		culture = javan
+		religion = sunni
+		size = 6000
+	}
+
+	soldiers = {
+		culture = javan
+		religion = sunni
+		size= 3000
+
 	}
 
 	soldiers = {
@@ -1306,7 +1368,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 500
+		size= 500
+
 	}
 
 	slaves = {
@@ -1342,7 +1405,8 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 2250
+		size= 2250
+
 	}
 
 	clergymen = {
@@ -1366,7 +1430,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -1404,7 +1469,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1434,7 +1500,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -1466,7 +1533,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1496,7 +1564,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1526,7 +1595,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 2250
+		size= 2250
+
 	}
 
 	farmers = {
@@ -1558,7 +1628,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -1588,7 +1659,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1626,7 +1698,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 2250
+		size= 2250
+
 	}
 
 	farmers = {
@@ -1656,7 +1729,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1686,7 +1760,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1718,7 +1793,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 2500
+		size= 2500
+
 	}
 
 	farmers = {
@@ -1748,7 +1824,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1778,7 +1855,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1810,7 +1888,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
@@ -1840,7 +1919,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1849,7 +1929,7 @@
 		size = 11225
 	}
 }
-#Probolingo (708000/177000 POPS)
+#Probolinggo (708000/177000 POPS)
 1420 = {
 	aristocrats = {
 		culture = javan
@@ -1872,7 +1952,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	slaves = {
@@ -1902,7 +1983,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -1934,7 +2016,8 @@
 	soldiers = {
 		culture = javan
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1964,7 +2047,8 @@
 	soldiers = {
 		culture = javan
 		religion = animist
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -1988,7 +2072,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2029,7 +2114,8 @@
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2065,7 +2151,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -2097,7 +2184,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -2109,12 +2197,12 @@
 	slaves = {
 		culture = asian_minor
 		religion = animist
-		size = 3000
+		size = 17950
 	}
 	
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = malay
+		religion = sunni
 		size = 4000
 	}
 }
@@ -2141,7 +2229,8 @@
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2171,7 +2260,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -2203,7 +2293,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	labourers = {
@@ -2239,7 +2330,8 @@
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	labourers = {
@@ -2269,7 +2361,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	labourers = {
@@ -2301,7 +2394,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -2343,7 +2437,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1050
+		size= 1050
+
 	}
 
 	farmers = {
@@ -2377,7 +2472,8 @@
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2413,7 +2509,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -2425,7 +2522,7 @@
 	bureaucrats = {
 		culture = hakka
 		religion = mahayana
-		size = 500
+		size = 50
 	}
 	
 		bureaucrats = {
@@ -2449,7 +2546,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 500
+		size= 40
+
 	}
 
 	farmers = {
@@ -2466,7 +2564,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1750
+		size= 1750
+
 	}
 }
 #Kota Waringin (152000/38000 POPS)
@@ -2492,7 +2591,8 @@
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -2522,7 +2622,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -2560,7 +2661,8 @@
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -2613,7 +2715,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 600
+		size= 600
+
 	}
 
 	farmers = {
@@ -2651,13 +2754,15 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 1350
+		size= 1350
+
 	}
 
 	farmers = {
@@ -2695,7 +2800,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -2725,7 +2831,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	slaves = {
@@ -2733,7 +2840,6 @@
 		religion = animist
 		size = 6675
 	}
-
 }
 #Menado (256000/64000 POPS)
 1433 = {
@@ -2758,7 +2864,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -2794,7 +2901,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -2826,7 +2934,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -2864,7 +2973,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -2902,7 +3012,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2934,7 +3045,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -2963,7 +3075,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -3005,13 +3118,15 @@
 	soldiers = {
 		culture = malay
 		religion = hindu
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = malay
 		religion = hindu
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -3049,7 +3164,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3079,7 +3195,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -3112,7 +3229,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -3150,7 +3268,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -3180,7 +3299,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -3212,7 +3332,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3242,7 +3363,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -3274,7 +3396,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3306,7 +3429,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 20
+		size= 20
+
 	}
 
 	farmers = {
@@ -3336,7 +3460,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3380,7 +3505,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -3410,7 +3536,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3440,7 +3567,8 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 }
 #Ruled by Portugal 1836
@@ -3461,7 +3589,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = catholic
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -3491,7 +3620,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3515,7 +3645,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3545,7 +3676,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3575,7 +3707,8 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 }
@@ -3610,7 +3743,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = protestant
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -3640,7 +3774,8 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 }
 #uncolonized in 1836
@@ -3679,7 +3814,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -3709,7 +3845,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = protestant
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3739,7 +3876,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -3771,7 +3909,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3801,7 +3940,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3833,7 +3973,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3863,7 +4004,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3895,7 +4037,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3925,7 +4068,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3960,7 +4104,8 @@
 	soldiers = {
 		culture = moluccan
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3990,7 +4135,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -4028,7 +4174,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -4060,7 +4207,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -4098,7 +4246,8 @@
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {

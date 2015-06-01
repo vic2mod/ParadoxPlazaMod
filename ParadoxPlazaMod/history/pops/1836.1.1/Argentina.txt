@@ -222,7 +222,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -488,7 +489,7 @@
 		size = 10800
 	}
 }
-#Reconquista (56000/14000 POPS)
+#Rosario (56000/14000 POPS)
 2362 = {
 	aristocrats = {
 		culture = platinean
@@ -523,7 +524,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -538,7 +540,7 @@
 		size = 3000
 	}
 }
-#Rosario (8000/2000 POPS)
+#Reconquista (8000/2000 POPS)
 2363 = {
 	aristocrats = {
 		culture = platinean
@@ -555,7 +557,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -563,7 +566,6 @@
 		religion = catholic
 		size = 1800
 	}
-
 }
 #Chaco Region (76000) #see Paraguay.txt for balance of region
 #Under loose authority of Argentina 1836
@@ -584,7 +586,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -608,7 +611,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -634,7 +638,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -652,7 +657,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -903,7 +909,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -943,13 +950,14 @@
 	artisans = {
 		culture = platinean
 		religion = catholic
-		size = 1500
+		size = 2500
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -981,7 +989,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1013,7 +1022,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1053,7 +1063,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1079,7 +1090,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1103,7 +1115,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1129,7 +1142,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1157,7 +1171,7 @@
 	officers = {
 		culture = platinean
 		religion = catholic
-		size = 500
+		size = 35
 	}
 
 	clergymen = {
@@ -1207,7 +1221,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1233,7 +1248,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1259,7 +1275,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1280,7 +1297,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1304,7 +1322,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1324,7 +1343,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1348,7 +1368,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 5
+		size= 5
+
 	}
 
 	farmers = {
@@ -1388,7 +1409,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1420,7 +1442,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1446,7 +1469,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1479,7 +1503,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 60
+		size= 60
+
 	}
 
 	farmers = {
@@ -1519,7 +1544,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1551,7 +1577,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1572,7 +1599,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1596,7 +1624,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -1624,7 +1653,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1650,7 +1680,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1670,7 +1701,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1694,7 +1726,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1720,7 +1753,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1748,7 +1782,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1774,7 +1809,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1800,7 +1836,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1826,7 +1863,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1852,7 +1890,8 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 65
+		size= 65
+
 	}
 
 	farmers = {
@@ -1874,7 +1913,8 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1898,7 +1938,8 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {

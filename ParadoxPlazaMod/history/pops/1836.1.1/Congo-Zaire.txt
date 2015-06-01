@@ -35,13 +35,15 @@
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 575
+		size= 575
+
 	}
 
 	farmers = {
@@ -79,7 +81,8 @@
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -119,7 +122,8 @@
 	soldiers = {
 		culture = lunda
 		religion = animist
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -149,13 +153,15 @@
 	soldiers = {
 		culture = kuba
 		religion = animist
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = kuba
 		religion = animist
-		size = 1675
+		size= 1675
+
 	}
 
 	farmers = {
@@ -193,7 +199,8 @@
 	soldiers = {
 		culture = lunda
 		religion = animist
-		size = 1925
+		size= 1925
+
 	}
 
 	farmers = {
@@ -223,7 +230,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 1650
+		size= 1650
+
 	}
 
 	farmers = {
@@ -262,7 +270,8 @@
 	soldiers = {
 		culture = luba
 		religion = animist
-		size = 1925
+		size= 1925
+
 	}
 
 	farmers = {
@@ -292,7 +301,8 @@
 	soldiers = {
 		culture = kuba
 		religion = animist
-		size = 1575
+		size= 1575
+
 	}
 
 	farmers = {
@@ -350,13 +360,15 @@
 	soldiers = {
 		culture = lunda
 		religion = animist
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = lunda
 		religion = animist
-		size = 1030
+		size= 1030
+
 	}
 
 	farmers = {
@@ -386,7 +398,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 1375
+		size= 1375
+
 	}
 
 	farmers = {
@@ -425,7 +438,8 @@
 	soldiers = {
 		culture = lunda
 		religion = animist
-		size = 1925
+		size= 1925
+
 	}
 
 	farmers = {
@@ -455,7 +469,8 @@
 	soldiers = {
 		culture = luba
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -494,7 +509,8 @@
 	soldiers = {
 		culture = luba
 		religion = animist
-		size = 2775
+		size= 2775
+
 	}
 
 	farmers = {
@@ -524,7 +540,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -564,7 +581,8 @@
 	soldiers = {
 		culture = luba
 		religion = animist
-		size = 1375
+		size= 1375
+
 	}
 
 	farmers = {
@@ -594,7 +612,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 1375
+		size= 1375
+
 	}
 
 	farmers = {
@@ -612,7 +631,7 @@
 #Uvira (836000/209000 POPS)
 1991 = {
 	aristocrats = {
-		culture = african_minor
+		culture = ruanda
 		religion = animist
 		size = 1375
 	}
@@ -624,7 +643,7 @@
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = ruanda
 		religion = animist
 		size = 2840
 	}
@@ -632,14 +651,21 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 49320
+		size = 40000
 	}
+	
+	farmers = {
+		culture = rundi
+		religion = animist
+		size = 9320
+	}	
 
 	slaves = {
 		culture = african_minor
@@ -670,7 +696,8 @@
 	soldiers = {
 		culture = mongo
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -710,7 +737,8 @@
 	soldiers = {
 		culture = mongo
 		religion = animist
-		size = 1650
+		size= 1650
+
 	}
 
 	farmers = {
@@ -748,7 +776,8 @@
 	soldiers = {
 		culture = kuba
 		religion = animist
-		size = 1650
+		size= 1650
+
 	}
 
 	farmers = {
@@ -786,7 +815,8 @@
 	soldiers = {
 		culture = mongo
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -826,7 +856,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 1470
+		size= 1470
+
 	}
 
 	farmers = {
@@ -865,7 +896,8 @@
 	soldiers = {
 		culture = azande
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -881,13 +913,13 @@
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = hema
 		religion = animist
 		size = 370
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = hema
 		religion = animist
 		size = 1830
 	}
@@ -895,11 +927,12 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = hema
 		religion = animist
 		size = 33460
 	}
@@ -933,13 +966,15 @@
 	soldiers = {
 		culture = azande
 		religion = animist
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = azande
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {

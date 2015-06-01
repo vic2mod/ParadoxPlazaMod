@@ -18,7 +18,8 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 25
+		size= 25
+
 	}
 
 	artisans = {
@@ -31,6 +32,19 @@
 		culture = dutch
 		religion = protestant
 		size = 20
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = catholic
+		size= 30
+
 	}
 
 	farmers = {
@@ -92,7 +106,7 @@
 		religion = protestant
 		size = 55
 	}
-	
+
 	farmers = {
 		culture = dutch
 		religion = protestant

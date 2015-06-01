@@ -145,7 +145,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "filter_south_america"
-			position = { x=-173 y =-105 }
+			position = { x=173 y =105 }
 			quadTextureSprite ="GFX_diplo_filter_sa"
 			buttonText = "DIPLOMACY_FILTER_SOUTH_AMERICA"
 			buttonFont = "vic_18" # <- "_black" appended in code

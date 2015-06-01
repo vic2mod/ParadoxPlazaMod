@@ -35,7 +35,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -65,7 +66,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -103,7 +105,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -133,7 +136,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -171,7 +175,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -201,7 +206,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -239,7 +245,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -271,7 +278,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -301,7 +309,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -341,7 +350,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -387,13 +397,15 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -431,7 +443,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -463,7 +476,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -501,13 +515,15 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -545,7 +561,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -591,7 +608,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -621,7 +639,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -659,7 +678,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -689,7 +709,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -721,7 +742,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
