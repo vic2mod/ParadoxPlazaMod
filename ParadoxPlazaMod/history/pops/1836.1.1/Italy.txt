@@ -38,7 +38,7 @@
 		size = 10000
 	}
 
-	artisans = {
+	soldiers = {
 		culture = north_italian
 		religion = catholic
 		size = 3000
@@ -91,7 +91,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -121,7 +122,8 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -153,7 +155,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -185,7 +188,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -227,7 +231,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -237,7 +241,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -281,7 +286,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -323,7 +329,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -389,7 +395,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1150
+		size= 1150
+
 	}
 
 	farmers = {
@@ -421,7 +428,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1750
+		size= 1750
+
 	}
 
 	farmers = {
@@ -463,23 +471,23 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
 		size = 10000
 	}
-
-	artisans = {
+	
+	craftsmen = {
 		culture = north_italian
 		religion = catholic
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
@@ -531,7 +539,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -541,7 +549,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1300
+		size= 1300
+
 	}
 
 	farmers = {
@@ -573,7 +582,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1400
+		size= 1400
+
 	}
 
 	farmers = {
@@ -605,7 +615,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -637,14 +648,22 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 68200
+		size = 60000
 	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 8200
+	}	
+	
 }
 #Tirol Region (368000) #see Austria.txt for balance of Region
 #under the rule of Austria in 1836  
@@ -677,7 +696,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 50 
+		size= 50
+
 	}
 
 	farmers = {
@@ -701,7 +721,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 550 
+		size= 550
+
 	}
 
 	farmers = {
@@ -733,7 +754,8 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 150 
+		size= 150
+
 	}
 
 	farmers = {
@@ -757,7 +779,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 50 
+		size= 50
+
 	}
 
 	farmers = {
@@ -777,7 +800,7 @@
 	}
 
 	bureaucrats = {
-		culture = north_italian
+		culture = south_german
 		religion = catholic
 		size = 200
 	}
@@ -805,7 +828,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -815,7 +838,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -833,13 +857,20 @@
 	artisans = {
 		culture = slovene
 		religion = catholic
-		size = 4500
+		size = 4000
 	}
+	
+	artisans = {
+		culture = croat
+		religion = catholic
+		size = 500
+	}	
 
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 100
+		size= 100
+
 	}
 
 	serfs = {
@@ -871,7 +902,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -895,7 +927,8 @@
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {
@@ -953,7 +986,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -998,7 +1032,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -1030,7 +1065,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1072,7 +1108,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -1082,7 +1118,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -1114,7 +1151,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -1146,7 +1184,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 650
+		size= 650
+
 	}
 
 	farmers = {
@@ -1188,7 +1227,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -1198,7 +1237,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -1238,7 +1278,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -1248,7 +1288,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1292,7 +1333,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1324,7 +1366,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1365,7 +1408,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = north_italian
 		religion = catholic
@@ -1375,7 +1418,8 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1417,11 +1461,11 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = south_italian
 		religion = catholic
-		size = 10000
+		size = 8600
 	}
 
 	artisans = {
@@ -1483,7 +1527,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1529,7 +1574,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1561,7 +1607,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -1606,7 +1653,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -1648,19 +1696,7 @@
 		religion = catholic
 		size = 10000
 	}
-
-	artisans = {
-		culture = south_italian
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_italian
-		religion = catholic
-		size = 10000
-	}
-
+	
 	artisans = {
 		culture = south_italian
 		religion = catholic
@@ -1744,7 +1780,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -1776,7 +1813,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -1822,9 +1860,16 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
-	}
+		size= 2000
 
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}	
+	
 	farmers = {
 		culture = south_italian
 		religion = catholic
@@ -1854,9 +1899,16 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}		
+	
 	farmers = {
 		culture = south_italian
 		religion = catholic
@@ -1886,14 +1938,28 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 63000
+		size = 52000
 	}
+
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}	
+	
+	farmers = { 
+		culture = greek
+		religion = orthodox
+		size = 5000
+	}	
+	
 }
 #Calabria-Basilicata Region (1488000)
 #under the rule of Two Sicilies in 1836
@@ -1932,14 +1998,28 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 127700
+		size = 118700
 	}
+
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}	
+	
+	farmers = { 
+		culture = greek
+		religion = orthodox
+		size = 4000
+	}	
+	
 }
 #Catanzaro (344000/86000 POPS)
 760 = {
@@ -1964,13 +2044,20 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}		
+	
+	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 79675
+		size = 76675
 	}
 }
 #Potenza (572000/143000 POPS)
@@ -1996,13 +2083,20 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
-	}
+		size= 2000
 
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}	
+	
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 129325
+		size = 126325
 	}
 }
 #Sicily Region (1816000)
@@ -2038,7 +2132,7 @@
 		religion = catholic
 		size = 10000
 	}
-
+	
 	artisans = {
 		culture = south_italian
 		religion = catholic
@@ -2086,7 +2180,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -2112,7 +2207,7 @@
 	artisans = {
 		culture = south_italian
 		religion = catholic
-		size = 10000
+		size = 1400
 	}
 
 	artisans = {
@@ -2176,7 +2271,8 @@
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -2190,25 +2286,44 @@
 	aristocrats = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size = 1000
 	}
+	
+	aristocrats = {
+		culture = catalan
+		religion = catholic
+		size = 100
+	}	
 
 	clergymen = {
 		culture = south_italian
 		religion = catholic
 		size = 475
 	}
+	
+	clergymen = {
+		culture = catalan
+		religion = catholic
+		size = 75
+	}	
 
 	artisans = {
 		culture = south_italian
 		religion = catholic
 		size = 6500
 	}
+	
+	artisans = {
+		culture = catalan
+		religion = catholic
+		size = 2000
+	}	
 
 	soldiers = {
 		culture = south_italian
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -2220,7 +2335,13 @@
 	farmers = {
 		culture = catalan
 		religion = catholic
-		size = 4814
-	}
+		size = 1000
+	}	
+	
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 8025
+	}	
 
 }

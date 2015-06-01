@@ -104,7 +104,7 @@ unit_names = {
 		Hrvatska "Maksimilijan Vrhovac" "Ilirski pokret" Slavonija Zagreb  
 	}
 	ironclad = {
-		Osijek  "Janko DraÅ¡kovic" "Antun Mihanovic" "Ljudevit Gaj" Rijeka  
+		Osijek  "Janko Draškovic" "Antun Mihanovic" "Ljudevit Gaj" Rijeka  
 	}
 	manowar = {
 		Sava Drava Kupa Korana Cesma 
@@ -113,7 +113,7 @@ unit_names = {
 		"Ivan Lupis" "Janko Vukovic" "Matija Politeo" "Ante Tresic Pavicic" Branimir 
 	}
 	frigate = {
-		Dinara KameÅ¡nica Biokovo Velebit PljeÅ¡evica 
+		Dinara Kamešnica Biokovo Velebit Plješevica 
 	}
 	monitor = {
 		Dubrovnik Ragusa Split Pula Gospic
@@ -127,6 +127,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Krk Brijuni LoÅ¡inj Cres Ilovik
+		Krk Brijuni Lošinj Cres Ilovik
 	}
 }

@@ -29,7 +29,8 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	aristocrats = {
@@ -65,7 +66,8 @@
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -83,7 +85,8 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -121,7 +124,8 @@
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -139,7 +143,8 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -177,7 +182,8 @@
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -195,7 +201,8 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -233,7 +240,8 @@
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -251,7 +259,8 @@
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {

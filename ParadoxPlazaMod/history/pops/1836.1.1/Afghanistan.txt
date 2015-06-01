@@ -35,25 +35,29 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -89,7 +93,8 @@
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -119,7 +124,8 @@
 	soldiers = {
 		culture = hazara
 		religion = shiite
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -169,7 +175,8 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 825
+		size= 825
+
 	}
 
 	farmers = {
@@ -199,7 +206,8 @@
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -229,7 +237,8 @@
 	soldiers = {
 		culture = hazara
 		religion = shiite
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -267,7 +276,8 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -291,7 +301,8 @@
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -321,7 +332,8 @@
 	soldiers = {
 		culture = persian
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -359,7 +371,8 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -389,7 +402,8 @@
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -419,7 +433,8 @@
 	soldiers = {
 		culture = hazara
 		religion = shiite
-		size = 525
+		size= 525
+
 	}
 
 	farmers = {
@@ -449,7 +464,8 @@
 	soldiers = {
 		culture = hazara
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -487,7 +503,8 @@
 	soldiers = {
 		culture = persian
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -517,7 +534,8 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -532,7 +550,7 @@
 		size = 24000
 	}
 }
-#Kandahar (368000/92000 POPS)
+#Qandahar (368000/92000 POPS)
 1215 = {
 	aristocrats = {
 		culture = pashtun
@@ -555,7 +573,8 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -585,7 +604,8 @@
 	soldiers = {
 		culture = hazara
 		religion = shiite
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -623,13 +643,15 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -644,7 +666,7 @@
 		size = 3700
 	}
 }
-#Ghazni (324000/81000 POPS)
+#Ghzani (324000/81000 POPS)
 1217 = {
 	aristocrats = {
 		culture = pashtun
@@ -667,7 +689,8 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 675
+		size= 675
+
 	}
 
 	farmers = {
@@ -697,7 +720,8 @@
 	soldiers = {
 		culture = hazara
 		religion = shiite
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -737,7 +761,8 @@
 	soldiers = {
 		culture = uzbek
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -767,13 +792,15 @@
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {

@@ -35,13 +35,15 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -97,7 +99,8 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -153,7 +156,8 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 175
+?		size= 175
+
 	}
 
 	farmers = {
@@ -264,7 +268,8 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {

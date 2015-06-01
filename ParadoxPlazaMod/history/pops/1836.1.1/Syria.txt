@@ -35,14 +35,21 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 7725
+		size = 5025
 	}
+	
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 2725
+	}	
 
 	aristocrats = {
 		culture = kurdish
@@ -77,7 +84,8 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -119,7 +127,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -181,7 +190,8 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -211,7 +221,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {
@@ -241,7 +252,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -311,7 +323,7 @@
 	artisans = {
 		culture = mashriqi
 		religion = sunni
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
@@ -403,7 +415,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -471,14 +484,27 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 14475
+		size = 12475
 	}
+	
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 1475
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 1075
+	}		
 
 	clergymen = {
 		culture = mashriqi
@@ -495,7 +521,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = shiite
-		size = 8475
+		size = 7475
 	}
 
 	clergymen = {
@@ -539,7 +565,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -547,6 +574,12 @@
 		religion = sunni
 		size = 18225
 	}
+	
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 525
+	}	
 
 	clergymen = {
 		culture = mashriqi
@@ -563,8 +596,21 @@
 	farmers = {
 		culture = mashriqi
 		religion = orthodox
-		size = 7525
+		size = 6525
 	}
+	
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 1525
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 525
+	}		
+	
 }
 #Suwayda (92000/23000 POPS)
 906 = {
@@ -589,7 +635,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -653,7 +700,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 35
+		size= 35
+
 	}
 
 	farmers = {
@@ -683,7 +731,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -691,5 +740,11 @@
 		religion = sunni
 		size = 8475
 	}
+	
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 475
+	}	
 
 }

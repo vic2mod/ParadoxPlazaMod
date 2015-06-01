@@ -51,10 +51,16 @@
 	}
 
 	artisans = {
-		culture = armenian
+		culture = georgian
 		religion = orthodox
-		size = 725
+		size = 6725
 	}
+	
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 325
+	}	
 
 	soldiers = {
 		culture = georgian
@@ -185,7 +191,7 @@
 	}
 
 	artisans = {
-		culture = armenian
+		culture = georgian
 		religion = orthodox
 		size = 500
 	}
@@ -436,7 +442,7 @@
 		size = 23675
 	}
 }
-#Sukhumi (72000/18000 POPS) #north_caucasian = abkhaz
+#Sukhumi (72000/18000 POPS) #circassian = abkhaz
 1095 = {
 	aristocrats = {
 		culture = georgian
@@ -485,7 +491,7 @@
 		religion = orthodox
 		size = 450
 	}
-	
+
 	soldiers = {
 		culture = russian
 		religion = orthodox
@@ -527,6 +533,13 @@
 		religion = sunni
 		size = 20550
 	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 550
+	}	
+	
 }
 #Kars Region (76000) #see Turkey.txt for balance of region  
 #under the rule of Ottoman Empire in 1836  

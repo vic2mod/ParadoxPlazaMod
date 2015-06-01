@@ -23,19 +23,22 @@
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -65,7 +68,8 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -95,7 +99,8 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -127,7 +132,8 @@
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -157,7 +163,8 @@
 	soldiers = {
 		culture = kirgiz
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -187,7 +194,8 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -221,7 +229,8 @@
 	soldiers = {
 		culture = uzbek
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -251,13 +260,15 @@
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {

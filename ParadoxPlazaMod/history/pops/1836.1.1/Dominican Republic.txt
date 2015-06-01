@@ -69,7 +69,7 @@
 		religion = catholic
 		size = 550
 	}
-	
+
 	clergymen = {
 		culture = caribeno
 		religion = catholic

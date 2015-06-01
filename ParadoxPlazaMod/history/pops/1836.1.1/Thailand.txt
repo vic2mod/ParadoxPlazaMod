@@ -29,9 +29,9 @@
 	artisans = {
 		culture = thai
 		religion = theravada
-		size = 10000
+		size = 11000
 	}
-
+	
 	artisans = {
 		culture = thai
 		religion = theravada
@@ -41,7 +41,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 2250
+		size= 2250
+
 	}
 
 	farmers = {
@@ -83,21 +84,21 @@
 	artisans = {
 		culture = yue
 		religion = mahayana
-		size = 10000
+		size = 11000
 	}
-
+	
 	artisans = {
 		culture = yue
 		religion = mahayana
-		size = 10000
+		size = 11000
 	}
-
+	
 	artisans = {
 		culture = yue
 		religion = mahayana
-		size = 10000
+		size = 11000
 	}
-
+	
 	artisans = {
 		culture = yue
 		religion = mahayana
@@ -107,7 +108,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 575
+		size= 575
+
 	}
 
 	farmers = {
@@ -139,7 +141,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -151,7 +154,7 @@
 	slaves = {
 		culture = thai
 		religion = theravada
-		size = 8000
+		size = 3000
 	}
 }
 #Nakhon Sawan (188000/47000 POPS)
@@ -177,7 +180,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -213,7 +217,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -245,7 +250,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -277,7 +283,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -309,7 +316,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -345,7 +353,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -391,7 +400,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -421,7 +431,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -451,7 +462,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -483,7 +495,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -513,7 +526,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -545,7 +559,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -575,7 +590,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	slaves = {
@@ -605,7 +621,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -651,7 +668,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {
@@ -687,7 +705,8 @@
 	soldiers = {
 		culture = shan
 		religion = theravada
-		size = 525
+		size= 525
+
 	}
 
 	farmers = {
@@ -725,7 +744,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -755,7 +775,8 @@
 	soldiers = {
 		culture = shan
 		religion = theravada
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -785,7 +806,8 @@
 	soldiers = {
 		culture = lao
 		religion = theravada
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -831,7 +853,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -861,7 +884,8 @@
 	soldiers = {
 		culture = lao
 		religion = theravada
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -899,7 +923,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -929,7 +954,8 @@
 	soldiers = {
 		culture = lao
 		religion = theravada
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -959,7 +985,8 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -993,7 +1020,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1023,7 +1051,8 @@
 	soldiers = {
 		culture = khmer
 		religion = theravada
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1047,7 +1076,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1058,7 +1088,7 @@
 }
 #Malaya Region (132000) #see Malaysia.txt for balance of region
 #under the rule of Siam in 1836
-#Pattani (132000/33000 POPS) #now part of Thailand   
+#Patani (132000/33000 POPS) #now part of Thailand   
 1392 = {
 	aristocrats = {
 		culture = malay
@@ -1081,7 +1111,8 @@
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1111,7 +1142,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {

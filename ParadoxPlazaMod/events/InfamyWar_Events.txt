@@ -329,6 +329,21 @@ country_event = {
 				any_owned_province = { continent = south_america }
 			}
 		}
+				modifier = {
+			factor = 2
+			any_greater_power = {
+				badboy = 2
+				is_disarmed = no
+				has_country_modifier = international_pariah
+				NOT = { has_country_modifier = punitive_effects }
+				NOT = { alliance_with = THIS }
+				NOT = { truce_with = THIS }
+				continent = north_america
+			}
+			NOT = {
+				any_owned_province = { continent = north_america }
+			}
+		}
 		modifier = {
 			factor = 2
 			war_policy = anti_military

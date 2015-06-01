@@ -149,6 +149,12 @@
 		religion = sunni
 		size = 2500
 	}
+	
+	farmers = {
+		culture = mashriqi
+		religion = catholic
+		size = 200
+	}	
 
 	clergymen = {
 		culture = greek

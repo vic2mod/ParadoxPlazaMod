@@ -2261,7 +2261,10 @@ province_event = {
 	
 	trigger = {
 		NOT = { is_core = CSA }
+		OR = {
 		continent = north_america
+		continent = south_america
+		}
 		owner = {
 			tag = USA
 			slavery = yes_slavery

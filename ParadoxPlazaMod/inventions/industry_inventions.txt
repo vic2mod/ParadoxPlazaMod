@@ -1064,7 +1064,6 @@ nitroglycerin = {
 		factory_goods_output = {
 			explosives = 0.02
 		} 
-		clr_global_flag = no_inorganic_africa
 	}
 }
 chemical_wood_pulp_process = {

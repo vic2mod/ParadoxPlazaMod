@@ -7,7 +7,13 @@
 		religion = catholic
 		size = 825
 	}
-	
+
+	bureaucrats = {
+		culture = afro_antillean
+		religion = catholic
+		size = 150
+	}
+
 	officers = {
 		culture = afro_antillean
 		religion = catholic
@@ -17,19 +23,27 @@
 	clergymen = {
 		culture = afro_antillean
 		religion = catholic
-		size = 175
+		size = 775
 	}
 
 	artisans = {
 		culture = afro_antillean
 		religion = catholic
-		size = 4050
+		size = 3900
 	}
 
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 100
+		size= 3000
+
+	}
+
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size= 1000
+
 	}
 
 	farmers = {
@@ -49,7 +63,7 @@
 	clergymen = {
 		culture = afro_antillean
 		religion = catholic
-		size = 75
+		size = 475
 	}
 
 	artisans = {
@@ -61,13 +75,14 @@
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 200
+		size= 1100
+
 	}
 
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 46825
+		size = 46425
 	}
 
 }

@@ -457,26 +457,4 @@ political_decisions = {
 			}
 		}
 	}
-	
-	build_the_eiffel_tower = {
-		picture = build_the_eiffel_tower
-		potential = {
-			tag = FRA
-			NOT = {
-				has_country_flag = the_eiffel_tower_was_built
-			}
-			
-			has_country_flag = world_fair_planner
-		}
-		
-		allow = {
-			cheap_steel = 1
-			money = 5000
-		}
-		
-		effect = {
-			country_event = 37236
-			set_country_flag = the_eiffel_tower_was_built
-		}
-	}
 }

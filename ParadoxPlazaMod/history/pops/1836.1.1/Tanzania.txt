@@ -35,7 +35,8 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -71,7 +72,8 @@
 	soldiers = {
 		culture = sukuma
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -103,7 +105,8 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -139,7 +142,8 @@
 	soldiers = {
 		culture = sukuma
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -171,7 +175,8 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -201,7 +206,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -228,7 +234,7 @@
 		religion = shiite
 		size = 500
 	}
-
+	
 	bureaucrats = {
 		culture = bedouin
 		religion = shiite
@@ -250,7 +256,8 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -290,7 +297,8 @@
 	soldiers = {
 		culture = yao
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -320,7 +328,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -364,7 +373,8 @@
 	soldiers = {
 		culture = yao
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -394,7 +404,8 @@
 	soldiers = {
 		culture = makua
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -432,7 +443,8 @@
 	soldiers = {
 		culture = unyamwezi
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -462,7 +474,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -498,7 +511,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -528,7 +542,8 @@
 	soldiers = {
 		culture = yao
 		religion = animist
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -562,7 +577,8 @@
 	soldiers = {
 		culture = unyamwezi
 		religion = animist
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -592,7 +608,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -628,7 +645,8 @@
 	soldiers = {
 		culture = sukuma
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -666,7 +684,8 @@
 	soldiers = {
 		culture = luo
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -696,7 +715,8 @@
 	soldiers = {
 		culture = unyamwezi
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -732,7 +752,8 @@
 	soldiers = {
 		culture = sukuma
 		religion = animist
-		size = 475
+		size= 475
+
 	}
 
 	farmers = {
@@ -762,7 +783,8 @@
 	soldiers = {
 		culture = rundi
 		religion = animist
-		size = 15
+		size= 15
+
 	}
 
 	farmers = {
@@ -792,7 +814,8 @@
 	soldiers = {
 		culture = ruanda
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -824,7 +847,8 @@
 	soldiers = {
 		culture = unyamwezi
 		religion = animist
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -854,7 +878,8 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -884,7 +909,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -920,7 +946,8 @@
 	soldiers = {
 		culture = sukuma
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -952,7 +979,8 @@
 	soldiers = {
 		culture = unyamwezi
 		religion = animist
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -982,7 +1010,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1018,7 +1047,8 @@
 	soldiers = {
 		culture = rundi
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1050,7 +1080,8 @@
 	soldiers = {
 		culture = sukuma
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1080,7 +1111,8 @@
 	soldiers = {
 		culture = maasai
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1110,7 +1142,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1144,7 +1177,8 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1154,39 +1188,40 @@
 	}
 
 	aristocrats = {
-		culture = mashriqi
+		culture = bedouin
 		religion = shiite
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = mashriqi
+		culture = bedouin
 		religion = shiite
 		size = 75
 	}
 
 	officers = {
-		culture = mashriqi
+		culture = bedouin
 		religion = shiite
 		size = 75
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = bedouin
 		religion = shiite
 		size = 50
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = bedouin
 		religion = shiite
 		size = 200
 	}
 
 	soldiers = {
-		culture = mashriqi
+		culture = bedouin
 		religion = shiite
-		size = 450
+		size= 450
+
 	}
 
 	aristocrats = {
@@ -1210,7 +1245,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {

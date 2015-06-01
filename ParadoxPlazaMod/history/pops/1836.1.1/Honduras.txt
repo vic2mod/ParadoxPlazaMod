@@ -42,7 +42,6 @@
 		culture = central_american
 		religion = catholic
 		size = 1450
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -82,7 +81,6 @@
 		culture = central_american
 		religion = catholic
 		size = 225
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -123,7 +121,6 @@
 		culture = central_american
 		religion = catholic
 		size = 175
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -164,7 +161,6 @@
 		culture = central_american
 		religion = catholic
 		size = 25
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}

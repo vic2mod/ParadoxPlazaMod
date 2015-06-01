@@ -31,14 +31,12 @@ political_decisions = {
 					}
 				owner = { political_reform = peonage }
 			}
-			
 			random_owned = {
 				limit = {
 					owner = { slavery = yes_slavery }
 					}
 				owner = { political_reform = no_slavery }
 			}
-			
 			random_owned = {
 				limit = {
 					owner = { slavery = freedom_of_womb }

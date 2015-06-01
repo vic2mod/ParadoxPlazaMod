@@ -35,7 +35,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -108,7 +109,8 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -126,7 +128,7 @@
 	clergymen = {
 		culture = assyrian
 		religion = catholic
-		size = 175
+		size = 475
 	}
 
 	artisans = {
@@ -146,6 +148,13 @@
 		religion = orthodox
 		size = 500
 	}
+	
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 525
+	}	
+	
 }
 #Arbil (104000/26000 POPS)
 924 = {
@@ -170,7 +179,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -200,7 +210,8 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -230,7 +241,8 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -286,7 +298,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -316,7 +329,8 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -346,7 +360,8 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -354,6 +369,12 @@
 		religion = sunni
 		size = 19375
 	}
+	
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 500
+	}	
 
 	clergymen = {
 		culture = assyrian
@@ -410,7 +431,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -447,7 +469,8 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -555,7 +578,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -593,7 +617,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -601,6 +626,12 @@
 		religion = sunni
 		size = 15475
 	}
+	
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 1975
+	}	
 
 	aristocrats = {
 		culture = bedouin
@@ -623,7 +654,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -655,7 +687,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -685,7 +718,8 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -715,7 +749,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -765,7 +800,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -795,7 +831,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -851,7 +888,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -881,7 +919,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -939,7 +978,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -973,7 +1013,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1003,7 +1044,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1033,7 +1075,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1089,7 +1132,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1119,7 +1163,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1175,7 +1220,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1205,7 +1251,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = shiite
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {

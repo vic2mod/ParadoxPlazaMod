@@ -47,7 +47,8 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
@@ -77,7 +78,8 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -101,7 +103,8 @@
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -139,7 +142,8 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 725
+		size= 725
+
 	}
 
 	farmers = {
@@ -169,7 +173,8 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {

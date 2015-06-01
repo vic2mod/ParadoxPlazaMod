@@ -61,6 +61,12 @@
 		religion = protestant
 		size = 100
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 2000
+	}	
 
 	aristocrats = {
 		culture = russian
@@ -147,11 +153,17 @@
 		religion = protestant
 		size = 1250
 	}
+	
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 1200
+	}	
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 250
 	}
 
 	artisans = {
@@ -175,7 +187,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
@@ -244,6 +256,11 @@
 		size = 75
 	}
 
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 6875
+	}
 }
 #Daugavpils (136000/34000 POPS)  
 356 = {
@@ -276,6 +293,12 @@
 		religion = protestant
 		size = 700
 	}
+	
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}	
 
 	clergymen = {
 		culture = north_german
@@ -393,16 +416,22 @@
 		size = 1150
 	}
 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 800
+	}	
+	
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 750
+		size = 1750
 	}
 
 	soldiers = {
@@ -467,16 +496,22 @@
 		size = 1200
 	}
 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 600
+	}	
+	
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 700
+		size = 1700
 	}
 
 	soldiers = {
@@ -550,9 +585,15 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 25
+		size = 225
 	}
 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 200
+	}	
+	
 	artisans = {
 		culture = north_german
 		religion = protestant
@@ -562,7 +603,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 25
+		size = 125
 	}
 
 	clergymen = {

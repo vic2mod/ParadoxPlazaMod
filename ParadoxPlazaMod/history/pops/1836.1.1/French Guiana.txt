@@ -29,7 +29,8 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -53,7 +54,8 @@
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -89,7 +91,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 5
+		size= 5
+
 	}
 
 	farmers = {
@@ -121,7 +124,8 @@
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {

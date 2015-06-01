@@ -35,13 +35,15 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -65,7 +67,8 @@
 	soldiers = {
 		culture = misri
 		religion = sunni
-		size = 300
+		size= 300
+
 	}
 
 	aristocrats = {
@@ -89,7 +92,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -133,7 +137,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -177,7 +182,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -207,7 +213,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -243,7 +250,8 @@
 	soldiers = {
 		culture = beja
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -275,7 +283,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -373,14 +382,21 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
 		culture = sudanese
 		religion = sunni
-		size = 17475
+		size = 12475
 	}
+	
+	farmers = {
+		culture = shilluk
+		religion = animist
+		size = 5475
+	}	
 
 	aristocrats = {
 		culture = dinka
@@ -403,7 +419,8 @@
 	soldiers = {
 		culture = dinka
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -453,7 +470,8 @@
 	soldiers = {
 		culture = nuer
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -483,7 +501,8 @@
 	soldiers = {
 		culture = dinka
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -527,7 +546,7 @@
 		religion = animist
 		size = 3025
 	}
-	
+
 	farmers = {
 		culture = shilluk
 		religion = animist
@@ -577,7 +596,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -607,7 +627,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -637,7 +658,8 @@
 	soldiers = {
 		culture = beja
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -675,7 +697,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -705,7 +728,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -735,7 +759,8 @@
 	soldiers = {
 		culture = beja
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -781,7 +806,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -811,7 +837,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -847,7 +874,8 @@
 	soldiers = {
 		culture = beja
 		religion = sunni
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -879,7 +907,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -909,7 +938,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -939,7 +969,8 @@
 	soldiers = {
 		culture = beja
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -971,7 +1002,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -1001,7 +1033,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1031,7 +1064,8 @@
 	soldiers = {
 		culture = beja
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1063,7 +1097,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1109,7 +1144,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -1121,8 +1157,15 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 19000
+		size = 13000
 	}
+	
+	slaves = {
+		culture = fur
+		religion = animist
+		size = 6000
+	}	
+	
 }
 #Nuhud (164000/41000 POPS)
 1839 = {
@@ -1159,7 +1202,8 @@
 	soldiers = {
 		culture = dinka
 		religion = animist
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {
@@ -1171,8 +1215,15 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 15000
+		size = 10000
 	}
+	
+	slaves = {
+		culture = fur
+		religion = animist
+		size = 5000
+	}	
+	
 }
 #Kaduqli (180000/45000 POPS)
 1840 = {
@@ -1209,7 +1260,8 @@
 	soldiers = {
 		culture = nuba
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1231,7 +1283,7 @@
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = shilluk
 		religion = animist
 		size = 150
 	}
@@ -1245,14 +1297,28 @@
 	soldiers = {
 		culture = shilluk
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 14625
+		size = 4625
 	}
+	
+	farmers = {
+		culture = shilluk
+		religion = animist
+		size = 5000
+	}	
+	
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 5625
+	}	
+	
 }
 #Darfur Region (376000)
 #uncolonized/Ruled by Sultans of Darfur in 1836
@@ -1291,7 +1357,8 @@
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -1329,7 +1396,8 @@
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1365,7 +1433,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1397,7 +1466,8 @@
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1427,7 +1497,8 @@
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -1463,7 +1534,8 @@
 	soldiers = {
 		culture = nuba
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1503,7 +1575,8 @@
 	soldiers = {
 		culture = sudanese
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1533,7 +1606,8 @@
 	soldiers = {
 		culture = dinka
 		religion = animist
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -1563,7 +1637,8 @@
 	soldiers = {
 		culture = nuer
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -1631,7 +1706,8 @@
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1661,7 +1737,8 @@
 	soldiers = {
 		culture = azande
 		religion = animist
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {

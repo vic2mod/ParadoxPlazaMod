@@ -29,13 +29,14 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 1250
+		size= 1250
+
 	}
 
 	artisans = {
 		culture = british
 		religion = protestant
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -85,7 +86,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 500
+		size= 500
+
 	}
 
 	labourers = {
@@ -115,7 +117,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -147,7 +150,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 1100
+		size= 1100
+
 	}
 
 	labourers = {
@@ -171,7 +175,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 250
+		size= 250
+
 	}
 
 	labourers = {
@@ -203,7 +208,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 500
+		size= 500
+
 	}
 
 	labourers = {
@@ -227,7 +233,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -262,7 +269,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -306,7 +314,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 2500
+		size= 2500
+
 	}
 
 	farmers = {
@@ -347,13 +356,13 @@
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -365,7 +374,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -395,7 +405,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -421,7 +432,7 @@
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -433,7 +444,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -465,7 +477,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -518,37 +531,38 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 2500
+		size= 2500
+
 	}
 
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 10000
+		size = 11000
 	}
 	
 	artisans = {
@@ -586,7 +600,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -618,7 +633,8 @@
 	soldiers = {
 		culture = irish
 		religion = catholic
-		size = 1100
+		size= 1100
+
 	}
 
 	labourers = {

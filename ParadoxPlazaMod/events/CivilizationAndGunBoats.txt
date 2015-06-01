@@ -531,6 +531,11 @@ country_event = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
 					}
+										AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
+					}
 				}
 			}
 			country_event = 13021
@@ -762,6 +767,11 @@ country_event = {
 						is_greater_power = yes
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
+					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
 					}
 				}
 			}
@@ -1118,6 +1128,11 @@ country_event = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
 					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
+					}
 				}
 			}
 			relation = { 
@@ -1333,6 +1348,11 @@ province_event = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
 					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
+					}
 				}
 			}
 			relation = { 
@@ -1429,6 +1449,11 @@ province_event = {
 						is_greater_power = yes
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
+					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
 					}
 				}
 			}
@@ -1535,6 +1560,11 @@ province_event = {
 						is_greater_power = yes
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
+					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
 					}
 				}
 			}
@@ -2325,6 +2355,11 @@ country_event = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
 					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
+					}
 				}
 			}
 			country_event = 13170
@@ -2391,6 +2426,11 @@ country_event = {
 					AND = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
+					}
+					AND = {
+					
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
 					}
 				}
 			}
@@ -2577,6 +2617,11 @@ country_event = {
 					AND = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
+					}
+					AND = {
+					
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
 					}
 				}
 			}
@@ -3153,6 +3198,11 @@ country_event = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
 					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
+					}
 				}
 			}
 			relation = {
@@ -3295,6 +3345,11 @@ country_event = {
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
 					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
+					}
 				}
 			}
 			relation = {
@@ -3368,6 +3423,11 @@ country_event = {
 						is_greater_power = yes
 						any_owned_province = { continent = south_america }
 						THIS = { continent = south_america }
+					}
+					AND = {
+						is_greater_power = yes
+						any_owned_province = { continent = north_america }
+						THIS = { continent = north_america }
 					}
 				}
 			}

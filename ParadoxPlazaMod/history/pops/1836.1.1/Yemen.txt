@@ -29,13 +29,14 @@
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -73,7 +74,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -117,13 +119,15 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 1175
+		size= 1175
+
 	}
 
 	farmers = {
@@ -162,7 +166,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -174,7 +179,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 2800
+		size = 2000
 	}
 }
 #Yemen Region (224000)  
@@ -214,7 +219,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = shiite
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -244,7 +250,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -288,13 +295,14 @@
 	artisans = {
 		culture = mashriqi
 		religion = sunni
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -324,7 +332,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -362,7 +371,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -392,7 +402,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = shiite
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -418,7 +429,8 @@
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 150
+		size= 150
+
 	}
 
 	aristocrats = {
@@ -442,7 +454,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -472,7 +485,8 @@
 	soldiers = {
 		culture = mashriqi
 		religion = shiite
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -502,7 +516,8 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {

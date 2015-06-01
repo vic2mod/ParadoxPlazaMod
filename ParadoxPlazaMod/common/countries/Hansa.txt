@@ -101,39 +101,39 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Adler von LÃ¼beck" "KÃ¶nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann LÃ¼neburg" "Hermann Messmann" "Hermann PlÃ¶nnies" "Simon Swerting" 
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	ironclad = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von LÃ¼beck" "KÃ¶nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann LÃ¼neburg" "Hermann Messmann" "Hermann PlÃ¶nnies" "Simon Swerting" 
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"		
 	}
 	manowar = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von LÃ¼beck" "KÃ¶nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann LÃ¼neburg" "Hermann Messmann" "Hermann PlÃ¶nnies" "Simon Swerting" 
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"		
 	}
 	cruiser = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von LÃ¼beck" "KÃ¶nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann LÃ¼neburg" "Hermann Messmann" "Hermann PlÃ¶nnies" "Simon Swerting" 
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"		
 	}
 	frigate = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von LÃ¼beck" "KÃ¶nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann LÃ¼neburg" "Hermann Messmann" "Hermann PlÃ¶nnies" "Simon Swerting" 
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	monitor = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Adler von LÃ¼beck" "KÃ¶nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann LÃ¼neburg" "Hermann Messmann" "Hermann PlÃ¶nnies" "Simon Swerting" 
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	clipper_transport = {
@@ -143,8 +143,8 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		LÃ¼beck Hansa Vulkan GroÃŸvogtei Schwartau TravemÃ¼nde "Von Evers" Gaedertz GÃ¼tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von ChasÃ´t" "Hermann Korner" Eschenburg BornhÃ¶ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Klaus StÃ¶rtebeker" "GÃ¶deke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" Likedeeler		
+		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Klaus Störtebeker" "Gödeke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" Likedeeler		
 	}
 }

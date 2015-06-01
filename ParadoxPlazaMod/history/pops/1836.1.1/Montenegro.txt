@@ -41,7 +41,8 @@
 	soldiers = {
 		culture = albanian
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	serfs = {
@@ -97,7 +98,8 @@
 	soldiers = {
 		culture = bosniak
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -142,7 +144,8 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -200,7 +203,8 @@
 	soldiers = {
 		culture = bosniak
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -219,23 +223,47 @@
 		size = 50
 	}
 
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 3900
+	}	
+
 	artisans = {
 		culture = croat
 		religion = catholic
-		size = 250
-	}
-
+		size = 440
+	}	
+	
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size = 50
+		size= 50
 	}
 
-	serfs = {
-		culture = croat
+	aristocrats = {
+		culture = north_italian
 		religion = catholic
-		size = 4650
+		size = 200 
+	}	
+	
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
 	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size= 180
+	}	
+	
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 700
+	}		
 
 	clergymen = {
 		culture = serb
@@ -252,7 +280,7 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 125
+		size= 175
 	}
 
 	farmers = {

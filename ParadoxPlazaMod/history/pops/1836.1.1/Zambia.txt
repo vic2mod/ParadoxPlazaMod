@@ -97,7 +97,7 @@
 	artisans = {
 		culture = lunda
 		religion = animist
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {
@@ -579,7 +579,7 @@
 	artisans = {
 		culture = lunda
 		religion = animist
-		size = 1100
+		size = 1000
 	}
 
 	soldiers = {

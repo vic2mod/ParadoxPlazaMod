@@ -318,6 +318,12 @@
 		size = 275
 	}
 
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 25
+	}	
+	
 	clergymen = {
 		culture = croat
 		religion = catholic
@@ -345,9 +351,15 @@
 	farmers = {
 		culture = croat
 		religion = catholic
-		size = 11325
+		size = 10000
 	}
 
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 1525
+	}	
+	
 	clergymen = {
 		culture = serb
 		religion = orthodox
@@ -529,7 +541,11 @@
 		religion = catholic
 		size = 50
 	}
-
+	bureaucrats = {
+		culture = south_german
+		religion = catholic
+		size = 25
+	}
 	artisans = {
 		culture = croat
 		religion = catholic
@@ -553,6 +569,12 @@
 		religion = catholic
 		size = 150
 	}
+	
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 10
+	}	
 
 	clergymen = {
 		culture = north_italian
@@ -563,8 +585,14 @@
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 1300
+		size = 1250
 	}
+	
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}	
 
 	soldiers = {
 		culture = north_italian
@@ -621,7 +649,7 @@
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size = 275
+		size = 275   
 	}
 
 	farmers = {
@@ -651,7 +679,7 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 100
+		size = 100   
 	}
 
 	serfs = {
@@ -681,7 +709,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size = 75
+		size = 75 
 	}
 
 	farmers = {
@@ -711,7 +739,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 50
+		size = 50  
 	}
 
 	farmers = {
@@ -789,13 +817,20 @@
 		religion = catholic
 		size = 450
 	}
+	
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 2350
+	}
+	
 }
 #Zadar (128000/32000 POPS)
 781 = {
 	aristocrats = {
 		culture = croat
 		religion = catholic
-		size = 250
+		size = 150
 	}
 
 	bureaucrats = {
@@ -834,6 +869,12 @@
 		size = 20525
 	}
 
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}	
+	
 	bureaucrats = {
 		culture = north_italian
 		religion = catholic
@@ -994,7 +1035,7 @@
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size = 175
+		size = 175 
 	}
 
 	serfs = {
@@ -1018,7 +1059,7 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 100
+		size = 100 
 	}
 
 	farmers = {
@@ -1048,7 +1089,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 25
+		size = 25     
 	}
 
 	farmers = {

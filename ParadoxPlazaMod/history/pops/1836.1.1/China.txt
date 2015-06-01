@@ -125,7 +125,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 250
+		size= 250
+
 	}
 }
 #Chizhou (5088000/1272000 POPS)
@@ -151,19 +152,22 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -193,7 +197,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 850
+		size= 850
+
 	}
 
 	farmers = {
@@ -227,7 +232,7 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
@@ -237,13 +242,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -273,7 +280,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -301,19 +309,19 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
@@ -323,13 +331,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2800
+		size= 2800
+
 	}
 
 	farmers = {
@@ -359,7 +369,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {
@@ -415,25 +426,29 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2100
+		size= 2100
+
 	}
 
 	farmers = {
@@ -463,7 +478,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -491,19 +507,19 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
@@ -513,13 +529,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2800
+		size= 2800
+
 	}
 
 	farmers = {
@@ -547,13 +565,13 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
@@ -563,13 +581,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 725
+		size= 725
+
 	}
 
 	farmers = {
@@ -585,7 +605,7 @@
 		religion = mahayana
 		size = 20900
 	}
-
+	
 	bureaucrats = {
 		culture = beifaren
 		religion = mahayana
@@ -647,7 +667,7 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
@@ -657,13 +677,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -705,13 +727,13 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = manchu
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = manchu
 		religion = mahayana
@@ -721,19 +743,22 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -763,7 +788,8 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -793,7 +819,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {
@@ -823,7 +850,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {
@@ -855,7 +883,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1425
+		size= 1425
+
 	}
 
 	farmers = {
@@ -885,7 +914,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -915,7 +945,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -947,7 +978,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -977,7 +1009,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -1019,7 +1052,7 @@
 		religion = mahayana
 		size = 11000
 	}
-
+	
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
@@ -1029,7 +1062,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2175
+		size= 2175
+
 	}
 
 	farmers = {
@@ -1059,7 +1093,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1107,13 +1142,15 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -1149,7 +1186,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -1173,7 +1211,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 200
+		size= 200
+
 	}
 }
 #Jianning (2520000/630000POPS)
@@ -1199,7 +1238,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1950
+		size= 1950
+
 	}
 
 	farmers = {
@@ -1229,7 +1269,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -1271,7 +1312,8 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 2125
+		size= 2125
+
 	}
 
 	farmers = {
@@ -1309,7 +1351,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -1351,7 +1394,8 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 2400
+		size= 2400
+
 	}
 
 	farmers = {
@@ -1383,7 +1427,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1950
+		size= 1950
+
 	}
 
 	farmers = {
@@ -1431,13 +1476,15 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -1479,13 +1526,15 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -1523,7 +1572,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -1553,7 +1603,8 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 1050
+		size= 1050
+
 	}
 
 	farmers = {
@@ -1564,7 +1615,7 @@
 }
 #Gansu Region (16020000)
 #under the rule of China in 1836
-#Gansu Jiayuguan(6048000/1512000 POPS)
+#Gansu (6048000/1512000 POPS)
 1488 = {
 	aristocrats = {
 		culture = beifaren
@@ -1623,13 +1674,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2100
+		size= 2100
+
 	}
 
 	farmers = {
@@ -1659,7 +1712,8 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	serfs = {
@@ -1689,7 +1743,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 675
+		size= 675
+
 	}
 
 	farmers = {
@@ -1731,13 +1786,15 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 1800
+		size= 1800
+
 	}
 
 	farmers = {
@@ -1767,7 +1824,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 }
 #Gongchang (2256000/554000 POPS)
@@ -1805,13 +1863,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -1841,7 +1901,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1891,13 +1952,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -1927,7 +1990,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -1957,7 +2021,8 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -1987,7 +2052,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 1700
+		size= 1700
+
 	}
 
 	farmers = {
@@ -2019,7 +2085,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1525
+		size= 1525
+
 	}
 
 	farmers = {
@@ -2049,7 +2116,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2079,7 +2147,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 675
+		size= 675
+
 	}
 
 	farmers = {
@@ -2129,13 +2198,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1675
+		size= 1675
+
 	}
 
 	farmers = {
@@ -2165,7 +2236,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -2229,7 +2301,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2250
+		size= 2250
+
 	}
 
 	farmers = {
@@ -2259,9 +2332,10 @@
 	soldiers = {
 		culture = zhuang
 		religion = animist
-		size = 550
+		size= 550
+
 	}
-	
+
 	farmers = {
 		culture = zhuang
 		religion = animist
@@ -2295,7 +2369,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -2325,7 +2400,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 1650
+		size= 1650
+
 	}
 
 	farmers = {
@@ -2355,7 +2431,8 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -2445,13 +2522,15 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -2475,7 +2554,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 }
 #Chaozhou (3600000/900000 POPS)
@@ -2507,13 +2587,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 750
+		size= 750
+
 	}
 
 	farmers = {
@@ -2543,7 +2625,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -2585,7 +2668,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -2617,7 +2701,8 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2671,13 +2756,15 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 2300
+		size= 2300
+
 	}
 
 	farmers = {
@@ -2703,7 +2790,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -2735,7 +2823,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 825
+		size= 825
+
 	}
 
 	farmers = {
@@ -2765,7 +2854,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 975
+		size= 975
+
 	}
 
 	farmers = {
@@ -2801,7 +2891,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1925
+		size= 1925
+
 	}
 
 	farmers = {
@@ -2833,7 +2924,8 @@
 	soldiers = {
 		culture = min
 		religion = mahayana
-		size = 975
+		size= 975
+
 	}
 
 	farmers = {
@@ -2881,13 +2973,15 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -2917,10 +3011,11 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 525
+		size= 525
+
 	}
 
-	serfs = {
+	farmers = {
 		culture = asian_minor
 		religion = animist
 		size = 46425
@@ -2949,7 +3044,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -2985,7 +3081,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 1750
+		size= 1750
+
 	}
 
 	farmers = {
@@ -3021,7 +3118,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -3065,7 +3163,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 2450
+		size= 2450
+
 	}
 
 	farmers = {
@@ -3098,7 +3197,8 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 25
+		size= 25
+
 	}
 
 	clergymen = {
@@ -3116,7 +3216,8 @@
 	soldiers = {
 		culture = yue
 		religion = catholic
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3140,7 +3241,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3187,7 +3289,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 925
+		size= 925
+
 	}
 
 	farmers = {
@@ -3223,7 +3326,8 @@
 	soldiers = {
 		culture = zhuang
 		religion = animist
-		size = 2950
+		size= 2950
+
 	}
 
 	farmers = {
@@ -3253,7 +3357,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -3283,7 +3388,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -3307,7 +3413,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 150
+		size= 150
+
 	}
 }
 #Guilin (4668000/1167000 POPS)
@@ -3339,7 +3446,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2625
+		size= 2625
+
 	}
 
 	farmers = {
@@ -3389,7 +3497,7 @@
 		religion = animist
 		size = 373325
 	}
-	
+
 	farmers = {
 		culture = zhuang
 		religion = protestant
@@ -3429,13 +3537,15 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -3471,7 +3581,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 625
+		size= 625
+
 	}
 
 	farmers = {
@@ -3509,7 +3620,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -3539,7 +3651,8 @@
 	soldiers = {
 		culture = zhuang
 		religion = animist
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -3569,7 +3682,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1175
+		size= 1175
+
 	}
 
 	farmers = {
@@ -3599,7 +3713,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -3651,7 +3766,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2575
+		size= 2575
+
 	}
 
 	farmers = {
@@ -3681,7 +3797,8 @@
 	soldiers = {
 		culture = zhuang
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -3711,7 +3828,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -3741,7 +3859,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -3765,7 +3884,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 100
+		size= 100
+
 	}
 }
 #Anshun (1876000/469000 POPS)
@@ -3797,7 +3917,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -3827,7 +3948,8 @@
 	soldiers = {
 		culture = zhuang
 		religion = animist
-		size = 1225
+		size= 1225
+
 	}
 
 	farmers = {
@@ -3857,7 +3979,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	serfs = {
@@ -3887,7 +4010,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -3937,7 +4061,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2550
+		size= 2550
+
 	}
 
 	farmers = {
@@ -3967,7 +4092,8 @@
 	soldiers = {
 		culture = zhuang
 		religion = animist
-		size = 1150
+		size= 1150
+
 	}
 
 	farmers = {
@@ -3997,7 +4123,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 525
+		size= 525
+
 	}
 
 	farmers = {
@@ -4040,7 +4167,6 @@
 		size = 49650
 	}
 
-
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
@@ -4080,7 +4206,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -4116,7 +4243,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 }
 #Guide (3248000/812000 POPS)
@@ -4160,13 +4288,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1750
+		size= 1750
+
 	}
 
 	farmers = {
@@ -4196,7 +4326,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -4246,13 +4377,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1875
+		size= 1875
+
 	}
 
 	farmers = {
@@ -4282,7 +4415,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -4344,13 +4478,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2775
+		size= 2775
+
 	}
 
 	farmers = {
@@ -4380,7 +4516,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -4430,13 +4567,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1800
+		size= 1800
+
 	}
 
 	farmers = {
@@ -4466,7 +4605,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -4516,13 +4656,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1750
+		size= 1750
+
 	}
 
 	farmers = {
@@ -4572,13 +4714,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1350
+		size= 1350
+
 	}
 
 	farmers = {
@@ -4646,13 +4790,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2300
+		size= 2300
+
 	}
 
 	farmers = {
@@ -4722,13 +4868,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -4758,7 +4906,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -4788,7 +4937,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -4812,7 +4962,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 }
 #Dean (4128000/1032000 POPS)
@@ -4868,13 +5019,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2325
+		size= 2325
+
 	}
 
 	farmers = {
@@ -4930,13 +5083,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1950
+		size= 1950
+
 	}
 
 	farmers = {
@@ -4966,7 +5121,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -4996,7 +5152,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -5052,13 +5209,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1750
+		size= 1750
+
 	}
 
 	farmers = {
@@ -5088,7 +5247,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {
@@ -5118,7 +5278,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -5168,13 +5329,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -5204,7 +5367,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -5254,13 +5418,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1750
+		size= 1750
+
 	}
 
 	farmers = {
@@ -5290,7 +5456,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -5320,7 +5487,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -5376,13 +5544,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1300
+		size= 1300
+
 	}
 
 	farmers = {
@@ -5412,7 +5582,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -5462,13 +5633,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1025
+		size= 1025
+
 	}
 
 	farmers = {
@@ -5504,7 +5677,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1450
+		size= 1450
+
 	}
 
 	farmers = {
@@ -5534,7 +5708,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 10
+		size= 10
+
 	}
 
 	farmers = {
@@ -5610,13 +5785,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2275
+		size= 2275
+
 	}
 
 	farmers = {
@@ -5652,7 +5829,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -5676,7 +5854,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 750
+		size= 750
+
 	}
 }
 #Changde (1616000/404000 POPS)
@@ -5708,13 +5887,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 650
+		size= 650
+
 	}
 
 	farmers = {
@@ -5744,7 +5925,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -5806,19 +5988,21 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1400
+		size= 1400
+
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 704600
+		size = 764600
 	}
 
 	serfs = {
@@ -5848,7 +6032,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -5904,13 +6089,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1475
+		size= 1475
+
 	}
 
 	farmers = {
@@ -5940,7 +6127,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1050
+		size= 1050
+
 	}
 
 	farmers = {
@@ -5978,7 +6166,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2450
+		size= 2450
+
 	}
 
 	farmers = {
@@ -6008,7 +6197,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -6058,13 +6248,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1600
+		size= 1600
+
 	}
 
 	farmers = {
@@ -6114,13 +6306,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -6150,7 +6344,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1175
+		size= 1175
+
 	}
 
 	farmers = {
@@ -6196,7 +6391,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 1050
+		size= 1050
+
 	}
 
 	farmers = {
@@ -6244,7 +6440,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 }
 #Jirim Chuulghan (152000/38000 POPS)
@@ -6270,7 +6467,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -6318,7 +6516,8 @@
 	soldiers = {
 		culture = siberian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -6350,7 +6549,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -6382,7 +6582,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 1125
+		size= 1125
+
 	}
 
 	farmers = {
@@ -6470,13 +6671,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -6536,13 +6739,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -6572,7 +6777,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 }
 #Huaian (3148000/787000 POPS)
@@ -6598,7 +6804,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -6646,13 +6853,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1325
+		size= 1325
+
 	}
 
 	farmers = {
@@ -6720,19 +6929,22 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1375
+		size= 1375
+
 	}
 
 	farmers = {
@@ -6768,7 +6980,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1950
+		size= 1950
+
 	}
 
 	farmers = {
@@ -6806,7 +7019,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 675
+		size= 675
+
 	}
 
 	farmers = {
@@ -6874,13 +7088,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2625
+		size= 2625
+
 	}
 
 	farmers = {
@@ -6910,7 +7126,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1800
+		size= 1800
+
 	}
 
 	farmers = {
@@ -7060,19 +7277,22 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -7102,7 +7322,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -7134,7 +7355,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1200
+		size= 1200
+
 	}
 
 	farmers = {
@@ -7176,7 +7398,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -7208,7 +7431,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1125
+		size= 1125
+
 	}
 
 	farmers = {
@@ -7256,13 +7480,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1250
+		size= 1250
+
 	}
 
 	farmers = {
@@ -7312,19 +7538,21 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 850
+		size= 850
+
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 501375
+		size = 532375
 	}
 	
 	farmers = {
@@ -7366,7 +7594,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2050
+		size= 2050
+
 	}
 
 	farmers = {
@@ -7430,13 +7659,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2025
+		size= 2025
+
 	}
 
 	farmers = {
@@ -7478,7 +7709,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1575
+		size= 1575
+
 	}
 
 	farmers = {
@@ -7508,7 +7740,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -7538,7 +7771,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -7562,7 +7796,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 }
 #Guangxin (2960000/740000 POPS)
@@ -7600,13 +7835,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 275
+		size= 275
+
 	}
 
 	farmers = {
@@ -7636,7 +7873,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1525
+		size= 1525
+
 	}
 
 	farmers = {
@@ -7666,7 +7904,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 625
+		size= 625
+
 	}
 
 	farmers = {
@@ -7716,13 +7955,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -7782,13 +8023,15 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 2950
+		size= 2950
+
 	}
 
 	farmers = {
@@ -7832,7 +8075,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2900
+		size= 2900
+
 	}
 
 	farmers = {
@@ -7862,7 +8106,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 1275
+		size= 1275
+
 	}
 
 	farmers = {
@@ -7930,7 +8175,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1950
+		size= 1950
+
 	}
 
 	farmers = {
@@ -7960,7 +8206,8 @@
 	soldiers = {
 		culture = hakka
 		religion = mahayana
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {
@@ -8022,19 +8269,22 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 775
+		size= 775
+
 	}
 
 	farmers = {
@@ -8064,7 +8314,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 600
+		size= 600
+
 	}
 
 	farmers = {
@@ -8108,13 +8359,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -8144,7 +8397,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1525
+		size= 1525
+
 	}
 
 	farmers = {
@@ -8208,19 +8462,22 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 2000
+		size= 2000
+
 	}
 
 	farmers = {
@@ -8250,7 +8507,8 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -8288,13 +8546,15 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 800
+		size= 800
+
 	}
 
 	farmers = {
@@ -8324,7 +8584,8 @@
 	soldiers = {
 		culture = siberian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -8362,7 +8623,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 2300
+		size= 2300
+
 	}
 
 	farmers = {
@@ -8392,7 +8654,8 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -8430,7 +8693,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 2500
+		size= 2500
+
 	}
 
 	farmers = {
@@ -8460,7 +8724,8 @@
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -8492,7 +8757,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -8522,7 +8788,8 @@
 	soldiers = {
 		culture = siberian
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -8550,7 +8817,8 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 925
+		size= 925
+
 	}
 
 	farmers = {
@@ -8580,7 +8848,8 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -8606,7 +8875,6 @@
 		religion = sunni
 		size = 400
 	}
-
 
 	soldiers = {
 		culture = beifaren
@@ -8653,7 +8921,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 175
+		size= 175
+
 	}
 
 	farmers = {
@@ -8691,7 +8960,6 @@
 		religion = gelugpa
 		size = 5000
 	}
-
 }
 #Balekungomi (364000/91000 POPS)
 1557 = {
@@ -8752,7 +9020,8 @@
 	soldiers = {
 		culture = kazak
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	labourers = {
@@ -8782,7 +9051,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 10
+		size= 10
+
 	}
 
 	labourers = {
@@ -8816,7 +9086,7 @@
 		religion = gelugpa
 		size = 400
 	}
-	
+
 	clergymen = {
 		culture = tibetan
 		religion = gelugpa
@@ -8832,7 +9102,8 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -8862,7 +9133,8 @@
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -8892,7 +9164,8 @@
 	soldiers = {
 		culture = kazak
 		religion = animist
-		size = 125
+		size= 125
+
 	}
 
 	farmers = {
@@ -8922,7 +9195,8 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 475
+		size= 475
+
 	}
 
 	farmers = {
@@ -8992,13 +9266,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1500
+		size= 1500
+
 	}
 
 	farmers = {
@@ -9028,7 +9304,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 425
+		size= 425
+
 	}
 
 	farmers = {
@@ -9052,7 +9329,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 }
 #Yenan (1088000/272000 POPS)
@@ -9084,7 +9362,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2550
+		size= 2550
+
 	}
 
 	farmers = {
@@ -9114,7 +9393,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -9152,13 +9432,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -9188,7 +9470,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -9230,7 +9513,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2425
+		size= 2425
+
 	}
 
 	farmers = {
@@ -9274,13 +9558,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -9310,7 +9596,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -9398,19 +9685,22 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -9446,7 +9736,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 725
+		size= 725
+
 	}
 
 	farmers = {
@@ -9470,7 +9761,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 1500
+		size= 1500
+
 	}
 }
 #Caozhou (3704000/926000 POPS)
@@ -9520,13 +9812,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2275
+		size= 2275
+
 	}
 
 	farmers = {
@@ -9564,7 +9858,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 5100
+		size= 3000
+
 	}
 
 	farmers = {
@@ -9602,7 +9897,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -9658,13 +9954,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2850
+		size= 2850
+
 	}
 
 	farmers = {
@@ -9720,13 +10018,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2225
+		size= 2225
+
 	}
 
 	farmers = {
@@ -9758,7 +10058,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -9814,13 +10115,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2250
+		size= 2250
+
 	}
 
 	farmers = {
@@ -9876,13 +10179,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2875
+		size= 2875
+
 	}
 
 	farmers = {
@@ -9925,7 +10230,6 @@
 		size = 59750
 	}
 
-
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
@@ -9965,7 +10269,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -9989,7 +10294,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 375
+		size= 375
+
 	}
 }
 #Fenzhou (3412000/853000 POPS)
@@ -10039,19 +10345,22 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2450
+		size= 2450
+
 	}
 
 	farmers = {
@@ -10081,7 +10390,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -10137,13 +10447,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2300
+		size= 2300
+
 	}
 
 	farmers = {
@@ -10173,7 +10485,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -10229,13 +10542,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1425
+		size= 1425
+
 	}
 
 	farmers = {
@@ -10265,7 +10580,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -10297,7 +10613,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 575
+		size= 575
+
 	}
 
 	farmers = {
@@ -10327,7 +10644,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -10385,13 +10703,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2600
+		size= 2600
+
 	}
 
 	farmers = {
@@ -10471,13 +10791,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2800
+		size= 2800
+
 	}
 
 	farmers = {
@@ -10501,7 +10823,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 750
+		size= 750
+
 	}
 }
 #Baotung (4268000/1067000 POPS)
@@ -10563,13 +10886,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2675
+		size= 2675
+
 	}
 
 	farmers = {
@@ -10613,7 +10938,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2500
+		size= 2500
+
 	}
 
 	farmers = {
@@ -10649,7 +10975,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 2700
+		size= 2700
+
 	}
 
 	farmers = {
@@ -10685,7 +11012,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 1125
+		size= 1125
+
 	}
 
 	farmers = {
@@ -10715,7 +11043,8 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -10777,13 +11106,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2750
+		size= 2750
+
 	}
 
 	farmers = {
@@ -10827,13 +11158,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2550
+		size= 2550
+
 	}
 
 	farmers = {
@@ -10863,7 +11196,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 25
+		size= 25
+
 	}
 
 	farmers = {
@@ -10893,7 +11227,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 1050
+		size= 1050
+
 	}
 
 	farmers = {
@@ -10923,7 +11258,8 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -10985,19 +11321,22 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -11053,13 +11392,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1600
+		size= 1600
+
 	}
 
 	farmers = {
@@ -11103,13 +11444,15 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1300
+		size= 1300
+
 	}
 
 	farmers = {
@@ -11139,7 +11482,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -11169,7 +11513,8 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 1850
+		size= 1850
+
 	}
 
 	farmers = {
@@ -11213,7 +11558,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2525
+		size= 2525
+
 	}
 
 	farmers = {
@@ -11243,7 +11589,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	serfs = {
@@ -11273,7 +11620,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	serfs = {
@@ -11303,7 +11651,8 @@
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 1625
+		size= 1625
+
 	}
 
 	farmers = {
@@ -11361,19 +11710,22 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 775
+		size= 775
+
 	}
 
 	farmers = {
@@ -11433,7 +11785,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	serfs = {
@@ -11463,7 +11816,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -11493,7 +11847,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 525
+		size= 525
+
 	}
 
 	farmers = {
@@ -11523,7 +11878,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 250
+		size= 250
+
 	}
 }
 #Dali (1216000/304000 POPS)
@@ -11549,7 +11905,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 575
+		size= 575
+
 	}
 
 	farmers = {
@@ -11585,7 +11942,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 2700
+		size= 2700
+
 	}
 
 	farmers = {
@@ -11615,9 +11973,10 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 275
+		size= 275
+
 	}
-	
+
 	farmers = {
 		culture = yi
 		religion = animist
@@ -11630,7 +11989,7 @@
 		size = 24575
 	}
 }
-#Puer (1420000/355000 POPS)
+#Paer (1420000/355000 POPS)
 1603 = {
 	aristocrats = {
 		culture = nanfaren
@@ -11653,7 +12012,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -11707,7 +12067,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -11737,7 +12098,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -11767,7 +12129,8 @@
 	soldiers = {
 		culture = yi
 		religion = animist
-		size = 325
+		size= 325
+
 	}
 
 	farmers = {
@@ -11803,7 +12166,8 @@
 	soldiers = {
 		culture = yue
 		religion = mahayana
-		size = 1175
+		size= 1175
+
 	}
 
 	farmers = {
@@ -11873,7 +12237,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 2750
+		size= 2750
+
 	}
 
 	farmers = {
@@ -11927,7 +12292,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1375
+		size= 1375
+
 	}
 
 	farmers = {
@@ -11957,7 +12323,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	farmers = {
@@ -11987,7 +12354,8 @@
 	soldiers = {
 		culture = min
 		religion = animist
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -12011,7 +12379,8 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 }
 #Huzhou (376000/94000 POPS)
@@ -12067,7 +12436,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 575
+		size= 575
+
 	}
 
 	farmers = {
@@ -12105,7 +12475,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -12141,7 +12512,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 375
+		size= 375
+
 	}
 
 	farmers = {
@@ -12197,7 +12569,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2250
+		size= 2250
+
 	}
 
 	labourers = {
@@ -12263,7 +12636,8 @@
 	soldiers = {
 		culture = min
 		religion = animist
-		size = 825
+		size= 825
+
 	}
 
 	farmers = {
@@ -12295,7 +12669,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1675
+		size= 1675
+
 	}
 
 	farmers = {
@@ -12331,7 +12706,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1225
+		size= 1225
+
 	}
 
 	farmers = {
@@ -12345,7 +12721,6 @@
 		religion = protestant
 		size = 500
 	}
-	
 }
 #Shaoxing (872000/218000 POPS)
 1609 = {
@@ -12370,7 +12745,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -12400,7 +12776,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1300
+		size= 1300
+
 	}
 
 	farmers = {
@@ -12414,7 +12791,6 @@
 		religion = protestant
 		size = 300
 	}
-	
 }
 #Taizhou (1684000/421000 POPS)
 1610 = {
@@ -12451,7 +12827,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2225
+		size= 2225
+
 	}
 
 	farmers = {
@@ -12495,7 +12872,8 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2200
+		size= 2200
+
 	}
 
 	farmers = {
@@ -12525,7 +12903,8 @@
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -12536,7 +12915,7 @@
 }
 #Zhili Region (34868000)
 #under the rule of China in 1836
-#Beijing - Baoding (4956000/1239000 POPS)
+#Beijing (4956000/1239000 POPS)
 1612 = {
 	aristocrats = {
 		culture = beifaren
@@ -12614,7 +12993,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 450
+		size= 450
+
 	}
 
 	farmers = {
@@ -12700,7 +13080,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -12742,37 +13123,43 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 900
+		size= 900
+
 	}
 
 	farmers = {
@@ -12828,13 +13215,15 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1425
+		size= 1425
+
 	}
 
 	farmers = {
@@ -12896,19 +13285,22 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -12970,19 +13362,22 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -13024,25 +13419,29 @@
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	farmers = {
@@ -13110,7 +13509,8 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -13178,19 +13578,22 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 600
+		size= 600
+
 	}
 
 	farmers = {

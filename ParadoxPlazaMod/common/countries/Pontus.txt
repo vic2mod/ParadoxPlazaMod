@@ -129,7 +129,7 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Kilkis Aspis "Vasilefs Konstantinos" Salamis Athina Constantinopolis Sparta Leonidas "M√©gas Al√©xandros" Pericles Olympias 
+		Kilkis Aspis "Vasilefs Konstantinos" Salamis Athina Constantinopolis Sparta Leonidas "MÈgas AlÈxandros" Pericles Olympias 
 	}
 	ironclad = {
 		Karteria Panopi Pliksavra Afroessa Sfendoni Hydra Spetsai Psara Limnos "Vasilissa Olga" 
@@ -138,13 +138,13 @@ unit_names = {
 		"Nikolis Apostolis" Tombazis Poros "Andreas Vokos" "Laskarina Bouboulina" "Constantine Kanaris" Plixavra Averof 
 	}
 	cruiser = {
-		"Navarhos Miaoulis" "Georgios Averof" Elli "Antinaurkos Condoriotis" "Lambros Katsonis" √Årgos Agamemnon Gy√°ros Tilemachos Delfo√≠
+		"Navarhos Miaoulis" "Georgios Averof" Elli "Antinaurkos Condoriotis" "Lambros Katsonis" ¡rgos Agamemnon Gy·ros Tilemachos DelfoÌ
 	}
 	frigate = {
-		Hellas Navarino Psara "Prinkips Maximilianos" Maxamillianos "Mount Othrys" Th√≠va Skirka Heratos Aeolus
+		Hellas Navarino Psara "Prinkips Maximilianos" Maxamillianos "Mount Othrys" ThÌva Skirka Heratos Aeolus
 	}
 	monitor = {
-		Sfendoni Thessal√≠a Apeiros Attik√≠ Pelop√≥nnisos Circe Eur√Ωkleia Aiolia Kriti R√≥dos
+		Sfendoni ThessalÌa Apeiros AttikÌ PelopÛnnisos Circe Eur˝kleia Aiolia Kriti RÛdos
 	}
 	clipper_transport = { 
 		 
@@ -155,6 +155,6 @@ unit_names = {
 
 	}
 	commerce_raider = {
-		Aetos Ierax Leon Panthir Ifestos Makedon√≠a Naxos √âvia Limnos Zakynthos
+		Aetos Ierax Leon Panthir Ifestos MakedonÌa Naxos …via Limnos Zakynthos
 	}
 }

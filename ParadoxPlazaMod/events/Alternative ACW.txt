@@ -331,7 +331,10 @@ province_event = {
 		NOT = { is_core = CSA }
 		NOT = { is_core = FSA }
 		is_core = USA
-		continent = north_america
+		OR = {
+			continent = south_america 
+			continent = north_america
+			}
 		owner = {
 			tag = USA
 			slavery = yes_slavery

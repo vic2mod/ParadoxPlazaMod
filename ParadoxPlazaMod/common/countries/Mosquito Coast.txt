@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"CristÃ³bal ColÃ³n" DiriangÃ©n "Emiliano Chamorro" "Fruto Chamorro" "JosÃ© NÃºÃ±ez" Libertad "Manuel de la Cerda" Nicaragua Nicarao "Patricio Rivas"
+		"Cristóbal Colón" Diriangén "Emiliano Chamorro" "Fruto Chamorro" "José Núñez" Libertad "Manuel de la Cerda" Nicaragua Nicarao "Patricio Rivas"
 	}
 	ironclad = {
-		Caribe Cocibolca Coco Escondido "HernÃ¡ndez de CÃ³rdoba" Intendencia Prinzapolka "RÃ­o Grande" "San Juan" XolotlÃ¡n
+		Caribe Cocibolca Coco Escondido "Hernández de Córdoba" Intendencia Prinzapolka "Río Grande" "San Juan" Xolotlán
 	}
 	manowar = {
-		Avance ColÃ³n Florida Navegante "Sagrada Familia" "San JosÃ©" "Santa MarÃ­a" Santiago Ventoso Ventura
+		Avance Colón Florida Navegante "Sagrada Familia" "San José" "Santa María" Santiago Ventoso Ventura
 	}
 	cruiser = {
-		CaribÃ­ Chorotega Descubridor DiriÃ¡n Matagalpa Miskito Nagrandano Niquirano Rama Sumo
+		Caribí Chorotega Descubridor Dirián Matagalpa Miskito Nagrandano Niquirano Rama Sumo
 	}
 	frigate = {
-		Boaco Carazo EstelÃ­ Granada Jinotega LeÃ³n Madriz Managua Masaya "San Carlos"
+		Boaco Carazo Estelí Granada Jinotega León Madriz Managua Masaya "San Carlos"
 	}
 	monitor = {
-		ConcepciÃ³n Consiguina "Las Lajas" "Las Pilas" Maderas Mombacho Momotombo Rota "San CristÃ³bal" Telica
+		Concepción Consiguina "Las Lajas" "Las Pilas" Maderas Mombacho Momotombo Rota "San Cristóbal" Telica
 	}
 	clipper_transport = {
 		Beatriz Centroamericana Chocoyo Fauna Flora Guardabarranco Indesplazable Inmaculada Jaguar Laura
-		"Mono AraÃ±a" NicaragÃ¼ita Ocelote Patricia Raquel Salvaje Sirena TitÃ¡nico Tortuga TucÃ¡n
+		"Mono Araña" Nicaragüita Ocelote Patricia Raquel Salvaje Sirena Titánico Tortuga Tucán
 	}
 	steam_transport = {
 		Beatriz Centroamericana Chocoyo Fauna Flora Guardabarranco Indesplazable Inmaculada Jaguar Laura
-		"Mono AraÃ±a" NicaragÃ¼ita Ocelote Patricia Raquel Salvaje Sirena TitÃ¡nico Tortuga TucÃ¡n
+		"Mono Araña" Nicaragüita Ocelote Patricia Raquel Salvaje Sirena Titánico Tortuga Tucán
 	}
 	commerce_raider = {
-		Destructor Feroz Invencible Mortal Neptuno NicaragÃ¼ense RepÃºblica Sirena Terremoto TritÃ³n
+		Destructor Feroz Invencible Mortal Neptuno Nicaragüense República Sirena Terremoto Tritón
 	}
 }

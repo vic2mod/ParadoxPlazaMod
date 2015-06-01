@@ -1,4 +1,57 @@
 ;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+IN_SOCIAL_MOVEMENT;in social movement\n;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NOT_IN_SOCIAL_MOVEMENT;not in social movement\n;;;;;;;;;;;;;;;;;;;;;;;x
+IN_POLITICAL_MOVEMENT;in political movement\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NOT_IN_POLITICAL_MOVEMENT;not in political movement\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;x	
+NEUTRALITY_EFFECT;The nation becomes neutral, dissolving all alliances and setting all satellites free.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+INFLUENCE_CHANGE;§Y$ACTIVE$§W influence with §Y$PASSIVE$§W changes by $MUCH$.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+THE_CAPITAL_IS_NOT;The Capital Is Not ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ENDGAME_DESC;One hundred momentous years have passed and we have entered the modern age. The world is a radically different place, how did your country do?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA;Americas;;;;;;;;;;x;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA;Near East;;;;;;;;;;x;;;;
+DIPLOMACY_FILTER_SOUTH_AMERICA_TOOLTIP;List §YNear Eastern§W countries;;;;;;;;;;;;;;;;x;;;;
+DIPLOMACY_FILTER_NORTH_AMERICA_TOOLTIP;List §YAmerican§W countries;;;;;;;;;;;;;;;;;x;;;;
+north_america;Americas;;;;;;;;;;;;;;;;;;;;;;;x
+south_america;Near East;;;;;;;;;;;;;;;;;;;;;;;x
+siberian;Siberian Minor;;;;;;;;;;;;;;;;;;;;;;;x
+tanzimat_reforms_enacted;Tanzimat Reforms Enacted;;;;;;;;;;;;;;;;;;;;;;;;x;
+indo_iranian;Indo-Iranian;;;;;;;;;;;;;;;;;;;;;;;;x;
+yazidi;Yazidi;;;;;;;;;;;;;;;;;;;;;;;;x;
+yazidi_group;Yazidi Group;;;;;;;;;;;;;;;;;;;;;;;;x;
+islamic_law;Islamic Law;;;;;;;;;;;;;;;;;;;;;;;;x;
+EFFECT_CRISIS_INTEREST;$COUNTRY$ declares interest in the current crisis\n;;;;;;;;;;;;;;;;;;;;;;;;x;
+NORMAL_WAR_NAME_FASCISM;The $ORDER$$FIRST$-$SECOND$ Blackshirt Revolution;;;;;;;;;;;;;;;;;;x,,,
+AGRESSION_WAR_NAME_FASCISM;The $ORDER$$FIRST$-$SECOND$ Blackshirt Revolution;;;;;;;;;;;;;;;;;;x,,,
+NORMAL_WAR_NAME_COMMUNISM;The $ORDER$$FIRST$-$SECOND$ Revolutionary War;;;;;;;;;;;;;;;;;;x,,,
+AGRESSION_WAR_NAME_COMMUNISM;The $ORDER$$FIRST$-$SECOND$ Revolutionary War;;;;;;;;;;;;;;;;;;x,,,
+NORMAL_WAR_NAME_DEMOCRACY;$ORDER$$FIRST$-$SECOND$ Counterrevolution;;;;;;;;;;;;;;;;;;x,,,
+AGRESSION_WAR_NAME_DEMOCRACY;$ORDER$$FIRST$-$SECOND$ Counterrevolution;;;;;;;;;;;;;;;;;;x,,,
+aristocrats;Landowners;;;;;;;;;;;;;;;;;;;;x;;;;
+appointed_desc;Landowners or capitalists have been assigned seats in the Upper House by the leader of the country.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+landed_voting_desc;Only landowners and Capitalists may vote.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+promote_aristocrats;Encourage Landowners ;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ELECTIONSTART_1;The Elections of $COUNTRY$ are starting;;;;;;;;;;;;;;;;;;;;;;x;;;;
+sepoy_rebellion;Sepoy Rebellion;;;;;;;;;;;;;;;;;;;;;x
+berlin_conference;Berlin Conference;;;;;;;;;;;;;;;;;;;;;x
+IS_SUBSTATE_OF;Is a substate;;;;;;;;;;;;;;;;;;;;;x
+IS_NOT_SUBSTATE_OF;Is NOT a substate;;;;;;;;;;;;;;;;;;;;x
+public_illumination;Public Illumination;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+czech_tech_school;Škoda Works;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+IS_NOT_IN_A_SPHERE;Not in a sphere of influence.;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+HOLD_ELECTION_BUTTON;Hold Election;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+HOLD_ELECTION;Hold Election\n;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NATIONALIZE_INDUSTRY_EFFECT;Perform Nationalization\n;;;;;;;;;;;;;;;;;;;;;;;;;x
+2nd_caucasian_war;Second Caucasian War;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+RELEASE;Release §Y$WHO$§W as an independent state.\n;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+modern_central_bank_system_invented;Modern Central Banking System Invented;;;;;;;;;;;;;;;;;;;;x;;;;
+PEACE_WE_ACCEPT_2;We have accepted a peace offer from;;;;;;;;;;;;;;;;;;;;;x;;;;
+administrative_efficiency_modifier;Administrative Efficiency;;;;;;;;;;;;;;;;;;;;;;;;;x
+MODIFIER_ADMINISTRATIVE_EFFICIENCY;Administrative Efficiency;;;;;;;;;;;;;;;;;;;;;;;;;x
+in_great_war;In Great War;;;;;;;;;;;;;;;;;;;;;;x;;;;
+fascist_rebels_title;Fascist;;;;;;;;;;;;;;;;;;;;;;x;;;;
+fascist_rebels_name;$COUNTRY$ Fascists;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+fascist_rebels_desc;The Black Guard paramilitary organizations are revolutionaries driven by the radical new ideology of fascism. Labouring under the dogmas of violence and mass action, these battle trained revolutionaries will stop at nothing to overthrow old monarchies and young democracies alike, and replace them all with the absolutes of the Leviathan fascist state.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+fascist_rebels_army;$COUNTRY_ADJ$ Paramilitary;;;;;;;;;;;;;;;;;;;x;;;;
 dagestani;Dagestani;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 circassian;Circassian;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 chechen;Chechen;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -39,7 +92,7 @@ semi_constitutional_monarchy_gov;Semi-Constitutional Monarchy;;;;;;;;;;;;;x,,,,,
 constitutional_monarchy_gov;Constitutional Monarchy;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 democracy_gov;Democracy;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 presidential_dictatorship_gov;Presidential Dictatorship;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-fascist_gov:Fascist Regime;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+fascist_gov;Fascist Regime;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 anarcho_liberal_gov;Anarcho-Liberal Regime;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 serfs;Serfs;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 TRIGGER_STATE;State;;;;;;;;;;;;;;;;x;;;;
@@ -240,7 +293,6 @@ prussian_constitutionalism;Semi-Constitutional Monarchy;;;;;;;;;;;;;;;;;;;;;;;;;
 hms_government;Constitutional Monarchy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
 market_structure;Market Structure;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
 former_sphere_leader;Former Sphere Leader;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
-berlin_conference;Berlin Conference;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
 former_overlord;Former Overlord;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
 cisplatina_is_ours;Cisplatina is Ours;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 pessimist;Pessimist;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
@@ -249,11 +301,6 @@ anti__rationalism;Anti - Rationalism;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 time_saving_measures;Time-Saving Measures;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 time_saving_measures_desc;Time-Saving Measures;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 FOCUS_OWNED_BY;You can not place national focus in someone else's province unless it is a potential flashpoint for your cores. Encouraging flashpoint tension requires Revolution & Counterrevolution to be researched.;;;;;;;;;;;;;;;;;;;;;;;x
-PROV689;Teschen;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1773;Saguia el-Hamra;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1178;Sana'a;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV969;Olviopol;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV972;Yekaterinoslav;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 residency_desc;Only people of your nation's primary culture are allowed to vote.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;
 secularized_desc;Religion is not explicitly part of state policy, but the state tips its hat to traditional religious values.;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dismantle_declared;Dismantled;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -442,3 +489,47 @@ low_schools_desc;Public Schools are uncommon.;Les écoles publiques sont rares.;Ö
 acceptable_schools_desc;Public Schools are common.;Les écoles publiques sont fréquentes.;Öffentliche Schulen sind verbreitet.;;;;;;;;;;;x
 good_schools_desc;There are really a lot of Public Schools.;Il y a beaucoup d'écoles publiques.;Es gibt wirklich viele öffentliche Schulen.;;;;;;;;;;;x
 womens_suffrage_movement;Women's Suffrage Movement;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+assyrian;Assyrian;;;;;;;;;;;;x
+xhosa;Xhosa;;;;;;;;;;;;x
+arabic;Arabic;;;;;;;;;;;;x
+breton;Breton;;;;;;;;;;;;x
+pan_albanian;Albanian;;;;;;;;;;;;x
+occitan;Occitan;Occitain;Occitanisch;;;;;;;;;;;x
+picard;Picard;;;;;;;;;;;;x
+western_slavic;Western Slavic Minor;;;;;;;;;;;;x
+anglo_african;Anglo African;;;;;;;;;;;;x
+jewish_cultures;Jewish Cultures;;;;;;;;;;;;x
+itsekari;Ijaw;;;;;;;;;;;;x
+kuba;Bashong;;;;;;;;;;;;x
+harari;Harari;;;;;;;;;;;;x
+kefficho;Kefficho;;;;;;;;;;;;x
+mormon;Mormon;;;;;;;;;;;;x
+separatist_rebels_title;Patriot;;;;;;;;;;;;x,,
+separatist_rebels_name;$CULTURE$ Patriots;;;;;;;;;;;;x,,
+separatist_rebels_desc;Patriot rebels dream of unification with their cultural kin under a free banner, and any province they gain control of will eventually defect to a neighboring country of their culture.;;;;;;;;;;;;x,
+separatist_rebels_army;$CULTURE$ Patriots;;;;;;;;;;;;x,,
+indian_nationalists_title;Indian Nationalist;Pan-nationalistes;Pan-Nationalisten;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+indian_nationalists_name;Indian Nationalists;$UNION_ADJ$ - Pan-nationalistes;$UNION_ADJ$ Pan-Nationalisten;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+indian_nationalists_desc;Indian nationalists seek to unify the sub-continent into a free and independent nation-state, by any means necessary. This includes breaking free from foreign oppressors and uniting with their cultural kin.;;;;;;;;;;;;x,
+indian_nationalists_army;Indian Nationalists;$UNION$ - Jeunes brigades;Junge $UNION$ Brigaden;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+socialist_rebels_title;Militant Socialist;;;;;;;;;;;;x,,
+socialist_rebels_name;Militant Socialists;;;;;;;;;;;;x,,
+socialist_rebels_desc;In a democracy, militant conservatives will seek to enforce a socialist government. In any other country, they will seek to establish a democracy with a socialist government.;;;;;;;;;;;;x
+socialist_rebels_army;Militant Socialists;;;;;;;;;;;;x,,
+christino_rebels_title;Christino;;;;;;;;;;;;x,,
+christino_rebels_name;Christinos;;;;;;;;;;;;x,,
+christino_rebels_desc;These rebels support the royal line of Ferdinand VII, and consider the current king to be a pretender. They intend to reinstall the rightful queen, and restore the liberal reforms enacted by the previous royal line.;;;;;;;;;;;;x
+christino_rebels_army;Christinos;;;;;;;;;;;;x,,
+independence_rebels_title;Independence;;;;;;;;;;;;x,,
+independence_rebels_name;Independence Rebels;;;;;;;;;;;;x,,
+independence_rebels_desc;These rebels seek to free the country from its vassal status.;;;;;;;;;;;;x,,
+independence_rebels_army;Independence Rebels;;;;;;;;;;;;x,,
+turkish_nationalist_rebels_title;Turkish Nationalist;;;;;;;;;;;;x,,
+turkish_nationalist_rebels_name;Turkish Nationalists;;;;;;;;;;;;x,,
+turkish_nationalist_rebels_desc;Turkish Nationalists seek to topple the Ottoman monarchy, replacing it with a liberal republic.;;;;;;;;;;;;x,
+turkish_nationalist_rebels_army;Turkish Nationalists;;;;;;;;;;;;x,,
+native_rebels_title;Anti-Colonial;;;;;;;;;;;;x,,
+native_rebels_name;Anti-Colonial Rebels;;;;;;;;;;;;x,,
+native_rebels_desc;These rebels seek to restore rulership of the country to its proper native culture.;;;;;;;;;;;;x,,
+native_rebels_army;Anti-Colonial Rebels;;;;;;;;;;;;x,,
+liberal_rebels_desc;In an absolute monarchy, Jacobins will seek to impose a constitutional monarchy. Otherwise, Jacobins will strive to create a democratic government with a liberal ideology and a focus on political reform.;;;;;;;;;;;;;x

@@ -57,6 +57,10 @@ regulated_buying_and_selling_of_stocks = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = 2
+			economic_policy = dirigisme
+		}
 	}
 	effect = {
 		tax_eff = 1 
@@ -77,9 +81,9 @@ liquidation_of_assets = {
 			trade_policy = protectionism
 		}
 		modifier = {
-			factor = 4 
-			trade_policy = autarky 
-			}
+			factor = 2 
+			trade_policy = autarky
+		}
 	}
 	effect = {
 		factory_cost = -0.01
@@ -132,12 +136,16 @@ industrial_rnd_investments = {
 			economic_policy = state_capitalism
 		}
 		modifier = {
+			factor = 2
+			economic_policy = dirigisme
+		}
+		modifier = {
 			factor = 4
 			trade_policy = protectionism
 		}
 		modifier = {
-			factor = 4 
-			trade_policy = autarky 
+			factor = 4
+			trade_policy = autarky
 		}
 	}
 	effect = {
@@ -152,6 +160,10 @@ industrial_production_investments = {
 		modifier = {
 			factor = 4
 			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
 		}
 		modifier = {
 			factor = 2
@@ -170,6 +182,10 @@ industrial_distribution_investments = {
 		modifier = {
 			factor = 4
 			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
 		}
 		modifier = {
 			factor = 2
@@ -193,6 +209,10 @@ private_bank_monitoring = {
 		modifier = {
 			factor = 4
 			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
 		}
 		modifier = {
 			factor = 2
@@ -312,10 +332,6 @@ fixed_intramonetary_exchange_rates = {
 			factor = 2
 			economic_policy = planned_economy
 		}
-		modifier = {
-			factor = 2 
-			economic_policy = dirigisme 
-		}
 	}
 	effect = {
 		tax_eff = 1 
@@ -403,8 +419,8 @@ interest_inflation_weapon = {
 			trade_policy = protectionism
 		}
 		modifier = {
-			factor = 2 
-			trade_policy = autarky 
+			factor = 2
+			trade_policy = autarky
 		}
 	}
 	effect = {
@@ -521,6 +537,10 @@ robert_torrens = {
 			economic_policy = state_capitalism
 		}
 		modifier = {
+			factor = 4
+			economic_policy = dirigisme
+		}
+		modifier = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
@@ -635,6 +655,10 @@ eduard_bernstein = {
 			economic_policy = state_capitalism
 		}
 		modifier = {
+			factor = 3
+			economic_policy = dirigisme
+		}
+		modifier = {
 			factor = 4
 			economic_policy = planned_economy
 		}
@@ -669,6 +693,10 @@ sidney_webb = {
 			factor = 4
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -693,6 +721,10 @@ karl_kautsky = {
 		modifier = {
 			factor = 4
 			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
 		}
 	}
 	effect = {
@@ -737,6 +769,10 @@ friedrich_list = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = 2
+			economic_policy = dirigisme
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -753,6 +789,10 @@ wilhelm_roscher = {
 		modifier = {
 			factor = 4
 			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
 		}
 		modifier = {
 			factor = 2
@@ -969,6 +1009,10 @@ thorstein_veblen = {
 			factor = 4
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1092,12 +1136,12 @@ irving_fischer = {
 			trade_policy = protectionism
 		}
 		modifier = {
-			factor = 4
-			economic_policy = interventionism
+			factor = 6
+			trade_policy = autarky
 		}
 		modifier = {
-			factor = 6 
-			trade_policy = autarky 
+			factor = 4
+			economic_policy = interventionism
 		}
 	}
 	effect = {
@@ -1164,6 +1208,10 @@ john_maynard_keynes = {
 		modifier = {
 			factor = 4
 			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
 		}
 	}
 	effect = {
@@ -1314,6 +1362,10 @@ monopoly_structure = {
 			factor = 4
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = 4
+			economic_policy = dirigisme
+		}
 	}
 	effect = {
 		factory_throughput = 0.05
@@ -1437,7 +1489,7 @@ financial_regulations = {
 			trade_policy = protectionism
 		}
 		modifier = {
-			factor = 4 
+			factor = 4
 			trade_policy = autarky
 		}
 	}
@@ -1565,12 +1617,12 @@ centralized_economic_planning = {
 			economic_policy = state_capitalism
 		}
 		modifier = {
-			factor = 6
-			economic_policy = planned_economy
+			factor = 5
+			economic_policy = dirigisme
 		}
 		modifier = {
-			factor = 6 
-			economic_policy = dirigisme 
+			factor = 6
+			economic_policy = planned_economy
 		}
 	}
 	effect = {

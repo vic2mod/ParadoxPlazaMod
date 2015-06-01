@@ -208,7 +208,7 @@ country_event = {
 		}			
 	}
 	option = {
-		name = "EVTOPTB44325"
+		name = "EVTOPTB944325"
 		CAN = {
 			clr_country_flag = NEW_minerals
 		}

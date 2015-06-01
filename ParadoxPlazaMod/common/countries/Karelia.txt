@@ -129,28 +129,28 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Uusimaa" "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
+		"Rauma" "Karelen" "Åbo"
 	}
 	ironclad = {
-		"Uusimaa" "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "Åbo"
 	}
 	manowar = {
-		"Uusimaa" "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "Åbo"
 	}
 	cruiser = {
-		"Uusimaa" "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "Åbo"
 	}
 	frigate = {
-		"Uusimaa" "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "Åbo"
 	}
 	monitor = {
-		"Uusimaa" "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "Åbo"
 	}
 	clipper_transport = {
 		
@@ -159,7 +159,7 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Uusimaa"  "VÃ¤inÃ¤mÃ¶inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "LemminkÃ¤inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
-		"Rauma" "Karelen" "Ã…bo"
+		"Uusimaa"  "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
+		"Rauma" "Karelen" "Åbo"
 	}
 }

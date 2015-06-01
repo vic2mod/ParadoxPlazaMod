@@ -23,7 +23,8 @@
 	soldiers = {
 		culture = karen
 		religion = theravada
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -53,7 +54,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = theravada
-		size = 150
+		size= 150
+
 	}
 
 	aristocrats = {
@@ -77,13 +79,15 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -121,7 +125,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -151,7 +156,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = theravada
-		size = 50
+		size= 50
+
 	}
 }
 #Pegu (560000/140000 POPS)
@@ -177,7 +183,8 @@
 	soldiers = {
 		culture = karen
 		religion = theravada
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -207,7 +214,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = theravada
-		size = 150
+		size= 150
+
 	}
 
 	aristocrats = {
@@ -243,13 +251,15 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -287,7 +297,8 @@
 	soldiers = {
 		culture = karen
 		religion = theravada
-		size = 350
+		size= 350
+
 	}
 
 	farmers = {
@@ -317,13 +328,15 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -335,7 +348,7 @@
 }
 #Kyaukse Region (1072000)
 #Under rule of Burma in 1836
-#Ava (240000/70000 POPS)
+#Mandalay (240000/70000 POPS)
 1334 = {
 	aristocrats = {
 		culture = burmese
@@ -358,13 +371,15 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -394,7 +409,8 @@
 	soldiers = {
 		culture = kachin
 		religion = animist
-		size = 50
+		size= 50
+
 	}
 
 	slaves = {
@@ -424,7 +440,8 @@
 	soldiers = {
 		culture = shan
 		religion = theravada
-		size = 75
+		size= 75
+
 	}
 
 	farmers = {
@@ -468,13 +485,15 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -507,7 +526,7 @@
 		size = 50
 	}
 
-	slaves = {
+	farmers = {
 		culture = shan
 		religion = theravada
 		size = 4600
@@ -568,7 +587,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -615,7 +635,8 @@
 	soldiers = {
 		culture = shan
 		religion = theravada
-		size = 850
+		size= 850
+
 	}
 
 	farmers = {
@@ -657,7 +678,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 225
+		size= 225
+
 	}
 
 	farmers = {
@@ -695,7 +717,8 @@
 	soldiers = {
 		culture = shan
 		religion = theravada
-		size = 500
+		size= 500
+
 	}
 
 	farmers = {
@@ -725,7 +748,8 @@
 	soldiers = {
 		culture = kachin
 		religion = animist
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -749,7 +773,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 100
+		size= 100
+
 	}
 
 	farmers = {
@@ -790,7 +815,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1100
+		size= 1100
+
 	}
 
 	farmers = {
@@ -820,7 +846,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 500
+		size= 500
+
 	}
 
 	aristocrats = {
@@ -844,7 +871,8 @@
 	soldiers = {
 		culture = kachin
 		religion = animist
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -876,7 +904,8 @@
 	soldiers = {
 		culture = kachin
 		religion = animist
-		size = 550
+		size= 550
+
 	}
 
 	farmers = {
@@ -908,7 +937,8 @@
 	soldiers = {
 		culture = kachin
 		religion = animist
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -938,7 +968,8 @@
 	soldiers = {
 		culture = shan
 		religion = theravada
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {
@@ -974,13 +1005,15 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
+		size= 3000
+
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 1000
+		size= 1000
+
 	}
 
 	farmers = {
@@ -1021,7 +1054,8 @@
 	soldiers = {
 		culture = karen
 		religion = theravada
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1057,7 +1091,8 @@
 	soldiers = {
 		culture = asian_minor
 		religion = theravada
-		size = 250
+		size= 250
+
 	}
 
 	aristocrats = {
@@ -1087,7 +1122,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1125,7 +1161,8 @@
 	soldiers = {
 		culture = karen
 		religion = theravada
-		size = 400
+		size= 400
+
 	}
 
 	farmers = {
@@ -1161,7 +1198,8 @@
 	soldiers = {
 		culture = thai
 		religion = theravada
-		size = 200
+		size= 200
+
 	}
 
 	farmers = {
@@ -1191,7 +1229,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 300
+		size= 300
+
 	}
 
 	farmers = {
@@ -1238,7 +1277,8 @@
 	soldiers = {
 		culture = burmese
 		religion = sunni
-		size = 150
+		size= 150
+
 	}
 
 	farmers = {
@@ -1274,7 +1314,8 @@
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 250
+		size= 250
+
 	}
 
 	farmers = {

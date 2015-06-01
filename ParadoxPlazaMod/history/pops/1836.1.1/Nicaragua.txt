@@ -44,7 +44,6 @@
 		culture = central_american
 		religion = catholic
 		size = 1475
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -85,7 +84,6 @@
 		culture = central_american
 		religion = catholic
 		size = 100
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -128,7 +126,6 @@
 		culture = central_american
 		religion = catholic
 		size = 125
-
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -187,6 +184,42 @@
 		religion = catholic
 		size = 50
 	}
+	
+	aristocrats = {
+		culture = miskito
+		religion = protestant
+		size = 15
+	}
+
+	clergymen = {
+		culture = miskito
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+		culture = miskito
+		religion = protestant
+		size = 50
+	}
+
+	soldiers = {
+		culture = miskito
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = miskito
+		religion = protestant
+		size = 3900
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 50
+	}	
 
 	artisans = {
 		culture = afro_caribbean

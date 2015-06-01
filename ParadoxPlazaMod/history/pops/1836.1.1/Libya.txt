@@ -299,7 +299,7 @@
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 10000
+		size = 11000
 	}
 
 	slaves = {
