@@ -377,11 +377,17 @@ political_decisions = {
 				}
 				AND = {
 					NOT = { owns = 350 } # Narva
-					NOT = { is_our_vassal = EST }
+					OR = {
+						UBD = { exists = yes owns = 350 NOT = { vassal_of = THIS } }
+						EST = { exists = yes owns = 350 NOT = { vassal_of = THIS } }
+					}
 				}
 				AND = {
 					NOT = { owns = 355 } # Valmiera
-					NOT = { is_our_vassal = LAT }
+					OR = {
+						UBD = { exists = yes owns = 355 NOT = { vassal_of = THIS } }
+						LAT = { exists = yes owns = 355 NOT = { vassal_of = THIS } }
+					}
 				}
 				NOT = { owns = 946 } # Polotsk
 			}
@@ -921,4 +927,43 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 		}
 	
+	russify_baltic_states = {
+		picture = russify_baltic_states
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = russification_of_the_baltic_states }
+			is_our_vassal = UBD
+			UBD = { ai = yes }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				revolution_n_counterrevolution = 1
+				great_wars_enabled = yes
+				GER = { exists = yes }
+				is_greater_power = no
+				}
+			}
+		
+		effect = {
+			set_country_flag = russification_of_the_baltic_states
+			UBD = { remove_accepted_culture = latvian remove_accepted_culture = russian primary_culture = latvian}
+			
+			inherit = UBD
+			any_pop = {
+				limit = {
+					OR = {
+					has_pop_culture = estonian
+					has_pop_culture = latvian
+					has_pop_culture = north_german
+					has_pop_culture = ashkenazi
+					}
+				}
+			consciousness = 5
+			militancy = 3
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
 }

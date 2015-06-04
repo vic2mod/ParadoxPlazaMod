@@ -7,12 +7,25 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
+		capital_scope = { continent = europe }
+		NOT = { tag = ENG }
+		NOT = { tag = RUS }
+		NOT = { tag = FIN }
+		NOT = { tag = SWE }
+		NOT = { tag = NOR }
+		NOT = { tag = TUR }
+		NOT = { tag = UBD }
 		OR = {
 			tag = AUS
 			tag = KUK
 			tag = SIC
 			tag = MOL
 			tag = WAL
+			tag = SPA
+			tag = SPC
+			tag = POR
+			tag = GRE
+			tag = MON
 			literacy = 0.3
 		}
 		year = 1840

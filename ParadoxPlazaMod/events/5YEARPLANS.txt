@@ -43,6 +43,8 @@ country_event = {
 		months = 0.1
 	}
 	
+	immediate = { set_global_flag = stop_early_5yp }
+	
 	option = {
 		name = "Yes"
 		set_country_flag = start_5yp 
@@ -67,6 +69,7 @@ country_event = {
 	desc = "'We are 50 or 100 years behind the rest of the world. We must make this difference in 10 years.' ~Stalin"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		government = proletarian_dictatorship
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
@@ -148,6 +151,7 @@ country_event = {
 	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		NOT = {
 			government = proletarian_dictatorship
 				}
@@ -186,6 +190,7 @@ country_event = {
 	desc = "In order to preserve the republic we so dearly hold we must improve ourselves"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		government = democracy
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
@@ -272,6 +277,7 @@ country_event = {
 	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		NOT = {
 			government = democracy
 				}
@@ -310,6 +316,7 @@ country_event = {
 	desc = "Fuhrer, in order to complete ze goals we must focus ze peoples on a goal"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		government = fascist_dictatorship
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
@@ -395,6 +402,7 @@ country_event = {
 	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		NOT = {
 			government = fascist_dictatorship
 				}
@@ -433,6 +441,7 @@ country_event = {
 	desc = "While we have given the private sector control over much of the nation with are little influence we can steer it on the right track"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		government = bourgeois_dictatorship
 		civilized = yes
 		NOT = { has_country_flag = no_5yp }
@@ -525,6 +534,7 @@ country_event = {
 	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		NOT = {
 			government = bourgeois_dictatorship
 				}
@@ -563,6 +573,7 @@ country_event = {
 	desc = "In order to build a stronger crown we have decided to implement a royal decree. Long live the King!"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		OR ={
 			government = absolute_monarchy
 			government = presidential_dictatorship
@@ -652,6 +663,7 @@ country_event = {
 	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		NOT = {
 			OR = {
 				government = absolute_monarchy
@@ -693,6 +705,7 @@ country_event = {
 	desc = "In order to build a stronger crown we have decided to implement a royal decree. Long live the King!"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -782,6 +795,7 @@ country_event = {
 	desc = "A recent revolution has ended the old government"
 	
 	trigger = {
+		has_global_flag = stop_early_5yp
 		NOT = {
 			OR = {
 				government = prussian_constitutionalism
