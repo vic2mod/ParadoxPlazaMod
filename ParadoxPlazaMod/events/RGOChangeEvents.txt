@@ -389,6 +389,7 @@ province_event = {
 			continent = asia
 			continent = africa
 			is_core = ARG
+			is_core = ARC
 		}
 		OR = {
 			terrain = farmlands

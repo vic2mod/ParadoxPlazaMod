@@ -1,5 +1,5 @@
 color = { 255 196 0 }
-graphical_culture = SpanishGC
+graphical_culture = EuropeanGC
 
 party = {
 	name = "SPA_conservative"

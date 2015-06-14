@@ -3483,3 +3483,15 @@ small_immigration_boom = {
 	icon = 17
 }
 
+####
+kill_capitalists = {
+}
+	
+final_siege_of_vienna = {
+	prestige = 0.01 
+	land_organisation = 0.1
+	land_unit_start_experience = 0.1
+	war_exhaustion = -0.1 
+	mobilization_size = 0.02
+}
+

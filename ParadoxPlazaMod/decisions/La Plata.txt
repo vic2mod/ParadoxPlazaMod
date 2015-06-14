@@ -123,12 +123,51 @@ political_decisions = {
 					}
 				}
 			}
+		OR = {
+			ARG = {
+			exists = yes
+				OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							province_id = 2131
+						}
+					}
+				}
+			}
+			
+			ARC = {
+			exists = yes
+				OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							province_id = 2131
+							}
+						}
+					}
+				}
+			}
 		}
 		
 		effect = {
-			prestige = 10
-			ARG = {
-				all_core = { add_core = LPL }
+			prestige = 30
+			badboy = 10
+			random_country = {
+				limit = {
+					exists = yes
+					OR = {
+						tag = ARG
+						tag = ARC
+						}
+					}
+					all_core = { add_core = LPL }
 			}
 			PRG = {
 				all_core = { add_core = LPL }
@@ -156,6 +195,24 @@ political_decisions = {
 				}
 				country_event = 98650
 			}
+			
+			random_country = {
+				limit = {
+					tag = ARC
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = ARC }
+			}
+			random_country = {
+				limit = {
+					tag = ARC
+					exists = yes
+					ai = no
+				}
+				country_event = 98650
+			}
+			
 			random_country = {
 				limit = {
 					tag = PRG
@@ -172,6 +229,7 @@ political_decisions = {
 				}
 				country_event = 98650
 			}
+			
 			random_country = {
 				limit = {
 					tag = URU

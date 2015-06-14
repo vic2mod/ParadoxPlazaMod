@@ -1332,6 +1332,11 @@ country_event = {
 	}
 	
 	option = {
+		name = "EVT6016807PTC"
+		set_global_flag = crisis_set_up_with_colonial 
+	}
+	
+	option = {
 		name = "EVT6016807PTB"
 		set_global_flag = revolution_n_counter_researched
 		set_global_flag = crisis_set_up

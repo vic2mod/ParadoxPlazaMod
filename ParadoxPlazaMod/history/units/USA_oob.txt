@@ -67,6 +67,54 @@ URU = {
 	influence_value = 0
 }
 
+VNZ = {
+	value = -200		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+SPU = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+PRG = {
+	value = -400	#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+CRT = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+SBA = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+ENT = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+RGS = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+ARC = {
+	value = -50		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
 #Other GP's
 ENG = {
 	value = 50

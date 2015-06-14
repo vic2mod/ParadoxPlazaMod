@@ -31,7 +31,7 @@ political_decisions = {
 			ENG_291 = { add_core = ENL }
 			ENG_296 = { add_core = ENL }
 			517 = { add_core = ENL }
-			854 - { add_core = ENL
+			854 = { add_core = ENL
 			ENG = {
 				all_core = { remove_core = ENG }
 			}
@@ -45,6 +45,7 @@ political_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			}
 		}
 	}
 	

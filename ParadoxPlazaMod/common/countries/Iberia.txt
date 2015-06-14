@@ -1,6 +1,6 @@
 color = { 155  155  25 }
 proletarian_dictatorship = { 230 5 5}
-graphical_culture = SpanishGC
+graphical_culture = EuropeanGC
 
 party = {
 	name = "SPA_conservative"

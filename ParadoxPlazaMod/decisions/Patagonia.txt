@@ -1,17 +1,31 @@
 political_decisions = {
 
 	conquest_of_the_desert = {
+		picture = conquest_of_the_desert
 		potential = {
 			OR = {
 				tag = ARG
-				tag = LPL
+				tag = ARC
+				tag = LPL			
+				AND = {
+					tag = SBA
+					is_vassal = no
+					is_greater_power = yes
+					}
 			}
+			
 			OR = {
 				2391 = { empty = yes }
 				2392 = { empty = yes }
 				2394 = { empty = yes }
+				2353 = { empty = yes }
+				2393 = { empty = yes }
+				2395 = { empty = yes }
+				}
+		OR = {	
+			owns = 2350 #azul
+			owns = 2382 #renanco
 			}
-			owns = 2395
 			NOT = { has_country_flag = conquest_of_the_desert }
 		}
 		allow = {
@@ -19,12 +33,35 @@ political_decisions = {
 			OR = {
 				is_greater_power = yes
 				nationalism_n_imperialism = 1
-				year = 1870
+				year = 1865
 			}
 		}
 		effect = {
 			set_country_flag = conquest_of_the_desert
-			prestige = 5
+			prestige = 2
+			random_owned = {
+				limit = {
+					2353 = { empty = yes }
+					2354 = { empty = no }
+					2350 = { empty = no }
+				}
+				2353 = { secede_province = THIS }
+			}
+			random_owned = {
+				limit = {
+					2393 = { empty = yes }
+					2353 = { empty = no }
+					2354 = { empty = no }
+				}
+				2393 = { secede_province = THIS }
+			}
+			random_owned = {
+				limit = {
+					2395 = { empty = yes }
+					2393 = { empty = no }
+				}
+				2395 = { secede_province = THIS }
+			}
 			random_owned = {
 				limit = {
 					2394 = { empty = yes }
@@ -44,13 +81,95 @@ political_decisions = {
 				limit = {
 					2391 = { empty = yes }
 				}
-				2391 = { secede_province = THIS }
+				2391 = { secede_province = THIS}
 			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
+conquest_of_the_chaco = {
+		picture = conquest_of_the_chaco
+		potential = {
+			OR = {
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = PRG
+			}
+			OR = {
+				2362 = { empty = yes }
+				2364 = { empty = yes }
+				2365 = { empty = yes }
+				2372 = { empty = yes }
+				2377 = { empty = yes }
+			}
+			OR = {
+			owns = 2356 #Corrientes
+			owns = 2361	#Sancti Spiritu
+				}
+			NOT = { has_country_flag = conquest_of_the_chaco }
+		}
+		allow = {
+			war = no
+			OR = {
+				is_greater_power = yes
+				nationalism_n_imperialism = 1
+				year = 1865
+			}
+		}
+		effect = {
+			set_country_flag = conquest_of_the_chaco
+			prestige = 3
+			random_owned = {
+				limit = {
+					2362 = { empty = yes }
+					2361 = { empty = no }
+					2356 = { empty = no }
+				}
+				2362 = { secede_province = THIS }
+				}
+			random_owned = {
+				limit = {
+					2364 = { empty = yes }
+					2362 = { empty = no }
+					2356 = { empty = no }
+				}
+				2364 = { secede_province = THIS }
+				}
+				
+			random_owned = {
+				limit = {
+					2365 = { empty = yes }
+					2362 = { empty = no }
+					2364 = { empty = no }
+				}
+				2365 = { secede_province = THIS }
+				}
+				
+			random_owned = {
+				limit = {
+					2377 = { empty = yes }
+					2362 = { empty = no }
+					2365 = { empty = no }
+				}
+				2377 = { secede_province = THIS }
+				}
+				
+			random_owned = {
+				limit = {
+					2372 = { empty = yes }
+					2377 = { empty = no }
+					2365 = { empty = no }
+				}
+				2372 = { secede_province = THIS }
+				}
+			}
+		ai_will_do = {
+			factor = 1
+			}
+		}
 
 	occupation_of_araucania = {
 		picture = conquest_of_the_desert
@@ -251,5 +370,83 @@ political_decisions = {
 				any_pop = { reduce_pop = 0.50 }
 			}
 		}
+	}
+	
+	make_buenos_aires_capital = {
+		picture = buenos_aires_capital
+		potential = {
+			OR = {
+				tag = ARC
+				tag = ARG
+				}
+			owns = 2348
+			2348 = { is_capital = no }
+			year = 1870
+		}
+		
+		allow = {
+			war = no
+			owns = 2348
+			2348 = { is_capital = no }
+		}
+		
+		effect = {
+			all_core = { remove_core = ENT }
+			all_core = { remove_core = CRT }
+			all_core = { remove_core = SBA }
+			prestige = 2
+			capital = 2348
+			2348 = {
+			rich_strata = { militancy = -4 }
+			middle_strata = { militancy = -2 }
+			poor_strata = { militancy = -1 }
+			
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	rename_the_falklands_argentina = {
+		picture = falklands_map
+		potential = {
+			primary_culture = platinean
+			NOT = { has_global_flag = falklands_are_the_malvinas }
+			owns = 2131
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = falklands_are_the_malvinas
+			2131 = { change_province_name = "Islas Malvinas" }
+			prestige = 2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	rename_the_falklands_england = {
+		picture = falklands_map
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			has_global_flag = falklands_are_the_malvinas
+		}
+		
+		allow = {
+			war = no
+			owns = 2131
+		}
+		
+		effect = {
+			clr_global_flag = falklands_are_the_malvinas
+			2131 = { change_province_name = "Falkland Islands" }
+			prestige = 2
+		}
+		ai_will_do = { factor = 1 }
 	}
 }

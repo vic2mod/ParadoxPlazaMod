@@ -1,5 +1,6 @@
 political_decisions = {
 	become_yemen = {
+		picture = yemen_peninsula
 		potential = {
 			OR = {
 				tag = NYE
@@ -8,30 +9,71 @@ political_decisions = {
 				tag = FDL
 				tag = LHJ
 			}
+			NOT = { has_global_flag = created_aden_protectorate }
 		}
 		allow = {
-			owns = 1176
-			owns = 1173
-			owns = 1175
+			1173 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			1175 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			1176 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			1177 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
 			war = no
 		}
 		effect = {
-			change_tag = YEM
-			YEM_1412 = {
-				add_core = YEM
+			set_global_flag = created_aden_protectorate
+			any_country = {
+				limit = {
+					exists = yes
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+						}
+					OR = {
+						tag = KTH
+						tag = NYE
+						tag = LHJ
+						tag = FDL
+						tag = MHR
+					}
+					ai = yes
+				}
+				annex_to = THIS
 			}
-			YEM_1178 = {
-				add_core = YEM
-			}
-			1174 = {
-				add_core = YEM
-			}
+			LHJ = { all_core = { add_core = YEM } }
+			FDL = { all_core = { add_core = YEM } }
+			KTH = { all_core = { add_core = YEM } }
+			MHR = { all_core = { add_core = YEM } }
+			NYE = { all_core = { add_core = YEM } }
 			any_owned = {
 				remove_core = MHR
 				remove_core = KTH
 				remove_core = FDL
 				remove_core = LHJ
 			}
+			change_tag = YEM
 			add_accepted_culture = mashriqi
 			add_accepted_culture = bedouin
 			prestige = 10

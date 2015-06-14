@@ -1,0 +1,47 @@
+USA = {
+	value = -200
+}
+ENG = {
+	value = -25
+}
+FRA = {
+	value = -50
+}
+ARC = {
+	value = 400
+}
+
+
+army = {
+	name = "Ejército de Buenos Aires"
+	location = 2348
+	regiment = {
+		name= "1. División de Infantería"
+		type = infantry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "2. División de Infantería"
+		type = infantry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "3. División de Infantería"
+		type = infantry
+		home = 2348
+	}
+
+
+}
+
+leader = {
+   name = "Juan Manuel de Rosas"
+   type = land
+   date = 1836.1.1
+   background = aristocrat
+   personality = implacable
+	}
+
+	
