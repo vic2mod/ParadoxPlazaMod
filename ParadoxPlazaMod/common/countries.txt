@@ -3,6 +3,13 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
+###HPM###
+
+ARC		="countries/Argentine Confederation.txt"
+SBA		="countries/Buenos Aires.txt"
+CRT		="countries/Corrientes.txt"
+
+
 ### r/ParadoxPlazaMOD ###
 
 #Europe 

@@ -195,10 +195,10 @@ political_decisions = {
 			AUS_702 = {
 				add_core = HUN
 			}
-			AUS_662 = {
-				add_core = HUN
-			}
-			
+			702 = { add_core = HUN }
+			951 = { add_core = HUN } 
+			952 = { add_core = HUN } 
+			953 = { add_core = HUN }
 		}
 	}
 

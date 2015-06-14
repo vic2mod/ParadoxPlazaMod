@@ -95,6 +95,7 @@ political_decisions = {
 					OR = {
 						tag = CHL
 						tag = ARG
+						tag = ARC
 						tag = BOL
 					}
 				}
@@ -155,6 +156,7 @@ political_decisions = {
 					OR = {
 						tag = CHL
 						tag = ARG
+						tag = ARC
 						tag = BOL
 					}
 				}
@@ -215,6 +217,7 @@ political_decisions = {
 					OR = {
 						tag = CHL
 						tag = ARG
+						tag = ARC
 						tag = PEU
 						tag = SPU
 					}

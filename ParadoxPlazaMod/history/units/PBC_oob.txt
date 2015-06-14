@@ -1,7 +1,10 @@
+USA = {
+	value = -75
+}
 CHL = {
 	value = -100
 }
-ARG = {
+ARC = {
 	value = -100
 }
 

@@ -1,7 +1,9 @@
-owner = PRG
-controller = PRG
-add_core = BOL
 add_core = PRG
+add_core = ARC
 trade_goods = tropical_wood
 life_rating = 30
-colonial = 2
+1861.1.1 = {
+	owner = PRG
+	controller = PRG
+	remove_core = ARC
+}

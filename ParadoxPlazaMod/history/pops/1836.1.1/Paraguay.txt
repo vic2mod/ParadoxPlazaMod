@@ -101,7 +101,7 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size = 20100
+		size = 15100
 	}
 
 	farmers = {
@@ -125,7 +125,7 @@
 	soldiers = {
 		culture = guarani
 		religion = catholic
-		size = 18250
+		size = 13250
 	}
 
 	farmers = {

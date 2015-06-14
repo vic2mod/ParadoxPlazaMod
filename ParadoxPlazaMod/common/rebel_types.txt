@@ -343,6 +343,7 @@ reactionary_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = kill_capitalists
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -649,6 +650,7 @@ fascist_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = kill_capitalists
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -1308,6 +1310,7 @@ anarcho_liberal_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = kill_capitalists
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -2268,6 +2271,7 @@ carlist_rebels = {
 		prestige_factor = -0.2
 		war_exhaustion = 50
 		country_event = 37710
+		remove_country_modifier = kill_capitalists
 	}
 }
 
@@ -2511,6 +2515,7 @@ christino_rebels = {
 		prestige_factor = -0.2
 		war_exhaustion = 50
 		country_event = 37716
+		remove_country_modifier = kill_capitalists
 	}
 }
 
@@ -3845,6 +3850,7 @@ liberal_rebels = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = kill_capitalists
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -5514,4 +5520,513 @@ apache = {
 	
 	#demands_enforced_effect = {
 	#}
+}
+
+###################################
+# Colorado Rebels  - liberals
+###################################
+colorado_rebels = {
+	icon = 5
+	
+	area = nation 					# Stays within the nation
+	break_alliance_on_win = yes
+	
+	# <this is the government in the country> = <this is what the rebels want>
+	government = {
+		proletarian_dictatorship = democracy
+		presidential_dictatorship = democracy
+		bourgeois_dictatorship = democracy
+		fascist_dictatorship = democracy
+		absolute_monarchy = democracy
+		prussian_constitutionalism = democracy
+		hms_government = democracy
+		democracy = democracy
+	}
+	
+	
+	defection = none				
+	independence = none				# Does not strive for independence
+	defect_delay = 18
+	
+	ideology = liberal
+	
+	allow_all_cultures = yes
+	allow_all_religions = yes
+	allow_all_ideologies = yes
+	
+	resilient = yes					
+	reinforcing = yes				
+	general = yes					
+	smart = yes
+	unit_transfer = no				# Units do not remain after enforcing demands.
+		
+	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
+	
+
+	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the factions strength
+	will_rise = {
+		factor = 0.1
+		modifier = {
+			war = yes
+			factor = 0.8
+		}
+		modifier = {
+			war_exhaustion = 4
+			factor = 0.95
+		}
+		modifier = {
+			war_exhaustion = 6
+			factor = 0.95
+		}
+		modifier = {
+			war_exhaustion = 8
+			factor = 0.95
+		}
+		
+		modifier = {
+			factor = 2.5
+			has_country_flag = blanco_rule
+		}
+
+		modifier = {
+			factor = 1.5
+			upper_house_composition = party_appointed
+		}
+		
+		modifier = {
+			factor = 0.9
+			upper_house_composition = appointed
+		}
+		
+		modifier = {
+			factor = 1.5
+			voting_system = first_past_the_post
+		}
+		modifier = {
+			factor = 0.1
+			has_country_flag = sharing_power
+		}
+		
+		modifier = {
+			factor = 2.0
+			has_country_flag = uruguay_refuse_to_share_power
+		}
+	}
+	
+	# The rebel type with the highest modifier for this pop gets picked
+	spawn_chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0
+			country = {
+				NOT = { tag = URU }
+			}
+		}
+		
+		modifier = {
+			factor = 500
+			location = { has_province_modifier = colorado_sympathies }
+		}
+		
+		modifier = {
+			factor = 30
+			has_country_flag = uruguay_refuse_to_share_power
+		}
+		
+		modifier = {
+			factor = 0
+			country = { ruling_party_ideology = liberal }
+				}
+				
+		modifier = {
+			factor = 5
+			liberal = 5
+			NOT = { liberal = 10 }
+		}
+		modifier = {
+			factor = 10
+			liberal = 10
+			NOT = { liberal = 20 }
+		}
+		modifier = {
+			factor = 15
+			liberal = 20
+			NOT = { liberal = 30 }
+		}
+		modifier = {
+			factor = 20
+			liberal = 30
+			NOT = { liberal = 40 }
+		}
+		modifier = {
+			factor = 25
+			liberal = 40
+		}
+		modifier = {
+			factor = 5
+			pop_majority_ideology = liberal
+		}
+		modifier = {
+			factor = 20
+			pop_majority_ideology = liberal
+		}
+
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					liberal = 5
+					pop_majority_ideology = liberal
+				}
+			}
+		}
+		modifier = {
+			factor = 30
+			culture = brazilian
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+			NOT = { is_capital = yes }
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+			NOT = { is_capital = yes }
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 5.0
+			is_capital = yes
+		}
+	}
+	
+ 	# Province Scope
+ 	#siege_won_trigger = {
+ 	#}
+	
+	# Country scope
+	demands_enforced_trigger = {
+		OR = {
+			capital_scope = {
+				controlled_by = REB
+				province_control_days = 250
+			}
+			
+			any_owned_province = {
+				controlled_by = REB
+				province_control_days = 730
+				}
+			
+			NOT = {
+				any_owned_province = {
+					is_colonial = no
+					controlled_by = THIS
+				}
+			}
+		}
+	}
+	
+	demands_enforced_effect = {
+		clr_country_flag = theocratic_government
+		clr_country_flag = communist_gov
+		clr_country_flag = absolute_monarchy_gov
+		clr_country_flag = semi_constitutional_monarchy_gov
+		clr_country_flag = constitutional_monarchy_gov
+		clr_country_flag = democracy_gov
+		clr_country_flag = presidential_dictatorship_gov
+		clr_country_flag = fascist_gov
+		clr_country_flag = anarcho_liberal_gov
+		ruling_party_ideology = liberal
+		set_country_flag = colorado_rule
+		clr_country_flag = blanco_rule
+		remove_country_modifier = kill_capitalists
+		prestige_factor = -0.05
+		war_exhaustion = 10
+		upper_house = {
+			ideology = liberal
+			value = 0.4
+					} 
+		country_event = 600057
+	}
+}
+
+###################################
+# Blanco Rebels  - conservatives
+###################################
+blanco_rebels = {
+	icon = 6
+	
+	area = nation 					# Stays within the nation
+	break_alliance_on_win = yes
+	
+	# <this is the government in the country> = <this is what the rebels want>
+	government = {
+		proletarian_dictatorship = democracy
+		presidential_dictatorship = democracy
+		bourgeois_dictatorship = democracy
+		fascist_dictatorship = democracy
+		absolute_monarchy = democracy
+		prussian_constitutionalism = democracy
+		hms_government = democracy
+		democracy = democracy
+	}
+	
+	
+	defection = none				
+	independence = none				# Does not strive for independence
+	defect_delay = 18
+	
+	ideology = conservative
+	
+	allow_all_cultures = yes
+	allow_all_religions = yes
+	allow_all_ideologies = yes
+	
+	resilient = yes					
+	reinforcing = yes				
+	general = yes					
+	smart = yes
+	unit_transfer = no				# Units do not remain after enforcing demands.
+		
+	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
+	
+
+	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the factions strength
+	will_rise = {
+		factor = 0.3
+		modifier = {
+			war = yes
+			factor = 0.8
+		}
+		modifier = {
+			war_exhaustion = 4
+			factor = 0.95
+		}
+		modifier = {
+			war_exhaustion = 6
+			factor = 0.95
+		}
+		modifier = {
+			war_exhaustion = 8
+			factor = 0.95
+		}
+		
+		modifier = {
+			factor = 2.5
+			has_country_flag = colorado_rule
+		}
+
+		modifier = {
+			factor = 1.5
+			upper_house_composition = party_appointed
+		}
+		
+		modifier = {
+			factor = 0.9
+			upper_house_composition = appointed
+		}
+		
+		modifier = {
+			factor = 1.5
+			voting_system = first_past_the_post
+		}
+		modifier = {
+			factor = 0.1
+			has_country_flag = sharing_power
+		}
+		modifier = {
+			factor = 2.0
+			has_country_flag = uruguay_refuse_to_share_power
+		}
+		
+		
+		
+	}
+	
+	# The rebel type with the highest modifier for this pop gets picked
+	spawn_chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0
+			country = {
+				NOT = { tag = URU }
+			}
+		}
+		
+		modifier = {
+			factor = 100
+			location = { has_province_modifier = blanco_sympathies }
+		}
+		
+		modifier = {
+			factor = 30
+			has_country_flag = uruguay_refuse_to_share_power
+		}
+		
+		modifier = {
+			factor = 0
+			country = { ruling_party_ideology = conservative }
+				}
+				
+		modifier = {
+			factor = 0
+			country = { ruling_party_ideology = reactionary }
+				}
+				
+		modifier = {
+			factor = 5
+			conservative = 5
+			NOT = { conservative = 10 }
+		}
+		modifier = {
+			factor = 10
+			conservative = 10
+			NOT = { conservative = 20 }
+		}
+		modifier = {
+			factor = 15
+			conservative = 20
+			NOT = { conservative = 30 }
+		}
+		modifier = {
+			factor = 20
+			conservative = 30
+			NOT = { conservative = 40 }
+		}
+		modifier = {
+			factor = 25
+			conservative = 40
+		}
+		modifier = {
+			factor = 5
+			pop_majority_ideology = conservative
+		}
+		modifier = {
+			factor = 20
+			pop_majority_ideology = conservative
+		}
+
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					conservative = 5
+					pop_majority_ideology = conservative
+				}
+			}
+		}
+		modifier = {
+			factor = 30
+			culture = brazilian
+		}
+		
+		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					NOT = { is_core = URU }
+					is_capital = yes
+				}
+			}
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+			NOT = { is_capital = yes }
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+			NOT = { is_capital = yes }
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 5.0
+			is_capital = yes
+		}
+	}
+	
+ 	# Province Scope
+ 	#siege_won_trigger = {
+ 	#}
+	
+	# Country scope
+	demands_enforced_trigger = {
+		OR = {
+			capital_scope = {
+				controlled_by = REB
+				province_control_days = 730
+			}
+			NOT = {
+				any_owned_province = {
+					is_colonial = no
+					controlled_by = THIS
+				}
+			}
+		}
+	}
+	
+	demands_enforced_effect = {
+
+		ruling_party_ideology = conservative
+		clr_country_flag = theocratic_government
+		clr_country_flag = communist_gov
+		clr_country_flag = absolute_monarchy_gov
+		clr_country_flag = semi_constitutional_monarchy_gov
+		clr_country_flag = constitutional_monarchy_gov
+		clr_country_flag = democracy_gov
+		clr_country_flag = presidential_dictatorship_gov
+		clr_country_flag = fascist_gov
+		clr_country_flag = anarcho_liberal_gov
+		set_country_flag = blanco_rule
+		clr_country_flag = colorado_rule
+		remove_country_modifier = kill_capitalists
+		prestige_factor = -0.05
+		war_exhaustion = 10
+		any_pop = {
+				ideology = {
+					factor = 0.4
+					value = conservative
+					}
+				}
+		upper_house = {
+			ideology = conservative
+			value = 0.4
+					}
+		}
 }

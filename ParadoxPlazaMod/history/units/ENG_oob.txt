@@ -115,10 +115,22 @@ VNZ = {
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
-ARG = {
-	value = 125		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
+ARC = { 
+	value = -50
+	level = 1
+}
+
+SBA = { 
+	value = -50
+	level = 1
+}
+CRT = { 
+	value = 0
+	level = 1
+}
+ENT = { 
+	value = 0
+	level = 1
 }
 
 #Other

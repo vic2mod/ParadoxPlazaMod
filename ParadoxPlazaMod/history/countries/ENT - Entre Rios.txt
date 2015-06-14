@@ -1,15 +1,16 @@
-capital = 2356
+capital = 2360
 primary_culture = platinean
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 20.0
 nationalvalue = nv_liberty
-literacy = 0.1
+literacy = 0.12
+non_state_culture_literacy = 0.02
 civilized = yes
-prestige = 1
+prestige = 0
 
 # Political reforms
-slavery = yes_slavery
+slavery = freedom_of_womb
 upper_house_composition = state_equal_weight
 vote_franschise = none_voting
 public_meetings = yes_meeting
@@ -27,12 +28,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+
 # New Reforms
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+citizens_rights = primary_culture_only
 
 ruling_party = ENT_conservative_2
 upper_house = {
@@ -44,3 +46,27 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+piston_steam_engine = 1
+publishing_industry = 1
+
+# Inventions
+
+#Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "ENT_oob.txt"

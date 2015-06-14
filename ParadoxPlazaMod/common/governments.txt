@@ -103,5 +103,7 @@ democracy = {
 	appoint_ruling_party = no
 	flagType = republic
 }
+
+
  
 
